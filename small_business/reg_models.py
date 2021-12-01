@@ -11,24 +11,30 @@ from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import SGDRegressor
 from sklearn.linear_model import Ridge, Lasso
 from sklearn.linear_model import ElasticNet
+from sklearn.svm import SVR
 from sklearn.neighbors import KNeighborsRegressor
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import AdaBoostRegressor
+from sklearn.ensemble import GradientBoostingRegressor
+from xgboost import XGBRegressor
 from sklearn.preprocessing import OneHotEncoder
 from sklearn import model_selection
 from sklearn.model_selection import cross_validate
 from sklearn.model_selection import learning_curve
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-from small_business.data import get_data
+from Pipe import pipe
 
 
 #Import preprocessed data from other file
 
-X, y, X_test, y_test = get_data
-
+X, y, X_test, y_test = pipe()
+#buckets rating
 # Linear Regression
 def linearReg(X, y):
-    model = sm.OLS(y, X).fit() # Finds the best beta
-    return model.summary()
+    model = sm.OLS(y, X).fit(X, y) # Finds the best beta
+    return model.summary(), model
 
 # LinearRegression with ElasticNet
 def LinRegElastic(X, y):
@@ -60,7 +66,7 @@ def SGDReg(X, y, learning_rate, loss='mse', penalty='l2', alpha=0.0001, l1_ratio
                               y,
                               cv = 5,
                               scoring = ['r2','mse'] )
-    return sgd_model_cv
+    return sgd_model_cv, sgd_reg
 
 # KNN Regressor
 def best_k( X, y):
@@ -89,7 +95,17 @@ def KNNReg(X, y, best_k, *args, **kwargs):
                               y,
                               cv = 5,
                               scoring = 'mse')
-    return knn_reg_cv
+    return knn_reg_cv, knn_reg
+
+#SVM
+def SVMReg(X, y):
+    svm_reg = SVR(epsilon=0.1, C=1, kernel='linear').fit(X, y)
+    svm_reg_cv = cross_val(svm_reg,
+                              X,
+                              y,
+                              cv = 5,
+                              scoring = 'mse')
+    return svm_reg_cv, svm_reg
 
 # cross_val
 def cross_val(model, X, y, cv=5, scoring=['r2', 'mse'], *args, **kwargs):
@@ -136,8 +152,37 @@ def metrics(y, y_pred):
     print('MAE =', round(mae, 2))
     print('R2 =', round(rsquared, 2))
 
-# TO DO:
-#SVM
 # Decision Tree
+def decisionTreeReg(X, y):
+    tree = DecisionTreeRegressor()
+    tree_cv = cross_val(tree, X, y, scoring = "r2", cv=5)
+    return tree_cv, tree
+
 # Random Forest
+
+def randForestReg(X, y):
+
+    forest = RandomForestRegressor(n_estimators=100)
+    forest_cv = cross_val(forest, X, y, scoring = "r2", cv=5)
+    return forest_cv, forest
 #Boosters
+def adaBoost(X, y):
+    adaboost = AdaBoostRegressor(
+        DecisionTreeRegressor(max_depth=3),
+        n_estimators=50)
+    ada_cv = cross_val(adaboost, X, y, scoring = "r2", cv=5)
+    return ada_cv, adaboost
+
+def GradBoost(X, y):
+    gradboost = GradientBoostingRegressor(
+    n_estimators=100,
+    learning_rate=0.1,
+    max_depth=3)
+    gradboost_cv = cross_val(gradboost, X, y, scoring = "r2", cv=5)
+    return gradboost_cv, gradboost
+
+def XGBReg():
+    XGB_Reg= XGBRegressor(max_depth=10, n_estimators=100, learning_rate=0.1)
+
+def get_prediction(model, input):
+    return model.predict(input)

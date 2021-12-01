@@ -1,0 +1,610 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "8beea967",
+   "metadata": {},
+   "source": [
+    "# Translator "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "f3da64af",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from google_trans_new import google_translator\n",
+    "import pandas as pd"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6f29141a",
+   "metadata": {},
+   "source": [
+    "## Cleaning"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "03473d14",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv('../raw_data/reviews.csv')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "b67d0ae6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df.columns = [\"Index\", \"Restaurant\", \"Reviewer\", \"Score\", \"When\", \"Review\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "8d496cb2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df.drop(columns=[\"Index\", \"Reviewer\"], inplace=True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "2fdbf456",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Restaurant</th>\n",
+       "      <th>Score</th>\n",
+       "      <th>When</th>\n",
+       "      <th>Review</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Darshan Nepal</td>\n",
+       "      <td>Classificação: 4,0 de 5,</td>\n",
+       "      <td>há 3 meses</td>\n",
+       "      <td>(Traduzido pelo Google) Voe para Lisboa se sen...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Darshan Nepal</td>\n",
+       "      <td>Classificação: 3,5 de 5,</td>\n",
+       "      <td>há 2 meses</td>\n",
+       "      <td>(Traduzido pelo Google) Comida deliciosa e uma...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Darshan Nepal</td>\n",
+       "      <td>Classificação: 3,0 de 5,</td>\n",
+       "      <td>há um mês</td>\n",
+       "      <td>(Traduzido pelo Google) Muito boa comida, boa ...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Darshan Nepal</td>\n",
+       "      <td>Classificação: 2,5 de 5,</td>\n",
+       "      <td>há 3 meses</td>\n",
+       "      <td>(Traduzido pelo Google) Voe para Lisboa se sen...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>Darshan Nepal</td>\n",
+       "      <td>Classificação: 2,0 de 5,</td>\n",
+       "      <td>há 2 meses</td>\n",
+       "      <td>(Traduzido pelo Google) Comida deliciosa e uma...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>...</th>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>90726</th>\n",
+       "      <td>Spice Hut Tandoori</td>\n",
+       "      <td>Classificação: 5,0 de 5,</td>\n",
+       "      <td>há um ano</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>90727</th>\n",
+       "      <td>Spice Hut Tandoori</td>\n",
+       "      <td>Classificação: 5,0 de 5,</td>\n",
+       "      <td>há 3 anos</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>90728</th>\n",
+       "      <td>Spice Hut Tandoori</td>\n",
+       "      <td>Classificação: 5,0 de 5,</td>\n",
+       "      <td>há um ano</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>90729</th>\n",
+       "      <td>Spice Hut Tandoori</td>\n",
+       "      <td>Classificação: 5,0 de 5,</td>\n",
+       "      <td>há um ano</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>90730</th>\n",
+       "      <td>Spice Hut Tandoori</td>\n",
+       "      <td>Classificação: 5,0 de 5,</td>\n",
+       "      <td>há 3 anos</td>\n",
+       "      <td>NaN</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "<p>90731 rows × 4 columns</p>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "               Restaurant                     Score        When  \\\n",
+       "0           Darshan Nepal  Classificação: 4,0 de 5,  há 3 meses   \n",
+       "1           Darshan Nepal  Classificação: 3,5 de 5,  há 2 meses   \n",
+       "2           Darshan Nepal  Classificação: 3,0 de 5,   há um mês   \n",
+       "3           Darshan Nepal  Classificação: 2,5 de 5,  há 3 meses   \n",
+       "4           Darshan Nepal  Classificação: 2,0 de 5,  há 2 meses   \n",
+       "...                   ...                       ...         ...   \n",
+       "90726  Spice Hut Tandoori  Classificação: 5,0 de 5,   há um ano   \n",
+       "90727  Spice Hut Tandoori  Classificação: 5,0 de 5,   há 3 anos   \n",
+       "90728  Spice Hut Tandoori  Classificação: 5,0 de 5,   há um ano   \n",
+       "90729  Spice Hut Tandoori  Classificação: 5,0 de 5,   há um ano   \n",
+       "90730  Spice Hut Tandoori  Classificação: 5,0 de 5,   há 3 anos   \n",
+       "\n",
+       "                                                  Review  \n",
+       "0      (Traduzido pelo Google) Voe para Lisboa se sen...  \n",
+       "1      (Traduzido pelo Google) Comida deliciosa e uma...  \n",
+       "2      (Traduzido pelo Google) Muito boa comida, boa ...  \n",
+       "3      (Traduzido pelo Google) Voe para Lisboa se sen...  \n",
+       "4      (Traduzido pelo Google) Comida deliciosa e uma...  \n",
+       "...                                                  ...  \n",
+       "90726                                                NaN  \n",
+       "90727                                                NaN  \n",
+       "90728                                                NaN  \n",
+       "90729                                                NaN  \n",
+       "90730                                                NaN  \n",
+       "\n",
+       "[90731 rows x 4 columns]"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "41169d52",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = df.drop_duplicates()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "90bfbf24",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(6541, 4)"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df.shape"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "29096a7b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = df.dropna()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "5f85aa25",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def extract_score(series):\n",
+    "    return float(series[15:18].replace(\",\",\".\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "aa1f92d9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df['Score'] = df['Score'].apply(extract_score)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "6ad7eb03",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def remove_google_trans_comment(series):\n",
+    "    if \"(Traduzido pelo Google)\" in series:\n",
+    "        return series.replace(\"(Traduzido pelo Google) \",\"\")\n",
+    "    else:\n",
+    "        return series  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "3cf00290",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df.Review = df.Review.apply(remove_google_trans_comment)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "896cfc7d",
+   "metadata": {},
+   "source": [
+    "## Translator"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "af97e90e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "157"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(df.Review[1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "9749d62a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "/var/folders/l2/23y9j6c53jg7nsfljwz87mqm0000gn/T/ipykernel_9626/3918058446.py:4: SettingWithCopyWarning: \n",
+      "A value is trying to be set on a copy of a slice from a DataFrame\n",
+      "\n",
+      "See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n",
+      "  df.Review[i] = i\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in df.Review[:5]:\n",
+    "    translator = google_translator()\n",
+    "    i = translator.translate(i, lang_src = \"auto\", lang_tgt = \"en\")\n",
+    "    df.Review[i] = i\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "96eb7aef",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "/var/folders/l2/23y9j6c53jg7nsfljwz87mqm0000gn/T/ipykernel_9626/1830452678.py:1: SettingWithCopyWarning: \n",
+      "A value is trying to be set on a copy of a slice from a DataFrame\n",
+      "\n",
+      "See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n",
+      "  df['Review'][:5] = df['Review'][:5].apply(lambda x: translator.translate(x, lang_tgt = \"en\" ))\n"
+     ]
+    }
+   ],
+   "source": [
+    "df['Review'][:5] = df['Review'][:5].apply(lambda x: translator.translate(x, lang_tgt = \"en\" ))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "3a01dcfb",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Restaurant</th>\n",
+       "      <th>Score</th>\n",
+       "      <th>When</th>\n",
+       "      <th>Review</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Darshan Nepal</td>\n",
+       "      <td>4.0</td>\n",
+       "      <td>há 3 meses</td>\n",
+       "      <td>Fly to Lisbon if you miss the authentic local ...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Darshan Nepal</td>\n",
+       "      <td>3.5</td>\n",
+       "      <td>há 2 meses</td>\n",
+       "      <td>Delicious food and a very friendly and hospita...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Darshan Nepal</td>\n",
+       "      <td>3.0</td>\n",
+       "      <td>há um mês</td>\n",
+       "      <td>Very good food, good lady waitress. We ordered...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Darshan Nepal</td>\n",
+       "      <td>2.5</td>\n",
+       "      <td>há 3 meses</td>\n",
+       "      <td>Fly to Lisbon if you miss the authentic local ...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>Darshan Nepal</td>\n",
+       "      <td>2.0</td>\n",
+       "      <td>há 2 meses</td>\n",
+       "      <td>Delicious food and a very friendly and hospita...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>...</th>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>90662</th>\n",
+       "      <td>Spice Hut Tandoori</td>\n",
+       "      <td>4.0</td>\n",
+       "      <td>há 3 anos</td>\n",
+       "      <td>O melhor em qualidade e boas-vindas\\n\\n(Origin...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>90663</th>\n",
+       "      <td>Spice Hut Tandoori</td>\n",
+       "      <td>5.0</td>\n",
+       "      <td>há um ano</td>\n",
+       "      <td>Bom</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>90664</th>\n",
+       "      <td>Spice Hut Tandoori</td>\n",
+       "      <td>4.0</td>\n",
+       "      <td>há 3 anos</td>\n",
+       "      <td>Tratamento impecável e comida imbatível\\n\\n(Or...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>90665</th>\n",
+       "      <td>Spice Hut Tandoori</td>\n",
+       "      <td>5.0</td>\n",
+       "      <td>há 4 anos</td>\n",
+       "      <td>Super bom chefe\\n\\n(Original)\\nPatron super sympa</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>90666</th>\n",
+       "      <td>Spice Hut Tandoori</td>\n",
+       "      <td>5.0</td>\n",
+       "      <td>há 3 anos</td>\n",
+       "      <td>Um momento memorável\\n\\n(Original)\\nUn moment ...</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "<p>6310 rows × 4 columns</p>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "               Restaurant  Score        When  \\\n",
+       "0           Darshan Nepal    4.0  há 3 meses   \n",
+       "1           Darshan Nepal    3.5  há 2 meses   \n",
+       "2           Darshan Nepal    3.0   há um mês   \n",
+       "3           Darshan Nepal    2.5  há 3 meses   \n",
+       "4           Darshan Nepal    2.0  há 2 meses   \n",
+       "...                   ...    ...         ...   \n",
+       "90662  Spice Hut Tandoori    4.0   há 3 anos   \n",
+       "90663  Spice Hut Tandoori    5.0   há um ano   \n",
+       "90664  Spice Hut Tandoori    4.0   há 3 anos   \n",
+       "90665  Spice Hut Tandoori    5.0   há 4 anos   \n",
+       "90666  Spice Hut Tandoori    5.0   há 3 anos   \n",
+       "\n",
+       "                                                  Review  \n",
+       "0      Fly to Lisbon if you miss the authentic local ...  \n",
+       "1      Delicious food and a very friendly and hospita...  \n",
+       "2      Very good food, good lady waitress. We ordered...  \n",
+       "3      Fly to Lisbon if you miss the authentic local ...  \n",
+       "4      Delicious food and a very friendly and hospita...  \n",
+       "...                                                  ...  \n",
+       "90662  O melhor em qualidade e boas-vindas\\n\\n(Origin...  \n",
+       "90663                                                Bom  \n",
+       "90664  Tratamento impecável e comida imbatível\\n\\n(Or...  \n",
+       "90665  Super bom chefe\\n\\n(Original)\\nPatron super sympa  \n",
+       "90666  Um momento memorável\\n\\n(Original)\\nUn moment ...  \n",
+       "\n",
+       "[6310 rows x 4 columns]"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a5be76e6",
+   "metadata": {},
+   "source": [
+    "## Date"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "a0c02c35",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2021-11-30 11:42:05.303563 2021-11-25 11:42:05.303563\n"
+     ]
+    }
+   ],
+   "source": [
+    "from datetime import datetime, timedelta\n",
+    "\n",
+    "if \n",
+    "N_DAYS_AGO = 5\n",
+    "\n",
+    "today = datetime.now()    \n",
+    "n_days_ago = today - timedelta(days=N_DAYS_AGO)\n",
+    "print(today, n_days_ago)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "047102de",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.12"
+  },
+  "toc": {
+   "base_numbering": 1,
+   "nav_menu": {},
+   "number_sections": true,
+   "sideBar": true,
+   "skip_h1_title": false,
+   "title_cell": "Table of Contents",
+   "title_sidebar": "Contents",
+   "toc_cell": false,
+   "toc_position": {},
+   "toc_section_display": true,
+   "toc_window_display": false
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
