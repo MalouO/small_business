@@ -24,12 +24,17 @@ from sklearn.model_selection import cross_validate
 from sklearn.model_selection import learning_curve
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-from Pipe import pipe
+from Pipe import pipeline
 
 
+
+data  = data = pd.read_csv('../raw_data/Clean_data_1_12_v2.csv')
 #Import preprocessed data from other file
+X_train = pipeline(data)[0]
+X_test = pipeline(data)[1]
+y_train = pipeline(data)[2]
+y_test = pipeline(data)[3]
 
-X, y, X_test, y_test = pipe()
 #buckets rating
 # Linear Regression
 def linearReg(X, y):
