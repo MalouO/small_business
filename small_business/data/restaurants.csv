@@ -1,653 +1,653 @@
-,name,type,rating,review_count,price,address,label,dine_in,takeaway,delivery,drive_through,no_del_exp,curb_pickup,postal_code,municipality,neighborhood
-0,Augusto Lisboa,brunch,4.8,1032.0,2,"Rua Santa M.nha 26, 1100-491 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-491,Lisboa,Graça
-1,Tiffin Cafe & Restaurant Lisboa,cafe,4.9,139.0,2,"R. do Conde 32, 1200-637 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-637,Lisboa,Prazeres
-2,Crisfama,mediterranean,4.8,649.0,1,"Rua da Cruz de Santa Apolónia 56, 1100-188 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-188,Lisboa,Santa Engrácia
-3,Alma,european,4.8,953.0,4,"R. Anchieta 15, 1200-224 Lisboa, Portugal","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1200-224,Lisboa,São Paulo
-4,Restaurant CHULHO & Bar,chicken,4.9,180.0,1,"R. de São João da Mata 82, 1200-850 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-850,Lisboa,Lapa
-5,Jam Club,bar,4.8,664.0,1,"Tv. Inglesinhos 49, 1200-223 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-223,Lisboa,Santa Catarina
-6,Ramiro,seafood,4.5,11612.0,3,"Av. Alm. Reis 1 H, 1150-007 Lisboa, Portugal","['dine-in', 'drive-through', 'no-contact delivery']",1,0,1,1,0,0,1150-007,Lisboa,Alto do Pina
-7,Belcanto,south_america,4.6,865.0,4,"R. Serpa Pinto 10A, 1200-026 Lisboa, Portugal","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1200-026,Lisboa,Encarnação
-8,A Cevicheria,south_america,4.4,2674.0,2,"R. Dom Pedro V 129, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-096,Lisboa,Santa Isabel
-9,Lisbon cafe & kebab house,veggie_healthy,4.9,37.0,1,"Rua Marquês Ponte de Lima 21C, 1100-132 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-132,Lisboa,Socorro
-10,Frade dos Mares,seafood,4.6,1256.0,2,"Av. Dom Carlos i 55A, 1200-647 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1200-647,Lisboa,Santa Catarina
-11,Estaminé art food drink,bistro,4.8,226.0,1,"Calçada do Monte 86A, 1170-112 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1170-112,Lisboa,Anjos
-12,Mercearia do Século,brunch,4.8,287.0,1,"Rua de O Século 145, 1250-095 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-095,Lisboa,Encarnação
-13,Needle in a haystack,grill,4.8,425.0,2,"R. Jardim do Tabaco 3, 1100-286 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-286,Lisboa,Santo Estevão
-14,Sommelier Lisbon,european,4.6,514.0,3,"R. do Telhal 59, 1150-316 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-316,Lisboa,Pena
-15,RIB - Beef & Wine Lisboa,grill,4.4,529.0,2,"Praça do Comércio 31A, 1100-148 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-148,Lisboa,Madalena
-16,Yallah Lisboa,mediterranean,4.3,342.0,1,"R. Santos-O-Velho 22, 1200-813 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no delivery']",1,0,0,0,1,1,1200-813,Lisboa,Santos-o-Velho
-17,Taberna Sal Grosso,chicken,4.7,1223.0,1,"Calçada do Forte 22, 1100-256 Lisboa, Portugal",['dine-in'],1,0,0,0,0,0,1100-256,Lisboa,São Vicente de Fora
-18,Rua,chicken,4.7,213.0,2,"Rua de O Século 149 a, 1200-434 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-434,Lisboa,Mercês
-19,Restaurante Consensual,bistro,4.6,142.0,1,"Travessa da Água da Flor 42, 1200-010 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-010,Lisboa,Encarnação
-20,Tantura,mediterranean,4.7,750.0,2,"R. do Trombeta 1 D, 1200-471 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1200-471,Lisboa,Encarnação
-21,JNcQUOI Avenida,brunch,4.6,1827.0,4,"Av. da Liberdade 182 184, 1250-146 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-146,Lisboa,Coração de Jesus
-22,The Little Wine Bar,bar,4.7,294.0,2,"Calçada do Duque 39, 1200-155 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-155,Lisboa,Encarnação
-23,A Taberna Do Mar,european,4.7,204.0,2,"Calçada da Graça 20 B, 1100-266 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no delivery']",1,0,0,0,1,1,1100-266,Lisboa,Graça
-24,A Venda Lusitana,mediterranean,4.6,340.0,2,"R. do Telhal 75, 1150-345 Lisboa, Portugal","['dine-in', 'curbside pickup']",1,0,0,0,0,1,1150-345,Lisboa,São José
-25,Duque,mediterranean,4.6,1010.0,2,"R. do Duque 5, 1200-158 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-158,Lisboa,Sacramento
-26,Ofício,south_america,4.5,584.0,2,"R. Nova da Trindade 11k, 1200-301 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-301,Lisboa,Sacramento
-27,Yak & Yeti,indian_nepalese,4.6,816.0,1,"Calçada de Santo André 17, 1100-466 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-466,Lisboa,São Miguel
-28,Lisboa à Noite,portuguese,4.5,678.0,3,"R. das Gáveas 69, 1200-206 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-206,Lisboa,Encarnação
-29,Lisbon You and Me,european,4.5,1459.0,1,"R. da Adiça 58, 1100-118 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-118,Lisboa,São Miguel
-30,Epur,european,4.8,138.0,4,"Largo da Academia Nacional de Belas Artes 14, 1200-289 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-289,Lisboa,Mártires
-31,Bono Lisboa,grill,4.9,115.0,1,"Calçada Ferragial 9, 1200-182 Lisboa, Portugal","['dine-in', 'delivery', 'no takeaway']",1,1,1,0,0,0,1200-182,Lisboa,Encarnação
-32,Augusto Lisboa,brunch,4.8,1032.0,2,"Rua Santa M.nha 26, 1100-491 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-491,Lisboa,Graça
-33,A Cevicheria,south_america,4.4,2674.0,2,"R. Dom Pedro V 129, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-096,Lisboa,Santa Isabel
-34,Crisfama,mediterranean,4.8,649.0,1,"Rua da Cruz de Santa Apolónia 56, 1100-188 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-188,Lisboa,Santa Engrácia
-35,Sommelier Lisbon,european,4.6,514.0,3,"R. do Telhal 59, 1150-316 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-316,Lisboa,Pena
-36,Ramiro,seafood,4.5,11612.0,3,"Av. Alm. Reis 1 H, 1150-007 Lisboa, Portugal","['dine-in', 'drive-through', 'no-contact delivery']",1,0,1,1,0,0,1150-007,Lisboa,Alto do Pina
-37,Estaminé art food drink,bistro,4.8,226.0,1,"Calçada do Monte 86A, 1170-112 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1170-112,Lisboa,Anjos
-38,Tapisco Lisboa,european,4.4,822.0,3,"R. Dom Pedro V 81, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-096,Lisboa,Santa Isabel
-39,Maria Catita,portuguese,4.5,1763.0,2,"Rua dos Bacalhoeiros 30, 1100-389 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-389,Lisboa,Madalena
-40,Pateo - Bairro do Avillez,portuguese,4.3,4137.0,3,"R. Nova da Trindade 18, 1200-303 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-303,Lisboa,Sacramento
-41,Gambrinus,portuguese,4.4,1199.0,4,"R. das Portas de Santo Antão 23, 1150-264 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-264,Lisboa,Pena
-42,Restaurante Meson Andaluz,european,4.4,1081.0,2,"Tv. do Alecrim 4, 1200-019 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-019,Lisboa,São Paulo
-43,La Paparrucha,south_america,4.5,2307.0,3,"R. Dom Pedro V 18 20, 1250-094 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-094,Lisboa,Encarnação
-44,Lisboa é Linda,cafe,4.6,674.0,2,"Tv. São Paulo 9 13, 1200-431 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-431,Lisboa,São Paulo
-45,Loco,european,4.7,260.0,4,"R. Navegantes nº53-B, 1200-731 Lisboa, Portugal","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1200-731,Lisboa,Lapa
-46,Nossa Lisboa,cafe,4.4,579.0,1,"R. Joaquim Bonifácio 20A, 1150-134 Lisboa, Portugal","['dine-in', 'drive-through', 'no-contact delivery']",1,0,1,1,0,0,1150-134,Lisboa,Pena
-47,Porter,bistro,4.4,121.0,1,"Rua do Arsenal 146, 1100-041 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-041,Lisboa,Mártires
-48,Coppola,pizza,4.9,89.0,2,"Praça das Flores 56, 1200-250 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-250,Lisboa,Mercês
-49,A Nossa Casa,european,4.8,706.0,2,"R. da Atalaia 31, 1200-037 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-037,Lisboa,Encarnação
-50,Essencial,european,4.8,107.0,1,"R. da Rosa 176, 1200-390 Lisboa, Portugal",['dine-in'],1,0,0,0,0,0,1200-390,Lisboa,Encarnação
-51,Sanskar Nepal,indian_nepalese,4.7,915.0,1,"das, R. Chagas 25 27, 1200-106 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-106,Lisboa,Encarnação
-52,Restaurante Floresta das Escadinhas,grill,4.6,1041.0,1,"R. de Santa Justa 3, 1100-213 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no delivery']",1,0,0,0,1,1,1100-213,Lisboa,São Vicente de Fora
-53,Sucolento,chicken,4.7,455.0,1,"R. do Instituto Industrial 7H, 1200-225 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-225,Lisboa,São Paulo
-54,"LOOP restaurante, café, mercearia",japanese,4.9,27.0,1,"Largo Agostinho da Silva 1, 1200-009 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-009,Lisboa,Mercês
-55,Versículo d'O Faia,portuguese,4.7,481.0,2,"R. da Barroca 60A, 1200-050 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-050,Lisboa,Encarnação
-56,Lugar Marcado,pasta,4.6,210.0,1,"Rua Regedor 7 entre o Largo do Caldas e o, Largo São Cristóvão n, 1100-433 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-433,Lisboa,São Cristóvão
-57,Adega Dom Luis,european,4.7,206.0,2,"Rua Luís Fernandes 24, 1200-424 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-424,Lisboa,Mercês
-58,Estórias na Casa da Comida,european,4.5,372.0,3,"Travessa das Amoreiras 1, 1250-025 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-025,Lisboa,São Mamede
-59,da Prata 52,european,4.7,1211.0,2,"Rua da Prata 52, 1100-150 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-150,Lisboa,Madalena
-60,Taberna da Rua das Flores,european,4.3,1342.0,2,"Rua das Flores 103, 1200-194 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-194,Lisboa,Encarnação
-61,Sr. Lisboa,european,4.5,1084.0,2,"R. São José n134 136, 1150-325 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1150-325,Lisboa,São José
-62,Clube de Jornalistas,european,4.6,660.0,3,"R. das Trinas 129, 1200-857 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-857,Lisboa,Lapa
-63,HAWAII POKE-IN,mexican,4.9,211.0,1,"R. das Taipas 37, 1250-092 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-092,Lisboa,Encarnação
-64,Bairrices,european,4.6,463.0,2,"Tv. do Carvalho 27, 1200-097 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-097,Lisboa,São Paulo
-65,Organi Chiado,veggie_healthy,4.7,1204.0,2,"Calçada Nova de São Francisco 2, 1200-300 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-300,Lisboa,Mártires
-66,Olá Nepal,indian_nepalese,4.6,1193.0,1,"Rua do Conde de Redondo 121A, 1150-104 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1150-104,Lisboa,Coração de Jesus
-67,Dede's,brunch,4.9,202.0,1,"R. de Sant'Ana à Lapa 33, 1200-796 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-796,Lisboa,Lapa
-68,Maruto,bistro,4.6,509.0,2,"R. Cais de Santarém 30, 1100-603 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1100-603,Lisboa,Santo Estevão
-69,Akla,portuguese,4.4,128.0,1,"R. Castilho 149D, 1099-034 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1099-034,Lisboa,Coração de Jesus
-70,Leo Restaurant,africa_me,4.6,443.0,1,"Rua do Zaire 17C, 1170-397 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1170-397,Lisboa,Anjos
-71,Café do Rio - Hamburgueria Gourmet,burger,4.6,1079.0,2,"Rua da Alfândega 114, 1100-016 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-016,Lisboa,Madalena
-72,Bistrô Gato pardo,bistro,4.6,623.0,2,"R. de São Vicente nr 10, 1100-574 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-574,Lisboa,São Vicente de Fora
-73,M’arrecreo Pizzeria,pizza,4.7,528.0,2,"R. de São Pedro de Alcântara 35, 1200-270 Lisboa, Portugal","['dine-in', 'delivery']",1,0,1,0,0,0,1200-270,Lisboa,Encarnação
-74,IIIMPAR,grill,4.6,612.0,2,"R. Nova de São Mamede 23, 1250-172 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-172,Lisboa,São Mamede
-75,Solar dos Presuntos,seafood,4.5,2900.0,1,"junto ao Elevador do Lavra, R. das Portas de Santo Antão 150, 1150-269 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1150-269,Lisboa,Pena
-76,O Coradinho,burger,4.3,477.0,1,"R. de Santa Marta 4, 1150-295 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1150-295,Lisboa,Coração de Jesus
-77,Al Garage,italian,4.4,2470.0,2,"R. Castilho 63, 1250-068 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-068,Lisboa,Coração de Jesus
-78,Mattë Lisboa,japanese,4.6,106.0,1,"Calçada Marquês Abrantes 22, 1200-719 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-719,Lisboa,Santos-o-Velho
-79,Boi-Cavalo Restaurante,portuguese,4.1,233.0,1,"R. do Vigário 70B, 1100-616 Lisboa, Portugal","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1100-616,Lisboa,Santo Estevão
-80,Lisboète,european,4.6,146.0,1,"Calçada Marquês Abrantes 94, 1200-720 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-720,Lisboa,Santos-o-Velho
-81,Carmo,bar,4.3,921.0,2,"Largo do Carmo 11, 1200-022 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-022,Lisboa,Sacramento
-82,Leve Leve - Tapas Bar,european,4.6,1119.0,1,"Tv. da Boa Hora 39, 1200-011 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-011,Lisboa,Encarnação
-83,Tágide,european,4.3,481.0,2,"Largo da Academia Nacional de Belas Artes 18-20, 1200-005 Lisboa, Portugal","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1200-005,Lisboa,Mártires
-84,Pizzeria Romana BIO,pizza,4.6,845.0,1,"R. de São João da Praça 75, 1100-519 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1100-519,Lisboa,Sé
-85,Stasha,mediterranean,4.4,955.0,2,"R. das Gáveas 21 a 33, 1200-206 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-206,Lisboa,Encarnação
-86,Legumi Sushi Vegan,veggie_healthy,4.7,295.0,1,"Calçada do Combro 56, 1200-452 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-452,Lisboa,Santa Catarina
-87,Bastardo,pasta,4.3,688.0,2,"Rua da Betesga, 1100-090 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1100-090,Lisboa,São Nicolau
-88,Taverna Alfacinha,mediterranean,4.5,531.0,1,"R. dos Sapateiros, 1100-577 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-577,Lisboa,São Nicolau
-89,Mini Bar Theater José Avillez,bar,4.5,815.0,1,"R. Nova da Trindade 18, 1200-235 Lisboa, Portugal","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1200-235,Lisboa,Sacramento
-90,Flor de Lis,brunch,4.8,25.0,1,"Av. Eng. Duarte Pacheco 15, 1070-100 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1070-100,Lisboa,Campolide
-91,Forno d'Oro,italian,4.6,2604.0,2,"R. Artilharia 1 16b, 1250-039 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-039,Lisboa,Campolide
-92,Season,european,4.7,257.0,1,"R. Nova da Piedade 62, 1200-299 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-299,Lisboa,Mercês
-93,Eating Bear,european,4.5,396.0,2,"R. da Madalena 62/64, 1100-404 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-404,Lisboa,Madalena
-94,CARMO TABERNA PORTUGUESA E WINE BAR,bar,4.4,63.0,1,"R. da Barroca 70, 1200-000 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-000,,
-95,A Loja do Sr. Rocha,cafe,4.6,145.0,1,"Calçada da Estrela 68, 1200-667 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-667,Lisboa,Lapa
-96,Grapes & Bites - Hostel and Wines,european,4.4,643.0,1,"R. do Norte 85, 1200-284 Lisboa, Portugal",['dine-in'],1,0,0,0,0,0,1200-284,Lisboa,Encarnação
-97,O Canastro,portuguese,4.3,130.0,1,"Calçada Santana 49, 1150-320 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-320,Lisboa,Pena
-98,Restaurante Bota Alta,portuguese,4.2,618.0,2,"Tv. da Queimada 37, 1200-364 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-364,Lisboa,Encarnação
-99,Vegan Junkies,veggie_healthy,4.7,396.0,2,"R. Luciano Cordeiro 28, 1150-300 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-300,Lisboa,Coração de Jesus
-100,The George,bar,4.3,1714.0,2,"R. do Crucifixo 58 66, 1100-184 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-184,Lisboa,São Nicolau
-101,Pizzaria Luzzo,pizza,4.4,1384.0,2,"R. de Santa Marta 37A C, 1150-005 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-005,Lisboa,Coração de Jesus
-102,Wel Well Center,brunch,5.0,16.0,1,"R. Marcos Portugal 18A, 1200-258 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-258,Lisboa,Mercês
-103,Manny's Place Lisbon,european,5.0,1.0,1,"R. da Barroca 92, 1200-190 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-190,Lisboa,Encarnação
-104,BellaPasta,pasta,3.3,182.0,1,"R. Augusta 278, 1100-202 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-202,Lisboa,Santa Justa
-105,Santa Lisboa,portuguese,4.1,9.0,1,"R. de São João da Praça 103, 1100-585 Lisboa, Portugal",['dine-in'],1,0,0,0,0,0,1100-585,Lisboa,Sé
-106,Moma,grill,3.2,442.0,2,"R. dos Correeiros 16, 1100-166 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-166,Lisboa,São Nicolau
-107,Taco Locoo,south_america,4.7,332.0,1,"Rua do Conde de Redondo 119A, 1150-294 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-294,Lisboa,Coração de Jesus
-108,Boa-Bao,asian,4.4,3621.0,3,"Largo Rafael Bordalo Pinheiro 30, 1200-369 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-369,Lisboa,Sacramento
-109,Bistro 100 Maneiras,european,4.4,1457.0,3,"Largo da Trindade 9, 1200-466 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1200-466,Lisboa,Sacramento
-110,Varanda Restaurant,portuguese,4.5,90.0,1,"R. Rodrigo da Fonseca 88, 1099-039 Lisboa, Portugal","['dine-in', 'no takeaway']",1,1,0,0,0,0,1099-039,Lisboa,São Mamede
-111,Pesca,seafood,4.6,187.0,1,"R. da Escola Politécnica 27, 1250-099 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1250-099,Lisboa,São Mamede
-112,Trinca,mexican,4.8,195.0,1,"Rua dos Anjos 59C, 1150-034 Lisboa, Portugal","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1150-034,Lisboa,Anjos
-113,Kerala,indian_nepalese,4.8,459.0,2,"R. Passos Manuel 14, 1150-260 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-260,Lisboa,São Jorge de Arroios
-114,Focaccia in Giro,veggie_healthy,4.6,277.0,1,"Campo de Santa Clara 141, 1100-474 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-474,Lisboa,São Vicente de Fora
-115,Li28oa,european,4.8,199.0,1,"R. Cegos 6, 1100-466 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-466,Lisboa,São Miguel
-116,Royal Spice Restaurante,chicken,4.6,386.0,1,"Rua do Conde de Redondo 127, 1150-104 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1150-104,Lisboa,Coração de Jesus
-117,Flor da Laranja,africa_me,4.6,294.0,2,"R. da Rosa 206, 1200-348 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-348,Lisboa,Mercês
-118,Afuri,japanese,4.4,525.0,2,"R. Paiva de Andrade 7 13, 1200-310 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-310,Lisboa,Mártires
-119,Paladarium,mediterranean,4.6,374.0,1,"Largo Chão do Loureiro 3, 1100-145 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-145,Lisboa,São Cristóvão
-120,Gurkha Restaurant & Bar (São Bento),indian_nepalese,4.5,438.0,2,"R. de São Bento 318, 1200-817 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-817,Lisboa,Lapa
-121,Casanostra,italian,4.5,476.0,2,"Tv. do Poço da Cidade 60, 1200-334 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-334,Lisboa,Encarnação
-122,Paralelo 45,european,4.5,261.0,2,"R. Castilho 27B, 1250-067 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1250-067,Lisboa,Coração de Jesus
-123,Manifest Lisbon,brunch,4.7,700.0,2,"Rua da Sociedade Farmacêutica 31, 1150-103 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-103,Lisboa,Coração de Jesus
-124,Via Graça,mediterranean,4.5,549.0,3,"R. Damasceno Monteiro 9 b, 1170-108 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1170-108,Lisboa,Anjos
-125,Eight - The Health Lounge,veggie_healthy,4.7,1445.0,1,"Praça da Figueira 12A, 1100-241 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-241,Lisboa,Santa Justa
-126,Alfama Doce,pastry,4.7,597.0,1,"R. da Regueira 39, 1100-219 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-219,Lisboa,Santo Estevão
-127,Chutnify Principe Real,veggie_healthy,4.4,480.0,2,"Travessa da Palmeira 44, 1200-311 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-311,Lisboa,Mercês
-128,Baixamar - Mariscos e Petiscos,seafood,4.5,558.0,2,"Rua dos Bacalhoeiros 28 B, 1100-071 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-071,Lisboa,Madalena
-129,Cervejaria Liberdade,portuguese,4.5,207.0,1,"Tivoli, Av. da Liberdade 185, 1269-050 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1269-050,Lisboa,Coração de Jesus
-130,Krua Thai,asian,4.8,82.0,1,"R. das Farinhas 8, 1100-179 Lisboa, Portugal","['takeaway', 'delivery', 'no dine-in']",1,1,1,0,0,0,1100-179,Lisboa,São Cristóvão
-131,Instant Crunch,european,4.8,222.0,2,"R. da Mãe de Água 9, 1250-154 Lisboa, Portugal","['dine-in', 'delivery']",1,0,1,0,0,0,1250-154,Lisboa,São José
-132,Santelmo,european,4.8,697.0,2,"R. do Poço dos Negros 188, 1200-425 Lisboa, Portugal","['dine-in', 'drive-through', 'no-contact delivery']",1,0,1,1,0,0,1200-425,Lisboa,São Paulo
-133,The Food Temple,veggie_healthy,4.5,752.0,2,"Beco do Jasmim 18, 1100-289 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-289,Lisboa,Socorro
-134,A Obra,european,4.7,338.0,1,"R. da Silva 21, 1200-446 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-446,Lisboa,São Paulo
-135,As Velhas,portuguese,4.5,440.0,2,"R. da Conceição da Glória 21, 1250-079 Lisboa, Portugal","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1250-079,Lisboa,São José
-136,The Decadente,bar,4.2,1420.0,2,"R. de São Pedro de Alcântara 81, 1250-238 Lisboa, Portugal",['dine-in'],1,0,0,0,0,0,1250-238,Lisboa,Encarnação
-137,Il Covo,pasta,4.6,229.0,2,"R. do Cura 3A, 1200-644 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1200-644,Lisboa,Santos-o-Velho
-138,Altar,pasta,4.6,257.0,1,"Largo Rodrigues de Freitas 21, 1100-495 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-495,Lisboa,Graça
-139,Il Basilico Lisboa,bistro,4.4,171.0,2,"R. Duque de Palmela 32, 1250-098 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-098,Lisboa,Coração de Jesus
-140,Café de São Bento,cafe,4.6,672.0,3,"R. de São Bento 212, 1200-821 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-821,Lisboa,Lapa
-141,O Arco,portuguese,4.5,657.0,2,"R. dos Sapateiros 161 163, 1100-577 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-577,Lisboa,São Nicolau
-142,Lisboa Tu e Eu 2,chicken,4.7,556.0,2,"Escadinhas das Portas do Mar 4, 1100-119 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-119,Lisboa,Sé
-143,Oficina do Duque,chicken,4.6,1446.0,1,"Calçada do Duque 43 A, 1200-155 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-155,Lisboa,Encarnação
-144,Palácio Chiado,bar,4.5,2692.0,2,"R. do Alecrim 70, 1200-018 Lisboa, Portugal","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1200-018,Lisboa,Encarnação
-145,A Cultura do Hambúrguer,burger,4.7,3224.0,1,"R. da Atalaia 57, 1200-043 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-043,Lisboa,Encarnação
-146,Lumi - Restaurante & Bar,bar,4.5,264.0,1,"R. de São Pedro de Alcântara 35, 1250-237 Lisboa, Portugal","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1250-237,Lisboa,Encarnação
-147,Restaurante 100 Maneiras,bistro,4.7,224.0,4,"R. do Teixeira 39, 1200-459 Lisboa, Portugal","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1200-459,Lisboa,Encarnação
-148,Penalva Da Graça,seafood,4.5,571.0,1,"Rua da Graça 26, 1170-170 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1170-170,Lisboa,Graça
-149,Khayyam Persian restaurant,mediterranean,4.5,156.0,1,"R. do Jasmim 16, 1200-228 Lisboa, Portugal","['dine-in', 'drive-through', 'delivery']",1,0,1,1,0,0,1200-228,Lisboa,Mercês
-150,Lost In,bar,4.3,2333.0,2,"R. Dom Pedro V Nº56-D, 1250-094 Lisboa, Portugal","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1250-094,Lisboa,Encarnação
-151,Ghoroa,africa_me,4.4,595.0,1,"Tv. do Benformoso 2, 1100-087 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-087,Lisboa,Anjos
-152,Simplesmente Pizza Bar,pizza,4.5,398.0,2,"R. da Atalaia nº108, 1200-043 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-043,Lisboa,Encarnação
-153,O Trigueirinho,grill,4.6,1034.0,1,"Largo dos Trigueiros 17, 1100-611 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-611,Lisboa,São Cristóvão
-154,Taberna Albricoque,mediterranean,4.6,203.0,1,"R. Caminhos de Ferro nº98, 1100-395 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-395,Lisboa,Anjos
-155,"Yakuza by Olivier, Lisboa",japanese,4.7,960.0,1,"Hotel Avani, R. Júlio César Machado 7, 1250-135 Lisboa, Portugal","['dine-in', 'drive-through', 'delivery']",1,0,1,1,0,0,1250-135,Lisboa,Coração de Jesus
-156,A Parreirinha do Paraíso,european,4.6,507.0,1,"Rua do Paraíso 40C, 1100-395 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-395,Lisboa,Anjos
-157,O Trevo,portuguese,4.4,1077.0,1,"Praça Luís de Camões 48, 1200-283 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-283,Lisboa,Encarnação
-158,Blue Restaurant & Bar,bar,4.5,79.0,1,"R. Barata Salgueiro 55, 1250-189 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1250-189,Lisboa,São Mamede
-159,Sabor a Lisboa,portuguese,4.4,711.0,1,"R. de Santa Marta 18C, 1150-295 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1150-295,Lisboa,Coração de Jesus
-160,Restaurante Rodas,mediterranean,4.4,1173.0,1,"Largo do Rato 10A, 1250-186 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-186,Lisboa,São Mamede
-161,"Maria Limão Brunch, Crepes, Limonadas Lisboa",brunch,4.5,417.0,1,"Rua da Graça 127, 1170-168 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-168,Lisboa,Graça
-162,K.O.B,grill,4.5,892.0,3,"R. do Salitre 169, 1250-043 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-043,Lisboa,Coração de Jesus
-163,Zazah,mediterranean,4.4,412.0,1,"R. de São Marçal 111, 1200-420 Lisboa, Portugal",['dine-in'],1,0,0,0,0,0,1200-420,Lisboa,Mercês
-164,Gin Lovers Bar & Restaurant,bar,4.6,746.0,3,"Praça do Príncipe Real 26, 1250-184 Lisboa, Portugal",['dine-in'],1,0,0,0,0,0,1250-184,Lisboa,Mercês
-165,Armaha Restaurant,portuguese,4.5,327.0,1,"Travessa da Água da Flor 7A, 1200-011 Lisboa, Portugal","['dine-in', 'drive-through', 'no-contact delivery']",1,0,1,1,0,0,1200-011,Lisboa,Encarnação
-166,bōmau,fast_food,4.7,111.0,1,"R. Alexandre Herculano 61, 1250-012 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-012,Lisboa,Coração de Jesus
-167,Vicente,grill,4.4,653.0,2,"Rua das Flores 6, 1200-195 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-195,Lisboa,Encarnação
-168,India gate,africa_me,4.5,550.0,1,"Rua da Padaria 18, 1100-389 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1100-389,Lisboa,Madalena
-169,VDB Bistronomie,bistro,4.6,202.0,1,"R. Canastras 8, 1100-112 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-112,Lisboa,Sé
-170,InkFarmFood - Organic food & juices. Israeli Cuisine,veggie_healthy,4.7,290.0,1,"R. Mal. Saldanha 6, 1200-109 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1200-109,Lisboa,São Paulo
-171,Spice Hut Tandoori,indian_nepalese,4.6,351.0,1,"R. do Benformoso 270, 1100-087 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-087,Lisboa,Anjos
-172,Kaffeehaus,european,4.4,1225.0,2,"R. Anchieta 3, 1200-023 Lisboa, Portugal","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1200-023,Lisboa,Mártires
-173,Atalho Real,grill,4.5,2830.0,2,"Calçada da Patriarcal 40, 1250-182 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-182,Lisboa,São José
-174,Restaurante XL,grill,4.5,178.0,3,"Calçada da Estrela 57, 1200-661 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1200-661,Lisboa,Lapa
-175,PSI,veggie_healthy,4.5,1669.0,2,"Alameda Santo António dos Capuchos, 1150-314 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-314,Lisboa,Pena
-176,Tapa Bucho,european,4.5,792.0,2,"R. do Diário de Notícias 124, 1200-141 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-141,Lisboa,Encarnação
-177,OMONNI FRIED CHICKEN,chicken,4.8,56.0,1,"Tv. da Espera 38, 1200-283 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1200-283,Lisboa,Encarnação
-178,Unique Sushi Lab,japanese,4.4,486.0,2,"Travessa do Enviado de Inglaterra 9, 1150-297 Lisboa, Portugal","['dine-in', 'delivery']",1,0,1,0,0,0,1150-297,Lisboa,Coração de Jesus
-179,Princesa do Castelo,veggie_healthy,4.4,508.0,2,"Rua do Salvador 64A, 1100-466 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-466,Lisboa,São Miguel
-180,JNcQUOI Asia,asian,4.6,903.0,4,"Av. da Liberdade 144, 1250-146 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-146,Lisboa,Coração de Jesus
-181,RD's Restaurante and cafe,indian_nepalese,4.7,240.0,1,"R. Natália Correia 6B, 1170-270 Lisboa, Portugal","['dine-in', 'drive-through']",1,0,0,1,0,0,1170-270,Lisboa,Graça
-182,Taberna - Bairro do Avillez,mediterranean,4.3,362.0,2,"R. Nova da Trindade 18, 1200-303 Lisboa, Portugal","['dine-in', 'curbside pickup']",1,0,0,0,0,1,1200-303,Lisboa,Sacramento
-183,Pizzaria Lisboa,pizza,4.4,1152.0,2,"R. Nova da Trindade 18, 1200-235 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-235,Lisboa,Sacramento
-184,Verde Minho,grill,4.6,536.0,1,"Calçada Santana 17, 1150-169 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-169,Lisboa,Pena
-185,BBQ Tonight,africa_me,4.6,297.0,1,"R. dos Fanqueiros 203, 1100-229 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-229,Lisboa,Madalena
-186,Restaurant Mar ao Largo,grill,4.2,291.0,2,"Largo Rafael Bordalo Pinheiro n 28, 1200-369 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-369,Lisboa,Sacramento
-187,Jardim dos Sentidos,veggie_healthy,4.5,1525.0,2,"R. da Mãe de Água 3, 1250-154 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1250-154,Lisboa,São José
-188,Petiscaria Ideal,portuguese,4.3,286.0,2,"Rua da Esperança 100, 1200-000 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-000,,
-189,Chapitô à Mesa,grill,4.2,3186.0,2,"Costa do Castelo 7, 1149-079 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1149-079,Lisboa,São Cristóvão
-190,Bengal Tandoori - Restaurante Indiano Lisbon,indian_nepalese,4.3,641.0,2,"Rua da Alegria 23, 1250-005 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-005,Lisboa,São José
-191,#Treestory,africa_me,4.6,575.0,2,"R. Luciano Cordeiro 46A, 1150-069 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-069,Lisboa,Coração de Jesus
-192,Rossio Gastrobar,bar,4.5,228.0,1,"R. 1º de Dezembro 118, 1200-360 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-360,Lisboa,Sacramento
-193,O Sopinhas,chicken,4.2,555.0,1,"R. da Madalena 50 R/C, 1100-321 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-321,Lisboa,Madalena
-194,Gandhi Palace,italian,4.3,936.0,2,"Rua Douradores Loja 167-169-171, 173, 1100-205 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-205,Lisboa,São Nicolau
-195,Dama E Vagabundo,pasta,4.3,709.0,1,"Rua da Betesga 1, 1100-202 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-202,Lisboa,Santa Justa
-196,Frangasqueira Nacional,chicken,4.4,994.0,1,"Tv. Monte do Carmo 19, 1200-276 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-276,Lisboa,São Mamede
-197,Populi By Terra Nova,mediterranean,3.9,603.0,2,"Praça do Comércio, 1100-148 Lisboa, Portugal",['dine-in'],1,0,0,0,0,0,1100-148,Lisboa,Madalena
-198,Leão d'Ouro,portuguese,4.0,1802.0,1,"R. 1º de Dezembro 105, 1200-090 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-090,Lisboa,Sacramento
-199,Restaurante A Gina,mediterranean,4.2,1775.0,2,"Parque Mayer, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1250-096,Lisboa,Santa Isabel
-200,1º de Maio,portuguese,4.4,389.0,2,"R. da Atalaia 8, 1200-086 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-086,Lisboa,Encarnação
-201,Tasca do Francês,bistro,4.4,180.0,1,"Rua da Cruz dos Poiais 89, 1200-136 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-136,Lisboa,Mercês
-202,Piri-Piri,chicken,3.7,333.0,1,"R. do Arco do Marquês de Alegrete 9, 1100-034 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-034,Lisboa,Santa Justa
-203,Bonjardim,chicken,4.0,2299.0,2,"Tv. de Santo Antão 11, 1150-312 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-312,Lisboa,Santa Justa
-204,Tapas n' Friends Sé,european,4.1,316.0,2,"Cruzes da Sé 25, 1100-585 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-585,Lisboa,Sé
-205,"Gruta Camoes, Mario",seafood,4.0,197.0,1,"R. da Misericórdia 55, 1200-283 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-283,Lisboa,Encarnação
-206,Can the Can Lisboa,seafood,3.4,577.0,2,"Praça do Comércio 82 83, 1100-148 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-148,Lisboa,Madalena
-207,A Muralha Tasca Típica Lisboa,seafood,4.4,813.0,1,"R. Jardim do Tabaco 112, 1100-139 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-139,Lisboa,Santo Estevão
-208,Prima Pasta,pasta,4.2,567.0,2,"R. da Madalena, 1100-318 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-318,Lisboa,Madalena
-209,Food Corner Marlene Vieira,portuguese,4.2,371.0,2,"Time Out Market, Av. 24 de Julho, 1200-479 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-479,Lisboa,Prazeres
-210,BarAlto,bar,4.3,219.0,1,"R. do Diário de Notícias 31, 1200-141 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-141,Lisboa,Encarnação
-211,Allfama Portuguese Cuisine,portuguese,4.1,482.0,1,"Rua do Paraíso 112, 1100-445 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-445,Lisboa,Santo Estevão
-212,Figus,burger,4.2,858.0,2,"Praça da Figueira 17, 1100-241 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-241,Lisboa,Santa Justa
-213,Allfama Too,chicken,4.0,253.0,1,"Largo de São Rafael 2, 1100-117 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-117,Lisboa,São Miguel
-214,Restaurante IL Carpaccio,pasta,2.6,109.0,1,"R. dos Correeiros 153, 1100-619 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-619,Lisboa,São Nicolau
-215,Café Buenos Aires,south_america,4.3,799.0,3,"Calçada do Duque 31B, 1200-155 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-155,Lisboa,Encarnação
-216,Casanova,pizza,4.5,2936.0,2,"Av. Infante Dom Henrique Loja 7, 1900-264 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1900-264,Lisboa,Santa Engrácia
-217,3 Amigos,mexican,4.4,163.0,1,"R. do Telhal 89D, 1150-150 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1150-150,Lisboa,São José
-218,Santa Clara dos Cogumelos,veggie_healthy,4.7,641.0,2,"Mercado de Santa Clara, Campo de Santa Clara, 1100-472 Lisboa","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-472,Lisboa,São Vicente de Fora
-219,Taste of Pakistan,africa_me,4.4,264.0,1,"R. de São Pedro Mártir 46, 1100-528 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-528,Lisboa,São Cristóvão
-220,Tavares,european,4.3,98.0,4,"R. da Misericórdia 37 R/C, 1200-270 Lisboa",['nan'],0,0,0,0,0,0,1200-270,Lisboa,Encarnação
-221,Solar 31 da Calçada,seafood,4.5,1297.0,2,"Calçada Garcia 31, 1150-169 Lisboa","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1150-169,Lisboa,Pena
-222,New Himalaia,indian_nepalese,4.3,559.0,1,"R. São José 105, 1150-322 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-322,Lisboa,São José
-223,In Bocca Al Lupo,pizza,4.3,528.0,2,"R. Manuel Bernardes 5, 1200-009 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1200-009,Lisboa,Mercês
-224,Sacramento do Chiado,portuguese,4.4,1587.0,2,"Calçada do Sacramento 40 a 46, 1200-394 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-394,Lisboa,Sacramento
-225,O Carvoeiro,burger,4.1,335.0,2,"Calçada de São Vicente 70, 1100-608 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-608,Lisboa,Santo Estevão
-226,Bem-Haja Lisboa,portuguese,4.2,213.0,2,"R. Marcos Portugal 3, 1200-246 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-246,Lisboa,Santa Catarina
-227,BouBou's,mediterranean,4.5,317.0,1,"R. Monte Olivete 32A, 1200-280 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no delivery']",1,0,0,0,1,1,1200-280,Lisboa,São Mamede
-228,Esperança,italian,4.3,289.0,2,"R. do Norte 95, 1200-284 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-284,Lisboa,Encarnação
-229,Restaurante Grill D. Fernando,grill,4.4,21.0,1,"R. Castilho 11, 1250-072 Lisboa","['dine-in', 'no delivery']",1,0,0,0,1,0,1250-072,Lisboa,Santa Isabel
-230,Cais da Pedra,burger,4.1,812.0,2,"Armazem B, loja 9, Av. Infante Dom Henrique, 1900-264 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1900-264,Lisboa,Santa Engrácia
-231,Pastaria,pasta,4.9,218.0,2,"Largo Santa Bárbara 8f, 1150-287 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-287,Lisboa,Anjos
-232,Cantinho do Aziz,africa_me,4.1,2269.0,2,"R. de São Lourenço 5, 1100-530 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1100-530,Lisboa,São Cristóvão
-233,O Chefe e o Mar,seafood,4.5,189.0,1,"R. Convento da Encarnação 1, 1150-169 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1150-169,Lisboa,Pena
-234,Cafeh Tehran,mediterranean,4.6,443.0,2,"Praça das Flores 40, 1200-192 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1200-192,Lisboa,Mercês
-235,Tambarina,africa_me,4.3,349.0,1,"R. do Poço dos Negros 94, 1200-109 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-109,Lisboa,São Paulo
-236,Madragoa Vinhos e Petiscos,european,4.1,115.0,2,"Rua da Esperança 156, 1200-656 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-656,Lisboa,Santos-o-Velho
-237,Alto do Bairro,european,4.8,59.0,1,"Tv. Mercês n 6 A, 1200-268 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1200-268,Lisboa,Encarnação
-238,Audrey´s,cafe,4.4,549.0,2,"R. de Santiago 13, 1100-494 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-494,Lisboa,Santiago
-239,Noobai - Rooftop Bar e Restaurante,bar,4.3,2439.0,2,"Miradouro de Santa Catarina (Adamastor, 1200-401 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-401,Lisboa,Santa Catarina
-240,Ganesha Palace,indian_nepalese,4.3,546.0,2,"Av. Álvares Cabral 48, 1250-018 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-018,Lisboa,Santa Isabel
-241,Eat Pray Love Lisboa,asian,4.4,54.0,2,"Tv. do Carvalho 29, 1200-097 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-097,Lisboa,São Paulo
-242,O FAIA,fado,4.5,617.0,2,"R. da Barroca 54 56, 1200-050 Lisboa","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1200-050,Lisboa,Encarnação
-243,Sr. Fado,fado,4.4,424.0,2,"R. dos Remédios 176, 1100-304 Lisboa","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-304,Lisboa,Santo Estevão
-244,Avenida SushiCafé,japanese,4.4,656.0,3,"R. Barata Salgueiro 28, 1250-044 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-044,Lisboa,Coração de Jesus
-245,Pizza Alif Kebab,africa_me,4.5,666.0,1,"R. Barros Queirós 6, 1100-077 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-077,Lisboa,Santa Justa
-246,Trobadores - Taberna Medieval,bar,4.4,1184.0,2,"R. de São Julião nº27, 1100-524 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-524,Lisboa,Madalena
-247,French Arth,veggie_healthy,4.6,283.0,2,"R. de São Bento 30, 1200-819 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-819,Lisboa,Lapa
-248,Clube de Fado - Fado & Food Group,fado,4.2,1200.0,3,"R. de São João da Praça 86, 1100-135 Lisboa","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1100-135,Lisboa,Sé
-249,Best kebab & Pizza house,fast_food,4.4,249.0,1,"R. da Atalaia 56, 1200-042 Lisboa","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1200-042,Lisboa,Encarnação
-250,Tasca da Esquina,european,4.3,757.0,3,"R. Domingos Sequeira 41C, 1350-119 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1350-119,Lisboa,Lapa
-251,Guacamole,mexican,4.1,1146.0,2,"R. Moeda 2, 1200-275 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1200-275,Lisboa,São Paulo
-252,Tapas Bar 47,european,3.8,342.0,2,"R. do Alecrim 47, 1200-015 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1200-015,Lisboa,Encarnação
-253,Restaurante Casa da Índia,chicken,4.2,1897.0,1,"Rua do Loreto 49 51, 1200-471 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-471,Lisboa,Encarnação
-254,O Bitoque da Mouraria,grill,4.3,59.0,1,"R. das Olarias, 1100-380 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-380,Lisboa,Anjos
-255,Ikigai Japanese Restaurant,japanese,4.8,45.0,1,"R. Rosa Araújo 35, 1250-098 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-098,Lisboa,Coração de Jesus
-256,Caxemira,indian_nepalese,4.5,425.0,2,"R. Condes de Monsanto 4, 1100-159 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-159,Lisboa,São Nicolau
-257,Dhaka restaurant,africa_me,3.8,254.0,1,"R. do Benformoso 220, 1100-395 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-395,Lisboa,Anjos
-258,Hard Rock Cafe Lisbon,cafe,4.4,14763.0,2,"Av. da Liberdade 2, 1250-144 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-144,Lisboa,Coração de Jesus
-259,O Botanista / Orteá Vegan Collective,veggie_healthy,4.6,948.0,2,"Rua Dom Luís I 19, 1200-109 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1200-109,Lisboa,São Paulo
-260,Fumeiro de Santa Catarina,south_america,4.6,325.0,2,"Tv. Alcaide 4C, 1200-013 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-013,Lisboa,Santa Catarina
-261,Pinóquio,seafood,4.1,2260.0,2,"R. de Santa Justa 54, 1100-485 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-485,Lisboa,São Nicolau
-262,Tamarind,veggie_healthy,4.2,401.0,2,"Rua da Glória 43, 1250-115 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-115,Lisboa,São José
-263,Sol e Pesca,seafood,4.3,1066.0,1,"R. Nova do Carvalho 44, 1200-019 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-019,Lisboa,São Paulo
-264,S,european,4.2,332.0,2,"R. São Filipe Neri 14, 1250-227 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-227,Lisboa,São Mamede
-265,Solar 31 - Peixe e Marisco,seafood,4.7,38.0,1,"Calçada Santana 1, 1150-169 Lisboa","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1150-169,Lisboa,Pena
-266,Caso Sério,portuguese,4.3,397.0,1,"Cruzes da Sé 5, 1100-192 Lisboa","['dine-in', 'no takeaway']",1,1,0,0,0,0,1100-192,Lisboa,Sé
-267,Han - Table Barbecue,grill,4.6,400.0,1,"R. Gomes Freire 11B, 1150-119 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-119,Lisboa,Pena
-268,Jesus é Goês,mediterranean,4.4,511.0,2,"R. São José 23, 1150-352 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-352,,
-269,Jardim das Cerejas,veggie_healthy,4.5,1246.0,1,"Calçada do Sacramento 36, 1200-394 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-394,Lisboa,Sacramento
-270,Parreirinha de Alfama,fado,4.4,599.0,3,"Beco do Espírito Santo 1, 1100-222 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-222,Lisboa,Santo Estevão
-271,Horácio Trattoria - Gastronomia,cafe,4.6,161.0,1,"Beco da Lapa 31, 1100-331 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-331,Lisboa,Santo Estevão
-272,LUZ da ESTRELA,fast_food,3.9,14.0,1,"R. da Bela Vista à Lapa 43, 1200-667 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-667,Lisboa,Lapa
-273,Valdo Gatti Pizza Bio,pizza,4.7,1205.0,2,"R. do Gremio Lusitano 13, 1200-211 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-211,Lisboa,Encarnação
-274,Break,brunch,4.6,169.0,1,"R. do Poço dos Negros 73, 1200-348 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-348,Lisboa,Mercês
-275,Spicy,africa_me,4.3,489.0,1,"R. do Benformoso 203, 1100-085 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-085,Lisboa,Anjos
-276,Natraj Tandoori,indian_nepalese,4.4,607.0,2,"R. dos Sapateiros 171, 1100-577 Lisboa, Portugal","['dine-in', 'delivery']",1,0,1,0,0,0,1100-577,Lisboa,São Nicolau
-277,Bello Forno,pasta,4.1,152.0,1,"Campo das Cebolas 50, 1100-070 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-070,Lisboa,Madalena
-278,Restaurante,bistro,5.0,11.0,1,"R. Ataíde 4, 1200-273 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-273,Lisboa,Encarnação
-279,Andorra,european,3.0,94.0,1,"R. das Portas de Santo Antão 76, 1150-265 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-265,Lisboa,Pena
-280,Nicolau Lisboa,brunch,4.3,3218.0,2,"R. de São Nicolau 17, 1100-547 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-547,Lisboa,São Nicolau
-281,Radhuni,africa_me,3.7,163.0,1,"R. do Benformoso 155 A B, 1100-084 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-084,Lisboa,Anjos
-282,Nui Sushi & Thai bar,asian,4.3,392.0,1,"R. Maria Andrade 64A, 1170-218 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-218,Lisboa,Anjos
-283,A Travessa do Fado (Museu do Fado),fado,4.2,210.0,2,"Largo do Chafariz de Dentro 1, 1100-172 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-172,Lisboa,São Miguel
-284,Haweli Tandoori,indian_nepalese,4.5,318.0,2,"Tv. do Monte 14, 1170-255 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-255,Lisboa,Graça
-285,The Botanical Den,bar,4.7,87.0,1,"R. da Atalaia 153, 1200-039 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-039,Lisboa,Encarnação
-286,Poké Bowls,south_america,3.9,172.0,1,"R. Tierno Galvan 4, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-096,Lisboa,Santa Isabel
-287,Pizzeria Romana al Taglio,pizza,4.5,759.0,1,"Rua da Conceição 44, 1100-154 Lisboa, Portugal","['dine-in', 'drive-through', 'no-contact delivery']",1,0,1,1,0,0,1100-154,Lisboa,Madalena
-288,Hidden Chinese Restaurant,asian,4.2,948.0,1,"R. da Guia 9 1, 1100-132 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-132,Lisboa,Socorro
-289,TOPO MARTIM MONIZ,bar,4.3,2641.0,2,"Centro Comercial Martim Moniz 6 Esq, Praça Martim Moniz, 1100-341 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-341,Lisboa,Santa Justa
-290,Brunch Café,cafe,4.5,1077.0,2,"Rua da Alfândega 120, 1100-016 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-016,Lisboa,Madalena
-291,Moules & Beer,bar,4.3,856.0,2,"R. 4 de Infantaria 29D, 1350-266 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1350-266,Lisboa,Santo Condestável
-292,Cafe de Rio - Gourmet Burgers,burger,3.8,9.0,1,"R. Artilharia 1 16b, 1250-039 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1250-039,Lisboa,Campolide
-293,Neighbourhood Cafe Lisbon,cafe,4.7,211.0,1,"Largo do Conde Barão 25, 1200-163 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no delivery']",1,0,0,0,1,1,1200-163,Lisboa,São Paulo
-294,Franguinho do Príncipe,chicken,4.8,61.0,1,"R. da Imprensa Nacional 116 B, 1250-127 Lisboa, Portugal","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1250-127,Lisboa,Mercês
-295,Ao 26,veggie_healthy,4.6,1770.0,2,"R. Vítor Cordon 26, 1200-484 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-484,Lisboa,Encarnação
-296,Vitaminas Garrett,fast_food,3.9,121.0,2,"R. Garrett 58, 1200-309 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-309,Lisboa,Sacramento
-297,Delirium Café Lisboa,bar,4.5,2707.0,2,"Calçada Nova de São Francisco 2A, 1200-289 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-289,Lisboa,Mártires
-298,PappaRoti Portugal,africa_me,4.2,72.0,1,"R. Áurea 52, 1100-063 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1100-063,Lisboa,São Nicolau
-299,Copenhagen Coffee Lab & Bakery,cafe,4.3,806.0,2,"R. Nova da Piedade 10, 1200-192 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-192,Lisboa,Mercês
-300,Fábrica Coffee Roasters,cafe,4.4,1801.0,2,"R. das Portas de Santo Antão 136, 1150-269 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-269,Lisboa,Pena
-301,Buna Specialty Coffee Shop,cafe,4.9,95.0,1,"R. do Poço dos Negros 168, 1200-267 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1200-267,Lisboa,São Paulo
-302,COMOBÁ,cafe,4.5,657.0,2,"Rua de S. Paulo 99, 1200-109 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1200-109,Lisboa,São Paulo
-303,Banana Cafe,cafe,4.0,1422.0,2,"Av. da Liberdade 18, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-096,Lisboa,Santa Isabel
-304,MELBOURNE coffeehouse,cafe,4.7,248.0,1,"Rua do Possolo 52, 1350-250 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1350-250,Lisboa,Prazeres
-305,Copenhagen Coffee Lab - Campo de Santa Clara,brunch,4.0,248.0,1,"Campo de Santa Clara 136, 1100-474 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-474,Lisboa,São Vicente de Fora
-306,Neighbourhood Cafe Lisboa,brunch,4.7,211.0,1,"Largo do Conde Barão 25, 1200-163 Lisboa","['dine-in', 'curbside pickup', 'no delivery']",1,0,0,0,1,1,1200-163,Lisboa,São Paulo
-307,Café da Garagem,cafe,4.4,345.0,2,"Costa do Castelo 75, 1100-178 Lisboa","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-178,Lisboa,São Cristóvão
-308,Esplanada Cafe,cafe,3.6,478.0,2,"Jardim ""Esplanada, Praça do Príncipe Real, 1250-184 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-184,Lisboa,Mercês
-309,Chiado Caffe,cafe,4.5,602.0,1,"Rua do Loreto 45 47, 1200-471 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-471,Lisboa,Encarnação
-310,Frutaria Cafe,cafe,4.4,705.0,2,"R. dos Fanqueiros 269, 1100-232 Lisboa","['dine-in', 'curbside pickup', 'no delivery']",1,0,0,0,1,1,1100-232,Lisboa,Madalena
-311,Fábrica da Nata - Pastéis de Nata,pastry,4.6,5480.0,1,"Praça dos Restauradores 62 -68, 1250-110 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-110,Lisboa,São José
-312,Di Marzano Café Vermuteria,brunch,4.7,219.0,2,"Largo Rafael Bordalo Pinheiro 32, 1200-369 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-369,Lisboa,Sacramento
-313,Quase Café,cafe,4.6,703.0,2,"Rua do Salvador 32, 1100-465 Lisboa, Portugal","['dine-in', 'drive-through']",1,0,0,1,0,0,1100-465,Lisboa,São Miguel
-314,Café Gelo,pastry,3.5,1191.0,2,"Praça Dom Pedro IV 64, 1100-200 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-200,Lisboa,Santa Justa
-315,Kafeine / Avenida da Liberdade,brunch,4.5,364.0,1,"Food Court, Avenida da Liberdade 180, Tivoli Forum, Piso -1, 1250-146 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-146,Lisboa,Coração de Jesus
-316,Eléctrico Café,cafe,4.5,60.0,1,"R. Maria Andrade 60C, 1170-210 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1170-210,Lisboa,Anjos
-317,Guadalupe.,cafe,4.5,265.0,1,"Rua do Terreiro do Trigo 24, 1100-543 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-543,Lisboa,São Miguel
-318,28 Café,cafe,3.8,461.0,2,"R. de Santa Cruz do Castelo 45, 1100-244 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-244,Lisboa,Castelo
-319,A Padaria Portuguesa,pastry,3.9,812.0,1,"Largo da Graça 14, 1170-165 Lisboa",['nan'],0,0,0,0,0,0,1170-165,Lisboa,Graça
-320,Stanislav Café,cafe,4.5,630.0,1,"1150, R. São José 182, Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-083,Lisboa,Anjos
-321,Fauna & Flora,brunch,4.6,1813.0,2,"Rua da Esperança 33, 1200-655 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-655,Lisboa,Santos-o-Velho
-322,Charlot Alfama,brunch,4.6,52.0,1,"R. Escolas Gerais 59A, 1100-218","['dine-in', 'curbside pickup', 'no delivery']",1,0,0,0,1,1,1100-218,Lisboa,Santo Estevão
-323,Pão de Canela,brunch,4.1,980.0,2,"Praça das Flores 25 29, 1200-192 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-192,Lisboa,Mercês
-324,Mercearia Castello,pastry,4.4,139.0,1,"R. das Flores de Santa Cruz 2, 1100-129 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-129,Lisboa,Castelo
-325,O Ninho - café brunch tapas,brunch,4.7,428.0,2,"R. São Cristóvão 17, 1100-514 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-514,Lisboa,São Cristóvão
-326,The Corner Cafe,european,4.8,45.0,1,"R. Bernardim Ribeiro 21, 1150-068 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-068,Lisboa,Coração de Jesus
-327,Remi - Bistro Italiano 🍕 🍹 ☕🍰,bistro,4.6,256.0,2,"R. Gomes Freire 146 b, 1150-180 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-180,Lisboa,Pena
-328,Red Cafe,cafe,4.0,88.0,1,"R. da Vitória, 1100-571 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-571,Lisboa,Graça
-329,Café 1890,cafe,2.4,46.0,1,"R. das Portas de Santo Antão 96, 1150-269 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-269,Lisboa,Pena
-330,KAYA - Coffee & Organic Hair Concept,veggie_healthy,5.0,94.0,1,"R. de São Marçal 1 C, 1200-418 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-418,Lisboa,Mercês
-331,"Leitaria, Pastelaria Eneri",cafe,4.4,75.0,1,"R. Luz Soriano nº43, 1200-246 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-246,Lisboa,Santa Catarina
-332,Cotidiano Lisboa,brunch,4.4,362.0,2,"R. do Crucifixo 2, 1100-183 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-183,Lisboa,São Nicolau
-333,Antikuario Cafe,cafe,4.9,136.0,1,"R. São José 168, 1150-326 Lisboa, Portugal",['dine-in'],1,0,0,0,0,0,1150-326,Lisboa,São José
-334,Zappi,cafe,4.7,201.0,1,"R. Santos-O-Velho 16 18, 1200-109 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-109,Lisboa,São Paulo
-335,Madragoa Café,european,4.5,230.0,2,"Rua da Esperança 158, 1200-660 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-660,Lisboa,Santos-o-Velho
-336,Café Calçada Bistro,cafe,4.3,169.0,1,"Calçada do Monte 62, 1170-108 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1170-108,Lisboa,Anjos
-337,Cafe Tofa,cafe,4.0,7.0,1,"R Coreto 33, 1200-241 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-241,Lisboa,Encarnação
-338,Casa dos Ovos Moles em Lisboa,pastry,4.6,67.0,1,"Calçada do Sacramento 25, 1200-393 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-393,Lisboa,Sacramento
-339,McDonald's,fast_food,4.0,5235.0,1,"Av. da República 10F, 1050-191 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1050-191,Lisboa,Alvalade
-340,Burger King,fast_food,3.8,2679.0,1,"R. do Carmo 97, 1200-093 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-093,Lisboa,Sacramento
-341,Dutch Treat Lisboa,fast_food,4.9,133.0,1,"R. da Silva 11, 1200-337 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1200-337,Lisboa,Santa Catarina
-342,SEASON EXPRESSIONS,chicken,5.0,21.0,1,"R. da Rosa 19, 1200-381 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1200-381,Lisboa,Encarnação
-343,McDonald's Rossio,fast_food,3.7,5444.0,1,"Praça Dom Pedro IV 81-83, 1100-202 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-202,Lisboa,Santa Justa
-344,Burger King Marquês Pombal,fast_food,3.9,4283.0,1,"Av. Fontes Pereira de Melo 6A, 1600-001 Lisboa, Portugal","['dine-in', 'drive-through', 'delivery']",1,0,1,1,0,0,1600-001,Lisboa,São Domingos de Benfica
-345,LX Kebab House,fast_food,4.0,107.0,1,"R. da Atalaia 9, 1200-036 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-036,Lisboa,Encarnação
-346,Garden Burger,fast_food,4.1,73.0,1,"Av. Eng. Duarte Pacheco, 1070-103 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1070-103,Lisboa,Campolide
-347,Casa das Bifanas,fast_food,3.9,1514.0,1,"Praça da Figueira 7A, 1100-240 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-240,Lisboa,Santa Justa
-348,Rock Kebab,fast_food,3.7,25.0,1,"Rua de S. Paulo 12A, 1200-048 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-048,Lisboa,Encarnação
-349,Slow,fast_food,4.3,11.0,1,"Av. Eng. Duarte Pacheco, 1070-103 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1070-103,Lisboa,Campolide
-350,Tuz Good Food,africa_me,4.0,4.0,1,"Av. Alm. Reis 40C, Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-083,Lisboa,Anjos
-351,As Bifanas do Afonso,fast_food,4.7,1308.0,1,"Portugal, R. da Madalena 146, 1100-340 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-340,Lisboa,São Cristóvão
-352,Hamro Kebab,fast_food,4.0,25.0,1,"Rua do Possolo 53, 1350-252 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1350-252,Lisboa,Prazeres
-353,Casa Portuguesa do Pastel de Bacalhau,portuguese,4.2,7060.0,2,"R. Augusta 106, 1100-053 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-053,Lisboa,São Nicolau
-354,LX Dogs,fast_food,4.9,14.0,1,"Praça da Figueira, 1100-241 Lisboa, Portugal","['takeaway', 'no delivery']",0,1,0,0,1,0,1100-241,Lisboa,Santa Justa
-355,Dallas Burger Joint,burger,4.8,504.0,2,"Tv. Remolares 41, 1200-019 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-019,Lisboa,São Paulo
-356,h3,burger,4.0,529.0,2,"Avenida Engenheiro Duarte Pacheco, 1070-103 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1070-103,Lisboa,Campolide
-357,Eats Delicate Foods,fast_food,3.6,8.0,1,"Rua dos Bacalhoeiros 113, 1100-389 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-389,Lisboa,Madalena
-358,Kebabish PT,africa_me,4.3,343.0,1,"R. da Palma 280, 1100-394 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-394,Lisboa,Anjos
-359,Bala,mexican,3.9,122.0,1,"Av. Eng. Duarte Pacheco 15G, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-096,Lisboa,Santa Isabel
-360,Hot Dog Lovers,fast_food,4.0,741.0,1,"Av. da Liberdade 238B, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-096,Lisboa,Santa Isabel
-361,Hunger Station,africa_me,4.6,12.0,1,"R. da Atalaia 118, 1200-036 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-036,Lisboa,Encarnação
-362,Empadaria,fast_food,3.0,1.0,1,"Armazéns do Chiado, R. do Carmo 2, 1100-044 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-044,Lisboa,São Nicolau
-363,The Burger Factory,burger,4.2,822.0,2,"R. da Atalaia 4, 1200-169 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-169,Lisboa,Encarnação
-364,Olla,fast_food,4.0,431.0,2,"R. Camilo Castelo Branco 20, 1050-089 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1050-089,Lisboa,Coração de Jesus
-365,Tandoori,indian_nepalese,4.6,46.0,1,"Beco dos Surradores, 1100-555 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-555,Lisboa,São Cristóvão
-366,Food Garden Grill,grill,4.1,344.0,1,"R. do Benformoso 115, 1100-083 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-083,Lisboa,Anjos
-367,Honorato Chiado,burger,4.2,2175.0,2,"Largo Rafael Bordalo Pinheiro 12, 1200-205 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-205,Lisboa,Mártires
-368,Nosh,burger,1.0,1.0,1,"R. Serpa Pinto 15A, 1200-443 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-443,Lisboa,Mártires
-369,Miolo,brunch,4.9,161.0,1,"Largo de Santa Cruz do Castelo 3, 1100-477 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-477,Lisboa,Castelo
-370,Restaurant International,european,3.0,147.0,2,"Largo do Carmo 16 17, 1200-092 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-092,Lisboa,Sacramento
-371,Hua Ta Li Chinese Restaurant,asian,4.1,269.0,2,"R. da Palma, 1100-341 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-341,Lisboa,Santa Justa
-372,RoberTine,european,4.5,139.0,2,"R. das Taipas 65, 1250-092 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1250-092,Lisboa,Encarnação
-373,Sushi dos Sá Morais,japanese,4.3,826.0,2,"R. Castilho 23B, 1250-069 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-069,Lisboa,Coração de Jesus
-374,Tabik Restaurant,bar,4.0,133.0,3,"Av. da Liberdade 29A, 1250-139 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-139,Lisboa,Coração de Jesus
-375,Sukhothai,asian,4.1,248.0,2,"R. da Atalaia 77, 1200-038 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-038,Lisboa,Encarnação
-376,Cucina Avenida Liberdade,italian,3.8,32.0,1,"Av. da Liberdade 180 D Loja 14, 1250-142 Lisboa, Portugal","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1250-142,Lisboa,Coração de Jesus
-377,Rubro Avenida,european,4.3,722.0,2,"R. Rodrigues Sampaio 33 35, 1150-278 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-278,Lisboa,Coração de Jesus
-378,Guilty,veggie_healthy,4.0,1865.0,3,"R. Barata Salgueiro 28 A, 1250-044 Lisboa, Portugal","['dine-in', 'drive-through', 'delivery']",1,0,1,1,0,0,1250-044,Lisboa,Coração de Jesus
-379,Topo Chiado,bar,4.2,1602.0,2,"Terraços do Carmo, Largo do Carmo, 1200-288 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-288,Lisboa,Mártires
-380,Block House Amoreiras,grill,4.3,503.0,1,"Av. Eng. Duarte Pacheco 1049 2044, 1070-103 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1070-103,Lisboa,Campolide
-381,Curva,brunch,4.7,155.0,2,"R. Damasceno Monteiro 108D, 1170-113 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1170-113,Lisboa,Anjos
-382,Tomato Garden Italian Restaurant,pasta,4.7,195.0,1,"R. da Barroca 109, 1200-010 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1200-010,Lisboa,Encarnação
-383,Azia Asian Restaurant,asian,4.5,291.0,2,"Rua de S. Paulo 136, 1200-429 Lisboa, Portugal",['dine-in'],1,0,0,0,0,0,1200-429,Lisboa,São Paulo
-384,Marisqueira M,seafood,4.1,463.0,2,"R. do Norte 100, 1200-287 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-287,Lisboa,Encarnação
-385,Restaurante Irriverente,pasta,4.1,149.0,1,"Rua da Boavista 88, 1200-058 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-058,Lisboa,São Paulo
-386,Restaurante Marco,portuguese,4.4,2582.0,2,"Largo Santos 14D, 1200-808 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-808,Lisboa,Santos-o-Velho
-387,Noori Sushi,japanese,4.2,172.0,1,"R. do Crucifixo 87, 1100-044 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-044,Lisboa,São Nicolau
-388,Leads Pizza,pizza,4.5,184.0,1,"R. Gen. Justiniano Padrel 17A, 1170-153 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-153,Lisboa,Santa Engrácia
-389,Portugália,fast_food,4.8,6.0,2,"R. do Carmo 120, 1100-044 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-044,Lisboa,São Nicolau
-390,Santa Marta Marisqueira,seafood,4.0,455.0,2,"Travessa do Enviado de Inglaterra, 1150-281 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-281,Lisboa,Coração de Jesus
-391,Jamie's Italian Lisboa,italian,4.2,3173.0,2,"Praça do Príncipe Real 28A, 1250-184 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-184,Lisboa,Mercês
-392,Turkish Kebab House,africa_me,3.6,394.0,1,"Av. Alm. Reis 40A, 1150-019 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-019,Lisboa,Alto do Pina
-393,Panda Cantina,japanese,4.6,939.0,1,"Rua da Prata 252, 1100-052 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-052,Lisboa,São Nicolau
-394,Manteigaria - Fábrica de Pastéis de Nata,pastry,4.8,5420.0,1,"Rua do Loreto 2, 1200-108 Lisboa","['takeaway', 'delivery', 'no dine-in']",1,1,1,0,0,0,1200-108,Lisboa,Encarnação
-395,Confeitaria Nacional,pastry,4.2,3289.0,2,"Praça da Figueira 18B, 1100-241 Lisboa","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1100-241,Lisboa,Santa Justa
-396,Pastelaria Santo António (castelo São Jorge),pastry,4.7,987.0,1,"R. do Milagre de Santo António N.10, 1100-351 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-351,Lisboa,Santiago
-397,Alcôa,pastry,4.4,885.0,2,"R. Garrett 37, 1200-203 Lisboa, Portugal",['takeaway'],0,1,0,0,0,0,1200-203,Lisboa,Mártires
-398,Fábrica da Nata (Rua Augusta),pastry,4.6,1808.0,1,"R. Augusta nº 275 A, 1100-052 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-052,Lisboa,São Nicolau
-399,Ferrary,pastry,2.8,549.0,1,"R. Augusta 189, 1100-050 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-050,Lisboa,São Nicolau
-400,Confeitaria Marquês de Pombal,pastry,4.2,1148.0,2,"Av. da Liberdade 244 B, 1250-149 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-149,Lisboa,Coração de Jesus
-401,Pastelaria 1800,pastry,4.3,450.0,1,"Largo do Rato 7, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-096,Lisboa,Santa Isabel
-402,Pastelaria Flor do Mundo,pastry,4.3,367.0,1,"R. da Misericórdia 87, 1200-284 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-284,Lisboa,Encarnação
-403,Pastelaria Benard,pastry,3.8,598.0,2,"R. Garrett 104, 1200-205 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-205,Lisboa,Mártires
-404,A Tentação,pastry,4.0,235.0,1,"Praça da Figueira 12, 1100-241 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-241,Lisboa,Santa Justa
-405,PAUL - Rua Augusta,pastry,4.1,651.0,2,"R. Augusta 142, 1100-054 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-054,Lisboa,São Nicolau
-406,Pâtisserie Dacquoise,pastry,4.5,283.0,2,"R. Tomás da Anunciação 109A, 1350-325 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1350-325,Lisboa,Santo Condestável
-407,Cantinho da sé,pastry,3.1,135.0,1,"Largo Santo António da Sé 11, 1100-404 Lisboa, Portugal","['takeaway', 'no delivery']",0,1,0,0,1,0,1100-404,Lisboa,Madalena
-408,Saga,pastry,4.4,830.0,2,"Largo da Graça 135, 1170-165 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1170-165,Lisboa,Graça
-409,Pau de Canela,pastry,4.1,619.0,2,"R. da Vitória 57, 1100-170 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-170,Lisboa,São Nicolau
-410,Pastelaria Orion,pastry,4.2,438.0,1,"Calçada do Combro 1, 1200-086 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-086,Lisboa,Encarnação
-411,Padaria de São Roque,pastry,4.3,577.0,1,"R. Dom Pedro V 57, 1250-092 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1250-092,Lisboa,Encarnação
-412,A Pousadinha (Cais Sodré) - Doçaria Conventual,pastry,4.6,26.0,1,"Rua de S. Paulo 188, 1200-275 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-275,Lisboa,São Paulo
-413,Centro Ideal da Graça,pastry,4.4,301.0,1,"Largo da Graça 6, 1170-364 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1170-364,Lisboa,Graça
-414,Baga,pastry,4.1,96.0,1,"Largo da Graça, 1170-165 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1170-165,Lisboa,Graça
-415,L'Éclair,pastry,4.8,22.0,1,"R. Ribeira Nova 50, 1200-425 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-425,Lisboa,São Paulo
-416,Portela,cafe,4.3,127.0,2,"Rua da Graça 164, 1170-364 Lisboa, Portugal","['dine-in', 'delivery']",1,0,1,0,0,0,1170-364,Lisboa,Graça
-417,Pastelaria Camões,brunch,4.4,180.0,1,"Rua do Loreto 63 65, 1200-241 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-241,Lisboa,Encarnação
-418,Leitaria Lisboa,brunch,4.2,846.0,2,"R. Artilharia 1 87A, 1070-012 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1070-012,Lisboa,Campolide
-419,Tease,cafe,4.4,716.0,2,"R. Quintinha 70B, 1200-420 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-420,Lisboa,Mercês
-420,Doce Real,pastry,4.5,119.0,1,"Portugal, R. Dom Pedro V 119, 1250-096 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1250-096,Lisboa,Santa Isabel
-421,Balcão do Marquês,pastry,4.2,391.0,1,"113 ao 119, Av. Duque de Loulé, 1050-089 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1050-089,Lisboa,Coração de Jesus
-422,Pastelaria Continental Lda,pastry,4.3,133.0,1,"R. da Palma 187, 1100-087 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-087,Lisboa,Anjos
-423,Vontadinhas,pastry,4.1,107.0,1,"R. Castilho 75A, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-096,Lisboa,Santa Isabel
-424,Tebas,pastry,4.2,381.0,1,"R. Heliodoro Salgado 2A, 1170-174 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-174,Lisboa,Anjos
-425,Leitaria Baiana,brunch,4.1,364.0,1,"61,, Av. da Liberdade 59, Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-083,Lisboa,Anjos
-426,Leitaria Anita,cafe,4.5,27.0,1,"Rua do Salvador 46, 1100-466 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-466,Lisboa,São Miguel
-427,Bomercado,veggie_healthy,4.7,122.0,1,"R. dos Cavaleiros 10, 1100-132 Lisboa, Portugal","['in-store shopping', 'curbside pickup', 'delivery']",0,0,1,0,0,1,1100-132,Lisboa,Socorro
-428,Brick Café Lisboa,brunch,4.4,1647.0,2,"Rua de Moçambique 2, 1170-245 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-245,Lisboa,Anjos
-429,Hard Rock Cafe,grill,4.4,14763.0,2,"Av. da Liberdade 2, 1250-144 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-144,Lisboa,Coração de Jesus
-430,Nicola,cafe,3.5,1627.0,2,"Praça Dom Pedro IV 24, 1100-200 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-200,Lisboa,Santa Justa
-431,Tazza in Giro,italian,4.7,138.0,1,"Campo de Santa Clara 138 139, 1100-474 Lisboa","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1100-474,Lisboa,São Vicente de Fora
-432,Mercearia da Mila,brunch,4.6,321.0,2,"R. Santos-O-Velho 38, 1200-812 Lisboa","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1200-812,Lisboa,Santos-o-Velho
-433,Delidelux Avenida,brunch,4.1,340.0,2,"R. Alexandre Herculano 15A, 1250-096 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-096,Lisboa,Santa Isabel
-434,Groove Bar,bar,4.5,299.0,2,"R. da Rosa 148, 1200-211 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-211,Lisboa,Encarnação
-435,Monkey Mash,bar,4.5,210.0,1,"Praça da Alegria 66, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1250-096,Lisboa,Santa Isabel
-436,Foxtrot,bar,4.6,1902.0,2,"Tv. Santa Teresa 28, 1200-405 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-405,Lisboa,Mercês
-437,Duque Brewpub,bar,4.6,539.0,2,"Calçada do Duque 51, 1200-156 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-156,Lisboa,Encarnação
-438,Antiga Wine Bar,bar,4.7,175.0,2,"de à, R. Santo António da Sé 10, 1100-500 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-500,Lisboa,Madalena
-439,Shelter Bar Lisboa,bar,4.3,134.0,1,"R. da Palmeira 43 A, 1200-312 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-312,Lisboa,Mercês
-440,Camone Bar,bar,4.6,119.0,1,"R. da Atalaia 29, 1200-036 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-036,Lisboa,Encarnação
-441,Spot Lisboa,bar,4.2,280.0,2,"R. Nova do Almada 14, 1200-289 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-289,Lisboa,Mártires
-442,Ritz Bar,bar,4.5,34.0,1,"R. Rodrigo da Fonseca 88, 1099-039 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1099-039,Lisboa,São Mamede
-443,Snob Bar,bar,4.5,66.0,1,"Rua de O Século 178, 1200-437 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-437,Lisboa,Mercês
-444,Água De Beber,bar,4.5,570.0,1,"R. Poiais de São Bento 73, 1200-346 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-346,Lisboa,Mercês
-445,Tapas Bar 52,european,3.8,1655.0,2,"R. Dom Pedro V 52, 1250-092 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1250-092,Lisboa,Encarnação
-446,Grau Douro Tapas & Wine Bar,european,4.9,300.0,1,"R. Duques de Bragança 5M, 1200-162 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-162,Lisboa,Encarnação
-447,Dcosta's Shisha & Bar,bar,4.7,113.0,1,"R. Maria 68A, 1170-213 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1170-213,Lisboa,Anjos
-448,A Tabacaria,bar,4.7,355.0,2,"Rua de S. Paulo 75 77, 1200-426 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-426,Lisboa,São Paulo
-449,Soul - kitchen & bar,bistro,4.5,108.0,1,"R. Cecílio de Sousa n.76, 1200-098 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-098,Lisboa,Mercês
-450,BytheWine,bar,4.5,1653.0,2,"Rua das Flores 41 43, 1200-193 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-193,Lisboa,Encarnação
-451,Silk Club,bar,4.1,817.0,3,"Edifício Espaço Chiado, R. da Misericórdia 14, 1200-273 Lisboa, Portugal","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1200-273,Lisboa,Encarnação
-452,Love Lisbon Martim Moniz,bar,4.3,366.0,2,"R. José António Serrano, 1100-143 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-143,Lisboa,Santiago
-453,Paráguas Bar Tapas e Petiscos,european,4.7,211.0,2,"Tv. dos Pescadores 37, 1200-328 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-328,Lisboa,São Paulo
-454,Tágide Wine & Tapas Bar,european,4.3,120.0,1,"Largo da Academia Nacional de Belas Artes 19, 1200-289 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-289,Lisboa,Mártires
-455,York Burger,burger,4.6,153.0,1,"R. de São João da Praça 14, 1100-520 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-520,Lisboa,Sé
-456,Gazzo - Cucina & Bar,italian,4.8,76.0,1,"Largo do Terreirinho 35, 1100-595 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-595,Lisboa,Socorro
-457,Burger Bar & Blues Lisboa,burger,4.2,106.0,1,"Rua de S. Paulo 222, 1200-058 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-058,Lisboa,São Paulo
-458,Roots Restaurante & Tapas Bar,european,4.2,204.0,1,"R. da Silva 28, 1200-447 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-447,Lisboa,São Paulo
-459,Mensagem - Restaurante e Bar Panorâmico,bar,4.5,190.0,2,"R. da Oliveira ao Carmo 8, 1200-309 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-309,Lisboa,Sacramento
-460,Delfina-Cantina Portuguesa,portuguese,4.4,496.0,2,"Praça do Município n.º 23, 1100-365 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-365,Lisboa,Mártires
-461,Chaplin Pizza Bar - Lisboa,pizza,5.0,20.0,1,"Calçada Salvador Correia de Sá 38 A, 1200-399 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-399,Lisboa,São Paulo
-462,Bicaense Est.1959,grill,4.6,135.0,1,"R. da Bica de Duarte Belo 42A, 1200-056 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-056,Lisboa,São Paulo
-463,Sekai Sushi bar,japanese,4.6,100.0,1,"R. dos Mastros 30, 1200-163 Lisboa, Portugal","['dine-in', 'drive-through', 'no-contact delivery']",1,0,1,1,0,0,1200-163,Lisboa,São Paulo
-464,Mallagueta Bar and Food Lisboa,bar,4.2,68.0,1,"Costa do Castelo 26, 1100-179 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-179,Lisboa,São Cristóvão
-465,Maxime Restaurante-Bar,bar,4.5,61.0,1,"Praça da Alegria 58, 1250-146 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1250-146,Lisboa,Coração de Jesus
-466,Damas,bar,4.3,1506.0,1,"R. da Voz do Operário 60, 1170-039 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1170-039,Lisboa,Santa Engrácia
-467,Gyoza Bar,asian,4.2,114.0,1,"Rua da Prata 242, 1100-422 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-422,Lisboa,Madalena
-468,Pharmacia,bar,4.1,1908.0,3,"Rua de Santa Catarina n 2 e n, 4, 1249-069 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1249-069,Lisboa,Santa Catarina
-469,Japonês Sushi Restaurante,japanese,4.7,165.0,1,"R. das Trinas 22, 1200-858 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-858,Lisboa,Lapa
-470,Nui Sushi & Bar,japanese,4.8,48.0,1,"Calçada Santana 70, 1150-305 Lisboa, Portugal","['dine-in', 'drive-through', 'no-contact delivery']",1,0,1,1,0,0,1150-305,Lisboa,Pena
-471,Santa Restaurante & Bar,pasta,4.2,183.0,2,"R. de São João da Praça 103, 1100-585 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-585,Lisboa,Sé
-472,Zenith,veggie_healthy,4.4,2120.0,2,"R. do Telhal 4A, 1150-346 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-346,Lisboa,São José
-473,The Lumiares Hotel & Spa,south_america,4.6,349.0,1,"R. do Diário de Notícias 142, 1200-146 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1200-146,Lisboa,Encarnação
-474,Casinha Boutique Café,cafe,4.4,103.0,1,"Av. Poe. Mistral 2A, 1050-182 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1050-182,Lisboa,Nossa Senhora de Fátima
-475,Brooklyn Lisboa,cafe,4.6,447.0,1,"Praça da Alegria 35, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-096,Lisboa,Santa Isabel
-476,Quiosque das Portas do Sol,fast_food,4.0,89.0,1,"Largo Portas do Sol, 1100-411 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no delivery']",1,0,0,0,1,1,1100-411,Lisboa,Santiago
-477,39 Degraus,brunch,4.5,150.0,1,"Cinemateca, R. Barata Salgueiro 39, 1269-059 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1269-059,Lisboa,Coração de Jesus
-478,the mill,cafe,4.6,1693.0,2,"R. do Poço dos Negros 1, 1200-335 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-335,Lisboa,Santa Catarina
-479,Brick Cafe Lisboa,cafe,4.4,1647.0,2,"Rua de Moçambique 2, 1170-245 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-245,Lisboa,Anjos
-480,Cusca Café,cafe,4.9,147.0,1,"Rua de O Século 170, 1200-434 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-434,Lisboa,Mercês
-481,"Hello, Kristof",brunch,4.6,507.0,2,"R. do Poço dos Negros 103, 1200-337 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-337,Lisboa,Santa Catarina
-482,"Arts Cafe, Event Venue",cafe,4.4,106.0,1,"Rua da Bica do Sapato 50C, 1100-094 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1100-094,Lisboa,Santa Engrácia
-483,Seagull Method cafe,brunch,4.7,467.0,2,"R. da Palmeira 23, 1200-311 Lisboa, Portugal","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1200-311,Lisboa,Mercês
-484,Royale Café,cafe,4.2,608.0,2,"Largo Rafael Bordalo Pinheiro 29 R/C, 1200-369 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-369,Lisboa,Sacramento
-485,Amélia Lisboa,brunch,4.4,2988.0,2,"R. Ferreira Borges 101, 1350-128 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1350-128,Lisboa,Santa Isabel
-486,Sítio Valverde,brunch,4.7,60.0,1,"Av. da Liberdade 164, 1250-146 Lisboa, Portugal","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1250-146,Lisboa,Coração de Jesus
-487,Cafe,cafe,5.0,1.0,1,"Largo Vitorino Damásio 3F, 1200-646 Lisboa, Portugal",['dine-in'],1,0,0,0,0,0,1200-646,Lisboa,Santa Catarina
-488,Martinho da Arcada,portuguese,4.2,1183.0,2,"Praça do Comércio 3, 1100-148 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-148,Lisboa,Madalena
-489,Café Janis,bistro,4.6,739.0,2,"R. Moeda 1A, 1200-109 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-109,Lisboa,São Paulo
-490,Varanda,brunch,4.3,55.0,1,"Praça Martim Moniz 2, 1100-341 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-341,Lisboa,Santa Justa
-491,Água,burger,4.5,34.0,1,"R. Rosa Araújo 16, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-096,Lisboa,Santa Isabel
-492,Tulsi Restaurant,indian_nepalese,4.7,151.0,1,"R. do Benformoso 262, 1100-087 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-087,Lisboa,Anjos
-493,Mezzanine,bar,3.4,232.0,1,"Rua da Boavista 108, 1200-085 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-085,Lisboa,Santa Catarina
-494,OnigiriA,japanese,4.7,93.0,1,"R. Vicente Borga 2, 1200-861 Lisboa, Portugal","['dine-in', 'drive-through', 'no-contact delivery']",1,0,1,1,0,0,1200-861,Lisboa,Santos-o-Velho
-495,Basílio,brunch,4.6,847.0,2,"Rua dos Bacalhoeiros 111, 1100-068 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-068,Lisboa,Madalena
-496,Babete,european,3.8,317.0,2,"Calçada do Duque 57, 1200-156 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-156,Lisboa,Encarnação
-497,Chillis Bangladesh Indian Restaurant Curry House,indian_nepalese,4.1,33.0,1,"R. do Benformoso 256, 1100-088 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-088,Lisboa,Anjos
-498,Restaurante Diyalo,indian_nepalese,4.0,469.0,1,"Tv. da Palma, 1150-052 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-052,Lisboa,Santa Justa
-499,Yambu Restaurant,indian_nepalese,4.7,70.0,1,"Largo Santa Bárbara 8N 0, 1150-287 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-287,Lisboa,Anjos
-500,Lumbini Restaurant,indian_nepalese,4.6,270.0,1,"Rua da Esperança 42, 1200-658 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-658,Lisboa,Santos-o-Velho
-501,Atípico Restaurant,european,4.3,221.0,2,"R. do Gremio Lusitano numero 20, 1200-212 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-212,Lisboa,Encarnação
-502,Cervejaria Trindade,south_america,4.1,4728.0,2,"R. Nova da Trindade 20 C, 2715-311 Lisboa, Portugal",['nan'],0,0,0,0,0,0,2715-311,Sintra,Almargem do Bispo
-503,Gosta do Castelo Brunch,brunch,4.2,246.0,1,"Costa do Castelo 138, 1100-129 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-129,Lisboa,Castelo
-504,Mesa Kreol,africa_me,4.6,338.0,2,"Arco Portas do Mar 9, 1100-035 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1100-035,Lisboa,Sé
-505,Olá Lisboa - Tapas & Petiscos,european,4.6,129.0,1,"R. dos Mastros 20, 1200-264 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-264,Lisboa,São Paulo
-506,Miteri restaurant,indian_nepalese,4.4,264.0,1,"Rua da Guiné 5A, 1170-172 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-172,Lisboa,Anjos
-507,Papa Chidera Nigeria Restaurant,africa_me,4.6,20.0,1,"1170-287 Lisbon, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1170-287,Lisboa,Anjos
-508,Grenache,european,4.8,124.0,1,"Pátio de Dom Fradique 12, 1100-624 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-624,Lisboa,Santiago
-509,Hamburgueria do Bairro - Príncipe Real,burger,4.3,927.0,1,"1200 484, Tv. Abarracamento de Peniche 22, Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-083,Lisboa,Anjos
-510,New Manakamana,indian_nepalese,4.0,144.0,1,"R. Arco da Graça 43, 1150-049 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1150-049,Lisboa,Pena
-511,Batata Doce,africa_me,4.7,236.0,2,"R. de São João da Mata 56, 1200-734 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-734,Lisboa,Santos-o-Velho
-512,SILK CLUB ROOFTOP RESTAURANT & CLUB,mediterranean,4.1,817.0,3,"Edifício Espaço Chiado, R. da Misericórdia 14, 1200-273 Lisboa","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1200-273,Lisboa,Encarnação
-513,OTRO restaurante,grill,4.6,42.0,1,"R. Rodrigues Sampaio 94, 1250-281 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-281,,
-514,Aprazível,brunch,4.1,392.0,2,"Galerias Páteo Garrett, R. Garrett 19, 1200-093 Lisboa","['dine-in', 'delivery']",1,0,1,0,0,0,1200-093,Lisboa,Sacramento
-515,Everest Montanha,indian_nepalese,4.3,498.0,2,"R. Artilharia 1 26, 1250-040 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1250-040,Lisboa,Campolide
-516,ristorante a severa,european,4.0,402.0,1,"R. das Gáveas 51, 1200-206 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-206,Lisboa,Encarnação
-517,Taberna Portuguesa,portuguese,4.5,776.0,2,"Calçada do Combro 115, 1200-109 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-109,Lisboa,São Paulo
-518,Taberna do Bairro alto,portuguese,4.5,709.0,1,"Tv. da Boa Hora 27, 1200-063 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-063,Lisboa,Encarnação
-519,Taberna dos Clérigos,grill,4.2,150.0,1,"Calçada de São Vicente 10, 1100-213 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-213,Lisboa,São Vicente de Fora
-520,Go Juu,japanese,4.7,542.0,1,"R. Marquês Sá da Bandeira 46A, 1050-149 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1050-149,Lisboa,Nossa Senhora de Fátima
-521,Tasca Kome,japanese,4.6,611.0,2,"R. da Madalena 57, 1100-016 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-016,Lisboa,Madalena
-522,Hikidashi,japanese,4.6,381.0,3,"R. Coelho da Rocha 20A, 1250-088 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1250-088,Lisboa,Santo Condestável
-523,Confraria LX,japanese,4.3,547.0,1,"Portugal, R. do Alecrim 12A, 1200-161 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-161,Lisboa,São Paulo
-524,Wakame Sushi Ten,japanese,5.0,59.0,1,"Calçada Cascão 6, 1100-123 Lisboa, Portugal","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1100-123,Lisboa,São Vicente de Fora
-525,AronSushi,japanese,4.5,601.0,3,"R. Marquês Sá da Bandeira 14B, 1050-205 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1050-205,Lisboa,São Sebastião da Pedreira
-526,Restaurante Japonês - SUSHI TIME,japanese,4.3,1652.0,2,"Av. Dom João II 41 A, 1990-084 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1990-084,Lisboa,Santa Maria dos Olivais
-527,Restaurante Suntory Exotic Japanese Fusion,japanese,4.5,1363.0,2,"Av. Conselheiro Fernando de Sousa 23A, 1070-072 Lisboa, Portugal","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1070-072,Lisboa,Campolide
-528,Sushi Cafe,japanese,4.4,233.0,1,"Av. Eng. Duarte Pacheco 1016 1020, 1070-103 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1070-103,Lisboa,Campolide
-529,Hanami Sushi Tivoli Forum,japanese,4.3,150.0,2,"Av. da Liberdade 180, 1250-142 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-142,Lisboa,Coração de Jesus
-530,Tribo Sushi Bar,japanese,4.0,27.0,1,"Rua da Glória 30, 1250-117 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-117,Lisboa,São José
-531,Sushi Suisen,japanese,4.6,11.0,1,"R. Andrade 15, 1170-014 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-014,Lisboa,Anjos
-532,Kingyo Sushi,japanese,4.5,44.0,1,"R. Luciano Cordeiro 72B, 1150-217 Lisboa, Portugal","['dine-in', 'drive-through', 'no-contact delivery']",1,0,1,1,0,0,1150-217,Lisboa,Coração de Jesus
-533,KOPPU RAMEN,japanese,4.5,718.0,2,"R. do Salitre 131, 1200-298 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1200-298,Lisboa,Mercês
-534,Best Sushi And Poke Restaurant,japanese,4.4,63.0,1,"R. Natália Correia 8A, 1170-270 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-270,Lisboa,Graça
-535,Buddha Sushi,japanese,3.6,807.0,1,"R. de São Pedro de Alcântara 65-69, 1250-238 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1250-238,Lisboa,Encarnação
-536,Sushi do Bairro,japanese,4.4,43.0,1,"R. Saraiva de Carvalho 32, 1250-244 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-244,Lisboa,Lapa
-537,KATANA SUSHI,japanese,4.5,93.0,1,"Rua Marquês de Fronteira 173 A, 1070-300 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1070-300,Lisboa,Campolide
-538,Shun - Open Kitchen,japanese,4.8,40.0,1,"R. Tomás da Anunciação 171A, 1350-326 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1350-326,Lisboa,Santo Condestável
-539,Sushisan Santos,japanese,4.5,184.0,1,"Largo de Santos 3A, 1200-808 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-808,Lisboa,Santos-o-Velho
-540,by Koji Lisboa,japanese,4.8,25.0,1,"Calçada Marquês Abrantes 138, 1200-720 Lisboa, Portugal","['dine-in', 'no takeaway']",1,1,0,0,0,0,1200-720,Lisboa,Santos-o-Velho
-541,Sushisan Lisbon,japanese,4.1,520.0,2,"R. Nova de São Mamede 18, 1250-173 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1250-173,Lisboa,São Mamede
-542,Sushi Shop,japanese,3.9,170.0,1,"PRAÇA, Rua Dom Luís I 30 LOJA 6, 1200-152 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-152,Lisboa,São Paulo
-543,Sea Me Peixaria Moderna,seafood,4.3,1840.0,3,"Rua do Loreto 21, 1200-241 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-241,Lisboa,Encarnação
-544,Nómada - Chiado,asian,4.7,35.0,1,"R. Horta Seca 5 B, 1200-221 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-221,Lisboa,Encarnação
-545,Bonsai,japanese,4.6,395.0,3,"R. da Rosa 248, 1200-391 Lisboa","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1200-391,Lisboa,Encarnação
-546,Sushi-Away,japanese,4.9,71.0,1,"R. 4 de Infantaria, 1350-271 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1350-271,Lisboa,Santo Condestável
-547,Miss Jappa,japanese,4.4,249.0,1,"Praça do Príncipe Real 5, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-096,Lisboa,Santa Isabel
-548,La Piadina,italian,4.5,515.0,1,"Calçada do Combro 8, 1200-114 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-114,Lisboa,Santa Catarina
-549,Il Matriciano,italian,4.4,545.0,2,"R. de São Bento 107, 1200-661 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-661,Lisboa,Lapa
-550,Il Mercato,italian,4.5,1311.0,2,"Passeio do Pátio Bagatela, R. Artilharia 1 51 Bloco B, Loja M, 1250-038 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-038,Lisboa,Campolide
-551,Mano a Mano - Ristorante pizzerie,italian,4.2,595.0,2,"R. do Alecrim 22, 1200-014 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-014,Lisboa,Encarnação
-552,Sophia - Natural Italian,pasta,4.2,992.0,2,"Praça Dom Luís I 34, 1200-427 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-427,Lisboa,São Paulo
-553,Bella Ciao - Cantina Italiana,italian,4.2,560.0,1,"R. de São Julião 74 76, 1100-526 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1100-526,Lisboa,Madalena
-554,Osteria - Cucina di Amici,italian,4.4,886.0,2,"R. Madres 52, 1200-712 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-712,Lisboa,Santos-o-Velho
-555,Italian Republic,italian,4.3,109.0,1,"R. dos Arameiros 15, 1100-389 Lisboa","['dine-in', 'delivery']",1,0,1,0,0,0,1100-389,Lisboa,Madalena
-556,DaVito,pizza,4.4,609.0,2,"Rua da Penha de França - Mercado Sapadores, Loja 15, 1170-364 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-364,Lisboa,Graça
-557,Restaurante italiano Il Gattopardo,mediterranean,4.5,39.0,1,"Av. Eng. Duarte Pacheco 24 3º piso, 1070-110 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1070-110,Lisboa,Campolide
-558,La Campania,italian,4.3,566.0,1,"R. Artilharia 1 30, 1250-096 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-096,Lisboa,Santa Isabel
-559,Pasta House,pasta,4.1,80.0,1,"Av. Eng. Duarte Pacheco 15G, 1250-096 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1250-096,Lisboa,Santa Isabel
-560,Tempero Pizza (Arroios),italian,4.8,18.0,1,"R. Nova do Desterro 9, 1150-241 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1150-241,Lisboa,Anjos
-561,Caja pasta fresca italiana,pasta,4.9,33.0,1,"R. Andrade 9 11, 1170-014 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1170-014,Lisboa,Anjos
-562,Memoria,pasta,4.4,519.0,2,"R. 4 de Infantaria 26a, 1350-273 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1350-273,Lisboa,Santo Condestável
-563,L'APE Italian Lounge,italian,4.7,85.0,1,"Calçada do Monte 92A, 1170-251 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1170-251,Lisboa,Graça
-564,Castafiore,bistro,4.3,107.0,2,"R. do Duque 21, 1200-158 Lisboa","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1200-158,Lisboa,Sacramento
-565,Ginos,italian,4.1,297.0,2,"R. Barata Salgueiro 29A, 1250-096 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-096,Lisboa,Santa Isabel
-566,Nonna Ristorante Cucina Italiana e Portoghese,italian,5.0,4.0,1,"R. dos Remédios 163, 1100-446 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-446,Lisboa,Santo Estevão
-567,Pizza a Metro,italian,4.3,81.0,1,"R. de Santa Marta 51, 1150-294 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-294,Lisboa,Coração de Jesus
-568,daTerra Bairro Alto,veggie_healthy,4.4,337.0,2,"R. da Rosa 51, 1200-382 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1200-382,Lisboa,Encarnação
-569,The Green Affair - Chiado,veggie_healthy,4.4,408.0,2,"R. Serpa Pinto 15A, 1200-443 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-443,Lisboa,Mártires
-570,Os Tibetanos,veggie_healthy,4.3,1366.0,2,"R. do Salitre 117, 1250-198 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-198,Lisboa,Coração de Jesus
-571,Kong - Food Made With Compassion,veggie_healthy,4.7,420.0,2,"R. do Crucifixo 30, 1100-183 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-183,Lisboa,São Nicolau
-572,Dear Breakfast,brunch,4.4,1281.0,2,"R. Gaivotas 17, 1200-719 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-719,Lisboa,Santos-o-Velho
-573,Brunch in Downtown,brunch,4.9,8.0,1,"R. da Vitória 8, 1100-619 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-619,Lisboa,São Nicolau
-574,Fauna & Flora- Anjos,brunch,4.5,609.0,2,"R. Febo Moniz 27A, 1150-152 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-152,Lisboa,Anjos
-575,BATZ,brunch,4.5,145.0,1,"Largo Dr. António de Sousa Macedo 2, 1200-319 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-319,Lisboa,Mercês
-576,A.P. F. Cafe & Restaurant,bistro,4.6,237.0,2,"R. das Trinas 67A, 1200-856 Lisboa, Portugal","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1200-856,Lisboa,Lapa
-577,Oui Mais Non,brunch,4.6,25.0,1,"Tivoli Fórum, Av. da Liberdade 180 Loja 5A, 1250-146 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-146,Lisboa,Coração de Jesus
-578,Dear Breakfast - Alfama,brunch,4.6,136.0,1,"Largo de Santo António da Sé 16, 1100-499 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-499,Lisboa,Sé
-579,"11 Tapas - Restaurante & Cocktail, WineBar",european,4.3,406.0,1,"Travessa da Água da Flor 11, 1200-010 Lisboa","['dine-in', 'drive-through', 'no delivery']",1,0,0,1,1,0,1200-010,Lisboa,Encarnação
-580,TAPAS 129,european,4.7,208.0,1,"R. Outeirinho do Mirante 1, 1100-387 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-387,Lisboa,São Vicente de Fora
-581,Tapas Boa Hora,european,4.8,253.0,1,"Tv. da Boa Hora 48, 1200-064 Lisboa",['nan'],0,0,0,0,0,0,1200-064,Lisboa,Encarnação
-582,Tapa Bucho Gastrobar,european,4.4,531.0,2,"R. do Diário de Notícias 122, 1200-145 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-145,Lisboa,Encarnação
-583,Medrosa d'Alfama,european,4.3,473.0,2,"Largo de São Rafael 6, 1100-559 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-559,Lisboa,São Miguel
-584,Ache Atalaia Bar & Tapas,european,4.5,334.0,1,"R. da Atalaia 53, 1200-027 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-027,Lisboa,Encarnação
-585,A Marisqueira do Lis,seafood,4.2,711.0,2,"Av. Alm. Reis 27B, 1150-019 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-019,Lisboa,Alto do Pina
-586,Cervejaria Ribadouro,seafood,4.0,1815.0,2,"Av. da Liberdade 155, 1250-144 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-144,Lisboa,Coração de Jesus
-587,Marisqueira Uma,seafood,4.1,2941.0,1,"R. dos Sapateiros 177, 1100-044 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1100-044,Lisboa,São Nicolau
-588,Aqui Há Peixe,seafood,4.3,350.0,3,"R. Trindade 18A, 1200-468 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-468,Lisboa,Sacramento
-589,Restaurante Gambrinus,portuguese,4.4,1199.0,4,"R. das Portas de Santo Antão 23, 1150-264 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1150-264,Lisboa,Pena
-590,Marisqueira Azul - Time Out Market,seafood,3.9,216.0,1,"Av. 24 de Julho 49, 1200-479 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-479,Lisboa,Prazeres
-591,Oyster & Margarita,seafood,4.8,114.0,1,"R. da Palmeira 28 C, 1200-313 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-313,Lisboa,Mercês
-592,Cais na Preguiça,seafood,4.4,346.0,1,"Rua dos Bacalhoeiros 4C, 1100-070 Lisboa","['dine-in', 'curbside pickup', 'no delivery']",1,0,0,0,1,1,1100-070,Lisboa,Madalena
-593,Peixola,seafood,4.6,472.0,2,"R. do Alecrim 35, 1200-014 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-014,Lisboa,Encarnação
-594,Mar ao Carmo,seafood,4.4,603.0,3,"Largo do Carmo 21, 1200-092 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-092,Lisboa,Sacramento
-595,To.B - To burger or not to burger,burger,4.4,1237.0,2,"R. Capelo 24, 1200-087 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-087,Lisboa,Mártires
-596,Hamburguês,burger,4.1,1135.0,2,"Av. Alm. Reis 10, 1150-038 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1150-038,Lisboa,Anjos
-597,A Burgueria Regional,burger,4.2,582.0,2,"R. Alexandre Herculano 17b, 1250-096 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1250-096,Lisboa,Santa Isabel
-598,Hamburgueria do Bairro - São Bento,burger,4.2,748.0,2,"R. dos Industriais 9, 1200-109 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-109,Lisboa,São Paulo
-599,Alfama Wine & Burgers,burger,4.2,123.0,2,"R. do Vigário 14, 1100-451 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-451,Lisboa,Santo Estevão
-600,Santo Graal Burger & Grill,burger,4.6,487.0,2,"R. Ferreira Borges 47, 1350-126 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1350-126,Lisboa,Santa Isabel
-601,Hamburgueria Portuguesa by farnel,burger,4.2,987.0,1,"Largo do Conde Barão 37, 1200-118 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-118,Lisboa,São Paulo
-602,The Great American Disaster,burger,3.9,3128.0,2,"Praça Marquês de Pombal 1, 1250-021 Lisboa, Portugal","['dine-in', 'curbside pickup', 'delivery']",1,0,1,0,0,1,1250-021,Lisboa,Santa Isabel
-603,Green Burger,burger,3.9,17.0,1,"Praça da Alegria 40, 1250-004 Lisboa, Portugal","['dine-in', 'curbside pickup', 'no-contact delivery']",1,0,1,0,0,1,1250-004,Lisboa,São José
-604,Brown's Bistro,bistro,4.3,542.0,2,"R. da Vitória 88, 1100-571 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1100-571,Lisboa,Graça
-605,Clandestino,asian,4.2,733.0,1,"R. do Benformoso 59, 1100-074 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-074,Lisboa,Santa Justa
-606,Asian Lab,asian,2.9,191.0,1,"Av. 24 de Julho 49, 1200-109 Lisboa, Portugal","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-109,Lisboa,São Paulo
-607,Soi,asian,4.2,775.0,2,"R. Moeda 1C, 1200-109 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-109,Lisboa,São Paulo
-608,Nova Paris,asian,4.5,168.0,1,"Portugal, Av. Alm. Reis, PT Lisboa邮政编码: 1150-020","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-020,Lisboa,Alto do Pina
-609,Pangzi Massa 胖子面馆,asian,4.3,367.0,1,"R. do Benformoso 73, 1100-012 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1100-012,Lisboa,Socorro
-610,Café Luso,fado,3.9,701.0,2,"Tv. da Queimada 10, 1200-365 Lisboa","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1200-365,Lisboa,Encarnação
-611,Maria da Mouraria - Casa de Fados,fado,4.4,434.0,2,"Rua do Capelão 1B, Largo Severa 2, 1100-341 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-341,Lisboa,Santa Justa
-612,Fado em Si,fado,4.0,253.0,3,"R. de São João da Praça 18, 1100-520 Lisboa","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-520,Lisboa,Sé
-613,Restaurante Fado ao Carmo,fado,4.7,302.0,4,"Rua da Condessa numero 52, 1200-122 Lisboa","['dine-in', 'no delivery']",1,0,0,0,1,0,1200-122,Lisboa,Sacramento
-614,A Viela do Fado,fado,3.9,216.0,2,"R. dos Remédios 111, 1100-345 Lisboa","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-345,Lisboa,Santo Estevão
-615,Mesa de Frades,fado,4.4,407.0,1,"R. dos Remédios 139, 1100-304 Lisboa","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-304,Lisboa,Santo Estevão
-616,A Baiuca,fado,4.2,500.0,1,"R. de São Miguel nr 20, 1100-544 Lisboa","['dine-in', 'curbside pickup', 'no delivery']",1,0,0,0,1,1,1100-544,Lisboa,São Miguel
-617,Pastel do Fado,fado,3.6,430.0,1,"Rua Limoeiro 10, 1100-058 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-058,Lisboa,Sé
-618,Guitarras de Lisboa,fado,4.3,230.0,2,"Beco do Melo 1, 1100-345 Lisboa","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-345,Lisboa,Santo Estevão
-619,O Corrido – Casa de Fado,fado,4.8,195.0,2,"Campo de Santa Clara 49, 1100-471 Lisboa, Portugal","['dine-in', 'no takeaway', 'no delivery']",1,1,0,0,1,0,1100-471,Lisboa,São Vicente de Fora
-620,Casa de Linhares (Fado),fado,4.4,593.0,2,"Beco dos Armazéns do Linho 2, 1100-037 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-037,Lisboa,Sé
-621,Alfama Fado Restaurant,fado,3.8,22.0,1,"R. de São Pedro 4, 1100-345 Lisboa, Portugal","['dine-in', 'no delivery']",1,0,0,0,1,0,1100-345,Lisboa,Santo Estevão
-622,Casa de Fado,fado,4.3,103.0,1,"R. da Barroca 56, 1200-043 Lisboa, Portugal",['dine-in'],1,0,0,0,0,0,1200-043,Lisboa,Encarnação
-623,Mabiche Pizza Arroios,pizza,4.5,543.0,2,"R. Passos Manuel 9, 1150-020 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-020,Lisboa,Alto do Pina
-624,Lupita Pizzaria,pizza,4.8,385.0,1,"Rua de S. Paulo 79, 1200-427 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-427,Lisboa,São Paulo
-625,The Pizza Wizard,pizza,4.5,172.0,1,"R. Andrade 71, 1170-016 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-016,Lisboa,Anjos
-626,Retrogusto84,pizza,4.6,886.0,2,"R. Maria 54, 1170-212 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-212,Lisboa,Anjos
-627,ZeroZero,pizza,4.3,2462.0,2,"R. da Escola Politécnica 32, 1250-102 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-102,Lisboa,São Mamede
-628,Kumar-Doner Kebab e Pizzeria,pizza,4.1,498.0,1,"Portugal, Largo Santa Bárbara 7D, 1150-287 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1150-287,Lisboa,Anjos
-629,Jamie Oliver's Pizzeria Lisboa,pizza,4.3,415.0,2,"Rua do Loreto 12, 1200-108 Lisboa","['dine-in', 'takeaway', 'no-contact delivery']",1,1,1,0,0,0,1200-108,Lisboa,Encarnação
-630,La Puttana,pizza,4.3,492.0,2,"Portugal, R. Nova do Carvalho 70, 1200-292 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-292,Lisboa,São Paulo
-631,Pizzeria Mezzogiorno,italian,4.0,1206.0,2,"Rua Garrett 19 - Galerias Páteo Garrett, lojas C, D, 1200-203 Lisboa","['dine-in', 'delivery']",1,0,1,0,0,0,1200-203,Lisboa,Mártires
-632,Mundo Gourmet Pizzaria,pizza,4.5,128.0,1,"R. Heliodoro Salgado 22B, 1170-177 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-177,Lisboa,Anjos
-633,Pizzaria Luzzo | Graça,pizza,4.4,107.0,2,"Largo da Graça 24, 1170-165 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1170-165,Lisboa,Graça
-634,Pizza Misura (A pizza a tua medida),italian,4.5,244.0,1,"R. da Misericórdia 105, 1200-334 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-334,Lisboa,Encarnação
-635,ZeroZero Príncipe Real,pizza,4.3,2462.0,2,"R. da Escola Politécnica 32, 1250-102 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-102,Lisboa,São Mamede
-636,Mr. Pizza,pizza,4.3,456.0,1,"R. Saraiva de Carvalho 199B, 1350-300 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1350-300,Lisboa,Santo Condestável
-637,Primo Basílico,pizza,4.6,458.0,1,"R. dos Remédios 37, 1100-115 Lisboa, Portugal",['nan'],0,0,0,0,0,0,1100-115,Lisboa,São Vicente de Fora
-638,Pizzaria do Bairro,pizza,4.2,195.0,1,"Armazém A, n.º 18, R. da Cintura do Porto de Lisboa, Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-083,Lisboa,Anjos
-639,Coyo Taco - Príncipe Real,mexican,4.2,724.0,2,"R. Dom Pedro V nº 65, 1250-093 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1250-093,Lisboa,Encarnação
-640,Taqueria Patron,mexican,4.1,446.0,1,"R. do Gremio Lusitano 8, 1200-113 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-113,Lisboa,Santa Catarina
-641,Coyo Taco - Cais do Sodré,mexican,4.0,221.0,2,"R. Ribeira Nova 36, 1200-376 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-376,Lisboa,São Paulo
-642,Taqueria do Chiado by Espada,mexican,4.1,145.0,1,"R. Trindade 36C, 1200-235 Lisboa, Portugal","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1200-235,Lisboa,Sacramento
-643,Las Ficheras,mexican,3.9,1569.0,2,"R. dos Remolares 34, 1200-371 Lisboa","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-371,Lisboa,São Paulo
-644,La Fugitiva Taco Bar,mexican,4.4,23.0,1,"Rua de S. Paulo 186, 1200-249 Lisboa","['dine-in', 'curbside pickup', 'no delivery']",1,0,0,0,1,1,1200-249,Lisboa,Santa Catarina
-645,CARNAL,mexican,5.0,7.0,1,"R. da Misericórdia 78, 1200-385 Lisboa",['dine-in'],1,0,0,0,0,0,1200-385,Lisboa,Encarnação
-646,Dona Maria,mexican,4.3,48.0,1,"Calçada Santana 175, 1150-307 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1150-307,Lisboa,Pena
-647,CASA DOS AMIGOS,mexican,4.2,125.0,1,"R. dos Remédios 140, 1100-451 Lisboa","['dine-in', 'takeaway', 'no delivery']",1,1,0,0,1,0,1100-451,Lisboa,Santo Estevão
-648,El Paso Cantina Mexicana y Cocktail Bar,mexican,4.0,8.0,1,"R. das Portas de Santo Antão 125, 1150-312 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1150-312,Lisboa,Santa Justa
-649,La fugitiva,mexican,4.3,22.0,1,"Rua de S. Paulo 186, 1200-058 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-058,Lisboa,São Paulo
-650,Tico y Taco,mexican,4.8,4.0,1,"R. da Atalaia 4, 1200-050 Lisboa","['dine-in', 'takeaway']",1,1,0,0,0,0,1200-050,Lisboa,Encarnação
-651,El Tacos Mexican & Cocktails Bar ( Bairro Alto),mexican,3.9,431.0,2,"R. do Diário de Notícias 23, 1200-283 Lisboa, Portugal","['dine-in', 'takeaway', 'delivery']",1,1,1,0,0,0,1200-283,Lisboa,Encarnação
+,name,type,rating,review_count,price,address,label
+0,Augusto Lisboa,brunch,4.8,1032.0,2.0,"Rua Santa M.nha 26, 1100-491 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1,Tiffin Cafe & Restaurant Lisboa,cafe,4.9,139.0,2.0,"R. do Conde 32, 1200-637 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+2,Crisfama,mediterranean,4.8,649.0,1.0,"Rua da Cruz de Santa Apolónia 56, 1100-188 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+3,Alma,european,4.8,953.0,4.0,"R. Anchieta 15, 1200-224 Lisboa, Portugal","['Dine-in', 'No takeaway', 'No delivery']"
+4,Restaurant CHULHO & Bar,chicken,4.9,180.0,,"R. de São João da Mata 82, 1200-850 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+5,Jam Club,bar,4.8,664.0,1.0,"Tv. Inglesinhos 49, 1200-223 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+6,Ramiro,seafood,4.5,11612.0,3.0,"Av. Alm. Reis 1 H, 1150-007 Lisboa, Portugal","['Dine-in', 'Drive-through', 'No-contact delivery']"
+7,Belcanto,south_america,4.6,865.0,4.0,"R. Serpa Pinto 10A, 1200-026 Lisboa, Portugal","['Dine-in', 'No takeaway', 'No delivery']"
+9,A Cevicheria,south_america,4.4,2674.0,2.0,"R. Dom Pedro V 129, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+11,Lisbon cafe & kebab house,veggie_healthy,4.9,37.0,,"Rua Marquês Ponte de Lima 21C, 1100-132 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+12,Frade dos Mares,seafood,4.6,1256.0,2.0,"Av. Dom Carlos i 55A, 1200-647 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+13,Estaminé art food drink,bistro,4.8,226.0,,"Calçada do Monte 86A, 1170-112 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+14,Mercearia do Século,brunch,4.8,287.0,,"Rua de O Século 145, 1250-095 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+15,Needle in a haystack,grill,4.8,425.0,2.0,"R. Jardim do Tabaco 3, 1100-286 Lisboa, Portugal","['Dine-in', 'No delivery']"
+17,Sommelier Lisbon,european,4.6,514.0,3.0,"R. do Telhal 59, 1150-316 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+20,RIB - Beef & Wine Lisboa,grill,4.4,529.0,2.0,"Praça do Comércio 31A, 1100-148 Lisboa, Portugal","['Dine-in', 'No delivery']"
+21,Yallah Lisboa,mediterranean,4.3,342.0,,"R. Santos-O-Velho 22, 1200-813 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No delivery']"
+23,Taberna Sal Grosso,chicken,4.7,1223.0,1.0,"Calçada do Forte 22, 1100-256 Lisboa, Portugal",['Dine-in']
+25,Rua,chicken,4.7,213.0,2.0,"Rua de O Século 149 a, 1200-434 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+26,Restaurante Consensual,bistro,4.6,142.0,,"Travessa da Água da Flor 42, 1200-010 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+28,Tantura,mediterranean,4.7,750.0,2.0,"R. do Trombeta 1 D, 1200-471 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+29,JNcQUOI Avenida,brunch,4.6,1827.0,4.0,"Av. da Liberdade 182 184, 1250-146 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+30,The Little Wine Bar,bar,4.7,294.0,2.0,"Calçada do Duque 39, 1200-155 Lisboa, Portugal","['Dine-in', 'No delivery']"
+31,A Taberna Do Mar,european,4.7,204.0,2.0,"Calçada da Graça 20 B, 1100-266 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No delivery']"
+32,A Venda Lusitana,mediterranean,4.6,340.0,2.0,"R. do Telhal 75, 1150-345 Lisboa, Portugal","['Dine-in', 'Curbside pickup']"
+33,Duque,mediterranean,4.6,1010.0,2.0,"R. do Duque 5, 1200-158 Lisboa, Portugal","['Dine-in', 'No delivery']"
+34,Ofício,south_america,4.5,584.0,2.0,"R. Nova da Trindade 11k, 1200-301 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+35,Yak & Yeti,indian_nepalese,4.6,816.0,1.0,"Calçada de Santo André 17, 1100-466 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+36,Lisboa à Noite,portuguese,4.5,678.0,3.0,"R. das Gáveas 69, 1200-206 Lisboa, Portugal","['Dine-in', 'No delivery']"
+37,Lisbon You and Me,european,4.5,1459.0,1.0,"R. da Adiça 58, 1100-118 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+38,Epur,european,4.8,138.0,4.0,"Largo da Academia Nacional de Belas Artes 14, 1200-289 Lisboa, Portugal","['Dine-in', 'No delivery']"
+39,Bono Lisboa,grill,4.9,115.0,,"Calçada Ferragial 9, 1200-182 Lisboa, Portugal","['Dine-in', 'Delivery', 'No takeaway']"
+40,Augusto Lisboa,brunch,4.8,1032.0,2.0,"Rua Santa M.nha 26, 1100-491 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+41,A Cevicheria,south_america,4.4,2674.0,2.0,"R. Dom Pedro V 129, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+42,Crisfama,mediterranean,4.8,649.0,1.0,"Rua da Cruz de Santa Apolónia 56, 1100-188 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+43,Sommelier Lisbon,european,4.6,514.0,3.0,"R. do Telhal 59, 1150-316 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+44,Ramiro,seafood,4.5,11612.0,3.0,"Av. Alm. Reis 1 H, 1150-007 Lisboa, Portugal","['Dine-in', 'Drive-through', 'No-contact delivery']"
+45,Estaminé art food drink,bistro,4.8,226.0,,"Calçada do Monte 86A, 1170-112 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+46,Tapisco Lisboa,european,4.4,822.0,3.0,"R. Dom Pedro V 81, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+49,Maria Catita,portuguese,4.5,1763.0,2.0,"Rua dos Bacalhoeiros 30, 1100-389 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+50,Pateo - Bairro do Avillez,portuguese,4.3,4137.0,3.0,"R. Nova da Trindade 18, 1200-303 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+51,Gambrinus,portuguese,4.4,1199.0,4.0,"R. das Portas de Santo Antão 23, 1150-264 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+52,Restaurante Meson Andaluz,european,4.4,1081.0,2.0,"Tv. do Alecrim 4, 1200-019 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+53,La Paparrucha,south_america,4.5,2307.0,3.0,"R. Dom Pedro V 18 20, 1250-094 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+55,Lisboa é Linda,cafe,4.6,674.0,2.0,"Tv. São Paulo 9 13, 1200-431 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+56,Loco,european,4.7,260.0,4.0,"R. Navegantes nº53-B, 1200-731 Lisboa, Portugal","['Dine-in', 'No takeaway', 'No delivery']"
+57,Nossa Lisboa,cafe,4.4,579.0,,"R. Joaquim Bonifácio 20A, 1150-134 Lisboa, Portugal","['Dine-in', 'Drive-through', 'No-contact delivery']"
+58,Porter,bistro,4.4,121.0,,"Rua do Arsenal 146, 1100-041 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+60,Coppola,pizza,4.9,89.0,2.0,"Praça das Flores 56, 1200-250 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+61,A Nossa Casa,european,4.8,706.0,2.0,"R. da Atalaia 31, 1200-037 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+62,Essencial,european,4.8,107.0,,"R. da Rosa 176, 1200-390 Lisboa, Portugal",['Dine-in']
+64,Sanskar Nepal,indian_nepalese,4.7,915.0,1.0,"das, R. Chagas 25 27, 1200-106 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+65,Restaurante Floresta das Escadinhas,grill,4.6,1041.0,1.0,"R. de Santa Justa 3, 1100-213 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No delivery']"
+66,Sucolento,chicken,4.7,455.0,,"R. do Instituto Industrial 7H, 1200-225 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+67,"LOOP restaurante, café, mercearia",japanese,4.9,27.0,,"Largo Agostinho da Silva 1, 1200-009 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+68,Versículo d'O Faia,portuguese,4.7,481.0,2.0,"R. da Barroca 60A, 1200-050 Lisboa, Portugal","['Dine-in', 'No delivery']"
+69,Lugar Marcado,pasta,4.6,210.0,,"Rua Regedor 7 entre o Largo do Caldas e o, Largo São Cristóvão n, 1100-433 Lisboa, Portugal","['Dine-in', 'No delivery']"
+70,Adega Dom Luis,european,4.7,206.0,2.0,"Rua Luís Fernandes 24, 1200-424 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+71,Estórias na Casa da Comida,european,4.5,372.0,3.0,"Travessa das Amoreiras 1, 1250-025 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+72,da Prata 52,european,4.7,1211.0,2.0,"Rua da Prata 52, 1100-150 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+73,Taberna da Rua das Flores,european,4.3,1342.0,2.0,"Rua das Flores 103, 1200-194 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+74,Sr. Lisboa,european,4.5,1084.0,2.0,"R. São José n134 136, 1150-325 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+75,Clube de Jornalistas,european,4.6,660.0,3.0,"R. das Trinas 129, 1200-857 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+76,HAWAII POKE-IN,mexican,4.9,211.0,1.0,"R. das Taipas 37, 1250-092 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+77,Bairrices,european,4.6,463.0,2.0,"Tv. do Carvalho 27, 1200-097 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+78,Organi Chiado,veggie_healthy,4.7,1204.0,2.0,"Calçada Nova de São Francisco 2, 1200-300 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+79,Olá Nepal,indian_nepalese,4.6,1193.0,,"Rua do Conde de Redondo 121A, 1150-104 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+80,Dede's,brunch,4.9,202.0,,"R. de Sant'Ana à Lapa 33, 1200-796 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+81,Maruto,bistro,4.6,509.0,2.0,"R. Cais de Santarém 30, 1100-603 Lisboa, Portugal",['nan']
+82,Akla,portuguese,4.4,128.0,,"R. Castilho 149D, 1099-034 Lisboa, Portugal","['Dine-in', 'No delivery']"
+83,Leo Restaurant,africa_ME,4.6,443.0,1.0,"Rua do Zaire 17C, 1170-397 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+85,Café do Rio - Hamburgueria Gourmet,burger,4.6,1079.0,2.0,"Rua da Alfândega 114, 1100-016 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+86,Bistrô Gato pardo,bistro,4.6,623.0,2.0,"R. de São Vicente nr 10, 1100-574 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+87,M’arrecreo Pizzeria,pizza,4.7,528.0,2.0,"R. de São Pedro de Alcântara 35, 1200-270 Lisboa, Portugal","['Dine-in', 'Delivery']"
+88,IIIMPAR,grill,4.6,612.0,2.0,"R. Nova de São Mamede 23, 1250-172 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+90,Solar dos Presuntos,seafood,4.5,2900.0,,"junto ao Elevador do Lavra, R. das Portas de Santo Antão 150, 1150-269 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+91,O Coradinho,burger,4.3,477.0,1.0,"R. de Santa Marta 4, 1150-295 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+92,Al Garage,italian,4.4,2470.0,2.0,"R. Castilho 63, 1250-068 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+93,Mattë Lisboa,japanese,4.6,106.0,,"Calçada Marquês Abrantes 22, 1200-719 Lisboa, Portugal","['Dine-in', 'No delivery']"
+95,Boi-Cavalo Restaurante,portuguese,4.1,233.0,,"R. do Vigário 70B, 1100-616 Lisboa, Portugal","['Dine-in', 'No takeaway', 'No delivery']"
+96,Lisboète,european,4.6,146.0,,"Calçada Marquês Abrantes 94, 1200-720 Lisboa, Portugal","['Dine-in', 'No delivery']"
+99,Carmo,bar,4.3,921.0,2.0,"Largo do Carmo 11, 1200-022 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+100,Leve Leve - Tapas Bar,european,4.6,1119.0,1.0,"Tv. da Boa Hora 39, 1200-011 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+101,Tágide,european,4.3,481.0,2.0,"Largo da Academia Nacional de Belas Artes 18-20, 1200-005 Lisboa, Portugal","['Dine-in', 'No takeaway', 'No delivery']"
+102,Pizzeria Romana BIO,pizza,4.6,845.0,,"R. de São João da Praça 75, 1100-519 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+103,Stasha,mediterranean,4.4,955.0,2.0,"R. das Gáveas 21 a 33, 1200-206 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+105,Legumi Sushi Vegan,veggie_healthy,4.7,295.0,,"Calçada do Combro 56, 1200-452 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+106,Bastardo,pasta,4.3,688.0,2.0,"Rua da Betesga, 1100-090 Lisboa, Portugal",['nan']
+107,Taverna Alfacinha,mediterranean,4.5,531.0,,"R. dos Sapateiros, 1100-577 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+108,Mini Bar Theater José Avillez,bar,4.5,815.0,,"R. Nova da Trindade 18, 1200-235 Lisboa, Portugal","['Dine-in', 'No takeaway', 'No delivery']"
+109,Flor de Lis,brunch,4.8,25.0,,"Av. Eng. Duarte Pacheco 15, 1070-100 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+111,Forno d'Oro,italian,4.6,2604.0,2.0,"R. Artilharia 1 16b, 1250-039 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+112,Season,european,4.7,257.0,,"R. Nova da Piedade 62, 1200-299 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+113,Eating Bear,european,4.5,396.0,2.0,"R. da Madalena 62/64, 1100-404 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+116,CARMO TABERNA PORTUGUESA E WINE BAR,bar,4.4,63.0,,"R. da Barroca 70, 1200-000 Lisboa, Portugal","['Dine-in', 'No delivery']"
+117,A Loja do Sr. Rocha,cafe,4.6,145.0,1.0,"Calçada da Estrela 68, 1200-667 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+118,Grapes & Bites - Hostel and Wines,european,4.4,643.0,,"R. do Norte 85, 1200-284 Lisboa, Portugal",['Dine-in']
+121,O Canastro,portuguese,4.3,130.0,,"Calçada Santana 49, 1150-320 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+125,Restaurante Bota Alta,portuguese,4.2,618.0,2.0,"Tv. da Queimada 37, 1200-364 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+126,Vegan Junkies,veggie_healthy,4.7,396.0,2.0,"R. Luciano Cordeiro 28, 1150-300 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+128,The George,bar,4.3,1714.0,2.0,"R. do Crucifixo 58 66, 1100-184 Lisboa, Portugal","['Dine-in', 'No delivery']"
+130,Pizzaria Luzzo,pizza,4.4,1384.0,2.0,"R. de Santa Marta 37A C, 1150-005 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+134,Wel Well Center,brunch,5.0,16.0,,"R. Marcos Portugal 18A, 1200-258 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+138,Manny's Place Lisbon,european,5.0,1.0,,"R. da Barroca 92, 1200-190 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+141,BellaPasta,pasta,3.3,182.0,,"R. Augusta 278, 1100-202 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+143,Santa Lisboa,portuguese,4.1,9.0,,"R. de São João da Praça 103, 1100-585 Lisboa, Portugal",['Dine-in']
+144,Moma,grill,3.2,442.0,2.0,"R. dos Correeiros 16, 1100-166 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+148,Taco Locoo,south_america,4.7,332.0,,"Rua do Conde de Redondo 119A, 1150-294 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+149,Boa-Bao,asian,4.4,3621.0,3.0,"Largo Rafael Bordalo Pinheiro 30, 1200-369 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+152,Bistro 100 Maneiras,european,4.4,1457.0,3.0,"Largo da Trindade 9, 1200-466 Lisboa, Portugal",['nan']
+153,Varanda Restaurant,portuguese,4.5,90.0,,"R. Rodrigo da Fonseca 88, 1099-039 Lisboa, Portugal","['Dine-in', 'No takeaway']"
+154,Pesca,seafood,4.6,187.0,,"R. da Escola Politécnica 27, 1250-099 Lisboa, Portugal",['nan']
+156,Trinca,mexican,4.8,195.0,,"Rua dos Anjos 59C, 1150-034 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'Delivery']"
+157,Kerala,indian_nepalese,4.8,459.0,2.0,"R. Passos Manuel 14, 1150-260 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+158,Focaccia in Giro,veggie_healthy,4.6,277.0,1.0,"Campo de Santa Clara 141, 1100-474 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+159,Li28oa,european,4.8,199.0,,"R. Cegos 6, 1100-466 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+160,Royal Spice Restaurante,chicken,4.6,386.0,1.0,"Rua do Conde de Redondo 127, 1150-104 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+161,Flor da Laranja,africa_ME,4.6,294.0,2.0,"R. da Rosa 206, 1200-348 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+162,Afuri,japanese,4.4,525.0,2.0,"R. Paiva de Andrade 7 13, 1200-310 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+163,Paladarium,mediterranean,4.6,374.0,,"Largo Chão do Loureiro 3, 1100-145 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+164,Gurkha Restaurant & Bar (São Bento),indian_nepalese,4.5,438.0,2.0,"R. de São Bento 318, 1200-817 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+165,Casanostra,italian,4.5,476.0,2.0,"Tv. do Poço da Cidade 60, 1200-334 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+166,Paralelo 45,european,4.5,261.0,2.0,"R. Castilho 27B, 1250-067 Lisboa, Portugal","['Dine-in', 'No delivery']"
+167,Manifest Lisbon,brunch,4.7,700.0,2.0,"Rua da Sociedade Farmacêutica 31, 1150-103 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+168,Via Graça,mediterranean,4.5,549.0,3.0,"R. Damasceno Monteiro 9 b, 1170-108 Lisboa, Portugal","['Dine-in', 'No delivery']"
+169,Eight - The Health Lounge,veggie_healthy,4.7,1445.0,,"Praça da Figueira 12A, 1100-241 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+170,Alfama Doce,pastry,4.7,597.0,1.0,"R. da Regueira 39, 1100-219 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+171,Chutnify Principe Real,veggie_healthy,4.4,480.0,2.0,"Travessa da Palmeira 44, 1200-311 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+173,Baixamar - Mariscos e Petiscos,seafood,4.5,558.0,2.0,"Rua dos Bacalhoeiros 28 B, 1100-071 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+175,Cervejaria Liberdade,portuguese,4.5,207.0,,"Tivoli, Av. da Liberdade 185, 1269-050 Lisboa, Portugal","['Dine-in', 'No delivery']"
+176,Krua Thai,asian,4.8,82.0,,"R. das Farinhas 8, 1100-179 Lisboa, Portugal","['Takeaway', 'Delivery', 'No dine-in']"
+178,Instant Crunch,european,4.8,222.0,2.0,"R. da Mãe de Água 9, 1250-154 Lisboa, Portugal","['Dine-in', 'Delivery']"
+180,Santelmo,european,4.8,697.0,2.0,"R. do Poço dos Negros 188, 1200-425 Lisboa, Portugal","['Dine-in', 'Drive-through', 'No-contact delivery']"
+181,The Food Temple,veggie_healthy,4.5,752.0,2.0,"Beco do Jasmim 18, 1100-289 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+182,A Obra,european,4.7,338.0,,"R. da Silva 21, 1200-446 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+184,As Velhas,portuguese,4.5,440.0,2.0,"R. da Conceição da Glória 21, 1250-079 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'Delivery']"
+185,The Decadente,bar,4.2,1420.0,2.0,"R. de São Pedro de Alcântara 81, 1250-238 Lisboa, Portugal",['Dine-in']
+186,Il Covo,pasta,4.6,229.0,2.0,"R. do Cura 3A, 1200-644 Lisboa, Portugal",['nan']
+187,Altar,pasta,4.6,257.0,,"Largo Rodrigues de Freitas 21, 1100-495 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+188,Il Basilico Lisboa,bistro,4.4,171.0,2.0,"R. Duque de Palmela 32, 1250-098 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+189,Café de São Bento,cafe,4.6,672.0,3.0,"R. de São Bento 212, 1200-821 Lisboa, Portugal","['Dine-in', 'No delivery']"
+190,O Arco,portuguese,4.5,657.0,2.0,"R. dos Sapateiros 161 163, 1100-577 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+191,Lisboa Tu e Eu 2,chicken,4.7,556.0,2.0,"Escadinhas das Portas do Mar 4, 1100-119 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+192,Oficina do Duque,chicken,4.6,1446.0,,"Calçada do Duque 43 A, 1200-155 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+194,Palácio Chiado,bar,4.5,2692.0,2.0,"R. do Alecrim 70, 1200-018 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'Delivery']"
+195,A Cultura do Hambúrguer,burger,4.7,3224.0,1.0,"R. da Atalaia 57, 1200-043 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+198,Lumi - Restaurante & Bar,bar,4.5,264.0,,"R. de São Pedro de Alcântara 35, 1250-237 Lisboa, Portugal","['Dine-in', 'No takeaway', 'No delivery']"
+199,Restaurante 100 Maneiras,bistro,4.7,224.0,4.0,"R. do Teixeira 39, 1200-459 Lisboa, Portugal","['Dine-in', 'No takeaway', 'No delivery']"
+201,Penalva Da Graça,seafood,4.5,571.0,1.0,"Rua da Graça 26, 1170-170 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+203,Khayyam Persian restaurant,mediterranean,4.5,156.0,,"R. do Jasmim 16, 1200-228 Lisboa, Portugal","['Dine-in', 'Drive-through', 'Delivery']"
+204,Lost In,bar,4.3,2333.0,2.0,"R. Dom Pedro V Nº56-D, 1250-094 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'Delivery']"
+205,Ghoroa,africa_ME,4.4,595.0,1.0,"Tv. do Benformoso 2, 1100-087 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+206,Simplesmente Pizza Bar,pizza,4.5,398.0,2.0,"R. da Atalaia nº108, 1200-043 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+207,O Trigueirinho,grill,4.6,1034.0,1.0,"Largo dos Trigueiros 17, 1100-611 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+208,Taberna Albricoque,mediterranean,4.6,203.0,,"R. Caminhos de Ferro nº98, 1100-395 Lisboa, Portugal","['Dine-in', 'No delivery']"
+209,"Yakuza by Olivier, Lisboa",japanese,4.7,960.0,,"Hotel Avani, R. Júlio César Machado 7, 1250-135 Lisboa, Portugal","['Dine-in', 'Drive-through', 'Delivery']"
+210,A Parreirinha do Paraíso,european,4.6,507.0,1.0,"Rua do Paraíso 40C, 1100-395 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+211,O Trevo,portuguese,4.4,1077.0,1.0,"Praça Luís de Camões 48, 1200-283 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+212,Blue Restaurant & Bar,bar,4.5,79.0,,"R. Barata Salgueiro 55, 1250-189 Lisboa, Portugal",['nan']
+213,Sabor a Lisboa,portuguese,4.4,711.0,1.0,"R. de Santa Marta 18C, 1150-295 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+214,Restaurante Rodas,mediterranean,4.4,1173.0,1.0,"Largo do Rato 10A, 1250-186 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+215,"Maria Limão Brunch, Crepes, Limonadas Lisboa",brunch,4.5,417.0,1.0,"Rua da Graça 127, 1170-168 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+216,K.O.B,grill,4.5,892.0,3.0,"R. do Salitre 169, 1250-043 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+217,Zazah,mediterranean,4.4,412.0,,"R. de São Marçal 111, 1200-420 Lisboa, Portugal",['Dine-in']
+218,Gin Lovers Bar & Restaurant,bar,4.6,746.0,3.0,"Praça do Príncipe Real 26, 1250-184 Lisboa, Portugal",['Dine-in']
+220,Armaha Restaurant,portuguese,4.5,327.0,,"Travessa da Água da Flor 7A, 1200-011 Lisboa, Portugal","['Dine-in', 'Drive-through', 'No-contact delivery']"
+221,bōmau,fast_food,4.7,111.0,,"R. Alexandre Herculano 61, 1250-012 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+222,Vicente,grill,4.4,653.0,2.0,"Rua das Flores 6, 1200-195 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+223,India gate,africa_ME,4.5,550.0,1.0,"Rua da Padaria 18, 1100-389 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+225,VDB Bistronomie,bistro,4.6,202.0,,"R. Canastras 8, 1100-112 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+227,InkFarmFood - Organic food & juices. Israeli Cuisine,veggie_healthy,4.7,290.0,,"R. Mal. Saldanha 6, 1200-109 Lisboa, Portugal",['nan']
+228,Spice Hut Tandoori,indian_nepalese,4.6,351.0,,"R. do Benformoso 270, 1100-087 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+229,Kaffeehaus,european,4.4,1225.0,2.0,"R. Anchieta 3, 1200-023 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'Delivery']"
+230,Atalho Real,grill,4.5,2830.0,2.0,"Calçada da Patriarcal 40, 1250-182 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+231,Restaurante XL,grill,4.5,178.0,3.0,"Calçada da Estrela 57, 1200-661 Lisboa, Portugal",['nan']
+233,PSI,veggie_healthy,4.5,1669.0,2.0,"Alameda Santo António dos Capuchos, 1150-314 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+234,Tapa Bucho,european,4.5,792.0,2.0,"R. do Diário de Notícias 124, 1200-141 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+235,OMONNI FRIED CHICKEN,chicken,4.8,56.0,,"Tv. da Espera 38, 1200-283 Lisboa, Portugal",['nan']
+236,Unique Sushi Lab,japanese,4.4,486.0,2.0,"Travessa do Enviado de Inglaterra 9, 1150-297 Lisboa, Portugal","['Dine-in', 'Delivery']"
+237,Princesa do Castelo,veggie_healthy,4.4,508.0,2.0,"Rua do Salvador 64A, 1100-466 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+238,JNcQUOI Asia,asian,4.6,903.0,4.0,"Av. da Liberdade 144, 1250-146 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+239,RD's Restaurante and cafe,indian_nepalese,4.7,240.0,1.0,"R. Natália Correia 6B, 1170-270 Lisboa, Portugal","['Dine-in', 'Drive-through']"
+240,Taberna - Bairro do Avillez,mediterranean,4.3,362.0,2.0,"R. Nova da Trindade 18, 1200-303 Lisboa, Portugal","['Dine-in', 'Curbside pickup']"
+241,Pizzaria Lisboa,pizza,4.4,1152.0,2.0,"R. Nova da Trindade 18, 1200-235 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+242,Verde Minho,grill,4.6,536.0,1.0,"Calçada Santana 17, 1150-169 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+244,BBQ Tonight,africa_ME,4.6,297.0,,"R. dos Fanqueiros 203, 1100-229 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+245,Restaurant Mar ao Largo,grill,4.2,291.0,2.0,"Largo Rafael Bordalo Pinheiro n 28, 1200-369 Lisboa, Portugal","['Dine-in', 'No delivery']"
+246,Jardim dos Sentidos,veggie_healthy,4.5,1525.0,2.0,"R. da Mãe de Água 3, 1250-154 Lisboa, Portugal",['nan']
+247,Petiscaria Ideal,portuguese,4.3,286.0,2.0,"Rua da Esperança 100, 1200-000 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+248,Chapitô à Mesa,grill,4.2,3186.0,2.0,"Costa do Castelo 7, 1149-079 Lisboa, Portugal","['Dine-in', 'No delivery']"
+249,Bengal Tandoori - Restaurante Indiano Lisbon,indian_nepalese,4.3,641.0,2.0,"Rua da Alegria 23, 1250-005 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+251,#Treestory,africa_ME,4.6,575.0,2.0,"R. Luciano Cordeiro 46A, 1150-069 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+252,Rossio Gastrobar,bar,4.5,228.0,,"R. 1º de Dezembro 118, 1200-360 Lisboa, Portugal","['Dine-in', 'No delivery']"
+253,O Sopinhas,chicken,4.2,555.0,1.0,"R. da Madalena 50 R/C, 1100-321 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+255,Gandhi Palace,italian,4.3,936.0,2.0,"Rua Douradores Loja 167-169-171, 173, 1100-205 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+256,Dama E Vagabundo,pasta,4.3,709.0,,"Rua da Betesga 1, 1100-202 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+257,Frangasqueira Nacional,chicken,4.4,994.0,1.0,"Tv. Monte do Carmo 19, 1200-276 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+258,Populi By Terra Nova,mediterranean,3.9,603.0,2.0,"Praça do Comércio, 1100-148 Lisboa, Portugal",['Dine-in']
+259,Leão d'Ouro,portuguese,4.0,1802.0,1.0,"R. 1º de Dezembro 105, 1200-090 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+260,Restaurante A Gina,mediterranean,4.2,1775.0,2.0,"Parque Mayer, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+261,1º de Maio,portuguese,4.4,389.0,2.0,"R. da Atalaia 8, 1200-086 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+264,Tasca do Francês,bistro,4.4,180.0,,"Rua da Cruz dos Poiais 89, 1200-136 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+265,Piri-Piri,chicken,3.7,333.0,,"R. do Arco do Marquês de Alegrete 9, 1100-034 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+266,Bonjardim,chicken,4.0,2299.0,2.0,"Tv. de Santo Antão 11, 1150-312 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+267,Tapas n' Friends Sé,european,4.1,316.0,2.0,"Cruzes da Sé 25, 1100-585 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+268,"Gruta Camoes, Mario",seafood,4.0,197.0,1.0,"R. da Misericórdia 55, 1200-283 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+269,Can the Can Lisboa,seafood,3.4,577.0,2.0,"Praça do Comércio 82 83, 1100-148 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+270,A Muralha Tasca Típica Lisboa,seafood,4.4,813.0,1.0,"R. Jardim do Tabaco 112, 1100-139 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+271,Prima Pasta,pasta,4.2,567.0,2.0,"R. da Madalena, 1100-318 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+272,Food Corner Marlene Vieira,portuguese,4.2,371.0,2.0,"Time Out Market, Av. 24 de Julho, 1200-479 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+273,BarAlto,bar,4.3,219.0,,"R. do Diário de Notícias 31, 1200-141 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+275,Allfama Portuguese Cuisine,portuguese,4.1,482.0,,"Rua do Paraíso 112, 1100-445 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+277,Figus,burger,4.2,858.0,2.0,"Praça da Figueira 17, 1100-241 Lisboa","['Dine-in', 'Takeaway']"
+278,Allfama Too,chicken,4.0,253.0,,"Largo de São Rafael 2, 1100-117 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+279,Restaurante IL Carpaccio,pasta,2.6,109.0,,"R. dos Correeiros 153, 1100-619 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+280,Café Buenos Aires,south_america,4.3,799.0,3.0,"Calçada do Duque 31B, 1200-155 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+281,Casanova,pizza,4.5,2936.0,2.0,"Av. Infante Dom Henrique Loja 7, 1900-264 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+282,3 Amigos,mexican,4.4,163.0,,"R. do Telhal 89D, 1150-150 Lisboa","['Dine-in', 'Takeaway']"
+283,Santa Clara dos Cogumelos,veggie_healthy,4.7,641.0,2.0,"Mercado de Santa Clara, Campo de Santa Clara, 1100-472 Lisboa","['Dine-in', 'No delivery']"
+286,Taste of Pakistan,africa_ME,4.4,264.0,1.0,"R. de São Pedro Mártir 46, 1100-528 Lisboa","['Dine-in', 'Takeaway']"
+287,Tavares,european,4.3,98.0,4.0,"R. da Misericórdia 37 R/C, 1200-270 Lisboa",['nan']
+289,Solar 31 da Calçada,seafood,4.5,1297.0,2.0,"Calçada Garcia 31, 1150-169 Lisboa","['Dine-in', 'Takeaway', 'No-contact delivery']"
+291,New Himalaia,indian_nepalese,4.3,559.0,1.0,"R. São José 105, 1150-322 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+293,In Bocca Al Lupo,pizza,4.3,528.0,2.0,"R. Manuel Bernardes 5, 1200-009 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+295,Sacramento do Chiado,portuguese,4.4,1587.0,2.0,"Calçada do Sacramento 40 a 46, 1200-394 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+296,O Carvoeiro,burger,4.1,335.0,2.0,"Calçada de São Vicente 70, 1100-608 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+297,Bem-Haja Lisboa,portuguese,4.2,213.0,2.0,"R. Marcos Portugal 3, 1200-246 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+298,BouBou's,mediterranean,4.5,317.0,,"R. Monte Olivete 32A, 1200-280 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No delivery']"
+301,Esperança,italian,4.3,289.0,2.0,"R. do Norte 95, 1200-284 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+302,Restaurante Grill D. Fernando,grill,4.4,21.0,,"R. Castilho 11, 1250-072 Lisboa","['Dine-in', 'No delivery']"
+306,Cais da Pedra,burger,4.1,812.0,2.0,"Armazem B, loja 9, Av. Infante Dom Henrique, 1900-264 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+308,Pastaria,pasta,4.9,218.0,2.0,"Largo Santa Bárbara 8f, 1150-287 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+309,Cantinho do Aziz,africa_ME,4.1,2269.0,2.0,"R. de São Lourenço 5, 1100-530 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+310,O Chefe e o Mar,seafood,4.5,189.0,,"R. Convento da Encarnação 1, 1150-169 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+311,Cafeh Tehran,mediterranean,4.6,443.0,2.0,"Praça das Flores 40, 1200-192 Lisboa, Portugal",['nan']
+312,Tambarina,africa_ME,4.3,349.0,1.0,"R. do Poço dos Negros 94, 1200-109 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+313,Madragoa Vinhos e Petiscos,european,4.1,115.0,2.0,"Rua da Esperança 156, 1200-656 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+314,Alto do Bairro,european,4.8,59.0,,"Tv. Mercês n 6 A, 1200-268 Lisboa, Portugal",['nan']
+315,Audrey´s,cafe,4.4,549.0,2.0,"R. de Santiago 13, 1100-494 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+316,Noobai - Rooftop Bar e Restaurante,bar,4.3,2439.0,2.0,"Miradouro de Santa Catarina (Adamastor, 1200-401 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+317,Ganesha Palace,indian_nepalese,4.3,546.0,2.0,"Av. Álvares Cabral 48, 1250-018 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+319,Eat Pray Love Lisboa,asian,4.4,54.0,2.0,"Tv. do Carvalho 29, 1200-097 Lisboa","['Dine-in', 'Takeaway']"
+320,O FAIA,fado,4.5,617.0,2.0,"R. da Barroca 54 56, 1200-050 Lisboa","['Dine-in', 'No takeaway', 'No delivery']"
+321,Sr. Fado,fado,4.4,424.0,2.0,"R. dos Remédios 176, 1100-304 Lisboa","['Dine-in', 'No delivery']"
+322,Avenida SushiCafé,japanese,4.4,656.0,3.0,"R. Barata Salgueiro 28, 1250-044 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+325,Pizza Alif Kebab,africa_ME,4.5,666.0,,"R. Barros Queirós 6, 1100-077 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+326,Trobadores - Taberna Medieval,bar,4.4,1184.0,2.0,"R. de São Julião nº27, 1100-524 Lisboa","['Dine-in', 'Takeaway']"
+327,French Arth,veggie_healthy,4.6,283.0,2.0,"R. de São Bento 30, 1200-819 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+328,Clube de Fado - Fado & Food Group,fado,4.2,1200.0,3.0,"R. de São João da Praça 86, 1100-135 Lisboa","['Dine-in', 'No takeaway', 'No delivery']"
+330,Best kebab & Pizza house,fast_food,4.4,249.0,,"R. da Atalaia 56, 1200-042 Lisboa","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+333,Tasca da Esquina,european,4.3,757.0,3.0,"R. Domingos Sequeira 41C, 1350-119 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+334,Guacamole,mexican,4.1,1146.0,2.0,"R. Moeda 2, 1200-275 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+335,Tapas Bar 47,european,3.8,342.0,2.0,"R. do Alecrim 47, 1200-015 Lisboa, Portugal",['nan']
+336,Restaurante Casa da Índia,chicken,4.2,1897.0,,"Rua do Loreto 49 51, 1200-471 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+338,O Bitoque da Mouraria,grill,4.3,59.0,,"R. das Olarias, 1100-380 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+339,Ikigai Japanese Restaurant,japanese,4.8,45.0,,"R. Rosa Araújo 35, 1250-098 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+341,Caxemira,indian_nepalese,4.5,425.0,2.0,"R. Condes de Monsanto 4, 1100-159 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+342,Dhaka restaurant,africa_ME,3.8,254.0,1.0,"R. do Benformoso 220, 1100-395 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+344,Hard Rock Cafe Lisbon,cafe,4.4,14763.0,2.0,"Av. da Liberdade 2, 1250-144 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+345,O Botanista / Orteá Vegan Collective,veggie_healthy,4.6,948.0,2.0,"Rua Dom Luís I 19, 1200-109 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+346,Fumeiro de Santa Catarina,south_america,4.6,325.0,2.0,"Tv. Alcaide 4C, 1200-013 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+347,Pinóquio,seafood,4.1,2260.0,2.0,"R. de Santa Justa 54, 1100-485 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+348,Tamarind,veggie_healthy,4.2,401.0,2.0,"Rua da Glória 43, 1250-115 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+351,Sol e Pesca,seafood,4.3,1066.0,1.0,"R. Nova do Carvalho 44, 1200-019 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+352,S,european,4.2,332.0,2.0,"R. São Filipe Neri 14, 1250-227 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+353,Solar 31 - Peixe e Marisco,seafood,4.7,38.0,,"Calçada Santana 1, 1150-169 Lisboa","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+354,Caso Sério,portuguese,4.3,397.0,1.0,"Cruzes da Sé 5, 1100-192 Lisboa","['Dine-in', 'No takeaway']"
+356,Han - Table Barbecue,grill,4.6,400.0,1.0,"R. Gomes Freire 11B, 1150-119 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+360,Jesus é Goês,mediterranean,4.4,511.0,2.0,"R. São José 23, 1150-352 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+361,Jardim das Cerejas,veggie_healthy,4.5,1246.0,1.0,"Calçada do Sacramento 36, 1200-394 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+362,Parreirinha de Alfama,fado,4.4,599.0,3.0,"Beco do Espírito Santo 1, 1100-222 Lisboa, Portugal","['Dine-in', 'No delivery']"
+363,Horácio Trattoria - Gastronomia,cafe,4.6,161.0,,"Beco da Lapa 31, 1100-331 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+365,LUZ da ESTRELA,fast_food,3.9,14.0,,"R. da Bela Vista à Lapa 43, 1200-667 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+366,Valdo Gatti Pizza Bio,pizza,4.7,1205.0,2.0,"R. do Gremio Lusitano 13, 1200-211 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+367,Break,brunch,4.6,169.0,,"R. do Poço dos Negros 73, 1200-348 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+368,Spicy,africa_ME,4.3,489.0,1.0,"R. do Benformoso 203, 1100-085 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+369,Natraj Tandoori,indian_nepalese,4.4,607.0,2.0,"R. dos Sapateiros 171, 1100-577 Lisboa, Portugal","['Dine-in', 'Delivery']"
+371,Bello Forno,pasta,4.1,152.0,,"Campo das Cebolas 50, 1100-070 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+378,Restaurante,bistro,5.0,11.0,,"R. Ataíde 4, 1200-273 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+379,Andorra,european,3.0,94.0,,"R. das Portas de Santo Antão 76, 1150-265 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+381,Nicolau Lisboa,brunch,4.3,3218.0,2.0,"R. de São Nicolau 17, 1100-547 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+382,Radhuni,africa_ME,3.7,163.0,,"R. do Benformoso 155 A B, 1100-084 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+383,Nui Sushi & Thai bar,asian,4.3,392.0,1.0,"R. Maria Andrade 64A, 1170-218 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+384,A Travessa do Fado (Museu do Fado),fado,4.2,210.0,2.0,"Largo do Chafariz de Dentro 1, 1100-172 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+385,Haweli Tandoori,indian_nepalese,4.5,318.0,2.0,"Tv. do Monte 14, 1170-255 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+386,The Botanical Den,bar,4.7,87.0,,"R. da Atalaia 153, 1200-039 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+387,Poké Bowls,south_america,3.9,172.0,,"R. Tierno Galvan 4, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+388,Pizzeria Romana al Taglio,pizza,4.5,759.0,1.0,"Rua da Conceição 44, 1100-154 Lisboa, Portugal","['Dine-in', 'Drive-through', 'No-contact delivery']"
+389,Hidden Chinese Restaurant,asian,4.2,948.0,1.0,"R. da Guia 9 1, 1100-132 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+390,TOPO MARTIM MONIZ,bar,4.3,2641.0,2.0,"Centro Comercial Martim Moniz 6 Esq, Praça Martim Moniz, 1100-341 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+392,Brunch Café,cafe,4.5,1077.0,2.0,"Rua da Alfândega 120, 1100-016 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+393,Moules & Beer,bar,4.3,856.0,2.0,"R. 4 de Infantaria 29D, 1350-266 Lisboa, Portugal",['nan']
+394,Cafe de Rio - Gourmet Burgers,burger,3.8,9.0,,"R. Artilharia 1 16b, 1250-039 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+397,Neighbourhood Cafe Lisbon,cafe,4.7,211.0,,"Largo do Conde Barão 25, 1200-163 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No delivery']"
+399,Franguinho do Príncipe,chicken,4.8,61.0,,"R. da Imprensa Nacional 116 B, 1250-127 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'Delivery']"
+400,Ao 26,veggie_healthy,4.6,1770.0,2.0,"R. Vítor Cordon 26, 1200-484 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+401,Vitaminas Garrett,fast_food,3.9,121.0,2.0,"R. Garrett 58, 1200-309 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+405,Delirium Café Lisboa,bar,4.5,2707.0,2.0,"Calçada Nova de São Francisco 2A, 1200-289 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+407,PappaRoti Portugal,africa_ME,4.2,72.0,,"R. Áurea 52, 1100-063 Lisboa, Portugal",['nan']
+411,Copenhagen Coffee Lab & Bakery,cafe,4.3,806.0,2.0,"R. Nova da Piedade 10, 1200-192 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+413,Fábrica Coffee Roasters,cafe,4.4,1801.0,2.0,"R. das Portas de Santo Antão 136, 1150-269 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+414,Buna Specialty Coffee Shop,cafe,4.9,95.0,,"R. do Poço dos Negros 168, 1200-267 Lisboa, Portugal",['nan']
+415,COMOBÁ,cafe,4.5,657.0,2.0,"Rua de S. Paulo 99, 1200-109 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+419,Banana Cafe,cafe,4.0,1422.0,2.0,"Av. da Liberdade 18, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+425,MELBOURNE coffeehouse,cafe,4.7,248.0,,"Rua do Possolo 52, 1350-250 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+427,Copenhagen Coffee Lab - Campo de Santa Clara,brunch,4.0,248.0,,"Campo de Santa Clara 136, 1100-474 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+432,Neighbourhood Cafe Lisboa,brunch,4.7,211.0,,"Largo do Conde Barão 25, 1200-163 Lisboa","['Dine-in', 'Curbside pickup', 'No delivery']"
+433,Café da Garagem,cafe,4.4,345.0,2.0,"Costa do Castelo 75, 1100-178 Lisboa","['Dine-in', 'No delivery']"
+435,Esplanada Cafe,cafe,3.6,478.0,2.0,"Jardim ""Esplanada, Praça do Príncipe Real, 1250-184 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+436,Chiado Caffe,cafe,4.5,602.0,1.0,"Rua do Loreto 45 47, 1200-471 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+437,Frutaria Cafe,cafe,4.4,705.0,2.0,"R. dos Fanqueiros 269, 1100-232 Lisboa","['Dine-in', 'Curbside pickup', 'No delivery']"
+439,Fábrica da Nata - Pastéis de Nata,pastry,4.6,5480.0,1.0,"Praça dos Restauradores 62 -68, 1250-110 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+441,Di Marzano Café Vermuteria,brunch,4.7,219.0,2.0,"Largo Rafael Bordalo Pinheiro 32, 1200-369 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+443,Quase Café,cafe,4.6,703.0,2.0,"Rua do Salvador 32, 1100-465 Lisboa, Portugal","['Dine-in', 'Drive-through']"
+445,Café Gelo,pastry,3.5,1191.0,2.0,"Praça Dom Pedro IV 64, 1100-200 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+447,Kafeine / Avenida da Liberdade,brunch,4.5,364.0,,"Food Court, Avenida da Liberdade 180, Tivoli Forum, Piso -1, 1250-146 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+458,Eléctrico Café,cafe,4.5,60.0,1.0,"R. Maria Andrade 60C, 1170-210 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+459,Guadalupe.,cafe,4.5,265.0,1.0,"Rua do Terreiro do Trigo 24, 1100-543 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+460,28 Café,cafe,3.8,461.0,2.0,"R. de Santa Cruz do Castelo 45, 1100-244 Lisboa","['Dine-in', 'Takeaway']"
+463,A Padaria Portuguesa,pastry,3.9,812.0,1.0,"Largo da Graça 14, 1170-165 Lisboa",['nan']
+464,Stanislav Café,cafe,4.5,630.0,,"1150, R. São José 182, Lisboa","['Dine-in', 'Takeaway']"
+465,Fauna & Flora,brunch,4.6,1813.0,2.0,"Rua da Esperança 33, 1200-655 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+468,Charlot Alfama,brunch,4.6,52.0,,"R. Escolas Gerais 59A, 1100-218","['Dine-in', 'Curbside pickup', 'No delivery']"
+469,Pão de Canela,brunch,4.1,980.0,2.0,"Praça das Flores 25 29, 1200-192 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+470,Mercearia Castello,pastry,4.4,139.0,1.0,"R. das Flores de Santa Cruz 2, 1100-129 Lisboa, Portugal","['Dine-in', 'No delivery']"
+471,O Ninho - café brunch tapas,brunch,4.7,428.0,2.0,"R. São Cristóvão 17, 1100-514 Lisboa, Portugal","['Dine-in', 'No delivery']"
+479,The Corner Cafe,european,4.8,45.0,,"R. Bernardim Ribeiro 21, 1150-068 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+480,Remi - Bistro Italiano 🍕 🍹 ☕🍰,bistro,4.6,256.0,2.0,"R. Gomes Freire 146 b, 1150-180 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+481,Red Cafe,cafe,4.0,88.0,,"R. da Vitória, 1100-571 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+485,Café 1890,cafe,2.4,46.0,,"R. das Portas de Santo Antão 96, 1150-269 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+493,KAYA - Coffee & Organic Hair Concept,veggie_healthy,5.0,94.0,,"R. de São Marçal 1 C, 1200-418 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+503,"Leitaria, Pastelaria Eneri",cafe,4.4,75.0,1.0,"R. Luz Soriano nº43, 1200-246 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+508,Cotidiano Lisboa,brunch,4.4,362.0,2.0,"R. do Crucifixo 2, 1100-183 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+513,Antikuario Cafe,cafe,4.9,136.0,,"R. São José 168, 1150-326 Lisboa, Portugal",['Dine-in']
+514,Zappi,cafe,4.7,201.0,,"R. Santos-O-Velho 16 18, 1200-109 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+515,Madragoa Café,european,4.5,230.0,2.0,"Rua da Esperança 158, 1200-660 Lisboa, Portugal","['Dine-in', 'No delivery']"
+517,Café Calçada Bistro,cafe,4.3,169.0,,"Calçada do Monte 62, 1170-108 Lisboa, Portugal",['nan']
+518,Cafe Tofa,cafe,4.0,7.0,,"R Coreto 33, 1200-241 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+520,Casa dos Ovos Moles em Lisboa,pastry,4.6,67.0,,"Calçada do Sacramento 25, 1200-393 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+521,McDonald's,fast_food,4.0,5235.0,1.0,"Av. da República 10F, 1050-191 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+522,Burger King,fast_food,3.8,2679.0,1.0,"R. do Carmo 97, 1200-093 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+523,Dutch Treat Lisboa,fast_food,4.9,133.0,,"R. da Silva 11, 1200-337 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+524,SEASON EXPRESSIONS,chicken,5.0,21.0,,"R. da Rosa 19, 1200-381 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+526,McDonald's Rossio,fast_food,3.7,5444.0,1.0,"Praça Dom Pedro IV 81-83, 1100-202 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+527,Burger King Marquês Pombal,fast_food,3.9,4283.0,1.0,"Av. Fontes Pereira de Melo 6A, 1600-001 Lisboa, Portugal","['Dine-in', 'Drive-through', 'Delivery']"
+528,LX Kebab House,fast_food,4.0,107.0,,"R. da Atalaia 9, 1200-036 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+529,Garden Burger,fast_food,4.1,73.0,,"Av. Eng. Duarte Pacheco, 1070-103 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+535,Casa das Bifanas,fast_food,3.9,1514.0,,"Praça da Figueira 7A, 1100-240 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+536,Rock Kebab,fast_food,3.7,25.0,,"Rua de S. Paulo 12A, 1200-048 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+538,Slow,fast_food,4.3,11.0,,"Av. Eng. Duarte Pacheco, 1070-103 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+539,Tuz Good Food,africa_ME,4.0,4.0,,"Av. Alm. Reis 40C, Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+541,As Bifanas do Afonso,fast_food,4.7,1308.0,1.0,"Portugal, R. da Madalena 146, 1100-340 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+543,Hamro Kebab,fast_food,4.0,25.0,,"Rua do Possolo 53, 1350-252 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+545,Casa Portuguesa do Pastel de Bacalhau,portuguese,4.2,7060.0,2.0,"R. Augusta 106, 1100-053 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+547,LX Dogs,fast_food,4.9,14.0,,"Praça da Figueira, 1100-241 Lisboa, Portugal","['Takeaway', 'No delivery']"
+549,Dallas Burger Joint,burger,4.8,504.0,2.0,"Tv. Remolares 41, 1200-019 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+550,h3,burger,4.0,529.0,2.0,"Avenida Engenheiro Duarte Pacheco, 1070-103 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+551,Eats Delicate Foods,fast_food,3.6,8.0,,"Rua dos Bacalhoeiros 113, 1100-389 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+552,Kebabish PT,africa_ME,4.3,343.0,1.0,"R. da Palma 280, 1100-394 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+553,Bala,mexican,3.9,122.0,,"Av. Eng. Duarte Pacheco 15G, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+554,Hot Dog Lovers,fast_food,4.0,741.0,1.0,"Av. da Liberdade 238B, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+555,Hunger Station,africa_ME,4.6,12.0,,"R. da Atalaia 118, 1200-036 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+560,Empadaria,fast_food,3.0,1.0,,"Armazéns do Chiado, R. do Carmo 2, 1100-044 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+564,The Burger Factory,burger,4.2,822.0,2.0,"R. da Atalaia 4, 1200-169 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+566,Olla,fast_food,4.0,431.0,2.0,"R. Camilo Castelo Branco 20, 1050-089 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+568,Tandoori,indian_nepalese,4.6,46.0,,"Beco dos Surradores, 1100-555 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+570,Food Garden Grill,grill,4.1,344.0,1.0,"R. do Benformoso 115, 1100-083 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+571,Honorato Chiado,burger,4.2,2175.0,2.0,"Largo Rafael Bordalo Pinheiro 12, 1200-205 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+573,Nosh,burger,1.0,1.0,,"R. Serpa Pinto 15A, 1200-443 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+574,Miolo,brunch,4.9,161.0,,"Largo de Santa Cruz do Castelo 3, 1100-477 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+579,Restaurant International,european,3.0,147.0,2.0,"Largo do Carmo 16 17, 1200-092 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+581,Hua Ta Li Chinese Restaurant,asian,4.1,269.0,2.0,"R. da Palma, 1100-341 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+583,RoberTine,european,4.5,139.0,2.0,"R. das Taipas 65, 1250-092 Lisboa, Portugal",['nan']
+584,Sushi dos Sá Morais,japanese,4.3,826.0,2.0,"R. Castilho 23B, 1250-069 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+585,Tabik Restaurant,bar,4.0,133.0,3.0,"Av. da Liberdade 29A, 1250-139 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+586,Sukhothai,asian,4.1,248.0,2.0,"R. da Atalaia 77, 1200-038 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+587,Cucina Avenida Liberdade,italian,3.8,32.0,,"Av. da Liberdade 180 D Loja 14, 1250-142 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'Delivery']"
+588,Rubro Avenida,european,4.3,722.0,2.0,"R. Rodrigues Sampaio 33 35, 1150-278 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+590,Guilty,veggie_healthy,4.0,1865.0,3.0,"R. Barata Salgueiro 28 A, 1250-044 Lisboa, Portugal","['Dine-in', 'Drive-through', 'Delivery']"
+591,Topo Chiado,bar,4.2,1602.0,2.0,"Terraços do Carmo, Largo do Carmo, 1200-288 Lisboa, Portugal","['Dine-in', 'No delivery']"
+592,Block House Amoreiras,grill,4.3,503.0,,"Av. Eng. Duarte Pacheco 1049 2044, 1070-103 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+595,Curva,brunch,4.7,155.0,2.0,"R. Damasceno Monteiro 108D, 1170-113 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+596,Tomato Garden Italian Restaurant,pasta,4.7,195.0,,"R. da Barroca 109, 1200-010 Lisboa, Portugal",['nan']
+597,Azia Asian Restaurant,asian,4.5,291.0,2.0,"Rua de S. Paulo 136, 1200-429 Lisboa, Portugal",['Dine-in']
+598,Marisqueira M,seafood,4.1,463.0,2.0,"R. do Norte 100, 1200-287 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+600,Restaurante Irriverente,pasta,4.1,149.0,,"Rua da Boavista 88, 1200-058 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+601,Restaurante Marco,portuguese,4.4,2582.0,2.0,"Largo Santos 14D, 1200-808 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+602,Noori Sushi,japanese,4.2,172.0,,"R. do Crucifixo 87, 1100-044 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+604,Leads Pizza,pizza,4.5,184.0,1.0,"R. Gen. Justiniano Padrel 17A, 1170-153 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+605,Portugália,fast_food,4.8,6.0,2.0,"R. do Carmo 120, 1100-044 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+606,Santa Marta Marisqueira,seafood,4.0,455.0,2.0,"Travessa do Enviado de Inglaterra, 1150-281 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+609,Jamie's Italian Lisboa,italian,4.2,3173.0,2.0,"Praça do Príncipe Real 28A, 1250-184 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+612,Turkish Kebab House,africa_ME,3.6,394.0,1.0,"Av. Alm. Reis 40A, 1150-019 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+619,Panda Cantina,japanese,4.6,939.0,1.0,"Rua da Prata 252, 1100-052 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+622,Manteigaria - Fábrica de Pastéis de Nata,pastry,4.8,5420.0,1.0,"Rua do Loreto 2, 1200-108 Lisboa","['Takeaway', 'Delivery', 'No dine-in']"
+623,Confeitaria Nacional,pastry,4.2,3289.0,2.0,"Praça da Figueira 18B, 1100-241 Lisboa","['Dine-in', 'Curbside pickup', 'Delivery']"
+624,Pastelaria Santo António (castelo São Jorge),pastry,4.7,987.0,1.0,"R. do Milagre de Santo António N.10, 1100-351 Lisboa","['Dine-in', 'Takeaway']"
+629,Alcôa,pastry,4.4,885.0,2.0,"R. Garrett 37, 1200-203 Lisboa, Portugal",['Takeaway']
+632,Fábrica da Nata (Rua Augusta),pastry,4.6,1808.0,1.0,"R. Augusta nº 275 A, 1100-052 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+635,Ferrary,pastry,2.8,549.0,,"R. Augusta 189, 1100-050 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+639,Confeitaria Marquês de Pombal,pastry,4.2,1148.0,2.0,"Av. da Liberdade 244 B, 1250-149 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+641,Pastelaria 1800,pastry,4.3,450.0,1.0,"Largo do Rato 7, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+642,Pastelaria Flor do Mundo,pastry,4.3,367.0,1.0,"R. da Misericórdia 87, 1200-284 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+645,Pastelaria Benard,pastry,3.8,598.0,2.0,"R. Garrett 104, 1200-205 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+646,A Tentação,pastry,4.0,235.0,1.0,"Praça da Figueira 12, 1100-241 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+648,PAUL - Rua Augusta,pastry,4.1,651.0,2.0,"R. Augusta 142, 1100-054 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+650,Pâtisserie Dacquoise,pastry,4.5,283.0,2.0,"R. Tomás da Anunciação 109A, 1350-325 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+652,Cantinho da sé,pastry,3.1,135.0,,"Largo Santo António da Sé 11, 1100-404 Lisboa, Portugal","['Takeaway', 'No delivery']"
+655,Saga,pastry,4.4,830.0,2.0,"Largo da Graça 135, 1170-165 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+656,Pau de Canela,pastry,4.1,619.0,2.0,"R. da Vitória 57, 1100-170 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+657,Pastelaria Orion,pastry,4.2,438.0,1.0,"Calçada do Combro 1, 1200-086 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+658,Padaria de São Roque,pastry,4.3,577.0,1.0,"R. Dom Pedro V 57, 1250-092 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+660,A Pousadinha (Cais Sodré) - Doçaria Conventual,pastry,4.6,26.0,,"Rua de S. Paulo 188, 1200-275 Lisboa","['Dine-in', 'Takeaway']"
+662,Centro Ideal da Graça,pastry,4.4,301.0,1.0,"Largo da Graça 6, 1170-364 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+663,Baga,pastry,4.1,96.0,1.0,"Largo da Graça, 1170-165 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+669,L'Éclair,pastry,4.8,22.0,,"R. Ribeira Nova 50, 1200-425 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+672,Portela,cafe,4.3,127.0,2.0,"Rua da Graça 164, 1170-364 Lisboa, Portugal","['Dine-in', 'Delivery']"
+675,Pastelaria Camões,brunch,4.4,180.0,1.0,"Rua do Loreto 63 65, 1200-241 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+676,Leitaria Lisboa,brunch,4.2,846.0,2.0,"R. Artilharia 1 87A, 1070-012 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+677,Tease,cafe,4.4,716.0,2.0,"R. Quintinha 70B, 1200-420 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+682,Doce Real,pastry,4.5,119.0,1.0,"Portugal, R. Dom Pedro V 119, 1250-096 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+689,Balcão do Marquês,pastry,4.2,391.0,1.0,"113 ao 119, Av. Duque de Loulé, 1050-089 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+695,Pastelaria Continental Lda,pastry,4.3,133.0,1.0,"R. da Palma 187, 1100-087 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+698,Vontadinhas,pastry,4.1,107.0,,"R. Castilho 75A, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+710,Tebas,pastry,4.2,381.0,1.0,"R. Heliodoro Salgado 2A, 1170-174 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+725,Leitaria Baiana,brunch,4.1,364.0,,"61,, Av. da Liberdade 59, Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+727,Leitaria Anita,cafe,4.5,27.0,,"Rua do Salvador 46, 1100-466 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+730,Bomercado,veggie_healthy,4.7,122.0,,"R. dos Cavaleiros 10, 1100-132 Lisboa, Portugal","['In-store shopping', 'Curbside pickup', 'Delivery']"
+732,Brick Café Lisboa,brunch,4.4,1647.0,2.0,"Rua de Moçambique 2, 1170-245 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+741,Hard Rock Cafe,grill,4.4,14763.0,2.0,"Av. da Liberdade 2, 1250-144 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+747,Nicola,cafe,3.5,1627.0,2.0,"Praça Dom Pedro IV 24, 1100-200 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+748,Tazza in Giro,italian,4.7,138.0,,"Campo de Santa Clara 138 139, 1100-474 Lisboa","['Dine-in', 'Curbside pickup', 'Delivery']"
+749,Mercearia da Mila,brunch,4.6,321.0,2.0,"R. Santos-O-Velho 38, 1200-812 Lisboa","['Dine-in', 'Curbside pickup', 'Delivery']"
+750,Delidelux Avenida,brunch,4.1,340.0,2.0,"R. Alexandre Herculano 15A, 1250-096 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+755,Groove Bar,bar,4.5,299.0,2.0,"R. da Rosa 148, 1200-211 Lisboa, Portugal","['Dine-in', 'No delivery']"
+787,Monkey Mash,bar,4.5,210.0,,"Praça da Alegria 66, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+793,Foxtrot,bar,4.6,1902.0,2.0,"Tv. Santa Teresa 28, 1200-405 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+798,Duque Brewpub,bar,4.6,539.0,2.0,"Calçada do Duque 51, 1200-156 Lisboa, Portugal","['Dine-in', 'No delivery']"
+824,Antiga Wine Bar,bar,4.7,175.0,2.0,"de à, R. Santo António da Sé 10, 1100-500 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+825,Shelter Bar Lisboa,bar,4.3,134.0,1.0,"R. da Palmeira 43 A, 1200-312 Lisboa, Portugal","['Dine-in', 'No delivery']"
+831,Camone Bar,bar,4.6,119.0,1.0,"R. da Atalaia 29, 1200-036 Lisboa, Portugal","['Dine-in', 'No delivery']"
+832,Spot Lisboa,bar,4.2,280.0,2.0,"R. Nova do Almada 14, 1200-289 Lisboa, Portugal","['Dine-in', 'No delivery']"
+838,Ritz Bar,bar,4.5,34.0,,"R. Rodrigo da Fonseca 88, 1099-039 Lisboa, Portugal","['Dine-in', 'No delivery']"
+852,Snob Bar,bar,4.5,66.0,,"Rua de O Século 178, 1200-437 Lisboa, Portugal","['Dine-in', 'No delivery']"
+853,Água De Beber,bar,4.5,570.0,1.0,"R. Poiais de São Bento 73, 1200-346 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+859,Tapas Bar 52,european,3.8,1655.0,2.0,"R. Dom Pedro V 52, 1250-092 Lisboa, Portugal","['Dine-in', 'No delivery']"
+862,Grau Douro Tapas & Wine Bar,european,4.9,300.0,,"R. Duques de Bragança 5M, 1200-162 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+863,Dcosta's Shisha & Bar,bar,4.7,113.0,,"R. Maria 68A, 1170-213 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+866,A Tabacaria,bar,4.7,355.0,2.0,"Rua de S. Paulo 75 77, 1200-426 Lisboa, Portugal","['Dine-in', 'No delivery']"
+868,Soul - kitchen & bar,bistro,4.5,108.0,,"R. Cecílio de Sousa n.76, 1200-098 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+877,BytheWine,bar,4.5,1653.0,2.0,"Rua das Flores 41 43, 1200-193 Lisboa, Portugal","['Dine-in', 'No delivery']"
+884,Silk Club,bar,4.1,817.0,3.0,"Edifício Espaço Chiado, R. da Misericórdia 14, 1200-273 Lisboa, Portugal","['Dine-in', 'No takeaway', 'No delivery']"
+890,Love Lisbon Martim Moniz,bar,4.3,366.0,2.0,"R. José António Serrano, 1100-143 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+893,Paráguas Bar Tapas e Petiscos,european,4.7,211.0,2.0,"Tv. dos Pescadores 37, 1200-328 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+894,Tágide Wine & Tapas Bar,european,4.3,120.0,,"Largo da Academia Nacional de Belas Artes 19, 1200-289 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+895,York Burger,burger,4.6,153.0,1.0,"R. de São João da Praça 14, 1100-520 Lisboa","['Dine-in', 'Takeaway']"
+899,Gazzo - Cucina & Bar,italian,4.8,76.0,1.0,"Largo do Terreirinho 35, 1100-595 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+901,Burger Bar & Blues Lisboa,burger,4.2,106.0,,"Rua de S. Paulo 222, 1200-058 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+903,Roots Restaurante & Tapas Bar,european,4.2,204.0,,"R. da Silva 28, 1200-447 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+908,Mensagem - Restaurante e Bar Panorâmico,bar,4.5,190.0,2.0,"R. da Oliveira ao Carmo 8, 1200-309 Lisboa, Portugal","['Dine-in', 'No delivery']"
+914,Delfina-Cantina Portuguesa,portuguese,4.4,496.0,2.0,"Praça do Município n.º 23, 1100-365 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+915,Chaplin Pizza Bar - Lisboa,pizza,5.0,20.0,,"Calçada Salvador Correia de Sá 38 A, 1200-399 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+917,Bicaense Est.1959,grill,4.6,135.0,,"R. da Bica de Duarte Belo 42A, 1200-056 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+918,Sekai Sushi bar,japanese,4.6,100.0,1.0,"R. dos Mastros 30, 1200-163 Lisboa, Portugal","['Dine-in', 'Drive-through', 'No-contact delivery']"
+920,Mallagueta Bar and Food Lisboa,bar,4.2,68.0,,"Costa do Castelo 26, 1100-179 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+921,Maxime Restaurante-Bar,bar,4.5,61.0,,"Praça da Alegria 58, 1250-146 Lisboa, Portugal","['Dine-in', 'No delivery']"
+922,Damas,bar,4.3,1506.0,1.0,"R. da Voz do Operário 60, 1170-039 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+924,Gyoza Bar,asian,4.2,114.0,,"Rua da Prata 242, 1100-422 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+925,Pharmacia,bar,4.1,1908.0,3.0,"Rua de Santa Catarina n 2 e n, 4, 1249-069 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+928,Japonês Sushi Restaurante,japanese,4.7,165.0,1.0,"R. das Trinas 22, 1200-858 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+930,Nui Sushi & Bar,japanese,4.8,48.0,,"Calçada Santana 70, 1150-305 Lisboa, Portugal","['Dine-in', 'Drive-through', 'No-contact delivery']"
+932,Santa Restaurante & Bar,pasta,4.2,183.0,2.0,"R. de São João da Praça 103, 1100-585 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+933,Zenith,veggie_healthy,4.4,2120.0,2.0,"R. do Telhal 4A, 1150-346 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+948,The Lumiares Hotel & Spa,south_america,4.6,349.0,,"R. do Diário de Notícias 142, 1200-146 Lisboa, Portugal",['nan']
+957,Casinha Boutique Café,cafe,4.4,103.0,,"Av. Poe. Mistral 2A, 1050-182 Lisboa, Portugal",['nan']
+958,Brooklyn Lisboa,cafe,4.6,447.0,,"Praça da Alegria 35, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+968,Quiosque das Portas do Sol,fast_food,4.0,89.0,,"Largo Portas do Sol, 1100-411 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No delivery']"
+975,39 Degraus,brunch,4.5,150.0,,"Cinemateca, R. Barata Salgueiro 39, 1269-059 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+992,the mill,cafe,4.6,1693.0,2.0,"R. do Poço dos Negros 1, 1200-335 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+993,Brick Cafe Lisboa,cafe,4.4,1647.0,2.0,"Rua de Moçambique 2, 1170-245 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+994,Cusca Café,cafe,4.9,147.0,1.0,"Rua de O Século 170, 1200-434 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+998,"Hello, Kristof",brunch,4.6,507.0,2.0,"R. do Poço dos Negros 103, 1200-337 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1000,"Arts Cafe, Event Venue",cafe,4.4,106.0,1.0,"Rua da Bica do Sapato 50C, 1100-094 Lisboa, Portugal",['nan']
+1002,Seagull Method cafe,brunch,4.7,467.0,2.0,"R. da Palmeira 23, 1200-311 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'Delivery']"
+1003,Royale Café,cafe,4.2,608.0,2.0,"Largo Rafael Bordalo Pinheiro 29 R/C, 1200-369 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1006,Amélia Lisboa,brunch,4.4,2988.0,2.0,"R. Ferreira Borges 101, 1350-128 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1008,Sítio Valverde,brunch,4.7,60.0,,"Av. da Liberdade 164, 1250-146 Lisboa, Portugal","['Dine-in', 'No takeaway', 'No delivery']"
+1010,Cafe,cafe,5.0,1.0,,"Largo Vitorino Damásio 3F, 1200-646 Lisboa, Portugal",['Dine-in']
+1013,Martinho da Arcada,portuguese,4.2,1183.0,2.0,"Praça do Comércio 3, 1100-148 Lisboa, Portugal","['Dine-in', 'No delivery']"
+1014,Café Janis,bistro,4.6,739.0,2.0,"R. Moeda 1A, 1200-109 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1017,Varanda,brunch,4.3,55.0,,"Praça Martim Moniz 2, 1100-341 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1020,Água,burger,4.5,34.0,,"R. Rosa Araújo 16, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1021,Tulsi Restaurant,indian_nepalese,4.7,151.0,,"R. do Benformoso 262, 1100-087 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1025,Mezzanine,bar,3.4,232.0,,"Rua da Boavista 108, 1200-085 Lisboa, Portugal","['Dine-in', 'No delivery']"
+1026,OnigiriA,japanese,4.7,93.0,,"R. Vicente Borga 2, 1200-861 Lisboa, Portugal","['Dine-in', 'Drive-through', 'No-contact delivery']"
+1027,Basílio,brunch,4.6,847.0,2.0,"Rua dos Bacalhoeiros 111, 1100-068 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1029,Babete,european,3.8,317.0,2.0,"Calçada do Duque 57, 1200-156 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1032,Chillis Bangladesh Indian Restaurant Curry House,indian_nepalese,4.1,33.0,,"R. do Benformoso 256, 1100-088 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1035,Restaurante Diyalo,indian_nepalese,4.0,469.0,,"Tv. da Palma, 1150-052 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1037,Yambu Restaurant,indian_nepalese,4.7,70.0,,"Largo Santa Bárbara 8N 0, 1150-287 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1038,Lumbini Restaurant,indian_nepalese,4.6,270.0,1.0,"Rua da Esperança 42, 1200-658 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1039,Atípico Restaurant,european,4.3,221.0,2.0,"R. do Gremio Lusitano numero 20, 1200-212 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1040,Cervejaria Trindade,south_america,4.1,4728.0,2.0,"R. Nova da Trindade 20 C, 2715-311 Lisboa, Portugal",['nan']
+1041,Gosta do Castelo Brunch,brunch,4.2,246.0,,"Costa do Castelo 138, 1100-129 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1042,Mesa Kreol,africa_ME,4.6,338.0,2.0,"Arco Portas do Mar 9, 1100-035 Lisboa, Portugal",['nan']
+1047,Olá Lisboa - Tapas & Petiscos,european,4.6,129.0,,"R. dos Mastros 20, 1200-264 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1048,Miteri restaurant,indian_nepalese,4.4,264.0,1.0,"Rua da Guiné 5A, 1170-172 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1050,Papa Chidera Nigeria Restaurant,africa_ME,4.6,20.0,,"1170-287 Lisbon, Portugal","['Dine-in', 'Takeaway']"
+1052,Grenache,european,4.8,124.0,,"Pátio de Dom Fradique 12, 1100-624 Lisboa, Portugal","['Dine-in', 'No delivery']"
+1054,Hamburgueria do Bairro - Príncipe Real,burger,4.3,927.0,1.0,"1200 484, Tv. Abarracamento de Peniche 22, Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1055,New Manakamana,indian_nepalese,4.0,144.0,1.0,"R. Arco da Graça 43, 1150-049 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1058,Batata Doce,africa_ME,4.7,236.0,2.0,"R. de São João da Mata 56, 1200-734 Lisboa","['Dine-in', 'Takeaway']"
+1061,SILK CLUB ROOFTOP RESTAURANT & CLUB,mediterranean,4.1,817.0,3.0,"Edifício Espaço Chiado, R. da Misericórdia 14, 1200-273 Lisboa","['Dine-in', 'No takeaway', 'No delivery']"
+1064,OTRO restaurante,grill,4.6,42.0,,"R. Rodrigues Sampaio 94, 1250-281 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1066,Aprazível,brunch,4.1,392.0,2.0,"Galerias Páteo Garrett, R. Garrett 19, 1200-093 Lisboa","['Dine-in', 'Delivery']"
+1072,Everest Montanha,indian_nepalese,4.3,498.0,2.0,"R. Artilharia 1 26, 1250-040 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+1076,ristorante a severa,european,4.0,402.0,,"R. das Gáveas 51, 1200-206 Lisboa, Portugal","['Dine-in', 'No delivery']"
+1078,Taberna Portuguesa,portuguese,4.5,776.0,2.0,"Calçada do Combro 115, 1200-109 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1081,Taberna do Bairro alto,portuguese,4.5,709.0,,"Tv. da Boa Hora 27, 1200-063 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1082,Taberna dos Clérigos,grill,4.2,150.0,1.0,"Calçada de São Vicente 10, 1100-213 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1083,Go Juu,japanese,4.7,542.0,,"R. Marquês Sá da Bandeira 46A, 1050-149 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1084,Tasca Kome,japanese,4.6,611.0,2.0,"R. da Madalena 57, 1100-016 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1085,Hikidashi,japanese,4.6,381.0,3.0,"R. Coelho da Rocha 20A, 1250-088 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1087,Confraria LX,japanese,4.3,547.0,,"Portugal, R. do Alecrim 12A, 1200-161 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1088,Wakame Sushi Ten,japanese,5.0,59.0,,"Calçada Cascão 6, 1100-123 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'Delivery']"
+1089,AronSushi,japanese,4.5,601.0,3.0,"R. Marquês Sá da Bandeira 14B, 1050-205 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1091,Restaurante Japonês - SUSHI TIME,japanese,4.3,1652.0,2.0,"Av. Dom João II 41 A, 1990-084 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1092,Restaurante Suntory Exotic Japanese Fusion,japanese,4.5,1363.0,2.0,"Av. Conselheiro Fernando de Sousa 23A, 1070-072 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'Delivery']"
+1093,Sushi Cafe,japanese,4.4,233.0,,"Av. Eng. Duarte Pacheco 1016 1020, 1070-103 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1094,Hanami Sushi Tivoli Forum,japanese,4.3,150.0,2.0,"Av. da Liberdade 180, 1250-142 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1097,Tribo Sushi Bar,japanese,4.0,27.0,,"Rua da Glória 30, 1250-117 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1098,Sushi Suisen,japanese,4.6,11.0,,"R. Andrade 15, 1170-014 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1099,Kingyo Sushi,japanese,4.5,44.0,,"R. Luciano Cordeiro 72B, 1150-217 Lisboa, Portugal","['Dine-in', 'Drive-through', 'No-contact delivery']"
+1100,KOPPU RAMEN,japanese,4.5,718.0,2.0,"R. do Salitre 131, 1200-298 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+1101,Best Sushi And Poke Restaurant,japanese,4.4,63.0,,"R. Natália Correia 8A, 1170-270 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1102,Buddha Sushi,japanese,3.6,807.0,1.0,"R. de São Pedro de Alcântara 65-69, 1250-238 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+1103,Sushi do Bairro,japanese,4.4,43.0,,"R. Saraiva de Carvalho 32, 1250-244 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1104,KATANA SUSHI,japanese,4.5,93.0,,"Rua Marquês de Fronteira 173 A, 1070-300 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+1105,Shun - Open Kitchen,japanese,4.8,40.0,,"R. Tomás da Anunciação 171A, 1350-326 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1106,Sushisan Santos,japanese,4.5,184.0,,"Largo de Santos 3A, 1200-808 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1107,by Koji Lisboa,japanese,4.8,25.0,,"Calçada Marquês Abrantes 138, 1200-720 Lisboa, Portugal","['Dine-in', 'No takeaway']"
+1108,Sushisan Lisbon,japanese,4.1,520.0,2.0,"R. Nova de São Mamede 18, 1250-173 Lisboa, Portugal",['nan']
+1109,Sushi Shop,japanese,3.9,170.0,,"PRAÇA, Rua Dom Luís I 30 LOJA 6, 1200-152 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1110,Sea Me Peixaria Moderna,seafood,4.3,1840.0,3.0,"Rua do Loreto 21, 1200-241 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1111,Nómada - Chiado,asian,4.7,35.0,,"R. Horta Seca 5 B, 1200-221 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1112,Bonsai,japanese,4.6,395.0,3.0,"R. da Rosa 248, 1200-391 Lisboa","['Dine-in', 'Takeaway', 'No-contact delivery']"
+1115,Sushi-Away,japanese,4.9,71.0,,"R. 4 de Infantaria, 1350-271 Lisboa","['Dine-in', 'Takeaway']"
+1124,Miss Jappa,japanese,4.4,249.0,,"Praça do Príncipe Real 5, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1125,La Piadina,italian,4.5,515.0,1.0,"Calçada do Combro 8, 1200-114 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1127,Il Matriciano,italian,4.4,545.0,2.0,"R. de São Bento 107, 1200-661 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1129,Il Mercato,italian,4.5,1311.0,2.0,"Passeio do Pátio Bagatela, R. Artilharia 1 51 Bloco B, Loja M, 1250-038 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1131,Mano a Mano - Ristorante pizzerie,italian,4.2,595.0,2.0,"R. do Alecrim 22, 1200-014 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1132,Sophia - Natural Italian,pasta,4.2,992.0,2.0,"Praça Dom Luís I 34, 1200-427 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1135,Bella Ciao - Cantina Italiana,italian,4.2,560.0,1.0,"R. de São Julião 74 76, 1100-526 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+1136,Osteria - Cucina di Amici,italian,4.4,886.0,2.0,"R. Madres 52, 1200-712 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1138,Italian Republic,italian,4.3,109.0,,"R. dos Arameiros 15, 1100-389 Lisboa","['Dine-in', 'Delivery']"
+1139,DaVito,pizza,4.4,609.0,2.0,"Rua da Penha de França - Mercado Sapadores, Loja 15, 1170-364 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1140,Restaurante italiano Il Gattopardo,mediterranean,4.5,39.0,,"Av. Eng. Duarte Pacheco 24 3º piso, 1070-110 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1142,La Campania,italian,4.3,566.0,,"R. Artilharia 1 30, 1250-096 Lisboa","['Dine-in', 'Takeaway']"
+1143,Pasta House,pasta,4.1,80.0,,"Av. Eng. Duarte Pacheco 15G, 1250-096 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1144,Tempero Pizza (Arroios),italian,4.8,18.0,,"R. Nova do Desterro 9, 1150-241 Lisboa","['Dine-in', 'Takeaway']"
+1145,Caja pasta fresca italiana,pasta,4.9,33.0,,"R. Andrade 9 11, 1170-014 Lisboa","['Dine-in', 'Takeaway']"
+1146,Memoria,pasta,4.4,519.0,2.0,"R. 4 de Infantaria 26a, 1350-273 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1147,L'APE Italian Lounge,italian,4.7,85.0,,"Calçada do Monte 92A, 1170-251 Lisboa","['Dine-in', 'Takeaway']"
+1151,Castafiore,bistro,4.3,107.0,2.0,"R. do Duque 21, 1200-158 Lisboa","['Dine-in', 'Curbside pickup', 'Delivery']"
+1153,Ginos,italian,4.1,297.0,2.0,"R. Barata Salgueiro 29A, 1250-096 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1154,Nonna Ristorante Cucina Italiana e Portoghese,italian,5.0,4.0,,"R. dos Remédios 163, 1100-446 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1155,Pizza a Metro,italian,4.3,81.0,,"R. de Santa Marta 51, 1150-294 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1158,daTerra Bairro Alto,veggie_healthy,4.4,337.0,2.0,"R. da Rosa 51, 1200-382 Lisboa, Portugal",['nan']
+1160,The Green Affair - Chiado,veggie_healthy,4.4,408.0,2.0,"R. Serpa Pinto 15A, 1200-443 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1163,Os Tibetanos,veggie_healthy,4.3,1366.0,2.0,"R. do Salitre 117, 1250-198 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1165,Kong - Food Made With Compassion,veggie_healthy,4.7,420.0,2.0,"R. do Crucifixo 30, 1100-183 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1166,Dear Breakfast,brunch,4.4,1281.0,2.0,"R. Gaivotas 17, 1200-719 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1168,Brunch in Downtown,brunch,4.9,8.0,,"R. da Vitória 8, 1100-619 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1170,Fauna & Flora- Anjos,brunch,4.5,609.0,2.0,"R. Febo Moniz 27A, 1150-152 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1172,BATZ,brunch,4.5,145.0,,"Largo Dr. António de Sousa Macedo 2, 1200-319 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1174,A.P. F. Cafe & Restaurant,bistro,4.6,237.0,2.0,"R. das Trinas 67A, 1200-856 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No-contact delivery']"
+1175,Oui Mais Non,brunch,4.6,25.0,,"Tivoli Fórum, Av. da Liberdade 180 Loja 5A, 1250-146 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1176,Dear Breakfast - Alfama,brunch,4.6,136.0,,"Largo de Santo António da Sé 16, 1100-499 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1178,"11 Tapas - Restaurante & Cocktail, WineBar",european,4.3,406.0,1.0,"Travessa da Água da Flor 11, 1200-010 Lisboa","['Dine-in', 'Drive-through', 'No delivery']"
+1179,TAPAS 129,european,4.7,208.0,,"R. Outeirinho do Mirante 1, 1100-387 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1180,Tapas Boa Hora,european,4.8,253.0,,"Tv. da Boa Hora 48, 1200-064 Lisboa",['nan']
+1181,Tapa Bucho Gastrobar,european,4.4,531.0,2.0,"R. do Diário de Notícias 122, 1200-145 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1182,Medrosa d'Alfama,european,4.3,473.0,2.0,"Largo de São Rafael 6, 1100-559 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1184,Ache Atalaia Bar & Tapas,european,4.5,334.0,,"R. da Atalaia 53, 1200-027 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1185,A Marisqueira do Lis,seafood,4.2,711.0,2.0,"Av. Alm. Reis 27B, 1150-019 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1187,Cervejaria Ribadouro,seafood,4.0,1815.0,2.0,"Av. da Liberdade 155, 1250-144 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1188,Marisqueira Uma,seafood,4.1,2941.0,1.0,"R. dos Sapateiros 177, 1100-044 Lisboa","['Dine-in', 'Takeaway']"
+1189,Aqui Há Peixe,seafood,4.3,350.0,3.0,"R. Trindade 18A, 1200-468 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1190,Restaurante Gambrinus,portuguese,4.4,1199.0,4.0,"R. das Portas de Santo Antão 23, 1150-264 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1191,Marisqueira Azul - Time Out Market,seafood,3.9,216.0,,"Av. 24 de Julho 49, 1200-479 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1192,Oyster & Margarita,seafood,4.8,114.0,,"R. da Palmeira 28 C, 1200-313 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1194,Cais na Preguiça,seafood,4.4,346.0,,"Rua dos Bacalhoeiros 4C, 1100-070 Lisboa","['Dine-in', 'Curbside pickup', 'No delivery']"
+1197,Peixola,seafood,4.6,472.0,2.0,"R. do Alecrim 35, 1200-014 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1198,Mar ao Carmo,seafood,4.4,603.0,3.0,"Largo do Carmo 21, 1200-092 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1199,To.B - To burger or not to burger,burger,4.4,1237.0,2.0,"R. Capelo 24, 1200-087 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1200,Hamburguês,burger,4.1,1135.0,2.0,"Av. Alm. Reis 10, 1150-038 Lisboa, Portugal",['nan']
+1201,A Burgueria Regional,burger,4.2,582.0,2.0,"R. Alexandre Herculano 17b, 1250-096 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1202,Hamburgueria do Bairro - São Bento,burger,4.2,748.0,2.0,"R. dos Industriais 9, 1200-109 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1203,Alfama Wine & Burgers,burger,4.2,123.0,2.0,"R. do Vigário 14, 1100-451 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1204,Santo Graal Burger & Grill,burger,4.6,487.0,2.0,"R. Ferreira Borges 47, 1350-126 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1205,Hamburgueria Portuguesa by farnel,burger,4.2,987.0,1.0,"Largo do Conde Barão 37, 1200-118 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1206,The Great American Disaster,burger,3.9,3128.0,2.0,"Praça Marquês de Pombal 1, 1250-021 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'Delivery']"
+1207,Green Burger,burger,3.9,17.0,,"Praça da Alegria 40, 1250-004 Lisboa, Portugal","['Dine-in', 'Curbside pickup', 'No-contact delivery']"
+1208,Brown's Bistro,bistro,4.3,542.0,2.0,"R. da Vitória 88, 1100-571 Lisboa, Portugal",['nan']
+1211,Clandestino,asian,4.2,733.0,1.0,"R. do Benformoso 59, 1100-074 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1212,Asian Lab,asian,2.9,191.0,,"Av. 24 de Julho 49, 1200-109 Lisboa, Portugal","['Dine-in', 'Takeaway']"
+1213,Soi,asian,4.2,775.0,2.0,"R. Moeda 1C, 1200-109 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1214,Nova Paris,asian,4.5,168.0,,"Portugal, Av. Alm. Reis, PT Lisboa邮政编码: 1150-020","['Dine-in', 'Takeaway', 'Delivery']"
+1218,Pangzi Massa 胖子面馆,asian,4.3,367.0,1.0,"R. do Benformoso 73, 1100-012 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1222,Café Luso,fado,3.9,701.0,2.0,"Tv. da Queimada 10, 1200-365 Lisboa","['Dine-in', 'No takeaway', 'No delivery']"
+1223,Maria da Mouraria - Casa de Fados,fado,4.4,434.0,2.0,"Rua do Capelão 1B, Largo Severa 2, 1100-341 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1227,Fado em Si,fado,4.0,253.0,3.0,"R. de São João da Praça 18, 1100-520 Lisboa","['Dine-in', 'No delivery']"
+1228,Restaurante Fado ao Carmo,fado,4.7,302.0,4.0,"Rua da Condessa numero 52, 1200-122 Lisboa","['Dine-in', 'No delivery']"
+1229,A Viela do Fado,fado,3.9,216.0,2.0,"R. dos Remédios 111, 1100-345 Lisboa","['Dine-in', 'No delivery']"
+1230,Mesa de Frades,fado,4.4,407.0,,"R. dos Remédios 139, 1100-304 Lisboa","['Dine-in', 'No delivery']"
+1231,A Baiuca,fado,4.2,500.0,,"R. de São Miguel nr 20, 1100-544 Lisboa","['Dine-in', 'Curbside pickup', 'No delivery']"
+1232,Pastel do Fado,fado,3.6,430.0,,"Rua Limoeiro 10, 1100-058 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1233,Guitarras de Lisboa,fado,4.3,230.0,2.0,"Beco do Melo 1, 1100-345 Lisboa","['Dine-in', 'No delivery']"
+1239,O Corrido – Casa de Fado,fado,4.8,195.0,2.0,"Campo de Santa Clara 49, 1100-471 Lisboa, Portugal","['Dine-in', 'No takeaway', 'No delivery']"
+1240,Casa de Linhares (Fado),fado,4.4,593.0,2.0,"Beco dos Armazéns do Linho 2, 1100-037 Lisboa, Portugal","['Dine-in', 'No delivery']"
+1244,Alfama Fado Restaurant,fado,3.8,22.0,,"R. de São Pedro 4, 1100-345 Lisboa, Portugal","['Dine-in', 'No delivery']"
+1245,Casa de Fado,fado,4.3,103.0,,"R. da Barroca 56, 1200-043 Lisboa, Portugal",['Dine-in']
+1246,Mabiche Pizza Arroios,pizza,4.5,543.0,2.0,"R. Passos Manuel 9, 1150-020 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1247,Lupita Pizzaria,pizza,4.8,385.0,,"Rua de S. Paulo 79, 1200-427 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1248,The Pizza Wizard,pizza,4.5,172.0,1.0,"R. Andrade 71, 1170-016 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1249,Retrogusto84,pizza,4.6,886.0,2.0,"R. Maria 54, 1170-212 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1250,ZeroZero,pizza,4.3,2462.0,2.0,"R. da Escola Politécnica 32, 1250-102 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1251,Kumar-Doner Kebab e Pizzeria,pizza,4.1,498.0,1.0,"Portugal, Largo Santa Bárbara 7D, 1150-287 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1252,Jamie Oliver's Pizzeria Lisboa,pizza,4.3,415.0,2.0,"Rua do Loreto 12, 1200-108 Lisboa","['Dine-in', 'Takeaway', 'No-contact delivery']"
+1253,La Puttana,pizza,4.3,492.0,2.0,"Portugal, R. Nova do Carvalho 70, 1200-292 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1254,Pizzeria Mezzogiorno,italian,4.0,1206.0,2.0,"Rua Garrett 19 - Galerias Páteo Garrett, lojas C, D, 1200-203 Lisboa","['Dine-in', 'Delivery']"
+1255,Mundo Gourmet Pizzaria,pizza,4.5,128.0,,"R. Heliodoro Salgado 22B, 1170-177 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1256,Pizzaria Luzzo | Graça,pizza,4.4,107.0,2.0,"Largo da Graça 24, 1170-165 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1258,Pizza Misura (A pizza a tua medida),italian,4.5,244.0,1.0,"R. da Misericórdia 105, 1200-334 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1260,ZeroZero Príncipe Real,pizza,4.3,2462.0,2.0,"R. da Escola Politécnica 32, 1250-102 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1261,Mr. Pizza,pizza,4.3,456.0,1.0,"R. Saraiva de Carvalho 199B, 1350-300 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1262,Primo Basílico,pizza,4.6,458.0,1.0,"R. dos Remédios 37, 1100-115 Lisboa, Portugal",['nan']
+1263,Pizzaria do Bairro,pizza,4.2,195.0,1.0,"Armazém A, n.º 18, R. da Cintura do Porto de Lisboa, Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1264,Coyo Taco - Príncipe Real,mexican,4.2,724.0,2.0,"R. Dom Pedro V nº 65, 1250-093 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1265,Taqueria Patron,mexican,4.1,446.0,1.0,"R. do Gremio Lusitano 8, 1200-113 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1266,Coyo Taco - Cais do Sodré,mexican,4.0,221.0,2.0,"R. Ribeira Nova 36, 1200-376 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
+1267,Taqueria do Chiado by Espada,mexican,4.1,145.0,,"R. Trindade 36C, 1200-235 Lisboa, Portugal","['Dine-in', 'Takeaway', 'No delivery']"
+1268,Las Ficheras,mexican,3.9,1569.0,2.0,"R. dos Remolares 34, 1200-371 Lisboa","['Dine-in', 'Takeaway', 'Delivery']"
+1269,La Fugitiva Taco Bar,mexican,4.4,23.0,,"Rua de S. Paulo 186, 1200-249 Lisboa","['Dine-in', 'Curbside pickup', 'No delivery']"
+1273,CARNAL,mexican,5.0,7.0,,"R. da Misericórdia 78, 1200-385 Lisboa",['Dine-in']
+1274,Dona Maria,mexican,4.3,48.0,,"Calçada Santana 175, 1150-307 Lisboa","['Dine-in', 'Takeaway']"
+1275,CASA DOS AMIGOS,mexican,4.2,125.0,,"R. dos Remédios 140, 1100-451 Lisboa","['Dine-in', 'Takeaway', 'No delivery']"
+1276,El Paso Cantina Mexicana y Cocktail Bar,mexican,4.0,8.0,,"R. das Portas de Santo Antão 125, 1150-312 Lisboa","['Dine-in', 'Takeaway']"
+1277,La fugitiva,mexican,4.3,22.0,,"Rua de S. Paulo 186, 1200-058 Lisboa","['Dine-in', 'Takeaway']"
+1278,Tico y Taco,mexican,4.8,4.0,,"R. da Atalaia 4, 1200-050 Lisboa","['Dine-in', 'Takeaway']"
+1280,El Tacos Mexican & Cocktails Bar ( Bairro Alto),mexican,3.9,431.0,2.0,"R. do Diário de Notícias 23, 1200-283 Lisboa, Portugal","['Dine-in', 'Takeaway', 'Delivery']"
