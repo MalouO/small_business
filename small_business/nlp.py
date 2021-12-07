@@ -31,6 +31,9 @@ class CreateLime():
         return " ".join(words_only)
 
     def logreg_model(self, commentscolumn, ratingscolumn):
+        """commentscolumn: please enter the column of the df that contains the comments as a string,
+        ratingscolumnn: please enter the column of the df that contains the ratings as a string,
+        and """
         #clean and add column for good and bad ratings
         self.df['clean_comment'] = self.df[commentscolumn].apply(self.clean)
         self.df['good_bad_review'] = self.df[ratingscolumn].map(
@@ -116,5 +119,11 @@ class CreateNgrams():
         return sorted_tfidf_list[:20]
 
 
+
+
+
 if __name__ == "__main__":
-    pass
+    df = pd.read_csv("../raw_data/merged_reviews_5_!2.csv")
+    lime = CreateLime(df)
+    lime.logreg_model('comment_trans','comment_ratings')
+    lime.lime_model(12)
