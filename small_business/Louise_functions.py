@@ -36,11 +36,12 @@ def review_evolution(reviews,
         reviews = reviews[reviews['neighborhood'] == neighborhood]
 
     reviews_to_plot = reviews.groupby('year').mean()
-
+    increase = reviews_to_plot['comment_ratings'].values[-1] - reviews_to_plot[
+        'comment_ratings'].values[0]
     fig, ax = plt.subplots()
     ax.plot(reviews_to_plot['comment_ratings'])
 
-    return fig
+    return fig, increase
 
 
 #review_evolution(neighborhood='Graça', type_of_food='pizza')
