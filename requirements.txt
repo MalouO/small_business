@@ -34,3 +34,4 @@ deep_translator
 mlflow
 google_trans_new
 imblearn
+streamlit
