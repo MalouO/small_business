@@ -13,8 +13,8 @@ import googlemaps
 
 
 def restaurant_data(data):
-    #data = pd.read_csv('../small_business/data/restaurants.csv')
-    #data = data.drop(columns='Unnamed: 0')
+    data = pd.read_csv('small_business/data/restaurants.csv')
+    data = data.drop(columns='Unnamed: 0')
     X = data.drop(columns=[
         'rating', 'name', 'address', 'label', 'curb_pickup', 'drive_through',
         'postal_code', 'no_del_exp', 'municipality', 'review_count'
@@ -24,21 +24,39 @@ def restaurant_data(data):
 
 
 def latitude(address):
-    key = pd.read_csv("../raw_data/api_key_vb.csv", header=None)
-    key = key.address
+    key = pd.read_csv("raw_data/api_key_vb.csv", header=None)
+    key = key.loc[0][0]
     gmaps = googlemaps.Client(key=key)
-    # Geocoding an address
     geocode_result = gmaps.geocode(address)
     return float(geocode_result[0]['geometry']['location']['lat'])
 
 
-def longitude(column):
-    key = pd.read_csv("../raw_data/api_key_vb.csv", header=None)
-    key = key.address
+def longitude(address):
+    key = pd.read_csv("raw_data/api_key_vb.csv", header=None)
+    key = key.loc[0][0]
     gmaps = googlemaps.Client(key=key)
     # Geocoding an address
-    geocode_result = gmaps.geocode(column)
+    geocode_result = gmaps.geocode(address)
     return float(geocode_result[0]['geometry']['location']['lng'])
+
+
+def address_imputer(address, neighborhood, X):
+    if address == 0:
+        all_latitude = pd.DataFrame(X['latitude'].groupby(
+            X['neighborhood']).mean())
+        all_longitude = pd.DataFrame(X['longitude'].groupby(
+            X['neighborhood']).mean())
+        for place in all_latitude.index:
+            if place == neighborhood:
+                lattitude_replace = all_latitude.loc[place].values[0]
+        for place in all_longitude.index:
+            if place == neighborhood:
+                longitude_replace = all_longitude.loc[place].values[0]
+        return lattitude_replace, longitude_replace
+    else:
+        longitude1 = longitude(address)
+        latitude1 = latitude(address)
+        return latitude1, longitude1
 
 
 def get_fitted_pipe(X):
@@ -77,11 +95,12 @@ def target_X(type_of_food, price, neighborhood, latitude, longitude):
 def build_y(y):
     y_class = pd.cut(x=y,
                      bins=[0, 4, 5],
-                     labels=["below_average", "above_average"])
+                     labels=["Bad Idea!", "Good Idea!"])
     return y_class
 
 
 def train_model(pipeline, X, y_class):
+
     knn = KNeighborsClassifier(n_neighbors=5, weights='uniform')
     knn.fit(pipeline.fit_transform(X), y_class)
     filename = 'knn_model.joblib'
@@ -89,43 +108,34 @@ def train_model(pipeline, X, y_class):
 
 
 def predict(X_user_transformed):
+
     loaded_model = joblib.load('knn_model.joblib')
     y_probxgb = loaded_model.predict_proba(X_user_transformed)
     if y_probxgb[0][0] < 0.8:
-        pred = 'below_average'
+        pred = 'Bad Idea!'
     else:
-        pred = 'above average'
+        pred = 'Good Idea!'
+    return pred
+
+
+def neighbours(X_user_transformed):
+    loaded_model = joblib.load('knn_model.joblib')
     neighbors = loaded_model.kneighbors(X_user_transformed,
                                         n_neighbors=10,
                                         return_distance=False)
-    return neighbors, pred
+    return neighbors
 
-
-if __name__ == '__main__':
-    X, y = restaurant_data()
-    pipeline = get_fitted_pipe(X, y)
+def output_model(data, type_of_food, price, address, neighborhood):
+    X, y = restaurant_data(data=data)
+    pipeline = get_fitted_pipe(X)
+    neighborhood = neighborhood
+    latitude, longitude = address_imputer(address, neighborhood, X)
     X_user = target_X(type_of_food=type_of_food,
                       price=price,
                       neighborhood=neighborhood,
-                      takeaway=1,
-                      latitude=38.714376,
-                      longitude=-9.130176)
+                      latitude=latitude,
+                      longitude=longitude)
     X_user_transformed = pipeline.transform(X_user)
-    y_class = build_y(y)
-    train_model(pipeline, X, y_class)
-    predict(X_user_transformed)
-
-
-def output_model(data, type_of_food, price, neighborhood):
-    X, y = restaurant_data()
-    pipeline = get_fitted_pipe(X, y)
-    X_user = target_X(type_of_food=type_of_food,
-                      price=price,
-                      neighborhood=neighborhood,
-                      takeaway=1,
-                      latitude=38.714376,
-                      longitude=-9.130176)
-    X_user_transformed = pipeline.transform(X_user)
-    y_class = build_y(y)
-    train_model(pipeline, X, y_class)
-    return predict(X_user_transformed)
+    prediction =predict(X_user_transformed)
+    neighbors = neighbours(X_user_transformed)
+    return prediction, neighbors
