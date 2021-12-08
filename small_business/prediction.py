@@ -89,6 +89,8 @@ def predict(X_user_transformed):
             pred = 'good idea!'
     return pred
 
+def return_probability(X_user_transformed):
+
 def neighbours(X_user_transformed):
     loaded_model = joblib.load('knn_model.joblib')
     neighbors =  loaded_model.kneighbors(X_user_transformed, n_neighbors=10, return_distance=False)
