@@ -27,6 +27,7 @@ six>=1.14
 joblib
 memoized-property
 termcolor
+matplotlib
 
 # others
 googletrans
@@ -34,3 +35,9 @@ deep_translator
 mlflow
 google_trans_new
 imblearn
+streamlit
+nltk
+seaborn
+googlemaps
+folium
+streamlit_folium
