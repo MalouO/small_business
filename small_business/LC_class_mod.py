@@ -24,7 +24,7 @@ def restaurant_data(data):
 
 
 def latitude(address):
-    key = pd.read_csv("raw_data/api_key_vb.csv", header=None)
+    key = pd.read_csv("small_business/data/api_key_vb.csv", header=None)
     key = key.loc[0][0]
     gmaps = googlemaps.Client(key=key)
     geocode_result = gmaps.geocode(address)
@@ -32,7 +32,7 @@ def latitude(address):
 
 
 def longitude(address):
-    key = pd.read_csv("raw_data/api_key_vb.csv", header=None)
+    key = pd.read_csv("small_business/data/api_key_vb.csv", header=None)
     key = key.loc[0][0]
     gmaps = googlemaps.Client(key=key)
     # Geocoding an address
