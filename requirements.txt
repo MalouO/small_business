@@ -36,7 +36,7 @@ mlflow
 google_trans_new
 imblearn
 streamlit
-nltk.txt
+nltk
 seaborn
 googlemaps
 folium
