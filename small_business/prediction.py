@@ -89,7 +89,15 @@ def predict(X_user_transformed):
             pred = 'good idea!'
     return pred
 
-def return_probability(X_user_transformed):
+def return_predicted_probability(X_user_transformed):
+    loaded_model = joblib.load('knn_model.joblib')
+    y_probxgb = loaded_model.predict_proba(X_user_transformed)
+    return y_probxgb
+
+def all_results(type_of_food, price, neighborhood, latitude, longitude):
+        loaded_model = joblib.load('knn_model.joblib')
+        y_probxgb = loaded_model.predict_proba(X_user_transformed)
+
 
 def neighbours(X_user_transformed):
     loaded_model = joblib.load('knn_model.joblib')
