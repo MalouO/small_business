@@ -37,3 +37,4 @@ google_trans_new
 imblearn
 streamlit
 nltk
+seaborn
