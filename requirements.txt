@@ -38,3 +38,4 @@ imblearn
 streamlit
 nltk
 seaborn
+googlemaps
