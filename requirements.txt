@@ -40,3 +40,4 @@ nltk
 seaborn
 googlemaps
 folium
+streamlit_folium
