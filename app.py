@@ -7,7 +7,7 @@ from small_business.Victor_functions import *
 
 #Importing datasets
 data = pd.read_csv('small_business/data/restaurants.csv')
-reviews = pd.read_csv('raw_data/reviews.csv')
+reviews = pd.read_csv('data/reviews.csv')
 
 
 #Creating Side Bar

@@ -23,7 +23,8 @@ def restaurant_data(data):
     return X, y
 
 
-def latitude(address):
+def latitude(address, key):
+
     key = pd.read_csv("raw_data/api_key_vb.csv", header=None)
     key = key.loc[0][0]
     gmaps = googlemaps.Client(key=key)
@@ -127,6 +128,7 @@ def neighbours(X_user_transformed):
 
 def output_model(data, type_of_food, price, address, neighborhood):
     X, y = restaurant_data(data=data)
+    GEO_API = os.getenv('GEO_API')
     pipeline = get_fitted_pipe(X)
     neighborhood = neighborhood
     latitude, longitude = address_imputer(address, neighborhood, X)

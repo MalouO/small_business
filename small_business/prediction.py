@@ -1,4 +1,5 @@
 #import streamlit as st
+from numpy.lib import type_check
 import pandas as pd
 import numpy as np
 from sklearn import neighbors
@@ -128,3 +129,28 @@ def output_model(data, type_of_food, price, address, neighborhood):
     y_class = build_y(y)
     predict(X_user_transformed)
     neighbours(X_user_transformed)
+
+
+def get_selection(type_of_food, neighborhood, price, df):
+    rows = []
+    prediction_row = df.loc[(df['type_of_food'].isin(type_of_food)) & (df['neighborhood'].isin(neighborhood)) & (df['price'].isin(price))]
+    return prediction_row
+
+
+def best_worst(df):
+    best = df[:3]
+    worst = df[:-3]
+    return best, worst
+
+def eval_idea(df):
+    if df['outputs']< 0.8:
+            pred =  'bad idea!'
+    else:
+            pred = 'good idea!'
+    return pred
+
+def output_new(type_of_food, neighborhood, price, df):
+    df = pd.read_csv('../../notebooks/3_Prediction/data_probabilities.csv')
+    df = get_selection(type_of_food, neighborhood, price, df)
+    best, worst = best_worst(df)
+    return df, best, worst
