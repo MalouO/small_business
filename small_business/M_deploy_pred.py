@@ -1,4 +1,4 @@
-from save_model import *
+from prediction import *
 
 X, y = restaurant_data()
 pipeline = get_fitted_pipe(X, y)

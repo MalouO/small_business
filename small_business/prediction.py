@@ -30,7 +30,6 @@ def longitude(address):
     key = pd.read_csv("../raw_data/api_key_vb.csv", header=None)
     key = key.loc[0][0]
     gmaps = googlemaps.Client(key=key)
-    # Geocoding an address
     geocode_result = gmaps.geocode(address)
     return float(geocode_result[0]['geometry']['location']['lng'])
 
@@ -68,7 +67,7 @@ def target_X(type_of_food, price, neighborhood, latitude, longitude):
     return X_user
 
 def build_y(y):
-    y_class=pd.cut(x=y, bins=[0,4, 5],
+    y_class=pd.cut(x=y, bins=[0,4.2, 5],
                         labels=["bad idea!", "good idea!"])
     return y_class
 
