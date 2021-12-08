@@ -150,7 +150,6 @@ def eval_idea(df):
     return pred
 
 def output_new(type_of_food, neighborhood, price, df):
-    df = pd.read_csv('../../notebooks/3_Prediction/data_probabilities.csv')
     df = get_selection(type_of_food, neighborhood, price, df)
     best, worst = best_worst(df)
     return df, best, worst
