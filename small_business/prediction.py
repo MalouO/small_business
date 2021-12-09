@@ -1,4 +1,5 @@
 #import streamlit as st
+from numpy.lib import type_check
 import pandas as pd
 import numpy as np
 from sklearn import neighbors
@@ -84,12 +85,20 @@ def predict(X_user_transformed):
     loaded_model = joblib.load('knn_model.joblib')
     y_probxgb = loaded_model.predict_proba(X_user_transformed)
     if y_probxgb[0][0]< 0.8:
-            pred =  'bad idea!'
+        pred =  'bad idea!'
     else:
-            pred = 'good idea!'
+        pred = 'good idea!'
     return pred
 
-def return_probability(X_user_transformed):
+def return_predicted_probability(X_user_transformed):
+    loaded_model = joblib.load('knn_model.joblib')
+    y_probxgb = loaded_model.predict_proba(X_user_transformed)
+    return y_probxgb
+
+def all_results(type_of_food, price, neighborhood, latitude, longitude):
+    loaded_model = joblib.load('knn_model.joblib')
+    y_probxgb = loaded_model.predict_proba(X_user_transformed)
+
 
 def neighbours(X_user_transformed):
     loaded_model = joblib.load('knn_model.joblib')
@@ -115,8 +124,27 @@ def output_model(data, type_of_food, price, address, neighborhood):
     neighborhood = neighborhood
     address = address
     latitude, longitude = address_imputer(address, neighborhood)
-    X_user = target_X(type_of_food = type_of_food, price = price, neighborhood = neighborhood, takeaway = 1, dine_in =1,'delivery':1, latitude = latitude, longitude=longitude)
+    X_user = target_X(type_of_food = type_of_food, price = price, neighborhood = neighborhood, takeaway = 1, dine_in =1, delivery=1, latitude = latitude, longitude=longitude)
     X_user_transformed = pipeline.transform(X_user)
     y_class = build_y(y)
     predict(X_user_transformed)
     neighbours(X_user_transformed)
+
+df = pd.read_csv('../notebooks/3_Prediction/data_probabilities.csv')
+def get_selection(type_of_food, neighborhood, price, df):
+    prediction_row = df.loc[(df['type_of_food'].isin(type_of_food)) & (df['neighborhood'].isin(neighborhood)) & (df['price'] == price)]
+    return prediction_row
+
+
+def best_worst(df):
+    best = df[:2]
+    worst = df[:-2]
+    print(best)
+    return best, worst
+
+def eval_idea(df):
+    if df['outputs'].values[0] < 0.8:
+        pred =  'bad idea!'
+    else:
+        pred = 'good idea!'
+    return pred
