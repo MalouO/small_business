@@ -42,7 +42,7 @@ def restaurant_list(df,
                     price=None):
 
     if restaurant != None:
-        df = df[df['restaurant_name'].isin(['restaurant'])]
+        df = df[df['restaurant_name'].isin(restaurant)]
         return restaurant
 
     if neighborhood != None:
@@ -63,7 +63,11 @@ def restaurant_list(df,
     return restaurant
 
 
-def review_barplot(df, restaurant, title):
+def review_barplot(df, restaurant):
+
+    df = df.copy()
+    df['comment_dates'] = pd.to_datetime(df['comment_dates'])
+    df['monthyear'] = df['comment_dates'].map(lambda x: int(f'{x.year}'))
 
     df = df[df['restaurant_name'].isin(restaurant)]
     data = df.groupby('monthyear').agg({
@@ -186,10 +190,6 @@ def restaurant_full_analysis(df,
                              type_rest=None,
                              price=None):
 
-    df = df.copy()
-    df['comment_dates'] = pd.to_datetime(df['comment_dates'])
-    df['monthyear'] = df['comment_dates'].map(lambda x: int(f'{x.year}'))
-
     if restaurant != None:
         title = restaurant
     else:
@@ -201,4 +201,4 @@ def restaurant_full_analysis(df,
                                  price)
 
     #review_scatter(df, restaurant, title)
-    review_barplot(df, restaurant, title)
+    review_barplot(df, restaurant)
