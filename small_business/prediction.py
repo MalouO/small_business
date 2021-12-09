@@ -147,9 +147,4 @@ def eval_idea(df):
         pred =  'bad idea!'
     else:
         pred = 'good idea!'
-    print(pred)
     return pred
-
-def output_new(type_of_food, neighborhood, price, df):
-    df = get_selection(type_of_food, neighborhood, price, df)
-    return df
