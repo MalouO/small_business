@@ -42,7 +42,7 @@ def restaurant_list(df,
                     price=None):
 
     if restaurant != None:
-        df = df[df['restaurant_name'].isin(['restaurant'])]
+        df = df[df['restaurant_name'].isin([restaurant])]
         return restaurant
 
     if neighborhood != None:

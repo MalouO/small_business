@@ -5,6 +5,8 @@ from streamlit_folium import folium_static
 from small_business.LC_class_mod import *
 from small_business.Victor_functions import *
 
+st.set_page_config(layout='wide')
+
 #Importing datasets
 data = pd.read_csv('small_business/data/restaurants.csv')
 reviews = pd.read_csv('raw_data/reviews.csv')
@@ -22,11 +24,14 @@ if Choice == 'I want to open a restaurant 🎈':
     #Asking the user to chose the features of the restaurant:
     st.title("Help me open a restaurant")
     columns = st.columns(3)
-    type_of_food = columns[0].selectbox('Type of restaurant:',
-                                        all_types(data))
 
-    neighborhood = columns[1].selectbox('Select the neighborhood:',
-                                        all_neigh(data))
+    type_of_food = columns[0].multiselect('Type of restaurant:',
+                                          all_types(data),
+                                          default=None)
+
+    neighborhood = columns[1].multiselect('Select the neighborhood:',
+                                          all_neigh(data),
+                                          default=None)
 
     price = columns[2].slider('Insert a price range: (1 for cheap, 4 for expensive)',
         min_value=1,
@@ -48,9 +53,44 @@ if Choice == 'I want to open a restaurant 🎈':
 
     #Mapping the similar restaurants + the address if the user inputed an address:
     st.markdown(
-        f'Have a look a the other *{type_of_food.capitalize()}* restaurants in *{neighborhood.capitalize()}* neighborhood(s):'
+        f'Have a look a the other *{", ".join([i.capitalize() for i in type_of_food])}* restaurants in *{", ".join([i.capitalize() for i in neighborhood])}* neighborhood(s):'
     )
-    folium_static(plot_map(data=data, type_of_food=type_of_food, neighborhood=neighborhood, address=address))
+
+    width = 1250
+    height = 500
+
+    if type_of_food == [] and neighborhood == []:
+        folium_static(plot_map(data=data,
+                               type_of_food=list(data.type.unique()),
+                               neighborhood=list(data.neighborhood.unique()),
+                               address=address),
+                      width=width,
+                      height=height)
+
+    if type_of_food == [] and neighborhood != []:
+        folium_static(plot_map(data=data,
+                               type_of_food=list(data.type.unique()),
+                               neighborhood=neighborhood,
+                               address=address),
+                      width=width,
+                      height=height)
+
+    if type_of_food != [] and neighborhood  == []:
+        folium_static(plot_map(data=data,
+                               type_of_food=type_of_food,
+                               neighborhood=list(data.neighborhood.unique()),
+                               address=address),
+                      width=width,
+                      height=height)
+
+    if type_of_food != [] and neighborhood != []:
+        folium_static(plot_map(data=data,
+                               type_of_food=type_of_food,
+                               neighborhood=neighborhood,
+                               address=address),
+                      width=width,
+                      height=height)
+
 
     # Plot the evolution of ratings
     #st.write("Look at the evolution of ", type_of_food, 'restaurant ratings in', neighborhood)
@@ -64,10 +104,10 @@ if Choice == 'I want to open a restaurant 🎈':
     # Provide recommendations on the neighborhood or the type of food:
 
     st.write("The **best neighborhoods** to open a ",
-             type_of_food.capitalize(), 'restaurant are:')
+             type_of_food, 'restaurant are:')
     st.write(best_neigh(data=data, type_of_food=type_of_food))
     st.write(
-        "For", type_of_food.capitalize(),
+        "For", type_of_food,
         'restaurants, we recommend a **price range** of',
         np.round(best_price_range(data=data, type_of_food=type_of_food),
                  decimals=1))
@@ -84,14 +124,14 @@ if Choice == 'I want to open a restaurant 🎈':
     #st.write("The best price range in", neighborhood, 'is',
     st.markdown("#### Look at the evolution of similar restaurants ratings and understand it ! ")
     st.write(
-        f'*{type_of_food.capitalize()} restaurants in {neighborhood.capitalize()}*',
+        f'*{", ".join([i.capitalize() for i in type_of_food])} restaurants in {", ".join([i.capitalize() for i in neighborhood])}*',
     )
 
-    if neighborhood == 'all':
+    if neighborhood == '*':
         neighborhood = [i for i in reviews.neighborhood.unique()]
     else:
         neighborhood=[neighborhood]
-    if type_of_food == 'all':
+    if type_of_food == '*':
         type_of_food = [i for i in reviews.type.unique()]
     else:
         type_of_food = [type_of_food]

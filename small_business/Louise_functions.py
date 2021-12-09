@@ -39,17 +39,17 @@ def review_evolution(reviews,
     if restaurant == 0:
         reviews = reviews
     else:
-        reviews = reviews[reviews['restaurant_name'] == restaurant]
+        reviews = reviews[reviews['restaurant_name'].isin(restaurant)]
 
     if type_of_food == 0:
         reviews = reviews
     else:
-        reviews = reviews[reviews['type'] == type_of_food]
+        reviews = reviews[reviews['type'].isin(type_of_food)]
 
     if neighborhood == 0:
         reviews = reviews
     else:
-        reviews = reviews[reviews['neighborhood'] == neighborhood]
+        reviews = reviews[reviews['neighborhood'].isin(neighborhood)]
 
     reviews_to_plot = reviews.groupby('year').mean()
     increase = reviews_to_plot['comment_ratings'].values[-1] - reviews_to_plot[
@@ -70,8 +70,8 @@ def plot_map(data,
              higher_price=5,
              lowest_rating=0,
              best_rating=5,
-             type_of_food=0,
-             neighborhood=0,
+             type_of_food=None,
+             neighborhood=None,
              latitude2=0,
              longitude2=0):
     your_data = data.copy()
@@ -80,19 +80,18 @@ def plot_map(data,
     your_data = your_data[your_data['rating'] >= lowest_rating]
     your_data = your_data[your_data['rating'] <= best_rating]
 
-
-    if neighborhood == 'all':
+    if neighborhood is None and type_of_food is None:
         your_data = your_data
 
-    if type_of_food == 0 or type_of_food == 'all':
-        your_data = your_data
-    else:
-        your_data = your_data[your_data['type'] == type_of_food]
+    if type_of_food is not None and neighborhood is None:
+        your_data = your_data[your_data['type'].isin(type_of_food)]
 
-    if neighborhood == 0 or neighborhood=='all':
-        your_data = your_data
-    else:
-        your_data = your_data[your_data['neighborhood'] == neighborhood]
+    if neighborhood is not None and type_of_food is None:
+        your_data = your_data[your_data['neighborhood'].isin(neighborhood)]
+
+    if type_of_food is not None and neighborhood is not None:
+        your_data = your_data[your_data['type'].isin(type_of_food)]
+        your_data = your_data[your_data['neighborhood'].isin(neighborhood)]
 
     data_use = your_data
 
@@ -100,9 +99,13 @@ def plot_map(data,
                      data_use['name'], data_use['price'], data_use['rating'],
                      data_use['type'])
 
-    m = folium.Map(location=[38.709223, -9.1383],
-                   titles='small businesses',
-                   zoom_start=13.45)
+    m = folium.Map(location=[38.72, -9.1385],
+                   tiles='CartoDB positron',
+                   zoom_start=14)
+
+    icon_size = (50, 50)
+    locred = 'small_business/data/locred.png'
+    locblue = 'small_business/data/locblue.png'
 
     if address == 0:
         your_data = your_data
@@ -110,18 +113,18 @@ def plot_map(data,
         longitude1 = longitude(address)
         latitude1 = latitude(address)
         folium.Marker(location=[latitude1, longitude1],
-                      tooltip=str,
-                      popup='Your_restaurant',
-                      icon=folium.Icon(color='red', icon='home',
-                                       prefix='fa')).add_to(m)
+                      tooltip='Current address',
+                      popup='Current address',
+                      icon=folium.CustomIcon(locred,
+                                             icon_size=icon_size)).add_to(m)
 
     for coord in latlonname:
         folium.Marker(
             location=[coord[0], coord[1]],
-            tooltip=str,
-            popup=
-            f'\n Name: {coord[2]} \n Price ($): {coord[3]} \n Rating:{coord[4]}\n Type:{coord[5]}'
-        ).add_to(m)
+            tooltip=folium.Popup(coord[2]),
+            popup=f"{coord[2]}\nPrice ($): {coord[3]}\nRating:{coord[4]}\nType:{coord[5]}",
+            icon=folium.CustomIcon(locblue,
+                                   icon_size=icon_size)).add_to(m)
 
     if latitude == 0:
         your_data = your_data
@@ -129,10 +132,10 @@ def plot_map(data,
         longitude2 = longitude2
         latitude2 = latitude2
         folium.Marker(location=[latitude2, longitude2],
-                      tooltip=str,
-                      popup='Your_restaurant',
-                      icon=folium.Icon(color='red', icon='home',
-                                       prefix='fa')).add_to(m)
+                      tooltip='Current address',
+                      popup='Current address',
+                      icon=folium.CustomIcon(locred,
+                                             icon_size=icon_size)).add_to(m)
 
     return m
 
@@ -141,7 +144,7 @@ def best_neigh(data, type_of_food=0):
     if type_of_food == 0:
         data = data
     else:
-        data = data[data['type'] == type_of_food]
+        data = data[data['type'].isin(type_of_food)]
     a = data.groupby('neighborhood').mean()
     return (pd.DataFrame(
         a.sort_values('rating', ascending=False).rating.head(3)))
@@ -152,7 +155,7 @@ def worse_neigh(data, type_of_food=0):
     if type_of_food == 0:
         data = data
     else:
-        data = data[data['type'] == type_of_food]
+        data = data[data['type'].isin(type_of_food)]
     a = data.groupby('neighborhood').mean()
     return (pd.DataFrame(a.sort_values('rating',
                                              ascending=True).rating.head(3)))
@@ -166,7 +169,7 @@ def best_type(data, neighborhood=0):
     if neighborhood == 0:
         data = data
     else:
-        data = data[data['neighborhood'] == neighborhood]
+        data = data[data['neighborhood'].isin(neighborhood)]
     a = data.groupby('type').mean()
     return (pd.DataFrame(a.sort_values('rating',
                                              ascending=False).rating.head(3)))
@@ -177,7 +180,7 @@ def worse_type(data, neighborhood=0):
     if neighborhood == 0:
         data = data
     else:
-        data = data[data['neighborhood'] == neighborhood]
+        data = data[data['neighborhood'].isin(neighborhood)]
     a = data.groupby('type').mean()
     return (pd.DataFrame(a.sort_values('rating',
                                              ascending=True).rating.head(3)))
@@ -187,7 +190,7 @@ def best_price_range_neig(data, neighborhood=0):
     if neighborhood == 0:
         data = data
     else:
-        data = data[data['neighborhood'] == neighborhood]
+        data = data[data['neighborhood'].isin(neighborhood)]
         data = data[data['rating'] > 4.5]
         data.price.mean()
     return data.price.mean()
@@ -198,14 +201,14 @@ def best_price_range(data, type_of_food=0):
     if type_of_food == 0:
         data = data
     else:
-        data = data[data['type'] == type_of_food]
+        data = data[data['type'].isin(type_of_food)]
         data = data[data['rating'] > 4.5]
         data.price.mean()
     return data.price.mean()
 
 
 def all_types(data):
-    return ('all','brunch', 'cafe', 'mediterranean', 'european', 'chicken', 'bar',
+    return ('brunch', 'cafe', 'mediterranean', 'european', 'chicken', 'bar',
             'seafood', 'south_america', 'veggie_healthy', 'bistro', 'grill',
             'indian_nepalese', 'portuguese', 'pizza', 'japanese', 'pasta',
             'mexican', 'africa_me', 'burger', 'italian', 'asian', 'pastry',
@@ -213,7 +216,7 @@ def all_types(data):
 
 
 def all_neigh(data):
-    return ('all', 'Graça', 'Prazeres', 'Santa Engrácia', 'São Paulo', 'Lapa',
+    return ('Graça', 'Prazeres', 'Santa Engrácia', 'São Paulo', 'Lapa',
      'Santa Catarina', 'Alto do Pina', 'Encarnação', 'Santa Isabel', 'Socorro',
      'Anjos', 'Santo Estevão', 'Pena', 'Madalena', 'Santos-o-Velho',
      'São Vicente de Fora', 'Mercês', 'Coração de Jesus', 'São José',
@@ -225,4 +228,4 @@ def all_neigh(data):
 
 
 def get_restau(data, name_of_restaurant):
-    return data[data['name'] == name_of_restaurant]
+    return data[data['name'].isin(name_of_restaurant)]
