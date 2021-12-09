@@ -1,3 +1,3654 @@
+<<<<<<< HEAD
+type_of_food,neighborhood,price,outputs
+italian,Santiago,2,1.0
+fado,Santiago,3,1.0
+italian,Sacramento,3,1.0
+asian,Sacramento,2,1.0
+asian,Sacramento,3,1.0
+portuguese,São Nicolau,1,1.0
+portuguese,São Nicolau,4,1.0
+pastry,Sacramento,3,1.0
+mediterranean,Pena,2,1.0
+pizza,São Nicolau,1,1.0
+fast_food,Sacramento,3,1.0
+fado,Sacramento,2,1.0
+cafe,Pena,2,1.0
+italian,Socorro,3,1.0
+brunch,Pena,1,1.0
+brunch,Pena,2,1.0
+fado,Santo Estevão,3,1.0
+burger,Socorro,3,1.0
+indian_nepalese,São Nicolau,1,1.0
+bar,Pena,2,1.0
+italian,Encarnação,3,1.0
+bistro,São Nicolau,1,1.0
+pasta,Sacramento,2,1.0
+africa_me,Socorro,3,1.0
+pasta,Sacramento,3,1.0
+veggie_healthy,Pena,2,1.0
+mexican,Sacramento,2,1.0
+mexican,Sacramento,3,1.0
+italian,Sacramento,2,1.0
+south_america,Pena,2,1.0
+africa_me,Sacramento,2,1.0
+africa_me,Sacramento,3,1.0
+burger,Sacramento,2,1.0
+pastry,São Cristóvão,3,1.0
+burger,Sacramento,3,1.0
+fado,Santo Estevão,4,1.0
+italian,São Cristóvão,3,1.0
+pizza,Sacramento,3,1.0
+pasta,São Nicolau,1,1.0
+bar,São Miguel,2,1.0
+burger,Santo Estevão,4,1.0
+africa_me,São Cristóvão,4,1.0
+bar,São Miguel,3,1.0
+africa_me,Santo Estevão,3,1.0
+portuguese,Santiago,3,1.0
+portuguese,Santiago,4,1.0
+africa_me,Santo Estevão,4,1.0
+portuguese,Santiago,2,1.0
+indian_nepalese,Santiago,3,1.0
+seafood,São Miguel,2,1.0
+seafood,São Miguel,4,1.0
+grill,Santiago,3,1.0
+mexican,Santo Estevão,3,1.0
+grill,Santiago,2,1.0
+pasta,Santiago,2,1.0
+pasta,Santiago,3,1.0
+pastry,Socorro,3,1.0
+italian,Santiago,3,1.0
+fast_food,Santo Estevão,4,1.0
+pastry,Santiago,3,1.0
+pastry,Santo Estevão,3,1.0
+asian,Santiago,3,1.0
+pastry,Santo Estevão,4,1.0
+mediterranean,São Miguel,4,1.0
+mexican,São Nicolau,1,1.0
+italian,Santo Estevão,4,1.0
+cafe,Socorro,3,1.0
+asian,Santo Estevão,3,1.0
+european,São Miguel,3,1.0
+africa_me,Santiago,3,1.0
+italian,Santo Estevão,3,1.0
+mexican,Santiago,3,1.0
+south_america,São Nicolau,1,1.0
+fado,São Cristóvão,3,1.0
+european,Sacramento,3,1.0
+indian_nepalese,Castelo,4,1.0
+africa_me,Castelo,3,1.0
+south_america,Sacramento,3,1.0
+mexican,Castelo,3,1.0
+africa_me,Pena,1,1.0
+africa_me,Pena,2,1.0
+pasta,Castelo,3,1.0
+veggie_healthy,Sacramento,3,1.0
+pasta,Castelo,2,1.0
+bistro,Sacramento,2,1.0
+pasta,Socorro,3,1.0
+pasta,Pena,1,1.0
+pasta,Pena,2,1.0
+portuguese,Castelo,3,1.0
+portuguese,Castelo,4,1.0
+portuguese,Castelo,2,1.0
+burger,Pena,2,1.0
+brunch,Santa Isabel,2,1.0
+south_america,Sacramento,2,1.0
+seafood,Sacramento,2,1.0
+brunch,Santa Isabel,3,1.0
+fado,Castelo,3,1.0
+chicken,Sacramento,3,1.0
+bar,Sacramento,2,1.0
+bar,Sacramento,3,1.0
+asian,Pena,2,1.0
+pastry,Castelo,3,1.0
+italian,Castelo,2,1.0
+pastry,Castelo,2,1.0
+asian,Castelo,3,1.0
+seafood,Sacramento,4,1.0
+italian,Pena,2,1.0
+italian,Castelo,3,1.0
+seafood,Sacramento,3,1.0
+indian_nepalese,Castelo,3,1.0
+bistro,Sacramento,3,1.0
+mexican,Socorro,3,1.0
+grill,Castelo,3,1.0
+portuguese,Pena,1,1.0
+bar,Castelo,4,1.0
+portuguese,Pena,2,1.0
+bar,Castelo,2,1.0
+portuguese,Sacramento,4,1.0
+portuguese,Sacramento,3,1.0
+european,Castelo,3,1.0
+european,Castelo,2,1.0
+mediterranean,Castelo,3,1.0
+mediterranean,Castelo,4,1.0
+cafe,Castelo,3,1.0
+asian,São Paulo,3,1.0
+cafe,Castelo,4,1.0
+cafe,Castelo,2,1.0
+indian_nepalese,Pena,2,1.0
+seafood,Castelo,2,1.0
+portuguese,Sacramento,2,1.0
+seafood,Castelo,4,1.0
+pizza,Pena,1,1.0
+grill,Sacramento,2,1.0
+grill,Castelo,2,1.0
+grill,Sacramento,3,1.0
+japanese,São Paulo,2,1.0
+indian_nepalese,Sacramento,2,1.0
+veggie_healthy,Castelo,4,1.0
+pasta,São Paulo,2,1.0
+mexican,São Paulo,3,1.0
+south_america,Castelo,3,1.0
+seafood,São Nicolau,1,1.0
+indian_nepalese,Sacramento,3,1.0
+mexican,São Paulo,2,1.0
+mexican,São Paulo,1,1.0
+seafood,Castelo,3,1.0
+mexican,Santo Estevão,4,1.0
+seafood,São Miguel,3,1.0
+mexican,São Cristóvão,3,1.0
+chicken,Alto do Pina,2,1.0
+brunch,Alto do Pina,2,1.0
+brunch,Alto do Pina,1,1.0
+mediterranean,Santa Justa,3,1.0
+brunch,Alto do Pina,3,1.0
+cafe,Alto do Pina,2,1.0
+cafe,Alto do Pina,1,1.0
+cafe,Santo Estevão,4,1.0
+cafe,Alto do Pina,3,1.0
+pastry,São Miguel,3,1.0
+mediterranean,Alto do Pina,1,1.0
+mediterranean,Santa Justa,2,1.0
+mediterranean,Alto do Pina,3,1.0
+cafe,Santa Justa,3,1.0
+mediterranean,São Cristóvão,3,1.0
+mediterranean,São Cristóvão,4,1.0
+european,Santa Justa,3,1.0
+chicken,Santa Justa,2,1.0
+chicken,Santa Justa,1,1.0
+seafood,Santa Justa,4,1.0
+bar,São Cristóvão,3,1.0
+european,Santo Estevão,3,1.0
+bar,São Cristóvão,4,1.0
+south_america,Santa Justa,3,1.0
+south_america,Santa Justa,2,1.0
+seafood,Santa Justa,3,1.0
+mediterranean,Santo Estevão,3,1.0
+asian,São Miguel,3,1.0
+seafood,Santa Justa,2,1.0
+bar,Santa Justa,3,1.0
+bar,Santa Justa,4,1.0
+mediterranean,Santo Estevão,4,1.0
+bar,Santa Justa,2,1.0
+chicken,Santa Justa,3,1.0
+cafe,Santa Justa,2,1.0
+brunch,Santa Justa,3,1.0
+pasta,Santo Estevão,3,1.0
+cafe,São Cristóvão,3,1.0
+fado,Alto do Pina,1,1.0
+japanese,Alto do Pina,3,1.0
+pasta,Mártires,1,1.0
+africa_me,Anjos,1,1.0
+africa_me,Anjos,2,1.0
+fast_food,Alto do Pina,1,1.0
+japanese,Mártires,1,1.0
+pastry,Alto do Pina,1,1.0
+africa_me,Alto do Pina,1,1.0
+pastry,Alto do Pina,2,1.0
+asian,Alto do Pina,3,1.0
+burger,Alto do Pina,1,1.0
+asian,Alto do Pina,1,1.0
+asian,Alto do Pina,2,1.0
+italian,Alto do Pina,2,1.0
+pizza,Alto do Pina,1,1.0
+portuguese,Alto do Pina,1,1.0
+italian,Mártires,1,1.0
+seafood,Alto do Pina,3,1.0
+chicken,Alto do Pina,3,1.0
+brunch,Santa Justa,2,1.0
+bar,Alto do Pina,3,1.0
+seafood,Alto do Pina,2,1.0
+seafood,Alto do Pina,1,1.0
+fado,São Miguel,3,1.0
+south_america,Alto do Pina,3,1.0
+european,Mártires,1,1.0
+veggie_healthy,Alto do Pina,1,1.0
+veggie_healthy,Alto do Pina,3,1.0
+fast_food,Mártires,1,1.0
+grill,Alto do Pina,2,1.0
+grill,Alto do Pina,1,1.0
+grill,Alto do Pina,3,1.0
+veggie_healthy,Santa Justa,3,1.0
+bistro,Santa Justa,2,1.0
+bistro,Santa Justa,3,1.0
+grill,Santa Justa,2,1.0
+cafe,Santiago,2,1.0
+portuguese,Santo Estevão,3,1.0
+portuguese,Santo Estevão,4,1.0
+fado,Socorro,3,1.0
+indian_nepalese,Santo Estevão,3,1.0
+fado,Santa Justa,3,1.0
+indian_nepalese,Santo Estevão,4,1.0
+fado,Santa Justa,2,1.0
+indian_nepalese,São Miguel,3,1.0
+fast_food,Santa Justa,2,1.0
+pastry,Santa Justa,3,1.0
+bar,Santa Catarina,4,1.0
+portuguese,São Miguel,3,1.0
+portuguese,São Cristóvão,3,1.0
+pastry,Santa Justa,2,1.0
+cafe,Santiago,4,1.0
+cafe,Santiago,3,1.0
+mediterranean,Santiago,4,1.0
+seafood,Santiago,2,1.0
+pasta,Santo Estevão,4,1.0
+south_america,Santiago,3,1.0
+south_america,São Miguel,3,1.0
+seafood,Santiago,3,1.0
+seafood,Santiago,4,1.0
+italian,São Nicolau,1,1.0
+veggie_healthy,São Miguel,4,1.0
+mediterranean,Santiago,3,1.0
+bar,Santiago,4,1.0
+portuguese,Encarnação,3,1.0
+pizza,Santo Estevão,3,1.0
+pizza,Santo Estevão,4,1.0
+pasta,São Cristóvão,3,1.0
+european,Santiago,3,1.0
+asian,Santa Justa,3,1.0
+portuguese,São Cristóvão,4,1.0
+asian,Santa Justa,1,1.0
+bar,Santo Estevão,4,1.0
+portuguese,Santa Catarina,4,1.0
+seafood,Santo Estevão,3,1.0
+seafood,Santo Estevão,4,1.0
+south_america,São Cristóvão,3,1.0
+portuguese,Santa Justa,3,1.0
+bar,Santo Estevão,3,1.0
+portuguese,Santa Justa,2,1.0
+pasta,Santa Justa,1,1.0
+indian_nepalese,Santa Justa,3,1.0
+seafood,São Cristóvão,3,1.0
+indian_nepalese,Santa Justa,2,1.0
+grill,Santa Justa,3,1.0
+seafood,São Cristóvão,4,1.0
+chicken,Santo Estevão,4,1.0
+pasta,Santa Justa,2,1.0
+south_america,Santo Estevão,3,1.0
+asian,Santa Justa,2,1.0
+africa_me,Santa Justa,3,1.0
+italian,Santa Justa,3,1.0
+indian_nepalese,São Cristóvão,3,1.0
+italian,Santa Justa,2,1.0
+burger,Santa Justa,3,1.0
+fado,São Nicolau,1,1.0
+burger,Santa Justa,2,1.0
+veggie_healthy,Santo Estevão,3,1.0
+pasta,Santa Justa,3,1.0
+veggie_healthy,Santo Estevão,4,1.0
+africa_me,Santa Justa,2,1.0
+mexican,Santa Justa,3,1.0
+grill,São Cristóvão,3,1.0
+pasta,São Miguel,3,1.0
+mexican,Santa Justa,2,1.0
+european,São Nicolau,1,1.0
+mexican,Pena,2,1.0
+fast_food,Pena,2,1.0
+grill,Almargem do Bispo,3,1.0
+seafood,Coração de Jesus,2,1.0
+mexican,Santa Isabel,3,1.0
+seafood,Coração de Jesus,3,1.0
+seafood,Sé,3,1.0
+south_america,Socorro,3,1.0
+mexican,Santa Isabel,2,1.0
+pasta,Santa Isabel,3,1.0
+bistro,Coração de Jesus,2,1.0
+bistro,Coração de Jesus,3,1.0
+grill,Coração de Jesus,2,1.0
+grill,Coração de Jesus,3,1.0
+portuguese,Coração de Jesus,2,1.0
+pasta,Santa Isabel,2,1.0
+japanese,São Sebastião da Pedreira,4,1.0
+japanese,Santa Isabel,2,1.0
+bar,Coração de Jesus,3,1.0
+africa_me,Santa Isabel,2,1.0
+seafood,Sé,4,1.0
+fado,Graça,1,1.0
+pastry,Graça,3,1.0
+fast_food,Graça,2,1.0
+fast_food,Graça,1,1.0
+italian,Mercês,1,1.0
+fast_food,Graça,3,1.0
+fado,Graça,2,1.0
+fado,Graça,3,1.0
+european,Coração de Jesus,3,1.0
+seafood,Socorro,4,1.0
+seafood,Socorro,3,1.0
+cafe,Coração de Jesus,2,1.0
+cafe,Coração de Jesus,3,1.0
+africa_me,Santa Isabel,3,1.0
+european,Coração de Jesus,2,1.0
+japanese,Coração de Jesus,3,1.0
+pizza,Santa Isabel,3,1.0
+pizza,São Sebastião da Pedreira,4,1.0
+pasta,Almargem do Bispo,2,1.0
+italian,Almargem do Bispo,2,1.0
+pastry,Coração de Jesus,3,1.0
+mexican,Almargem do Bispo,3,1.0
+mexican,Almargem do Bispo,2,1.0
+indian_nepalese,Santa Isabel,2,1.0
+pasta,Almargem do Bispo,1,1.0
+japanese,Almargem do Bispo,1,1.0
+italian,Almargem do Bispo,3,1.0
+fast_food,Coração de Jesus,3,1.0
+pasta,Sé,1,1.0
+portuguese,Almargem do Bispo,3,1.0
+portuguese,Almargem do Bispo,4,1.0
+portuguese,Almargem do Bispo,1,1.0
+portuguese,Almargem do Bispo,2,1.0
+italian,Almargem do Bispo,1,1.0
+pastry,Coração de Jesus,2,1.0
+portuguese,Sé,2,1.0
+portuguese,Santa Isabel,2,1.0
+pizza,Santa Isabel,2,1.0
+portuguese,Santa Isabel,3,1.0
+portuguese,Sé,4,1.0
+burger,Coração de Jesus,2,1.0
+fast_food,Pena,1,1.0
+italian,Coração de Jesus,2,1.0
+italian,Coração de Jesus,3,1.0
+asian,Almargem do Bispo,3,1.0
+fado,Almargem do Bispo,3,1.0
+fado,Almargem do Bispo,1,1.0
+fado,Almargem do Bispo,2,1.0
+indian_nepalese,Santa Isabel,3,1.0
+fast_food,Almargem do Bispo,1,1.0
+pastry,Almargem do Bispo,3,1.0
+pastry,Graça,4,1.0
+pastry,Graça,1,1.0
+pastry,Graça,2,1.0
+veggie_healthy,Graça,2,1.0
+seafood,Graça,1,1.0
+seafood,Graça,4,1.0
+seafood,Graça,3,1.0
+south_america,Graça,2,1.0
+south_america,Graça,1,1.0
+south_america,Graça,3,1.0
+fado,Santa Isabel,2,1.0
+bar,Graça,3,1.0
+veggie_healthy,Graça,4,1.0
+veggie_healthy,Graça,3,1.0
+bistro,Graça,2,1.0
+bistro,Graça,1,1.0
+seafood,São Vicente de Fora,4,1.0
+bistro,Graça,3,1.0
+seafood,Graça,2,1.0
+bar,Graça,4,1.0
+grill,Graça,1,1.0
+mediterranean,Graça,4,1.0
+cafe,Graça,2,1.0
+mediterranean,Socorro,3,1.0
+cafe,Graça,4,1.0
+cafe,Graça,3,1.0
+mediterranean,Graça,2,1.0
+mediterranean,Graça,1,1.0
+mediterranean,Graça,3,1.0
+bar,Graça,1,1.0
+european,Graça,1,1.0
+fado,Santa Isabel,3,1.0
+chicken,Graça,2,1.0
+chicken,Graça,1,1.0
+chicken,Graça,3,1.0
+bar,Graça,2,1.0
+grill,Graça,2,1.0
+fast_food,Santa Isabel,3,1.0
+asian,Graça,3,1.0
+africa_me,Graça,3,1.0
+mexican,Graça,1,1.0
+pastry,Santa Isabel,2,1.0
+mexican,Graça,3,1.0
+africa_me,Graça,2,1.0
+africa_me,Graça,1,1.0
+asian,Santa Isabel,3,1.0
+burger,Graça,2,1.0
+pasta,Graça,3,1.0
+burger,Graça,1,1.0
+burger,Graça,3,1.0
+asian,Santa Isabel,2,1.0
+italian,Graça,3,1.0
+asian,Graça,2,1.0
+bar,Socorro,3,1.0
+mexican,Graça,2,1.0
+pizza,Santa Maria dos Olivais,4,1.0
+grill,Graça,3,1.0
+pizza,Graça,2,1.0
+indian_nepalese,Graça,2,1.0
+indian_nepalese,Graça,3,1.0
+portuguese,Graça,2,1.0
+portuguese,Graça,1,1.0
+mediterranean,Mercês,1,1.0
+portuguese,Graça,3,1.0
+pizza,Graça,1,1.0
+chicken,Socorro,3,1.0
+pizza,Graça,4,1.0
+pizza,Graça,3,1.0
+japanese,Graça,2,1.0
+fast_food,Santa Isabel,2,1.0
+pastry,Santa Isabel,3,1.0
+japanese,Graça,3,1.0
+indian_nepalese,Almargem do Bispo,3,1.0
+italian,Alto do Pina,3,1.0
+mexican,São José,2,1.0
+chicken,Santa Isabel,2,1.0
+fado,São José,3,1.0
+grill,Santa Engrácia,4,1.0
+pasta,São José,3,1.0
+seafood,Santa Isabel,2,1.0
+pasta,São José,2,1.0
+european,Santa Isabel,3,1.0
+japanese,São José,2,1.0
+pizza,São José,3,1.0
+fado,Sé,2,1.0
+asian,Santa Engrácia,3,1.0
+cafe,São Nicolau,1,1.0
+pizza,São José,2,1.0
+portuguese,São José,3,1.0
+seafood,Santa Isabel,3,1.0
+portuguese,São José,2,1.0
+south_america,Santa Engrácia,4,1.0
+indian_nepalese,São José,3,1.0
+south_america,Santa Isabel,2,1.0
+seafood,Santa Engrácia,3,1.0
+pastry,Santa Engrácia,4,1.0
+seafood,Santa Engrácia,4,1.0
+pastry,Santa Engrácia,3,1.0
+indian_nepalese,São José,2,1.0
+burger,Santa Engrácia,4,1.0
+european,Santa Isabel,2,1.0
+bar,Santa Engrácia,3,1.0
+bar,Santa Engrácia,4,1.0
+mediterranean,Santa Isabel,3,1.0
+grill,São José,2,1.0
+mexican,São José,3,1.0
+africa_me,São José,2,1.0
+chicken,Santa Engrácia,4,1.0
+indian_nepalese,Santa Engrácia,4,1.0
+fast_food,São José,2,1.0
+africa_me,Santa Engrácia,4,1.0
+pastry,São José,3,1.0
+burger,Santa Engrácia,3,1.0
+fast_food,São José,3,1.0
+japanese,São Domingos de Benfica,3,1.0
+mexican,Santa Engrácia,4,1.0
+chicken,Santa Isabel,3,1.0
+bar,Santa Isabel,2,1.0
+portuguese,Socorro,3,1.0
+fado,São José,2,1.0
+pasta,Santa Engrácia,4,1.0
+asian,São José,2,1.0
+italian,São José,3,1.0
+fado,Sé,3,1.0
+japanese,Santa Engrácia,4,1.0
+italian,São José,2,1.0
+burger,São José,3,1.0
+pizza,Santa Engrácia,3,1.0
+pizza,Santa Engrácia,4,1.0
+bar,Santa Isabel,3,1.0
+pizza,Santa Engrácia,2,1.0
+burger,São José,2,1.0
+italian,Santa Engrácia,4,1.0
+italian,Santa Engrácia,3,1.0
+portuguese,Santa Engrácia,4,1.0
+africa_me,São José,3,1.0
+seafood,Madalena,4,1.0
+indian_nepalese,Santa Engrácia,3,1.0
+bistro,São José,3,1.0
+grill,São José,3,1.0
+burger,Santa Engrácia,2,1.0
+bar,Almargem do Bispo,4,1.0
+bistro,Santa Isabel,2,1.0
+cafe,Santa Engrácia,4,1.0
+seafood,Almargem do Bispo,1,1.0
+south_america,São José,2,1.0
+seafood,São José,3,1.0
+indian_nepalese,Socorro,3,1.0
+cafe,São José,3,1.0
+fado,Pena,2,1.0
+bar,Almargem do Bispo,3,1.0
+bistro,Santa Isabel,3,1.0
+veggie_healthy,Santa Isabel,2,1.0
+seafood,São José,2,1.0
+bar,São José,3,1.0
+cafe,Santa Isabel,3,1.0
+bar,São José,2,1.0
+chicken,São José,3,1.0
+mediterranean,São Nicolau,1,1.0
+mediterranean,Santa Isabel,2,1.0
+chicken,São José,2,1.0
+fado,Santa Engrácia,4,1.0
+seafood,Almargem do Bispo,4,1.0
+cafe,Santa Engrácia,3,1.0
+south_america,São José,3,1.0
+south_america,Almargem do Bispo,3,1.0
+bistro,São José,2,1.0
+european,Santa Engrácia,3,1.0
+european,Santa Engrácia,4,1.0
+brunch,São José,2,1.0
+veggie_healthy,São José,3,1.0
+south_america,Santa Isabel,3,1.0
+grill,Socorro,3,1.0
+fast_food,Santa Engrácia,4,1.0
+cafe,Sacramento,3,1.0
+veggie_healthy,Santa Isabel,3,1.0
+veggie_healthy,São José,2,1.0
+cafe,São José,2,1.0
+seafood,Almargem do Bispo,3,1.0
+mediterranean,Santa Engrácia,4,1.0
+south_america,Almargem do Bispo,1,1.0
+south_america,Almargem do Bispo,2,1.0
+japanese,Mártires,2,0.8
+burger,São Mamede,1,0.8
+cafe,São Mamede,3,0.8
+european,São Mamede,1,0.8
+cafe,São Cristóvão,4,0.8
+burger,São Mamede,2,0.8
+pizza,Mártires,3,0.8
+cafe,São Mamede,2,0.8
+mediterranean,São Mamede,3,0.8
+european,São Mamede,2,0.8
+cafe,São Cristóvão,2,0.8
+italian,Mártires,2,0.8
+japanese,Mártires,3,0.8
+fast_food,Mártires,2,0.8
+italian,Mártires,3,0.8
+asian,Mártires,2,0.8
+burger,Mártires,3,0.8
+burger,Mártires,2,0.8
+africa_me,Mártires,3,0.8
+asian,Mártires,3,0.8
+chicken,São Mamede,2,0.8
+pastry,Mártires,2,0.8
+africa_me,Mártires,2,0.8
+pastry,Mártires,3,0.8
+mexican,Mártires,3,0.8
+mexican,Mártires,1,0.8
+mexican,Mártires,2,0.8
+pasta,Mártires,2,0.8
+european,São Mamede,3,0.8
+fast_food,Mártires,3,0.8
+pasta,Mártires,3,0.8
+fado,Mártires,2,0.8
+africa_me,São Mamede,1,0.8
+mediterranean,São Mamede,2,0.8
+fado,Mártires,1,0.8
+mediterranean,São Mamede,1,0.8
+fado,Mártires,3,0.8
+africa_me,São Mamede,2,0.8
+africa_me,São Mamede,3,0.8
+mexican,São Mamede,3,0.8
+brunch,São Cristóvão,4,0.8
+burger,São Cristóvão,4,0.8
+chicken,São Mamede,3,0.8
+mexican,São Mamede,2,0.8
+seafood,São Mamede,2,0.8
+fast_food,São Cristóvão,4,0.8
+pizza,São Cristóvão,4,0.8
+pizza,São Cristóvão,3,0.8
+indian_nepalese,São Mamede,1,0.8
+indian_nepalese,São Mamede,2,0.8
+japanese,São Cristóvão,4,0.8
+grill,São Mamede,3,0.8
+grill,São Mamede,1,0.8
+grill,São Mamede,2,0.8
+pastry,São Cristóvão,4,0.8
+pasta,São Cristóvão,4,0.8
+bistro,São Mamede,3,0.8
+mexican,São Cristóvão,2,0.8
+pastry,São Cristóvão,2,0.8
+asian,São Cristóvão,3,0.8
+seafood,São Mamede,3,0.8
+mexican,São Cristóvão,4,0.8
+asian,São Cristóvão,4,0.8
+bistro,São Mamede,2,0.8
+south_america,São Mamede,2,0.8
+south_america,São Mamede,3,0.8
+asian,São Cristóvão,2,0.8
+veggie_healthy,São Mamede,3,0.8
+italian,São Cristóvão,4,0.8
+italian,São Cristóvão,2,0.8
+africa_me,São Cristóvão,3,0.8
+veggie_healthy,São Mamede,2,0.8
+burger,São Cristóvão,3,0.8
+bar,São Mamede,3,0.8
+portuguese,São Cristóvão,2,0.8
+fast_food,São Cristóvão,3,0.8
+pizza,São Mamede,3,0.8
+pasta,São Mamede,3,0.8
+brunch,São Mamede,3,0.8
+bar,São Mamede,2,0.8
+european,São Cristóvão,3,0.8
+chicken,São Cristóvão,4,0.8
+brunch,São Mamede,1,0.8
+pasta,São Mamede,1,0.8
+chicken,São Cristóvão,3,0.8
+bar,São Cristóvão,2,0.8
+seafood,São Cristóvão,2,0.8
+pasta,São Mamede,2,0.8
+japanese,São Mamede,2,0.8
+veggie_healthy,São Mamede,1,0.8
+brunch,São Mamede,2,0.8
+indian_nepalese,São Mamede,3,0.8
+south_america,São Cristóvão,4,0.8
+pizza,São Mamede,1,0.8
+bar,São Mamede,1,0.8
+veggie_healthy,São Cristóvão,4,0.8
+bistro,São Cristóvão,4,0.8
+bistro,São Cristóvão,3,0.8
+grill,São Cristóvão,4,0.8
+portuguese,São Mamede,3,0.8
+portuguese,São Mamede,1,0.8
+fado,São Cristóvão,4,0.8
+fado,São Cristóvão,2,0.8
+portuguese,São Mamede,2,0.8
+indian_nepalese,São Cristóvão,4,0.8
+bistro,São Mamede,1,0.8
+brunch,Sacramento,2,0.8
+pizza,Mártires,2,0.8
+italian,São José,1,0.8
+pasta,São José,1,0.8
+japanese,São José,3,0.8
+pizza,São José,1,0.8
+portuguese,São José,1,0.8
+indian_nepalese,São José,1,0.8
+grill,São José,1,0.8
+bistro,São José,1,0.8
+veggie_healthy,São José,1,0.8
+south_america,São José,1,0.8
+seafood,São José,1,0.8
+chicken,São José,1,0.8
+european,São José,3,0.8
+european,São José,2,0.8
+mediterranean,São José,3,0.8
+mediterranean,São José,1,0.8
+mediterranean,São José,2,0.8
+brunch,São José,3,0.8
+brunch,São José,1,0.8
+fado,Coração de Jesus,3,0.8
+fado,Coração de Jesus,2,0.8
+fast_food,Coração de Jesus,2,0.8
+pastry,Coração de Jesus,1,0.8
+asian,Coração de Jesus,3,0.8
+burger,São José,1,0.8
+asian,São José,1,0.8
+italian,Coração de Jesus,1,0.8
+asian,São José,3,0.8
+veggie_healthy,Sacramento,4,0.8
+veggie_healthy,Sacramento,2,0.8
+south_america,Sacramento,4,0.8
+south_america,Sacramento,1,0.8
+seafood,Sacramento,1,0.8
+bar,Sacramento,4,0.8
+chicken,Sacramento,4,0.8
+chicken,Sacramento,2,0.8
+european,Sacramento,4,0.8
+european,Sacramento,1,0.8
+european,Sacramento,2,0.8
+mediterranean,Sacramento,3,0.8
+mediterranean,Sacramento,4,0.8
+mediterranean,Sacramento,2,0.8
+cafe,Sacramento,4,0.8
+cafe,Sacramento,1,0.8
+cafe,Sacramento,2,0.8
+brunch,Sacramento,3,0.8
+brunch,Sacramento,4,0.8
+fado,São José,1,0.8
+fast_food,São José,1,0.8
+pastry,São José,1,0.8
+pastry,São José,2,0.8
+asian,Coração de Jesus,2,0.8
+burger,Coração de Jesus,3,0.8
+bistro,Sacramento,4,0.8
+asian,Mercês,1,0.8
+mexican,Mercês,1,0.8
+pasta,Mercês,1,0.8
+japanese,Mercês,1,0.8
+pizza,Mercês,1,0.8
+portuguese,Mercês,1,0.8
+bistro,Mercês,1,0.8
+bistro,Mercês,2,0.8
+south_america,Mercês,3,0.8
+south_america,Mercês,1,0.8
+seafood,Mercês,1,0.8
+bar,Mercês,1,0.8
+cafe,Mercês,3,0.8
+cafe,Mercês,1,0.8
+cafe,Mercês,2,0.8
+fado,Santos-o-Velho,2,0.8
+fast_food,Santos-o-Velho,2,0.8
+pastry,Santos-o-Velho,2,0.8
+asian,Santos-o-Velho,3,0.8
+asian,Santos-o-Velho,2,0.8
+italian,Santos-o-Velho,2,0.8
+burger,Santos-o-Velho,3,0.8
+burger,Santos-o-Velho,2,0.8
+mexican,Santos-o-Velho,3,0.8
+burger,Mercês,1,0.8
+fast_food,Mercês,1,0.8
+africa_me,Coração de Jesus,3,0.8
+fado,Mercês,1,0.8
+africa_me,Coração de Jesus,2,0.8
+mexican,Coração de Jesus,3,0.8
+mexican,Coração de Jesus,2,0.8
+pasta,Coração de Jesus,3,0.8
+pasta,Coração de Jesus,2,0.8
+japanese,Coração de Jesus,2,0.8
+pizza,Coração de Jesus,3,0.8
+pizza,Coração de Jesus,2,0.8
+portuguese,Coração de Jesus,3,0.8
+portuguese,Coração de Jesus,1,0.8
+indian_nepalese,Coração de Jesus,3,0.8
+indian_nepalese,Coração de Jesus,2,0.8
+veggie_healthy,Coração de Jesus,3,0.8
+veggie_healthy,Coração de Jesus,2,0.8
+south_america,Coração de Jesus,3,0.8
+south_america,Coração de Jesus,2,0.8
+seafood,Coração de Jesus,1,0.8
+bar,Coração de Jesus,2,0.8
+chicken,Coração de Jesus,3,0.8
+chicken,Coração de Jesus,2,0.8
+mediterranean,Coração de Jesus,3,0.8
+mediterranean,Coração de Jesus,2,0.8
+brunch,Coração de Jesus,2,0.8
+bistro,Sacramento,1,0.8
+grill,Sacramento,4,0.8
+portuguese,Mártires,3,0.8
+mediterranean,Mártires,1,0.8
+cafe,Mártires,3,0.8
+cafe,Mártires,1,0.8
+cafe,Mártires,2,0.8
+brunch,Mártires,3,0.8
+brunch,Mártires,1,0.8
+brunch,Mártires,2,0.8
+fado,São Miguel,4,0.8
+fado,São Miguel,1,0.8
+fado,São Miguel,2,0.8
+fast_food,São Miguel,3,0.8
+fast_food,São Miguel,4,0.8
+pastry,São Miguel,4,0.8
+pastry,São Miguel,2,0.8
+asian,São Miguel,4,0.8
+asian,São Miguel,2,0.8
+italian,São Miguel,3,0.8
+italian,São Miguel,4,0.8
+italian,São Miguel,2,0.8
+burger,São Miguel,3,0.8
+burger,São Miguel,4,0.8
+burger,São Miguel,2,0.8
+africa_me,São Miguel,3,0.8
+africa_me,São Miguel,4,0.8
+mediterranean,Mártires,2,0.8
+mediterranean,Mártires,3,0.8
+mexican,São Miguel,4,0.8
+european,Mártires,2,0.8
+portuguese,Mártires,4,0.8
+portuguese,Mártires,1,0.8
+portuguese,Mártires,2,0.8
+indian_nepalese,Mártires,3,0.8
+indian_nepalese,Mártires,2,0.8
+grill,Mártires,3,0.8
+grill,Mártires,2,0.8
+bistro,Mártires,3,0.8
+bistro,Mártires,1,0.8
+bistro,Mártires,2,0.8
+veggie_healthy,Mártires,3,0.8
+veggie_healthy,Mártires,2,0.8
+south_america,Mártires,3,0.8
+south_america,Mártires,1,0.8
+south_america,Mártires,2,0.8
+seafood,Mártires,3,0.8
+seafood,Mártires,1,0.8
+seafood,Mártires,2,0.8
+bar,Mártires,3,0.8
+bar,Mártires,2,0.8
+chicken,Mártires,3,0.8
+chicken,Mártires,2,0.8
+european,Mártires,3,0.8
+mexican,São Miguel,3,0.8
+mexican,São Miguel,2,0.8
+indian_nepalese,Sacramento,4,0.8
+cafe,São Miguel,4,0.8
+fado,Sacramento,3,0.8
+fado,Sacramento,4,0.8
+fado,Sacramento,1,0.8
+fast_food,Sacramento,4,0.8
+fast_food,Sacramento,1,0.8
+fast_food,Sacramento,2,0.8
+pastry,Sacramento,4,0.8
+pastry,Sacramento,2,0.8
+asian,Sacramento,4,0.8
+italian,Sacramento,4,0.8
+italian,Sacramento,1,0.8
+burger,Sacramento,4,0.8
+africa_me,Sacramento,4,0.8
+mexican,Sacramento,4,0.8
+pasta,Sacramento,4,0.8
+pasta,Sacramento,1,0.8
+japanese,Sacramento,3,0.8
+japanese,Sacramento,4,0.8
+japanese,Sacramento,1,0.8
+japanese,Sacramento,2,0.8
+pizza,Sacramento,4,0.8
+pizza,Sacramento,2,0.8
+portuguese,Sacramento,1,0.8
+cafe,São Miguel,2,0.8
+cafe,São Miguel,3,0.8
+pasta,São Miguel,4,0.8
+mediterranean,São Miguel,2,0.8
+pasta,São Miguel,1,0.8
+pasta,São Miguel,2,0.8
+japanese,São Miguel,3,0.8
+pizza,São Miguel,3,0.8
+pizza,São Miguel,4,0.8
+pizza,São Miguel,2,0.8
+portuguese,São Miguel,4,0.8
+portuguese,São Miguel,2,0.8
+indian_nepalese,São Miguel,4,0.8
+indian_nepalese,São Miguel,2,0.8
+grill,São Miguel,3,0.8
+grill,São Miguel,4,0.8
+grill,São Miguel,2,0.8
+veggie_healthy,São Miguel,3,0.8
+veggie_healthy,São Miguel,2,0.8
+south_america,São Miguel,4,0.8
+south_america,São Miguel,2,0.8
+bar,São Miguel,4,0.8
+chicken,São Miguel,3,0.8
+chicken,São Miguel,4,0.8
+chicken,São Miguel,2,0.8
+european,São Miguel,2,0.8
+mediterranean,São Miguel,3,0.8
+burger,São Mamede,3,0.8
+mediterranean,Campolide,4,0.8
+italian,São Mamede,2,0.8
+africa_me,Castelo,2,0.8
+fado,Castelo,4,0.8
+fado,Castelo,1,0.8
+fado,Castelo,2,0.8
+fast_food,Castelo,3,0.8
+fast_food,Castelo,4,0.8
+fast_food,Castelo,2,0.8
+pastry,Castelo,4,0.8
+asian,Castelo,4,0.8
+asian,Castelo,2,0.8
+italian,Castelo,4,0.8
+burger,Castelo,3,0.8
+burger,Castelo,4,0.8
+burger,Castelo,2,0.8
+africa_me,Castelo,4,0.8
+mexican,Castelo,4,0.8
+veggie_healthy,Castelo,2,0.8
+mexican,Castelo,1,0.8
+mexican,Castelo,2,0.8
+pasta,Castelo,4,0.8
+pasta,Castelo,1,0.8
+japanese,Castelo,4,0.8
+japanese,Castelo,2,0.8
+pizza,Castelo,3,0.8
+pizza,Castelo,4,0.8
+pizza,Castelo,2,0.8
+portuguese,Castelo,1,0.8
+indian_nepalese,Castelo,2,0.8
+grill,Castelo,4,0.8
+bistro,Castelo,3,0.8
+bistro,Castelo,4,0.8
+cafe,Alvalade,2,0.8
+cafe,Alvalade,1,0.8
+cafe,Alvalade,3,0.8
+portuguese,Alvalade,1,0.8
+pastry,São Domingos de Benfica,2,0.8
+italian,São Domingos de Benfica,3,0.8
+italian,São Domingos de Benfica,1,0.8
+italian,São Domingos de Benfica,2,0.8
+burger,São Domingos de Benfica,3,0.8
+burger,São Domingos de Benfica,1,0.8
+burger,São Domingos de Benfica,2,0.8
+japanese,São Domingos de Benfica,2,0.8
+pizza,São Domingos de Benfica,3,0.8
+pizza,São Domingos de Benfica,2,0.8
+veggie_healthy,São Domingos de Benfica,3,0.8
+veggie_healthy,São Domingos de Benfica,2,0.8
+seafood,São Domingos de Benfica,3,0.8
+seafood,São Domingos de Benfica,2,0.8
+european,São Domingos de Benfica,3,0.8
+european,São Domingos de Benfica,2,0.8
+brunch,São Domingos de Benfica,1,0.8
+brunch,São Domingos de Benfica,2,0.8
+fast_food,Alvalade,3,0.8
+fast_food,Alvalade,4,0.8
+fast_food,Alvalade,1,0.8
+fast_food,Alvalade,2,0.8
+pastry,Alvalade,1,0.8
+asian,Alvalade,1,0.8
+italian,Alvalade,1,0.8
+japanese,Alvalade,1,0.8
+pizza,Alvalade,3,0.8
+pizza,Alvalade,1,0.8
+pizza,Alvalade,2,0.8
+veggie_healthy,Castelo,3,0.8
+south_america,Castelo,4,0.8
+burger,Santiago,4,0.8
+mediterranean,Santo Condestável,2,0.8
+bistro,Santo Condestável,2,0.8
+veggie_healthy,Santo Condestável,3,0.8
+veggie_healthy,Santo Condestável,2,0.8
+south_america,Santo Condestável,3,0.8
+south_america,Santo Condestável,2,0.8
+seafood,Santo Condestável,3,0.8
+seafood,Santo Condestável,2,0.8
+bar,Santo Condestável,3,0.8
+bar,Santo Condestável,2,0.8
+chicken,Santo Condestável,3,0.8
+chicken,Santo Condestável,2,0.8
+european,Santo Condestável,3,0.8
+european,Santo Condestável,2,0.8
+mediterranean,Santo Condestável,3,0.8
+cafe,Santo Condestável,3,0.8
+south_america,Castelo,2,0.8
+cafe,Santo Condestável,2,0.8
+brunch,Santo Condestável,3,0.8
+brunch,Santo Condestável,4,0.8
+brunch,Santo Condestável,2,0.8
+fado,Santiago,4,0.8
+fado,Santiago,2,0.8
+fast_food,Santiago,3,0.8
+fast_food,Santiago,4,0.8
+fast_food,Santiago,2,0.8
+pastry,Santiago,4,0.8
+pastry,Santiago,2,0.8
+asian,Santiago,4,0.8
+asian,Santiago,2,0.8
+italian,Santiago,4,0.8
+bistro,Santo Condestável,3,0.8
+grill,Santo Condestável,2,0.8
+grill,Santo Condestável,4,0.8
+grill,Santo Condestável,3,0.8
+seafood,Castelo,1,0.8
+bar,Castelo,3,0.8
+bar,Castelo,1,0.8
+chicken,Castelo,3,0.8
+chicken,Castelo,4,0.8
+chicken,Castelo,1,0.8
+brunch,Castelo,4,0.8
+fado,Santo Condestável,3,0.8
+fado,Santo Condestável,2,0.8
+fast_food,Santo Condestável,3,0.8
+fast_food,Santo Condestável,2,0.8
+pastry,Santo Condestável,3,0.8
+pastry,Santo Condestável,2,0.8
+asian,Santo Condestável,3,0.8
+asian,Santo Condestável,2,0.8
+italian,Santo Condestável,3,0.8
+italian,Santo Condestável,2,0.8
+africa_me,Santo Condestável,3,0.8
+africa_me,Santo Condestável,2,0.8
+mexican,Santo Condestável,3,0.8
+mexican,Santo Condestável,2,0.8
+pasta,Santo Condestável,3,0.8
+pasta,Santo Condestável,2,0.8
+pizza,Santo Condestável,3,0.8
+pizza,Santo Condestável,2,0.8
+portuguese,Santo Condestável,3,0.8
+portuguese,Santo Condestável,2,0.8
+indian_nepalese,Santo Condestável,3,0.8
+indian_nepalese,Santo Condestável,2,0.8
+pastry,São Domingos de Benfica,3,0.8
+fast_food,São Domingos de Benfica,2,0.8
+fast_food,São Domingos de Benfica,3,0.8
+fast_food,São Sebastião da Pedreira,3,0.8
+seafood,Santa Maria dos Olivais,3,0.8
+seafood,Santa Maria dos Olivais,4,0.8
+bar,Santa Maria dos Olivais,3,0.8
+bar,Santa Maria dos Olivais,4,0.8
+chicken,Santa Maria dos Olivais,3,0.8
+chicken,Santa Maria dos Olivais,4,0.8
+european,Santa Maria dos Olivais,3,0.8
+european,Santa Maria dos Olivais,4,0.8
+mediterranean,Santa Maria dos Olivais,3,0.8
+mediterranean,Santa Maria dos Olivais,4,0.8
+cafe,Santa Maria dos Olivais,3,0.8
+cafe,Santa Maria dos Olivais,4,0.8
+brunch,Santa Maria dos Olivais,3,0.8
+brunch,Santa Maria dos Olivais,4,0.8
+fast_food,São Sebastião da Pedreira,4,0.8
+cafe,Nossa Senhora de Fátima,2,0.8
+fast_food,São Sebastião da Pedreira,1,0.8
+fast_food,São Sebastião da Pedreira,2,0.8
+pastry,São Sebastião da Pedreira,4,0.8
+pastry,São Sebastião da Pedreira,1,0.8
+pastry,São Sebastião da Pedreira,2,0.8
+italian,São Sebastião da Pedreira,4,0.8
+italian,São Sebastião da Pedreira,1,0.8
+italian,São Sebastião da Pedreira,2,0.8
+burger,São Sebastião da Pedreira,4,0.8
+japanese,São Sebastião da Pedreira,3,0.8
+japanese,São Sebastião da Pedreira,1,0.8
+japanese,São Sebastião da Pedreira,2,0.8
+pizza,São Sebastião da Pedreira,3,0.8
+pizza,São Sebastião da Pedreira,2,0.8
+south_america,Santa Maria dos Olivais,4,0.8
+south_america,Santa Maria dos Olivais,3,0.8
+veggie_healthy,Santa Maria dos Olivais,4,0.8
+veggie_healthy,Santa Maria dos Olivais,3,0.8
+fado,Santa Maria dos Olivais,4,0.8
+fast_food,Santa Maria dos Olivais,3,0.8
+fast_food,Santa Maria dos Olivais,4,0.8
+pastry,Santa Maria dos Olivais,3,0.8
+pastry,Santa Maria dos Olivais,4,0.8
+asian,Santa Maria dos Olivais,3,0.8
+asian,Santa Maria dos Olivais,4,0.8
+italian,Santa Maria dos Olivais,3,0.8
+italian,Santa Maria dos Olivais,4,0.8
+burger,Santa Maria dos Olivais,3,0.8
+burger,Santa Maria dos Olivais,4,0.8
+africa_me,Santa Maria dos Olivais,4,0.8
+mexican,Santa Maria dos Olivais,3,0.8
+mexican,Santa Maria dos Olivais,4,0.8
+pasta,Santa Maria dos Olivais,4,0.8
+japanese,Santa Maria dos Olivais,3,0.8
+japanese,Santa Maria dos Olivais,4,0.8
+pizza,Santa Maria dos Olivais,3,0.8
+pizza,Santa Maria dos Olivais,2,0.8
+portuguese,Santa Maria dos Olivais,3,0.8
+portuguese,Santa Maria dos Olivais,4,0.8
+indian_nepalese,Santa Maria dos Olivais,3,0.8
+indian_nepalese,Santa Maria dos Olivais,4,0.8
+indian_nepalese,Santa Maria dos Olivais,1,0.8
+indian_nepalese,Santa Maria dos Olivais,2,0.8
+grill,Santa Maria dos Olivais,3,0.8
+grill,Santa Maria dos Olivais,4,0.8
+bistro,Santa Maria dos Olivais,3,0.8
+bistro,Santa Maria dos Olivais,4,0.8
+portuguese,São Sebastião da Pedreira,1,0.8
+indian_nepalese,São Sebastião da Pedreira,4,0.8
+grill,São Sebastião da Pedreira,4,0.8
+brunch,Almargem do Bispo,3,0.8
+fado,Nossa Senhora de Fátima,1,0.8
+fast_food,Nossa Senhora de Fátima,3,0.8
+fast_food,Nossa Senhora de Fátima,1,0.8
+fast_food,Nossa Senhora de Fátima,2,0.8
+pastry,Nossa Senhora de Fátima,1,0.8
+asian,Nossa Senhora de Fátima,1,0.8
+italian,Nossa Senhora de Fátima,3,0.8
+italian,Nossa Senhora de Fátima,1,0.8
+italian,Nossa Senhora de Fátima,2,0.8
+burger,Nossa Senhora de Fátima,3,0.8
+burger,Nossa Senhora de Fátima,1,0.8
+burger,Nossa Senhora de Fátima,2,0.8
+mexican,Nossa Senhora de Fátima,1,0.8
+pasta,Nossa Senhora de Fátima,1,0.8
+japanese,Nossa Senhora de Fátima,3,0.8
+japanese,Nossa Senhora de Fátima,1,0.8
+japanese,Nossa Senhora de Fátima,2,0.8
+pizza,Nossa Senhora de Fátima,3,0.8
+pizza,Nossa Senhora de Fátima,1,0.8
+pizza,Nossa Senhora de Fátima,2,0.8
+portuguese,Nossa Senhora de Fátima,1,0.8
+portuguese,Nossa Senhora de Fátima,2,0.8
+grill,Nossa Senhora de Fátima,1,0.8
+veggie_healthy,Nossa Senhora de Fátima,1,0.8
+seafood,Nossa Senhora de Fátima,1,0.8
+bar,Nossa Senhora de Fátima,1,0.8
+mediterranean,Nossa Senhora de Fátima,1,0.8
+cafe,Nossa Senhora de Fátima,3,0.8
+cafe,Nossa Senhora de Fátima,1,0.8
+brunch,Almargem do Bispo,1,0.8
+cafe,Almargem do Bispo,2,0.8
+bistro,São Sebastião da Pedreira,4,0.8
+cafe,Almargem do Bispo,1,0.8
+veggie_healthy,São Sebastião da Pedreira,4,0.8
+cafe,São Sebastião da Pedreira,4,0.8
+cafe,São Sebastião da Pedreira,1,0.8
+brunch,São Sebastião da Pedreira,3,0.8
+brunch,São Sebastião da Pedreira,2,0.8
+fast_food,Almargem do Bispo,3,0.8
+fast_food,Almargem do Bispo,2,0.8
+asian,Almargem do Bispo,2,0.8
+burger,Almargem do Bispo,3,0.8
+burger,Almargem do Bispo,1,0.8
+pasta,Almargem do Bispo,3,0.8
+pizza,Almargem do Bispo,3,0.8
+pizza,Almargem do Bispo,2,0.8
+indian_nepalese,Almargem do Bispo,2,0.8
+grill,Almargem do Bispo,2,0.8
+bistro,Almargem do Bispo,3,0.8
+bistro,Almargem do Bispo,2,0.8
+south_america,Almargem do Bispo,4,0.8
+seafood,Almargem do Bispo,2,0.8
+bar,Almargem do Bispo,1,0.8
+bar,Almargem do Bispo,2,0.8
+chicken,Almargem do Bispo,3,0.8
+european,Almargem do Bispo,3,0.8
+european,Almargem do Bispo,2,0.8
+mediterranean,Almargem do Bispo,3,0.8
+mediterranean,Almargem do Bispo,4,0.8
+mediterranean,Almargem do Bispo,1,0.8
+mediterranean,Almargem do Bispo,2,0.8
+cafe,Almargem do Bispo,3,0.8
+burger,Santiago,3,0.8
+burger,Santiago,2,0.8
+italian,São Mamede,1,0.8
+italian,São Nicolau,2,0.8
+brunch,Campolide,3,0.8
+brunch,Campolide,1,0.8
+fado,São Nicolau,3,0.8
+fado,São Nicolau,2,0.8
+fast_food,São Nicolau,3,0.8
+fast_food,São Nicolau,1,0.8
+fast_food,São Nicolau,2,0.8
+pastry,São Nicolau,3,0.8
+pastry,São Nicolau,1,0.8
+pastry,São Nicolau,2,0.8
+asian,São Nicolau,3,0.8
+asian,São Nicolau,1,0.8
+asian,São Nicolau,2,0.8
+italian,São Nicolau,3,0.8
+burger,São Nicolau,3,0.8
+indian_nepalese,São Nicolau,2,0.8
+burger,São Nicolau,1,0.8
+burger,São Nicolau,2,0.8
+africa_me,São Nicolau,3,0.8
+africa_me,São Nicolau,2,0.8
+mexican,São Nicolau,3,0.8
+mexican,São Nicolau,2,0.8
+pasta,São Nicolau,3,0.8
+pasta,São Nicolau,2,0.8
+japanese,São Nicolau,3,0.8
+japanese,São Nicolau,1,0.8
+pizza,São Nicolau,3,0.8
+pizza,São Nicolau,2,0.8
+portuguese,São Nicolau,3,0.8
+portuguese,São Nicolau,2,0.8
+cafe,Campolide,2,0.8
+cafe,Campolide,1,0.8
+cafe,Campolide,4,0.8
+cafe,Campolide,3,0.8
+bistro,Campolide,2,0.8
+veggie_healthy,Campolide,3,0.8
+veggie_healthy,Campolide,4,0.8
+veggie_healthy,Campolide,1,0.8
+veggie_healthy,Campolide,2,0.8
+south_america,Campolide,3,0.8
+south_america,Campolide,4,0.8
+south_america,Campolide,1,0.8
+south_america,Campolide,2,0.8
+seafood,Campolide,3,0.8
+seafood,Campolide,4,0.8
+seafood,Campolide,1,0.8
+seafood,Campolide,2,0.8
+bar,Campolide,3,0.8
+bar,Campolide,4,0.8
+bar,Campolide,1,0.8
+bar,Campolide,2,0.8
+chicken,Campolide,3,0.8
+chicken,Campolide,4,0.8
+chicken,Campolide,1,0.8
+chicken,Campolide,2,0.8
+european,Campolide,3,0.8
+european,Campolide,4,0.8
+european,Campolide,1,0.8
+european,Campolide,2,0.8
+mediterranean,Campolide,3,0.8
+pasta,Santos-o-Velho,2,0.8
+mediterranean,Campolide,1,0.8
+mediterranean,Campolide,2,0.8
+indian_nepalese,São Nicolau,3,0.8
+grill,São Nicolau,3,0.8
+africa_me,Santiago,4,0.8
+mediterranean,Sé,3,0.8
+portuguese,Sé,3,0.8
+indian_nepalese,Sé,3,0.8
+indian_nepalese,Sé,2,0.8
+grill,Sé,3,0.8
+grill,Sé,2,0.8
+bistro,Sé,3,0.8
+south_america,Sé,3,0.8
+south_america,Sé,2,0.8
+seafood,Sé,2,0.8
+bar,Sé,3,0.8
+chicken,Sé,3,0.8
+chicken,Sé,2,0.8
+european,Sé,3,0.8
+european,Sé,2,0.8
+mediterranean,Sé,2,0.8
+grill,São Nicolau,2,0.8
+cafe,Sé,3,0.8
+cafe,Sé,2,0.8
+brunch,Sé,3,0.8
+fado,São Mamede,3,0.8
+fado,São Mamede,1,0.8
+fado,São Mamede,2,0.8
+fast_food,São Mamede,3,0.8
+pastry,São Mamede,3,0.8
+pastry,São Mamede,1,0.8
+pastry,São Mamede,2,0.8
+asian,São Mamede,3,0.8
+asian,São Mamede,1,0.8
+asian,São Mamede,2,0.8
+italian,São Mamede,3,0.8
+pizza,Sé,3,0.8
+pasta,Sé,2,0.8
+pasta,Sé,3,0.8
+mexican,Sé,2,0.8
+bistro,São Nicolau,3,0.8
+bistro,São Nicolau,2,0.8
+south_america,São Nicolau,3,0.8
+south_america,São Nicolau,2,0.8
+seafood,São Nicolau,3,0.8
+seafood,São Nicolau,4,0.8
+seafood,São Nicolau,2,0.8
+bar,São Nicolau,3,0.8
+bar,São Nicolau,1,0.8
+bar,São Nicolau,2,0.8
+chicken,São Nicolau,3,0.8
+chicken,São Nicolau,1,0.8
+chicken,São Nicolau,2,0.8
+european,São Nicolau,3,0.8
+european,São Nicolau,2,0.8
+mediterranean,São Nicolau,3,0.8
+mediterranean,São Nicolau,2,0.8
+cafe,São Nicolau,3,0.8
+cafe,São Nicolau,2,0.8
+brunch,São Nicolau,3,0.8
+brunch,São Nicolau,1,0.8
+fado,Sé,4,0.8
+pastry,Sé,3,0.8
+pastry,Sé,2,0.8
+asian,Sé,3,0.8
+italian,Sé,3,0.8
+italian,Sé,2,0.8
+burger,Sé,3,0.8
+mexican,Sé,3,0.8
+bistro,Campolide,1,0.8
+bistro,Campolide,4,0.8
+bistro,Campolide,3,0.8
+mexican,Santa Justa,1,0.8
+fado,Santa Justa,1,0.8
+fast_food,Santa Justa,3,0.8
+fast_food,Santa Justa,4,0.8
+fast_food,Santa Justa,1,0.8
+pastry,Santa Justa,4,0.8
+pastry,Santa Justa,1,0.8
+asian,Santa Justa,4,0.8
+italian,Santa Justa,4,0.8
+italian,Santa Justa,1,0.8
+burger,Santa Justa,4,0.8
+burger,Santa Justa,1,0.8
+africa_me,Santa Justa,4,0.8
+africa_me,Santa Justa,1,0.8
+mexican,Santa Justa,4,0.8
+pasta,Santa Justa,4,0.8
+grill,Campolide,2,0.8
+japanese,Santa Justa,3,0.8
+japanese,Santa Justa,1,0.8
+japanese,Santa Justa,2,0.8
+pizza,Santa Justa,3,0.8
+pizza,Santa Justa,4,0.8
+pizza,Santa Justa,1,0.8
+pizza,Santa Justa,2,0.8
+portuguese,Santa Justa,4,0.8
+portuguese,Santa Justa,1,0.8
+indian_nepalese,Santa Justa,4,0.8
+indian_nepalese,Santa Justa,1,0.8
+grill,Santa Justa,4,0.8
+grill,Santa Justa,1,0.8
+bistro,Santa Justa,1,0.8
+cafe,São Jorge de Arroios,1,0.8
+seafood,São Jorge de Arroios,3,0.8
+pizza,São Jorge de Arroios,1,0.8
+brunch,Santiago,2,0.8
+africa_me,Santiago,2,0.8
+mexican,Santiago,4,0.8
+mexican,Santiago,2,0.8
+pasta,Santiago,4,0.8
+japanese,Santiago,4,0.8
+japanese,Santiago,2,0.8
+pizza,Santiago,3,0.8
+pizza,Santiago,4,0.8
+pizza,Santiago,2,0.8
+portuguese,Santiago,1,0.8
+indian_nepalese,Santiago,4,0.8
+indian_nepalese,Santiago,2,0.8
+grill,Santiago,4,0.8
+bistro,Santiago,3,0.8
+bistro,Santiago,4,0.8
+veggie_healthy,Santiago,3,0.8
+veggie_healthy,Santiago,4,0.8
+veggie_healthy,Santiago,2,0.8
+south_america,Santiago,4,0.8
+south_america,Santiago,2,0.8
+seafood,Santiago,1,0.8
+bar,Santiago,3,0.8
+bar,Santiago,1,0.8
+bar,Santiago,2,0.8
+chicken,Santiago,3,0.8
+chicken,Santiago,4,0.8
+chicken,Santiago,1,0.8
+european,Santiago,2,0.8
+brunch,Santiago,4,0.8
+veggie_healthy,Santa Justa,4,0.8
+veggie_healthy,Santa Justa,1,0.8
+veggie_healthy,Santa Justa,2,0.8
+burger,Campolide,2,0.8
+africa_me,Campolide,4,0.8
+africa_me,Campolide,1,0.8
+africa_me,Campolide,2,0.8
+mexican,Campolide,3,0.8
+mexican,Campolide,4,0.8
+mexican,Campolide,1,0.8
+mexican,Campolide,2,0.8
+pasta,Campolide,3,0.8
+pasta,Campolide,4,0.8
+pasta,Campolide,1,0.8
+pasta,Campolide,2,0.8
+japanese,Campolide,3,0.8
+japanese,Campolide,4,0.8
+japanese,Campolide,2,0.8
+pizza,Campolide,3,0.8
+pizza,Campolide,4,0.8
+pizza,Campolide,1,0.8
+pizza,Campolide,2,0.8
+portuguese,Campolide,3,0.8
+portuguese,Campolide,4,0.8
+portuguese,Campolide,1,0.8
+portuguese,Campolide,2,0.8
+indian_nepalese,Campolide,3,0.8
+indian_nepalese,Campolide,4,0.8
+indian_nepalese,Campolide,1,0.8
+indian_nepalese,Campolide,2,0.8
+grill,Campolide,3,0.8
+grill,Campolide,4,0.8
+grill,Campolide,1,0.8
+africa_me,Campolide,3,0.8
+burger,Campolide,1,0.8
+south_america,Santa Justa,4,0.8
+burger,Campolide,4,0.8
+south_america,Santa Justa,1,0.8
+seafood,Santa Justa,1,0.8
+bar,Santa Justa,1,0.8
+chicken,Santa Justa,4,0.8
+european,Santa Justa,1,0.8
+european,Santa Justa,2,0.8
+mediterranean,Santa Justa,4,0.8
+mediterranean,Santa Justa,1,0.8
+cafe,Santa Justa,4,0.8
+cafe,Santa Justa,1,0.8
+brunch,Santa Justa,1,0.8
+fado,Campolide,3,0.8
+fado,Campolide,4,0.8
+fado,Campolide,1,0.8
+fado,Campolide,2,0.8
+fast_food,Campolide,3,0.8
+fast_food,Campolide,4,0.8
+fast_food,Campolide,2,0.8
+pastry,Campolide,3,0.8
+pastry,Campolide,4,0.8
+pastry,Campolide,1,0.8
+pastry,Campolide,2,0.8
+asian,Campolide,3,0.8
+asian,Campolide,1,0.8
+asian,Campolide,2,0.8
+italian,Campolide,3,0.8
+italian,Campolide,4,0.8
+italian,Campolide,2,0.8
+burger,Campolide,3,0.8
+mexican,Santos-o-Velho,2,0.8
+fado,Santa Maria dos Olivais,3,0.8
+burger,Santo Estevão,3,0.8
+fado,Socorro,2,0.8
+fast_food,Socorro,3,0.8
+pasta,Alto do Pina,2,0.8
+south_america,Santos-o-Velho,2,0.8
+south_america,Santo Estevão,1,0.8
+bistro,Santa Engrácia,3,0.8
+fast_food,Socorro,1,0.8
+pasta,Alto do Pina,3,0.8
+bistro,Santa Engrácia,4,0.8
+mexican,Alto do Pina,2,0.8
+mexican,Alto do Pina,1,0.8
+south_america,Santo Estevão,4,0.8
+veggie_healthy,Santa Engrácia,3,0.8
+mexican,Alto do Pina,3,0.8
+veggie_healthy,Santa Engrácia,4,0.8
+veggie_healthy,Santa Engrácia,2,0.8
+pastry,Socorro,2,0.8
+south_america,Santa Engrácia,3,0.8
+south_america,Santo Estevão,2,0.8
+japanese,Alto do Pina,1,0.8
+chicken,Encarnação,3,0.8
+japanese,Alto do Pina,2,0.8
+chicken,Santos-o-Velho,2,0.8
+seafood,Santo Estevão,1,0.8
+cafe,Anjos,1,0.8
+indian_nepalese,Alto do Pina,2,0.8
+cafe,Anjos,2,0.8
+italian,Pena,1,0.8
+bar,Santos-o-Velho,2,0.8
+indian_nepalese,Alto do Pina,3,0.8
+grill,Santa Engrácia,3,0.8
+brunch,Anjos,1,0.8
+portuguese,Alto do Pina,2,0.8
+bar,Santos-o-Velho,3,0.8
+portuguese,Alto do Pina,4,0.8
+portuguese,Alto do Pina,3,0.8
+pizza,Alto do Pina,2,0.8
+burger,Pena,1,0.8
+pizza,Alto do Pina,3,0.8
+africa_me,Alto do Pina,2,0.8
+asian,Socorro,3,0.8
+asian,Socorro,4,0.8
+veggie_healthy,Santo Estevão,2,0.8
+fado,Alto do Pina,3,0.8
+brunch,Encarnação,2,0.8
+pasta,Socorro,1,0.8
+pasta,Socorro,2,0.8
+cafe,Santa Engrácia,2,0.8
+brunch,Encarnação,3,0.8
+cafe,Encarnação,2,0.8
+japanese,Pena,2,0.8
+brunch,Santa Engrácia,2,0.8
+japanese,Socorro,1,0.8
+cafe,Encarnação,3,0.8
+bistro,Santo Estevão,4,0.8
+mediterranean,Encarnação,3,0.8
+european,Encarnação,2,0.8
+european,Encarnação,3,0.8
+pizza,Socorro,2,0.8
+grill,Santos-o-Velho,2,0.8
+bistro,Santo Estevão,1,0.8
+mexican,Socorro,2,0.8
+fast_food,Alto do Pina,3,0.8
+bar,Santa Engrácia,2,0.8
+mexican,Pena,1,0.8
+asian,Socorro,2,0.8
+africa_me,Alto do Pina,3,0.8
+burger,Alto do Pina,2,0.8
+burger,Alto do Pina,3,0.8
+italian,Alto do Pina,1,0.8
+bistro,Santo Estevão,2,0.8
+chicken,Santa Engrácia,3,0.8
+portuguese,São Paulo,3,0.8
+portuguese,São Paulo,2,0.8
+portuguese,São Paulo,4,0.8
+burger,Socorro,2,0.8
+pastry,Alto do Pina,3,0.8
+fast_food,Alto do Pina,2,0.8
+africa_me,Socorro,1,0.8
+africa_me,Socorro,2,0.8
+indian_nepalese,Santa Engrácia,2,0.8
+seafood,Santo Estevão,2,0.8
+bistro,Alto do Pina,3,0.8
+africa_me,Santa Engrácia,3,0.8
+grill,Anjos,1,0.8
+asian,Santa Engrácia,4,0.8
+portuguese,Santa Catarina,1,0.8
+grill,Anjos,2,0.8
+portuguese,Santa Catarina,3,0.8
+japanese,Santa Catarina,1,0.8
+pasta,Santa Catarina,1,0.8
+veggie_healthy,Anjos,3,0.8
+mexican,Santa Catarina,2,0.8
+veggie_healthy,Anjos,2,0.8
+mexican,Santa Catarina,3,0.8
+brunch,Santo Estevão,4,0.8
+cafe,Santo Estevão,2,0.8
+cafe,Santo Estevão,1,0.8
+cafe,Santo Estevão,3,0.8
+seafood,Anjos,3,0.8
+italian,Santa Catarina,2,0.8
+portuguese,Santa Catarina,2,0.8
+grill,Santa Catarina,4,0.8
+bistro,Santa Catarina,1,0.8
+pizza,Anjos,1,0.8
+mediterranean,Santa Catarina,4,0.8
+asian,Anjos,2,0.8
+asian,Anjos,1,0.8
+portuguese,Madalena,4,0.8
+seafood,Madalena,1,0.8
+pizza,Anjos,3,0.8
+fado,Santa Engrácia,3,0.8
+pizza,Anjos,2,0.8
+pastry,Santa Engrácia,2,0.8
+asian,Anjos,3,0.8
+seafood,Santa Catarina,4,0.8
+fast_food,Santa Engrácia,3,0.8
+pastry,Anjos,2,0.8
+pastry,Anjos,1,0.8
+pasta,Madalena,1,0.8
+indian_nepalese,Anjos,3,0.8
+italian,Santa Catarina,1,0.8
+italian,Santa Catarina,3,0.8
+portuguese,Santa Engrácia,2,0.8
+seafood,Anjos,2,0.8
+bar,Alto do Pina,2,0.8
+bar,Alto do Pina,1,0.8
+pastry,Pena,1,0.8
+pastry,Pena,2,0.8
+japanese,Santa Engrácia,2,0.8
+south_america,Alto do Pina,2,0.8
+south_america,Alto do Pina,1,0.8
+mediterranean,Santos-o-Velho,2,0.8
+bar,Santo Estevão,2,0.8
+portuguese,Santa Engrácia,3,0.8
+mediterranean,Anjos,3,0.8
+veggie_healthy,Alto do Pina,2,0.8
+bar,Santo Estevão,1,0.8
+bistro,Alto do Pina,2,0.8
+european,Santos-o-Velho,2,0.8
+bistro,Alto do Pina,1,0.8
+asian,Pena,1,0.8
+chicken,Santo Estevão,3,0.8
+chicken,Santo Estevão,1,0.8
+japanese,Santa Engrácia,3,0.8
+european,Santo Estevão,1,0.8
+mediterranean,Santo Estevão,2,0.8
+mediterranean,Santo Estevão,1,0.8
+fast_food,Madalena,1,0.8
+asian,Santa Catarina,3,0.8
+mexican,Santa Engrácia,3,0.8
+bar,Anjos,3,0.8
+european,Santo Estevão,2,0.8
+fado,Pena,1,0.8
+chicken,Alto do Pina,1,0.8
+chicken,Santo Estevão,2,0.8
+seafood,São Paulo,3,0.8
+mediterranean,Alto do Pina,2,0.8
+european,Alto do Pina,2,0.8
+pasta,Santa Engrácia,3,0.8
+european,Alto do Pina,1,0.8
+european,Alto do Pina,3,0.8
+portuguese,Socorro,4,0.8
+fado,Alto do Pina,2,0.8
+pizza,Pena,2,0.8
+pastry,Santa Isabel,1,0.8
+japanese,Santo Estevão,4,0.8
+european,Santa Isabel,1,0.8
+cafe,Pena,1,0.8
+japanese,Santo Estevão,3,0.8
+fado,Graça,4,0.8
+fado,Santo Estevão,1,0.8
+pasta,Santo Estevão,2,0.8
+fast_food,Graça,4,0.8
+asian,Graça,4,0.8
+asian,Graça,1,0.8
+italian,Graça,4,0.8
+italian,Graça,1,0.8
+italian,Graça,2,0.8
+bar,Santa Isabel,1,0.8
+pasta,Santo Estevão,1,0.8
+burger,Graça,4,0.8
+africa_me,Graça,4,0.8
+africa_me,Santa Isabel,1,0.8
+mediterranean,Santa Isabel,1,0.8
+japanese,Santo Estevão,1,0.8
+italian,Santa Isabel,1,0.8
+pastry,Encarnação,3,0.8
+asian,Santa Isabel,1,0.8
+fast_food,Encarnação,2,0.8
+european,Pena,1,0.8
+italian,Santa Isabel,3,0.8
+fast_food,Encarnação,3,0.8
+fado,Encarnação,2,0.8
+italian,Santa Isabel,2,0.8
+burger,Santa Isabel,2,0.8
+burger,Santa Isabel,3,0.8
+fado,Encarnação,3,0.8
+brunch,Santa Isabel,1,0.8
+burger,Santa Isabel,1,0.8
+cafe,Santa Isabel,2,0.8
+cafe,Santa Isabel,1,0.8
+portuguese,Socorro,2,0.8
+mexican,Graça,4,0.8
+pasta,Graça,4,0.8
+pasta,Graça,1,0.8
+bistro,Santa Isabel,1,0.8
+portuguese,Santa Isabel,1,0.8
+africa_me,Santo Estevão,1,0.8
+south_america,Graça,4,0.8
+asian,Santo Estevão,4,0.8
+burger,Santo Estevão,2,0.8
+chicken,Graça,4,0.8
+european,Graça,3,0.8
+burger,Santo Estevão,1,0.8
+grill,Graça,4,0.8
+european,Graça,2,0.8
+asian,Santo Estevão,2,0.8
+cafe,Graça,1,0.8
+grill,Santa Isabel,2,0.8
+indian_nepalese,Santa Isabel,1,0.8
+japanese,Santos-o-Velho,3,0.8
+grill,Santa Isabel,3,0.8
+bistro,Graça,4,0.8
+veggie_healthy,Santa Isabel,1,0.8
+seafood,Santa Isabel,1,0.8
+mexican,Santo Estevão,1,0.8
+mexican,Santo Estevão,2,0.8
+pasta,Graça,2,0.8
+japanese,Graça,4,0.8
+pasta,Santa Isabel,1,0.8
+japanese,Santa Isabel,3,0.8
+japanese,Graça,1,0.8
+fado,Santo Estevão,2,0.8
+fast_food,Santo Estevão,3,0.8
+pizza,Santos-o-Velho,2,0.8
+portuguese,Graça,4,0.8
+indian_nepalese,Graça,4,0.8
+fast_food,Santo Estevão,1,0.8
+south_america,Santa Isabel,1,0.8
+fast_food,Santo Estevão,2,0.8
+africa_me,Santo Estevão,2,0.8
+pizza,Santa Isabel,1,0.8
+asian,São Paulo,4,0.8
+mediterranean,Pena,1,0.8
+indian_nepalese,Encarnação,3,0.8
+bar,Encarnação,3,0.8
+portuguese,Santos-o-Velho,2,0.8
+seafood,Socorro,1,0.8
+portuguese,Encarnação,2,0.8
+seafood,Socorro,2,0.8
+portuguese,Encarnação,1,0.8
+bar,Socorro,4,0.8
+bistro,Pena,2,0.8
+indian_nepalese,Santo Estevão,2,0.8
+pasta,Encarnação,2,0.8
+bar,Socorro,2,0.8
+burger,São Paulo,2,0.8
+grill,Santo Estevão,1,0.8
+south_america,Pena,4,0.8
+chicken,Socorro,2,0.8
+south_america,Pena,1,0.8
+burger,São Paulo,3,0.8
+south_america,Socorro,2,0.8
+bistro,Pena,1,0.8
+south_america,Encarnação,2,0.8
+south_america,Socorro,4,0.8
+bistro,Socorro,3,0.8
+grill,Socorro,2,0.8
+bistro,Encarnação,2,0.8
+grill,Santo Estevão,4,0.8
+pasta,São Paulo,3,0.8
+veggie_healthy,Socorro,3,0.8
+grill,Pena,2,0.8
+veggie_healthy,Socorro,4,0.8
+grill,Socorro,1,0.8
+indian_nepalese,Pena,1,0.8
+indian_nepalese,Socorro,2,0.8
+mexican,São Paulo,4,0.8
+grill,Encarnação,3,0.8
+grill,Santo Estevão,3,0.8
+burger,Prazeres,2,0.8
+japanese,Encarnação,3,0.8
+burger,São Paulo,1,0.8
+portuguese,Santo Estevão,1,0.8
+chicken,Pena,1,0.8
+burger,Encarnação,3,0.8
+fado,Santa Isabel,1,0.8
+brunch,Socorro,2,0.8
+brunch,Socorro,1,0.8
+italian,Encarnação,2,0.8
+portuguese,Santo Estevão,2,0.8
+bar,Pena,1,0.8
+italian,Encarnação,1,0.8
+pizza,Santo Estevão,1,0.8
+africa_me,Encarnação,3,0.8
+cafe,Socorro,2,0.8
+pizza,Santo Estevão,2,0.8
+asian,São Paulo,1,0.8
+asian,São Paulo,2,0.8
+seafood,Pena,2,0.8
+asian,Encarnação,2,0.8
+chicken,Pena,2,0.8
+mexican,Encarnação,3,0.8
+pasta,Encarnação,3,0.8
+seafood,Pena,1,0.8
+asian,Encarnação,3,0.8
+european,Socorro,2,0.8
+pizza,São Paulo,3,0.8
+mediterranean,Socorro,4,0.8
+pizza,Lapa,3,0.6
+italian,Santiago,1,0.6
+european,Santiago,4,0.6
+mediterranean,Santiago,2,0.6
+pizza,Santo Condestável,1,0.6
+pizza,Santo Condestável,4,0.6
+portuguese,Lapa,3,0.6
+italian,Lapa,2,0.6
+africa_me,Santiago,1,0.6
+chicken,Santiago,2,0.6
+brunch,Santa Catarina,1,0.6
+burger,Lapa,3,0.6
+pizza,Santiago,1,0.6
+grill,Santiago,1,0.6
+italian,Lapa,3,0.6
+japanese,Santiago,3,0.6
+bistro,Santiago,2,0.6
+indian_nepalese,Santo Condestável,4,0.6
+portuguese,Santo Condestável,1,0.6
+indian_nepalese,Santo Condestável,1,0.6
+pasta,Santiago,1,0.6
+portuguese,Santo Condestável,4,0.6
+mexican,Santiago,1,0.6
+south_america,Santiago,1,0.6
+burger,Santo Condestável,3,0.6
+fast_food,Lapa,2,0.6
+portuguese,Lapa,2,0.6
+bistro,Santo Condestável,1,0.6
+asian,Santiago,1,0.6
+seafood,Santo Condestável,4,0.6
+burger,Santo Condestável,1,0.6
+japanese,Santo Condestável,4,0.6
+south_america,Santo Condestável,1,0.6
+south_america,Santo Condestável,4,0.6
+veggie_healthy,Santo Condestável,1,0.6
+burger,Santo Condestável,2,0.6
+japanese,Santo Condestável,3,0.6
+grill,Santo Condestável,1,0.6
+africa_me,Santo Condestável,4,0.6
+veggie_healthy,Santo Condestável,4,0.6
+africa_me,Santo Condestável,1,0.6
+mexican,Santo Condestável,4,0.6
+mexican,Santo Condestável,1,0.6
+bistro,Santo Condestável,4,0.6
+pasta,Santo Condestável,4,0.6
+japanese,Santo Condestável,1,0.6
+european,Lapa,2,0.6
+grill,Lapa,3,0.6
+seafood,Santo Condestável,1,0.6
+burger,Santo Condestável,4,0.6
+fast_food,Santiago,1,0.6
+fado,Santiago,1,0.6
+brunch,Santiago,3,0.6
+brunch,Santo Condestável,1,0.6
+cafe,Santo Condestável,1,0.6
+cafe,Santo Condestável,4,0.6
+mediterranean,Santo Condestável,1,0.6
+mediterranean,Santo Condestável,4,0.6
+european,Santo Condestável,1,0.6
+chicken,Santo Condestável,1,0.6
+chicken,Santo Condestável,4,0.6
+pasta,Santo Condestável,1,0.6
+bar,Santo Condestável,1,0.6
+bar,Santo Condestável,4,0.6
+cafe,Santiago,1,0.6
+pasta,Santos-o-Velho,1,0.6
+mediterranean,Santa Catarina,1,0.6
+japanese,Encarnação,2,0.6
+indian_nepalese,Encarnação,2,0.6
+pastry,São Nicolau,4,0.6
+portuguese,Encarnação,4,0.6
+pizza,Encarnação,2,0.6
+italian,São Nicolau,4,0.6
+pizza,Encarnação,3,0.6
+burger,São Nicolau,4,0.6
+japanese,Encarnação,1,0.6
+bistro,Encarnação,3,0.6
+africa_me,São Nicolau,4,0.6
+africa_me,São Nicolau,1,0.6
+mexican,São Nicolau,4,0.6
+pasta,São Nicolau,4,0.6
+mexican,Encarnação,2,0.6
+japanese,São Nicolau,2,0.6
+africa_me,Encarnação,2,0.6
+grill,Encarnação,2,0.6
+brunch,Campolide,2,0.6
+brunch,Santiago,1,0.6
+chicken,Encarnação,2,0.6
+asian,Alto do Pina,4,0.6
+pastry,Alto do Pina,4,0.6
+fast_food,Alto do Pina,4,0.6
+fado,Alto do Pina,4,0.6
+cafe,Encarnação,1,0.6
+mediterranean,Encarnação,2,0.6
+european,Encarnação,4,0.6
+bar,Encarnação,2,0.6
+brunch,Campolide,4,0.6
+bar,Encarnação,4,0.6
+seafood,Encarnação,2,0.6
+seafood,Encarnação,3,0.6
+south_america,Encarnação,4,0.6
+south_america,Encarnação,3,0.6
+veggie_healthy,Encarnação,2,0.6
+veggie_healthy,Encarnação,3,0.6
+pizza,São Nicolau,4,0.6
+burger,Encarnação,2,0.6
+burger,Encarnação,1,0.6
+pastry,Sé,4,0.6
+brunch,São Nicolau,2,0.6
+bar,Santa Isabel,4,0.6
+fado,Sé,1,0.6
+seafood,Santa Isabel,4,0.6
+fast_food,Sé,3,0.6
+fast_food,Sé,4,0.6
+fast_food,Sé,2,0.6
+south_america,Santa Isabel,4,0.6
+indian_nepalese,São Nicolau,4,0.6
+asian,Sé,4,0.6
+asian,Sé,2,0.6
+veggie_healthy,Santa Isabel,4,0.6
+italian,Sé,4,0.6
+burger,Sé,2,0.6
+africa_me,Sé,3,0.6
+africa_me,Sé,4,0.6
+brunch,São Nicolau,4,0.6
+chicken,Santa Isabel,4,0.6
+chicken,Santa Isabel,1,0.6
+european,Santa Isabel,4,0.6
+grill,São Nicolau,4,0.6
+grill,São Nicolau,1,0.6
+asian,Encarnação,4,0.6
+pastry,Encarnação,2,0.6
+south_america,São Nicolau,4,0.6
+pastry,Encarnação,1,0.6
+fast_food,Encarnação,1,0.6
+bar,São Nicolau,4,0.6
+fado,Encarnação,1,0.6
+chicken,São Nicolau,4,0.6
+brunch,Santa Isabel,4,0.6
+cafe,Santa Isabel,4,0.6
+mediterranean,São Nicolau,4,0.6
+mediterranean,Santa Isabel,4,0.6
+cafe,São Nicolau,4,0.6
+italian,Alto do Pina,4,0.6
+burger,Alto do Pina,4,0.6
+africa_me,Alto do Pina,4,0.6
+veggie_healthy,Santa Catarina,4,0.6
+seafood,Santa Catarina,1,0.6
+seafood,Santa Catarina,3,0.6
+south_america,Santa Catarina,2,0.6
+south_america,Santa Catarina,1,0.6
+south_america,Santa Catarina,4,0.6
+south_america,Santa Catarina,3,0.6
+veggie_healthy,Santa Catarina,1,0.6
+veggie_healthy,Santa Catarina,3,0.6
+mexican,Santa Catarina,1,0.6
+bistro,Santa Catarina,4,0.6
+indian_nepalese,Santa Catarina,4,0.6
+japanese,Santa Justa,4,0.6
+pizza,Santa Catarina,2,0.6
+pizza,Santa Catarina,4,0.6
+pizza,Santa Catarina,3,0.6
+japanese,Santa Catarina,4,0.6
+bar,Santa Catarina,3,0.6
+bar,Santa Catarina,1,0.6
+chicken,Santa Catarina,4,0.6
+fado,Santa Justa,4,0.6
+fast_food,São Jorge de Arroios,1,0.6
+pastry,São Jorge de Arroios,1,0.6
+pastry,São Jorge de Arroios,2,0.6
+asian,São Jorge de Arroios,1,0.6
+asian,São Jorge de Arroios,2,0.6
+japanese,São Jorge de Arroios,3,0.6
+pizza,São Jorge de Arroios,3,0.6
+pizza,São Jorge de Arroios,2,0.6
+seafood,São Jorge de Arroios,1,0.6
+seafood,São Jorge de Arroios,2,0.6
+cafe,São Jorge de Arroios,3,0.6
+cafe,São Jorge de Arroios,2,0.6
+brunch,São Jorge de Arroios,3,0.6
+brunch,São Jorge de Arroios,1,0.6
+brunch,São Jorge de Arroios,2,0.6
+pasta,Santa Catarina,4,0.6
+mexican,Santa Catarina,4,0.6
+japanese,Campolide,1,0.6
+grill,Alto do Pina,4,0.6
+bar,Alto do Pina,4,0.6
+seafood,Alto do Pina,4,0.6
+italian,Santo Condestável,1,0.6
+fast_food,Campolide,1,0.6
+veggie_healthy,Alto do Pina,4,0.6
+bistro,Alto do Pina,4,0.6
+asian,Campolide,4,0.6
+indian_nepalese,Alto do Pina,1,0.6
+africa_me,Santa Catarina,1,0.6
+indian_nepalese,Alto do Pina,4,0.6
+italian,Campolide,1,0.6
+pizza,Alto do Pina,4,0.6
+japanese,Alto do Pina,4,0.6
+pasta,Alto do Pina,1,0.6
+pasta,Alto do Pina,4,0.6
+mexican,Alto do Pina,4,0.6
+chicken,Alto do Pina,4,0.6
+brunch,Santa Justa,4,0.6
+mediterranean,Alto do Pina,4,0.6
+cafe,Alto do Pina,4,0.6
+africa_me,Santa Catarina,4,0.6
+bistro,Santa Justa,4,0.6
+burger,Santa Catarina,2,0.6
+burger,Santa Catarina,1,0.6
+burger,Santa Catarina,4,0.6
+burger,Santa Catarina,3,0.6
+italian,Santa Catarina,4,0.6
+asian,Santa Catarina,1,0.6
+asian,Santa Catarina,4,0.6
+pastry,Santa Catarina,4,0.6
+fast_food,Santa Catarina,1,0.6
+fast_food,Santa Catarina,4,0.6
+fado,Santa Catarina,1,0.6
+fado,Santa Catarina,4,0.6
+brunch,Alto do Pina,4,0.6
+south_america,Alto do Pina,4,0.6
+africa_me,São Paulo,4,0.6
+italian,Santo Condestável,4,0.6
+burger,Prazeres,3,0.6
+bistro,Almargem do Bispo,4,0.6
+bistro,Almargem do Bispo,1,0.6
+veggie_healthy,Almargem do Bispo,3,0.6
+veggie_healthy,Almargem do Bispo,4,0.6
+veggie_healthy,Almargem do Bispo,2,0.6
+italian,Prazeres,3,0.6
+asian,Prazeres,2,0.6
+fast_food,Prazeres,2,0.6
+fast_food,Prazeres,1,0.6
+chicken,Almargem do Bispo,4,0.6
+chicken,Almargem do Bispo,1,0.6
+european,Almargem do Bispo,4,0.6
+brunch,Santa Engrácia,1,0.6
+cafe,Almargem do Bispo,4,0.6
+brunch,Santa Engrácia,4,0.6
+brunch,Almargem do Bispo,4,0.6
+brunch,Almargem do Bispo,2,0.6
+fado,Nossa Senhora de Fátima,3,0.6
+mediterranean,Santa Engrácia,2,0.6
+fado,Nossa Senhora de Fátima,2,0.6
+mediterranean,Santa Engrácia,1,0.6
+fast_food,Nossa Senhora de Fátima,4,0.6
+mediterranean,Santa Engrácia,3,0.6
+italian,Prazeres,2,0.6
+grill,Almargem do Bispo,4,0.6
+pastry,Nossa Senhora de Fátima,3,0.6
+burger,Prazeres,1,0.6
+fast_food,Almargem do Bispo,4,0.6
+pastry,Almargem do Bispo,4,0.6
+pastry,Almargem do Bispo,2,0.6
+asian,Almargem do Bispo,4,0.6
+asian,Almargem do Bispo,1,0.6
+italian,Almargem do Bispo,4,0.6
+burger,Almargem do Bispo,4,0.6
+burger,Almargem do Bispo,2,0.6
+africa_me,Almargem do Bispo,3,0.6
+africa_me,Almargem do Bispo,4,0.6
+africa_me,Almargem do Bispo,1,0.6
+pasta,Prazeres,2,0.6
+mexican,Almargem do Bispo,4,0.6
+mexican,Almargem do Bispo,1,0.6
+pasta,Almargem do Bispo,4,0.6
+mexican,Prazeres,2,0.6
+japanese,Almargem do Bispo,3,0.6
+japanese,Almargem do Bispo,4,0.6
+japanese,Almargem do Bispo,2,0.6
+pizza,Almargem do Bispo,4,0.6
+mexican,Prazeres,3,0.6
+indian_nepalese,Almargem do Bispo,4,0.6
+indian_nepalese,Almargem do Bispo,1,0.6
+european,Santa Engrácia,2,0.6
+pastry,Nossa Senhora de Fátima,2,0.6
+fado,São Paulo,3,0.6
+bistro,Nossa Senhora de Fátima,3,0.6
+bistro,Nossa Senhora de Fátima,2,0.6
+veggie_healthy,Nossa Senhora de Fátima,3,0.6
+grill,Santa Engrácia,2,0.6
+veggie_healthy,Nossa Senhora de Fátima,2,0.6
+south_america,Nossa Senhora de Fátima,3,0.6
+south_america,Nossa Senhora de Fátima,1,0.6
+south_america,Nossa Senhora de Fátima,2,0.6
+seafood,Nossa Senhora de Fátima,3,0.6
+grill,Santa Engrácia,1,0.6
+seafood,Nossa Senhora de Fátima,2,0.6
+bar,Nossa Senhora de Fátima,3,0.6
+bar,Nossa Senhora de Fátima,2,0.6
+chicken,Nossa Senhora de Fátima,3,0.6
+chicken,Nossa Senhora de Fátima,1,0.6
+chicken,Nossa Senhora de Fátima,2,0.6
+european,Nossa Senhora de Fátima,3,0.6
+european,Nossa Senhora de Fátima,1,0.6
+european,Nossa Senhora de Fátima,2,0.6
+mediterranean,Nossa Senhora de Fátima,3,0.6
+mediterranean,Nossa Senhora de Fátima,2,0.6
+cafe,Nossa Senhora de Fátima,4,0.6
+portuguese,Santa Engrácia,1,0.6
+brunch,Nossa Senhora de Fátima,3,0.6
+bistro,Nossa Senhora de Fátima,1,0.6
+grill,Nossa Senhora de Fátima,2,0.6
+asian,Nossa Senhora de Fátima,3,0.6
+grill,Nossa Senhora de Fátima,3,0.6
+chicken,Santa Engrácia,2,0.6
+asian,Nossa Senhora de Fátima,2,0.6
+chicken,Santa Engrácia,1,0.6
+italian,Nossa Senhora de Fátima,4,0.6
+bar,Santa Engrácia,1,0.6
+seafood,Santa Engrácia,2,0.6
+seafood,Santa Engrácia,1,0.6
+africa_me,Nossa Senhora de Fátima,3,0.6
+africa_me,Nossa Senhora de Fátima,1,0.6
+africa_me,Nossa Senhora de Fátima,2,0.6
+mexican,Nossa Senhora de Fátima,3,0.6
+south_america,Santa Engrácia,2,0.6
+mexican,Nossa Senhora de Fátima,2,0.6
+pasta,Nossa Senhora de Fátima,3,0.6
+south_america,Santa Engrácia,1,0.6
+pasta,Nossa Senhora de Fátima,2,0.6
+japanese,Nossa Senhora de Fátima,4,0.6
+pizza,Nossa Senhora de Fátima,4,0.6
+bistro,Santa Engrácia,2,0.6
+portuguese,Nossa Senhora de Fátima,3,0.6
+bistro,Santa Engrácia,1,0.6
+indian_nepalese,Nossa Senhora de Fátima,3,0.6
+indian_nepalese,Nossa Senhora de Fátima,2,0.6
+portuguese,Prazeres,2,0.6
+fado,Almargem do Bispo,4,0.6
+brunch,São Sebastião da Pedreira,1,0.6
+pizza,Santa Maria dos Olivais,1,0.6
+portuguese,Santa Maria dos Olivais,2,0.6
+grill,Santa Maria dos Olivais,1,0.6
+grill,Santa Maria dos Olivais,2,0.6
+bistro,Santa Maria dos Olivais,1,0.6
+bistro,Santa Maria dos Olivais,2,0.6
+veggie_healthy,Santa Maria dos Olivais,1,0.6
+veggie_healthy,Santa Maria dos Olivais,2,0.6
+south_america,Santa Maria dos Olivais,1,0.6
+south_america,Santa Maria dos Olivais,2,0.6
+seafood,Santa Maria dos Olivais,1,0.6
+seafood,Santa Maria dos Olivais,2,0.6
+bar,Santa Maria dos Olivais,1,0.6
+bar,Santa Maria dos Olivais,2,0.6
+chicken,Santa Maria dos Olivais,1,0.6
+chicken,Santa Maria dos Olivais,2,0.6
+european,Santa Maria dos Olivais,1,0.6
+european,Santa Maria dos Olivais,2,0.6
+mediterranean,Santa Maria dos Olivais,1,0.6
+mediterranean,Santa Maria dos Olivais,2,0.6
+cafe,Santa Maria dos Olivais,1,0.6
+cafe,Santa Maria dos Olivais,2,0.6
+brunch,Santa Maria dos Olivais,1,0.6
+brunch,Santa Maria dos Olivais,2,0.6
+portuguese,Santa Maria dos Olivais,1,0.6
+japanese,Santa Maria dos Olivais,2,0.6
+brunch,São Sebastião da Pedreira,4,0.6
+japanese,Santa Maria dos Olivais,1,0.6
+fado,Santa Maria dos Olivais,1,0.6
+fado,Santa Maria dos Olivais,2,0.6
+brunch,Graça,3,0.6
+fast_food,Santa Maria dos Olivais,1,0.6
+fast_food,Santa Maria dos Olivais,2,0.6
+pastry,Santa Maria dos Olivais,1,0.6
+pastry,Santa Maria dos Olivais,2,0.6
+asian,Santa Maria dos Olivais,1,0.6
+asian,Santa Maria dos Olivais,2,0.6
+veggie_healthy,Graça,1,0.6
+italian,Santa Maria dos Olivais,1,0.6
+italian,Santa Maria dos Olivais,2,0.6
+burger,Santa Maria dos Olivais,1,0.6
+burger,Santa Maria dos Olivais,2,0.6
+africa_me,Santa Maria dos Olivais,3,0.6
+indian_nepalese,Graça,1,0.6
+africa_me,Santa Maria dos Olivais,1,0.6
+africa_me,Santa Maria dos Olivais,2,0.6
+mexican,Santa Maria dos Olivais,1,0.6
+mexican,Santa Maria dos Olivais,2,0.6
+pasta,Santa Maria dos Olivais,3,0.6
+pasta,Santa Maria dos Olivais,1,0.6
+pasta,Santa Maria dos Olivais,2,0.6
+fado,São Sebastião da Pedreira,3,0.6
+fado,São Sebastião da Pedreira,4,0.6
+fado,São Sebastião da Pedreira,1,0.6
+fado,São Sebastião da Pedreira,2,0.6
+bistro,São Sebastião da Pedreira,2,0.6
+south_america,São Sebastião da Pedreira,3,0.6
+south_america,São Sebastião da Pedreira,4,0.6
+south_america,São Sebastião da Pedreira,1,0.6
+seafood,São Sebastião da Pedreira,3,0.6
+seafood,São Sebastião da Pedreira,4,0.6
+seafood,São Sebastião da Pedreira,1,0.6
+seafood,São Sebastião da Pedreira,2,0.6
+bar,São Sebastião da Pedreira,3,0.6
+bar,São Sebastião da Pedreira,4,0.6
+bar,São Sebastião da Pedreira,1,0.6
+bar,São Sebastião da Pedreira,2,0.6
+chicken,São Sebastião da Pedreira,3,0.6
+chicken,São Sebastião da Pedreira,4,0.6
+european,São Sebastião da Pedreira,3,0.6
+european,São Sebastião da Pedreira,4,0.6
+european,São Sebastião da Pedreira,2,0.6
+mediterranean,São Sebastião da Pedreira,3,0.6
+mediterranean,São Sebastião da Pedreira,4,0.6
+mediterranean,São Sebastião da Pedreira,1,0.6
+mediterranean,São Sebastião da Pedreira,2,0.6
+cafe,São Sebastião da Pedreira,3,0.6
+cafe,São Sebastião da Pedreira,2,0.6
+bistro,São Sebastião da Pedreira,3,0.6
+grill,São Sebastião da Pedreira,2,0.6
+grill,São Sebastião da Pedreira,1,0.6
+mexican,São Sebastião da Pedreira,3,0.6
+pastry,São Sebastião da Pedreira,3,0.6
+asian,São Sebastião da Pedreira,3,0.6
+asian,São Sebastião da Pedreira,4,0.6
+asian,São Sebastião da Pedreira,1,0.6
+asian,São Sebastião da Pedreira,2,0.6
+italian,São Sebastião da Pedreira,3,0.6
+burger,São Sebastião da Pedreira,3,0.6
+burger,São Sebastião da Pedreira,1,0.6
+burger,São Sebastião da Pedreira,2,0.6
+africa_me,São Sebastião da Pedreira,4,0.6
+mexican,São Sebastião da Pedreira,4,0.6
+grill,São Sebastião da Pedreira,3,0.6
+mexican,São Sebastião da Pedreira,1,0.6
+mexican,São Sebastião da Pedreira,2,0.6
+pasta,São Sebastião da Pedreira,4,0.6
+pasta,São Sebastião da Pedreira,1,0.6
+pizza,São Sebastião da Pedreira,1,0.6
+portuguese,São Sebastião da Pedreira,3,0.6
+portuguese,São Sebastião da Pedreira,4,0.6
+portuguese,São Sebastião da Pedreira,2,0.6
+indian_nepalese,São Sebastião da Pedreira,3,0.6
+indian_nepalese,São Sebastião da Pedreira,2,0.6
+brunch,Nossa Senhora de Fátima,1,0.6
+brunch,Nossa Senhora de Fátima,2,0.6
+fado,São Domingos de Benfica,3,0.6
+cafe,São Paulo,3,0.6
+brunch,Alvalade,3,0.6
+brunch,Alvalade,1,0.6
+brunch,Alvalade,2,0.6
+mediterranean,São Paulo,4,0.6
+mediterranean,São Paulo,3,0.6
+european,São Paulo,1,0.6
+fast_food,Castelo,1,0.6
+chicken,São Paulo,2,0.6
+chicken,São Paulo,4,0.6
+chicken,São Paulo,3,0.6
+bar,São Paulo,2,0.6
+asian,Castelo,1,0.6
+bar,São Paulo,4,0.6
+bar,São Paulo,3,0.6
+italian,Castelo,1,0.6
+seafood,São Paulo,2,0.6
+seafood,São Paulo,1,0.6
+seafood,São Paulo,4,0.6
+burger,Castelo,1,0.6
+south_america,São Paulo,2,0.6
+africa_me,Castelo,1,0.6
+south_america,São Paulo,4,0.6
+south_america,São Paulo,3,0.6
+mediterranean,São Paulo,2,0.6
+cafe,Alvalade,4,0.6
+bistro,Alvalade,3,0.6
+mediterranean,Alvalade,2,0.6
+bistro,Alvalade,2,0.6
+veggie_healthy,Alvalade,3,0.6
+veggie_healthy,Alvalade,4,0.6
+veggie_healthy,Alvalade,1,0.6
+veggie_healthy,Alvalade,2,0.6
+south_america,Alvalade,3,0.6
+south_america,Alvalade,1,0.6
+south_america,Alvalade,2,0.6
+seafood,Alvalade,3,0.6
+seafood,Alvalade,1,0.6
+seafood,Alvalade,2,0.6
+bar,Alvalade,3,0.6
+bar,Alvalade,1,0.6
+bar,Alvalade,2,0.6
+chicken,Alvalade,3,0.6
+chicken,Alvalade,1,0.6
+chicken,Alvalade,2,0.6
+european,Alvalade,3,0.6
+european,Alvalade,4,0.6
+european,Alvalade,1,0.6
+european,Alvalade,2,0.6
+mediterranean,Alvalade,3,0.6
+mediterranean,Alvalade,1,0.6
+veggie_healthy,São Paulo,2,0.6
+veggie_healthy,São Paulo,3,0.6
+bistro,São Paulo,2,0.6
+japanese,Castelo,3,0.6
+european,Castelo,4,0.6
+italian,São Paulo,3,0.6
+mediterranean,Castelo,1,0.6
+mediterranean,Castelo,2,0.6
+pastry,São Paulo,2,0.6
+cafe,Castelo,1,0.6
+brunch,Castelo,3,0.6
+pastry,São Paulo,4,0.6
+brunch,Castelo,1,0.6
+brunch,Castelo,2,0.6
+pastry,São Paulo,3,0.6
+fado,Santo Condestável,4,0.6
+fado,Santo Condestável,1,0.6
+fast_food,São Paulo,2,0.6
+fast_food,Santo Condestável,4,0.6
+fast_food,Santo Condestável,1,0.6
+fast_food,São Paulo,4,0.6
+fast_food,São Paulo,3,0.6
+pastry,Santo Condestável,4,0.6
+pastry,Santo Condestável,1,0.6
+fado,São Paulo,2,0.6
+asian,Santo Condestável,4,0.6
+asian,Santo Condestável,1,0.6
+italian,São Paulo,4,0.6
+chicken,Castelo,2,0.6
+italian,São Paulo,2,0.6
+grill,Castelo,1,0.6
+bistro,São Paulo,3,0.6
+japanese,Castelo,1,0.6
+grill,São Paulo,2,0.6
+grill,São Paulo,4,0.6
+pizza,Castelo,1,0.6
+grill,São Paulo,3,0.6
+indian_nepalese,São Paulo,2,0.6
+indian_nepalese,São Paulo,4,0.6
+indian_nepalese,São Paulo,3,0.6
+pizza,São Paulo,2,0.6
+pizza,São Paulo,1,0.6
+africa_me,São Paulo,3,0.6
+pizza,São Paulo,4,0.6
+bistro,Castelo,2,0.6
+japanese,São Paulo,1,0.6
+japanese,São Paulo,3,0.6
+pasta,São Paulo,1,0.6
+pasta,São Paulo,4,0.6
+south_america,Castelo,1,0.6
+africa_me,São Paulo,2,0.6
+africa_me,São Paulo,1,0.6
+grill,Santa Isabel,1,0.6
+bistro,Alvalade,1,0.6
+grill,Alvalade,2,0.6
+fado,São Domingos de Benfica,4,0.6
+japanese,São Domingos de Benfica,1,0.6
+africa_me,Santa Engrácia,1,0.6
+pizza,São Domingos de Benfica,4,0.6
+pizza,São Domingos de Benfica,1,0.6
+portuguese,São Domingos de Benfica,3,0.6
+portuguese,São Domingos de Benfica,4,0.6
+portuguese,São Domingos de Benfica,1,0.6
+portuguese,São Domingos de Benfica,2,0.6
+indian_nepalese,São Domingos de Benfica,3,0.6
+indian_nepalese,São Domingos de Benfica,4,0.6
+indian_nepalese,São Domingos de Benfica,2,0.6
+grill,São Domingos de Benfica,3,0.6
+grill,São Domingos de Benfica,4,0.6
+bistro,São Domingos de Benfica,3,0.6
+bistro,São Domingos de Benfica,4,0.6
+bistro,São Domingos de Benfica,2,0.6
+burger,Santa Engrácia,1,0.6
+veggie_healthy,São Domingos de Benfica,4,0.6
+italian,Santa Engrácia,2,0.6
+south_america,São Domingos de Benfica,3,0.6
+south_america,São Domingos de Benfica,4,0.6
+seafood,São Domingos de Benfica,4,0.6
+seafood,São Domingos de Benfica,1,0.6
+asian,Santa Engrácia,2,0.6
+africa_me,Santa Engrácia,2,0.6
+japanese,São Domingos de Benfica,4,0.6
+grill,Alvalade,1,0.6
+pasta,São Domingos de Benfica,4,0.6
+fado,São Domingos de Benfica,2,0.6
+fast_food,São Domingos de Benfica,4,0.6
+fast_food,São Domingos de Benfica,1,0.6
+pizza,Santa Engrácia,1,0.6
+pastry,São Domingos de Benfica,4,0.6
+pastry,São Domingos de Benfica,1,0.6
+asian,São Domingos de Benfica,3,0.6
+asian,São Domingos de Benfica,4,0.6
+asian,São Domingos de Benfica,1,0.6
+asian,São Domingos de Benfica,2,0.6
+italian,São Domingos de Benfica,4,0.6
+pasta,Santa Engrácia,2,0.6
+pasta,Santa Engrácia,1,0.6
+burger,São Domingos de Benfica,4,0.6
+mexican,Santa Engrácia,2,0.6
+mexican,Santa Engrácia,1,0.6
+africa_me,São Domingos de Benfica,3,0.6
+africa_me,São Domingos de Benfica,2,0.6
+mexican,São Domingos de Benfica,3,0.6
+mexican,São Domingos de Benfica,4,0.6
+mexican,São Domingos de Benfica,1,0.6
+mexican,São Domingos de Benfica,2,0.6
+pasta,São Domingos de Benfica,3,0.6
+bar,São Domingos de Benfica,3,0.6
+bar,São Domingos de Benfica,4,0.6
+bar,São Domingos de Benfica,1,0.6
+bar,São Domingos de Benfica,2,0.6
+italian,Alvalade,2,0.6
+burger,Alvalade,3,0.6
+burger,Alvalade,1,0.6
+burger,Alvalade,2,0.6
+africa_me,Alvalade,3,0.6
+mexican,Alvalade,3,0.6
+mexican,Alvalade,1,0.6
+mexican,Alvalade,2,0.6
+pasta,Alvalade,3,0.6
+pasta,Alvalade,1,0.6
+pasta,Alvalade,2,0.6
+japanese,Alvalade,3,0.6
+japanese,Alvalade,4,0.6
+japanese,Alvalade,2,0.6
+brunch,São Paulo,4,0.6
+pizza,Alvalade,4,0.6
+brunch,São Paulo,3,0.6
+cafe,São Paulo,2,0.6
+portuguese,Alvalade,3,0.6
+portuguese,Alvalade,2,0.6
+indian_nepalese,Alvalade,3,0.6
+grill,Alvalade,3,0.6
+grill,Alvalade,4,0.6
+brunch,São Paulo,2,0.6
+italian,Alvalade,4,0.6
+italian,Alvalade,3,0.6
+brunch,São Domingos de Benfica,3,0.6
+chicken,São Domingos de Benfica,3,0.6
+chicken,São Domingos de Benfica,4,0.6
+asian,Santa Engrácia,1,0.6
+mediterranean,São Domingos de Benfica,3,0.6
+mediterranean,São Domingos de Benfica,4,0.6
+mediterranean,São Domingos de Benfica,2,0.6
+cafe,São Domingos de Benfica,3,0.6
+cafe,São Domingos de Benfica,4,0.6
+cafe,São Domingos de Benfica,1,0.6
+cafe,São Domingos de Benfica,2,0.6
+pastry,Santa Engrácia,1,0.6
+asian,Alvalade,2,0.6
+fado,Alvalade,3,0.6
+fado,Alvalade,1,0.6
+fado,Alvalade,2,0.6
+fast_food,Santa Engrácia,2,0.6
+fast_food,Santa Engrácia,1,0.6
+fado,Santa Engrácia,2,0.6
+pastry,Alvalade,3,0.6
+fado,Santa Engrácia,1,0.6
+pastry,Alvalade,2,0.6
+asian,Alvalade,3,0.6
+mexican,Sé,4,0.6
+mediterranean,Encarnação,4,0.6
+grill,Santa Isabel,4,0.6
+pasta,Madalena,4,0.6
+burger,Sacramento,1,0.6
+seafood,Pena,3,0.6
+mexican,Sacramento,1,0.6
+south_america,Pena,3,0.6
+veggie_healthy,Pena,1,0.6
+veggie_healthy,Pena,3,0.6
+grill,Pena,1,0.6
+grill,Pena,3,0.6
+indian_nepalese,Pena,3,0.6
+portuguese,Pena,3,0.6
+indian_nepalese,Sacramento,1,0.6
+pizza,Pena,3,0.6
+japanese,Pena,1,0.6
+pasta,Pena,3,0.6
+mexican,Pena,3,0.6
+bar,Pena,3,0.6
+bar,Pena,4,0.6
+chicken,Pena,3,0.6
+brunch,São Miguel,4,0.6
+european,São Miguel,1,0.6
+pastry,Santo Estevão,2,0.6
+pastry,Santo Estevão,1,0.6
+mediterranean,São Miguel,1,0.6
+cafe,São Miguel,1,0.6
+brunch,São Miguel,3,0.6
+brunch,São Miguel,1,0.6
+asian,Sacramento,1,0.6
+brunch,São Miguel,2,0.6
+cafe,Pena,3,0.6
+mediterranean,Pena,3,0.6
+european,Pena,2,0.6
+european,Pena,4,0.6
+european,Pena,3,0.6
+africa_me,Pena,3,0.6
+burger,Pena,3,0.6
+italian,Pena,3,0.6
+grill,São José,4,0.6
+south_america,Madalena,1,0.6
+south_america,Madalena,4,0.6
+japanese,São José,1,0.6
+bistro,Madalena,1,0.6
+portuguese,São José,4,0.6
+indian_nepalese,São José,4,0.6
+portuguese,Madalena,1,0.6
+seafood,Madalena,3,0.6
+veggie_healthy,São José,4,0.6
+pizza,Madalena,1,0.6
+seafood,São José,4,0.6
+japanese,Madalena,1,0.6
+bar,São José,4,0.6
+bar,São José,1,0.6
+mexican,São José,1,0.6
+africa_me,São José,1,0.6
+bar,Sacramento,1,0.6
+cafe,Madalena,1,0.6
+chicken,Sacramento,1,0.6
+pastry,Pena,3,0.6
+fast_food,Pena,3,0.6
+fado,Pena,3,0.6
+mediterranean,Sacramento,1,0.6
+brunch,Madalena,1,0.6
+cafe,Madalena,4,0.6
+seafood,Madalena,2,0.6
+brunch,Sacramento,1,0.6
+brunch,Graça,1,0.6
+mediterranean,Madalena,1,0.6
+mediterranean,Madalena,4,0.6
+asian,São José,4,0.6
+chicken,Madalena,1,0.6
+european,São Miguel,4,0.6
+asian,Santo Estevão,1,0.6
+chicken,São Miguel,1,0.6
+italian,Anjos,3,0.6
+burger,Anjos,4,0.6
+burger,Anjos,3,0.6
+italian,Anjos,2,0.6
+seafood,Mártires,4,0.6
+italian,Anjos,1,0.6
+italian,Anjos,4,0.6
+bar,Mártires,4,0.6
+burger,Anjos,2,0.6
+bar,Mártires,1,0.6
+chicken,Mártires,1,0.6
+asian,Anjos,4,0.6
+pastry,Anjos,4,0.6
+pastry,Anjos,3,0.6
+fast_food,Anjos,2,0.6
+burger,Anjos,1,0.6
+africa_me,Anjos,3,0.6
+fast_food,Anjos,4,0.6
+japanese,Anjos,1,0.6
+indian_nepalese,Anjos,4,0.6
+portuguese,Anjos,2,0.6
+portuguese,Anjos,1,0.6
+portuguese,Anjos,4,0.6
+portuguese,Anjos,3,0.6
+japanese,Anjos,2,0.6
+japanese,Anjos,3,0.6
+africa_me,Anjos,4,0.6
+indian_nepalese,Mártires,1,0.6
+pasta,Anjos,3,0.6
+mexican,Anjos,2,0.6
+mexican,Anjos,1,0.6
+mexican,Anjos,4,0.6
+mexican,Anjos,3,0.6
+fast_food,Anjos,1,0.6
+fast_food,Anjos,3,0.6
+italian,Santo Estevão,1,0.6
+bistro,São Miguel,3,0.6
+pizza,São Miguel,1,0.6
+portuguese,São Miguel,1,0.6
+indian_nepalese,Santo Estevão,1,0.6
+indian_nepalese,São Miguel,1,0.6
+grill,São Miguel,1,0.6
+japanese,Santo Estevão,2,0.6
+bistro,São Miguel,4,0.6
+bistro,Santo Estevão,3,0.6
+bistro,São Miguel,1,0.6
+bistro,São Miguel,2,0.6
+south_america,São Miguel,1,0.6
+seafood,São Miguel,1,0.6
+bar,São Miguel,1,0.6
+italian,Santo Estevão,2,0.6
+grill,Santo Estevão,2,0.6
+japanese,São Miguel,2,0.6
+fado,Anjos,2,0.6
+fast_food,São Miguel,2,0.6
+fado,Anjos,1,0.6
+fado,Anjos,4,0.6
+fado,Anjos,3,0.6
+brunch,Santo Estevão,1,0.6
+brunch,Santo Estevão,3,0.6
+fast_food,São Miguel,1,0.6
+european,Santo Estevão,4,0.6
+japanese,São Miguel,1,0.6
+italian,São Miguel,1,0.6
+burger,São Miguel,1,0.6
+africa_me,São Miguel,2,0.6
+mexican,São Miguel,1,0.6
+veggie_healthy,Santo Estevão,1,0.6
+japanese,São Miguel,4,0.6
+pasta,Madalena,2,0.6
+european,São José,1,0.6
+burger,Mártires,1,0.6
+mexican,Madalena,1,0.6
+indian_nepalese,Santos-o-Velho,2,0.6
+bar,Mercês,2,0.6
+chicken,Mercês,3,0.6
+chicken,Mercês,1,0.6
+chicken,Mercês,2,0.6
+european,Mercês,3,0.6
+european,Mercês,1,0.6
+mediterranean,Mercês,3,0.6
+mediterranean,Mercês,2,0.6
+cafe,Mercês,4,0.6
+indian_nepalese,Santos-o-Velho,3,0.6
+brunch,Mercês,3,0.6
+brunch,Mercês,2,0.6
+fado,São Vicente de Fora,3,0.6
+fado,São Vicente de Fora,4,0.6
+grill,Santos-o-Velho,3,0.6
+seafood,Mercês,4,0.6
+seafood,Mercês,3,0.6
+indian_nepalese,Mercês,1,0.6
+bistro,Santos-o-Velho,1,0.6
+pizza,Mercês,2,0.6
+portuguese,Mercês,3,0.6
+portuguese,Mercês,4,0.6
+portuguese,Mercês,2,0.6
+indian_nepalese,Mercês,3,0.6
+indian_nepalese,Mercês,2,0.6
+south_america,Mercês,2,0.6
+grill,Mercês,3,0.6
+grill,Mercês,1,0.6
+grill,Mercês,2,0.6
+bistro,Mercês,3,0.6
+veggie_healthy,Mercês,3,0.6
+veggie_healthy,Mercês,1,0.6
+fast_food,São Vicente de Fora,4,0.6
+pastry,São Vicente de Fora,4,0.6
+italian,São Vicente de Fora,4,0.6
+pastry,Santos-o-Velho,3,0.6
+cafe,São Vicente de Fora,3,0.6
+cafe,São Vicente de Fora,4,0.6
+brunch,São Vicente de Fora,1,0.6
+fado,Santos-o-Velho,3,0.6
+fast_food,Santos-o-Velho,3,0.6
+portuguese,Santos-o-Velho,3,0.6
+italian,Santos-o-Velho,3,0.6
+chicken,São Vicente de Fora,4,0.6
+pizza,Santos-o-Velho,3,0.6
+japanese,Santos-o-Velho,2,0.6
+burger,Santos-o-Velho,1,0.6
+africa_me,Santos-o-Velho,3,0.6
+africa_me,Santos-o-Velho,2,0.6
+pasta,Santos-o-Velho,3,0.6
+mediterranean,São Vicente de Fora,4,0.6
+bar,São Vicente de Fora,4,0.6
+burger,São Vicente de Fora,3,0.6
+pizza,São Vicente de Fora,4,0.6
+burger,São Vicente de Fora,4,0.6
+burger,São Vicente de Fora,2,0.6
+africa_me,São Vicente de Fora,4,0.6
+mexican,São Vicente de Fora,4,0.6
+pasta,São Vicente de Fora,4,0.6
+japanese,São Vicente de Fora,4,0.6
+portuguese,São Vicente de Fora,4,0.6
+seafood,São Vicente de Fora,2,0.6
+indian_nepalese,São Vicente de Fora,4,0.6
+grill,São Vicente de Fora,4,0.6
+grill,São Vicente de Fora,1,0.6
+bistro,São Vicente de Fora,4,0.6
+seafood,São Vicente de Fora,3,0.6
+portuguese,Santos-o-Velho,1,0.6
+pizza,Mercês,3,0.6
+japanese,Mercês,2,0.6
+japanese,Mercês,3,0.6
+grill,Coração de Jesus,4,0.6
+pizza,Coração de Jesus,1,0.6
+portuguese,Coração de Jesus,4,0.6
+brunch,Santos-o-Velho,3,0.6
+cafe,Santos-o-Velho,2,0.6
+indian_nepalese,Coração de Jesus,4,0.6
+cafe,Santos-o-Velho,3,0.6
+grill,Coração de Jesus,1,0.6
+brunch,Santos-o-Velho,2,0.6
+mediterranean,Santos-o-Velho,1,0.6
+bistro,Coração de Jesus,4,0.6
+bistro,Coração de Jesus,1,0.6
+mediterranean,Santos-o-Velho,3,0.6
+veggie_healthy,Coração de Jesus,4,0.6
+veggie_healthy,Coração de Jesus,1,0.6
+pizza,Coração de Jesus,4,0.6
+japanese,Coração de Jesus,1,0.6
+european,Santos-o-Velho,3,0.6
+asian,Coração de Jesus,4,0.6
+africa_me,Madalena,1,0.6
+fado,Coração de Jesus,4,0.6
+fast_food,Coração de Jesus,4,0.6
+fast_food,Coração de Jesus,1,0.6
+italian,Madalena,1,0.6
+pastry,Coração de Jesus,4,0.6
+italian,Coração de Jesus,4,0.6
+japanese,Coração de Jesus,4,0.6
+burger,Coração de Jesus,4,0.6
+burger,Coração de Jesus,1,0.6
+africa_me,Coração de Jesus,4,0.6
+mexican,Coração de Jesus,4,0.6
+pasta,Coração de Jesus,4,0.6
+fado,Madalena,1,0.6
+south_america,Coração de Jesus,4,0.6
+seafood,Coração de Jesus,4,0.6
+pasta,Mercês,2,0.6
+italian,Mercês,2,0.6
+pastry,Mercês,2,0.6
+asian,Mercês,3,0.6
+south_america,Santos-o-Velho,3,0.6
+asian,Mercês,2,0.6
+italian,Mercês,3,0.6
+veggie_healthy,Santos-o-Velho,2,0.6
+burger,Mercês,3,0.6
+pastry,Mercês,3,0.6
+burger,Mercês,2,0.6
+africa_me,Mercês,1,0.6
+mexican,Mercês,3,0.6
+mexican,Mercês,2,0.6
+pasta,Mercês,3,0.6
+veggie_healthy,Santos-o-Velho,3,0.6
+pastry,Mercês,1,0.6
+fast_food,Mercês,2,0.6
+bar,Coração de Jesus,4,0.6
+mediterranean,Coração de Jesus,4,0.6
+chicken,Santos-o-Velho,3,0.6
+chicken,Coração de Jesus,4,0.6
+bar,Santos-o-Velho,1,0.6
+european,Coração de Jesus,4,0.6
+european,Coração de Jesus,1,0.6
+seafood,Santos-o-Velho,2,0.6
+cafe,Coração de Jesus,4,0.6
+fast_food,Mercês,3,0.6
+cafe,Coração de Jesus,1,0.6
+seafood,Santos-o-Velho,3,0.6
+brunch,Coração de Jesus,3,0.6
+brunch,Coração de Jesus,4,0.6
+fado,Mercês,3,0.6
+fado,Mercês,2,0.6
+africa_me,Mártires,1,0.6
+brunch,Graça,2,0.6
+chicken,São Mamede,1,0.6
+pizza,São Cristóvão,2,0.6
+indian_nepalese,São Mamede,4,0.6
+africa_me,São Cristóvão,1,0.6
+mediterranean,Sé,4,0.6
+south_america,Anjos,4,0.6
+africa_me,São Cristóvão,2,0.6
+fast_food,Socorro,4,0.6
+italian,Santa Isabel,4,0.6
+fado,Socorro,1,0.6
+south_america,Socorro,1,0.6
+portuguese,São Mamede,4,0.6
+fado,Socorro,4,0.6
+cafe,Sé,4,0.6
+pasta,São Cristóvão,1,0.6
+pizza,São Mamede,2,0.6
+pasta,São Cristóvão,2,0.6
+japanese,São Cristóvão,3,0.6
+asian,Santa Isabel,4,0.6
+brunch,Anjos,2,0.6
+japanese,São Cristóvão,2,0.6
+south_america,Anjos,1,0.6
+pizza,São Mamede,4,0.6
+bar,Socorro,1,0.6
+japanese,São Mamede,1,0.6
+fast_food,Socorro,2,0.6
+south_america,Anjos,3,0.6
+veggie_healthy,Socorro,2,0.6
+bistro,Socorro,1,0.6
+burger,Socorro,4,0.6
+pastry,Mártires,1,0.6
+pasta,Santa Isabel,4,0.6
+italian,Socorro,2,0.6
+bistro,Socorro,4,0.6
+south_america,Sé,4,0.6
+italian,Socorro,1,0.6
+mexican,Santa Isabel,1,0.6
+italian,Socorro,4,0.6
+mexican,Santa Isabel,4,0.6
+european,Socorro,1,0.6
+burger,São Cristóvão,2,0.6
+veggie_healthy,Anjos,4,0.6
+bar,Sé,4,0.6
+asian,Socorro,1,0.6
+bistro,Socorro,2,0.6
+pastry,Socorro,1,0.6
+pastry,Socorro,4,0.6
+bar,Sé,2,0.6
+veggie_healthy,Anjos,1,0.6
+burger,Santa Isabel,4,0.6
+european,Sé,4,0.6
+brunch,São Cristóvão,3,0.6
+brunch,Sé,1,0.6
+veggie_healthy,Sé,4,0.6
+brunch,Sé,2,0.6
+pasta,São Mamede,4,0.6
+asian,São Mamede,4,0.6
+european,Anjos,1,0.6
+brunch,Socorro,4,0.6
+chicken,Socorro,1,0.6
+italian,São Mamede,4,0.6
+south_america,São Cristóvão,2,0.6
+cafe,Socorro,1,0.6
+cafe,Socorro,4,0.6
+mediterranean,Socorro,2,0.6
+mexican,São Mamede,1,0.6
+mexican,São Mamede,4,0.6
+bar,Anjos,4,0.6
+european,Socorro,3,0.6
+chicken,Anjos,2,0.6
+burger,São Mamede,4,0.6
+chicken,Anjos,1,0.6
+mediterranean,Socorro,1,0.6
+chicken,Anjos,4,0.6
+bar,Anjos,1,0.6
+africa_me,São Mamede,4,0.6
+bar,Anjos,2,0.6
+chicken,Anjos,3,0.6
+chicken,Socorro,4,0.6
+european,São Cristóvão,4,0.6
+fado,Santa Isabel,4,0.6
+grill,São Cristóvão,2,0.6
+south_america,Anjos,2,0.6
+brunch,Anjos,3,0.6
+seafood,Anjos,4,0.6
+cafe,Anjos,4,0.6
+cafe,Anjos,3,0.6
+indian_nepalese,São Cristóvão,2,0.6
+mediterranean,Anjos,2,0.6
+fado,São Mamede,4,0.6
+mediterranean,Anjos,1,0.6
+pastry,Santa Isabel,4,0.6
+mediterranean,Anjos,4,0.6
+european,Anjos,2,0.6
+fast_food,Santa Isabel,1,0.6
+seafood,Anjos,1,0.6
+fast_food,Santa Isabel,4,0.6
+fast_food,São Mamede,4,0.6
+japanese,São Mamede,3,0.6
+veggie_healthy,São Cristóvão,3,0.6
+fast_food,São Mamede,1,0.6
+fast_food,São Mamede,2,0.6
+european,São Cristóvão,2,0.6
+pastry,São Mamede,4,0.6
+veggie_healthy,Sé,2,0.6
+africa_me,Santa Isabel,4,0.6
+indian_nepalese,Sé,4,0.6
+portuguese,Socorro,1,0.6
+brunch,São Mamede,4,0.6
+chicken,São Mamede,4,0.6
+south_america,São Mamede,4,0.6
+pasta,Socorro,4,0.6
+pizza,Socorro,1,0.6
+cafe,São Mamede,1,0.6
+indian_nepalese,Socorro,4,0.6
+south_america,São Mamede,1,0.6
+grill,Sé,4,0.6
+cafe,São Mamede,4,0.6
+indian_nepalese,Santa Isabel,4,0.6
+bar,São Mamede,4,0.6
+pizza,Sé,4,0.6
+mexican,Socorro,1,0.6
+pizza,Sé,2,0.6
+european,São Mamede,4,0.6
+japanese,Socorro,2,0.6
+seafood,São Mamede,1,0.6
+portuguese,Santa Isabel,4,0.6
+japanese,Santa Isabel,1,0.6
+portuguese,Sé,1,0.6
+japanese,Socorro,3,0.6
+seafood,São Mamede,4,0.6
+pizza,Santa Isabel,4,0.6
+japanese,Socorro,4,0.6
+mediterranean,São Mamede,4,0.6
+bistro,Anjos,3,0.6
+asian,Mártires,1,0.6
+grill,Socorro,4,0.6
+pizza,Socorro,3,0.6
+burger,Socorro,1,0.6
+veggie_healthy,Sé,3,0.6
+grill,Anjos,3,0.6
+veggie_healthy,São Mamede,4,0.6
+pasta,Sé,4,0.6
+mexican,Socorro,4,0.6
+japanese,Sé,3,0.6
+grill,Anjos,4,0.6
+africa_me,Socorro,4,0.6
+japanese,Sé,2,0.6
+pizza,Socorro,4,0.6
+pizza,Encarnação,4,0.4
+indian_nepalese,Madalena,4,0.4
+chicken,São José,4,0.4
+mediterranean,Nossa Senhora de Fátima,4,0.4
+south_america,Nossa Senhora de Fátima,4,0.4
+africa_me,Alvalade,2,0.4
+fado,Alvalade,4,0.4
+pizza,Encarnação,1,0.4
+mexican,Alvalade,4,0.4
+chicken,Santos-o-Velho,4,0.4
+indian_nepalese,Madalena,1,0.4
+indian_nepalese,Santa Engrácia,1,0.4
+european,Santos-o-Velho,4,0.4
+pasta,Madalena,3,0.4
+south_america,Coração de Jesus,1,0.4
+mexican,Madalena,2,0.4
+japanese,São Mamede,4,0.4
+european,Santos-o-Velho,1,0.4
+seafood,Santos-o-Velho,4,0.4
+chicken,Santos-o-Velho,1,0.4
+japanese,Madalena,3,0.4
+bar,Encarnação,1,0.4
+south_america,São José,4,0.4
+burger,Alvalade,4,0.4
+bar,Nossa Senhora de Fátima,4,0.4
+japanese,Encarnação,4,0.4
+bar,Santos-o-Velho,4,0.4
+portuguese,Madalena,2,0.4
+chicken,Coração de Jesus,1,0.4
+bistro,São José,4,0.4
+portuguese,Madalena,3,0.4
+seafood,Nossa Senhora de Fátima,4,0.4
+pizza,Madalena,2,0.4
+chicken,Nossa Senhora de Fátima,4,0.4
+bar,Coração de Jesus,1,0.4
+seafood,Santos-o-Velho,1,0.4
+burger,Mártires,4,0.4
+asian,Alvalade,4,0.4
+pizza,Madalena,3,0.4
+japanese,Madalena,2,0.4
+chicken,Encarnação,4,0.4
+european,Nossa Senhora de Fátima,4,0.4
+pastry,Alvalade,4,0.4
+indian_nepalese,Madalena,3,0.4
+mediterranean,Coração de Jesus,1,0.4
+africa_me,Alvalade,4,0.4
+africa_me,Alvalade,1,0.4
+brunch,São Domingos de Benfica,4,0.4
+indian_nepalese,São Domingos de Benfica,1,0.4
+brunch,Nossa Senhora de Fátima,4,0.4
+bistro,São Domingos de Benfica,1,0.4
+pasta,São Domingos de Benfica,1,0.4
+mexican,Coração de Jesus,1,0.4
+fado,Madalena,2,0.4
+pasta,Coração de Jesus,1,0.4
+bistro,Encarnação,4,0.4
+fado,Madalena,4,0.4
+italian,Madalena,4,0.4
+africa_me,São Domingos de Benfica,1,0.4
+africa_me,São Domingos de Benfica,4,0.4
+grill,São Mamede,4,0.4
+veggie_healthy,São Domingos de Benfica,1,0.4
+south_america,Encarnação,1,0.4
+fado,Madalena,3,0.4
+fado,São Nicolau,4,0.4
+veggie_healthy,Socorro,1,0.4
+pasta,São Domingos de Benfica,2,0.4
+italian,Madalena,3,0.4
+seafood,Encarnação,1,0.4
+asian,Madalena,2,0.4
+asian,Madalena,3,0.4
+asian,Coração de Jesus,1,0.4
+veggie_healthy,Encarnação,1,0.4
+pastry,Madalena,2,0.4
+pastry,Madalena,1,0.4
+pastry,Madalena,4,0.4
+asian,Madalena,1,0.4
+veggie_healthy,Encarnação,4,0.4
+grill,São Domingos de Benfica,1,0.4
+pastry,Madalena,3,0.4
+fast_food,Madalena,2,0.4
+grill,São Domingos de Benfica,2,0.4
+bistro,São Mamede,4,0.4
+africa_me,Coração de Jesus,1,0.4
+fast_food,Madalena,4,0.4
+grill,Encarnação,1,0.4
+brunch,Santos-o-Velho,1,0.4
+italian,Madalena,2,0.4
+grill,Encarnação,4,0.4
+chicken,São Domingos de Benfica,2,0.4
+cafe,São José,1,0.4
+european,São Domingos de Benfica,4,0.4
+european,São Domingos de Benfica,1,0.4
+cafe,São José,4,0.4
+asian,São Nicolau,4,0.4
+seafood,Encarnação,4,0.4
+africa_me,Madalena,2,0.4
+fado,São Domingos de Benfica,1,0.4
+asian,Madalena,4,0.4
+mediterranean,Santos-o-Velho,4,0.4
+mediterranean,São Domingos de Benfica,1,0.4
+mexican,Madalena,3,0.4
+mediterranean,São José,4,0.4
+mexican,Madalena,4,0.4
+indian_nepalese,Encarnação,4,0.4
+chicken,São Domingos de Benfica,1,0.4
+africa_me,Madalena,4,0.4
+indian_nepalese,Socorro,1,0.4
+south_america,São Domingos de Benfica,1,0.4
+fast_food,São Nicolau,4,0.4
+south_america,São Domingos de Benfica,2,0.4
+burger,Madalena,3,0.4
+cafe,Santos-o-Velho,1,0.4
+fado,Coração de Jesus,1,0.4
+japanese,Santa Engrácia,1,0.4
+indian_nepalese,Encarnação,1,0.4
+burger,Madalena,4,0.4
+burger,Madalena,1,0.4
+burger,Madalena,2,0.4
+brunch,São José,4,0.4
+africa_me,Madalena,3,0.4
+indian_nepalese,Coração de Jesus,1,0.4
+european,Socorro,4,0.4
+grill,Santa Catarina,3,0.4
+veggie_healthy,Nossa Senhora de Fátima,4,0.4
+south_america,Prazeres,2,0.4
+pasta,São Sebastião da Pedreira,2,0.4
+bistro,Sé,4,0.4
+pasta,São Vicente de Fora,1,0.4
+pasta,São Sebastião da Pedreira,3,0.4
+japanese,São Vicente de Fora,1,0.4
+africa_me,São Sebastião da Pedreira,2,0.4
+africa_me,São Sebastião da Pedreira,1,0.4
+africa_me,São Sebastião da Pedreira,3,0.4
+pizza,São Vicente de Fora,3,0.4
+pizza,São Vicente de Fora,1,0.4
+seafood,Prazeres,3,0.4
+south_america,Prazeres,3,0.4
+pizza,São Vicente de Fora,2,0.4
+portuguese,São Vicente de Fora,3,0.4
+japanese,Santa Isabel,4,0.4
+portuguese,São Vicente de Fora,1,0.4
+seafood,Prazeres,2,0.4
+bar,Prazeres,3,0.4
+indian_nepalese,São Vicente de Fora,3,0.4
+bar,Prazeres,4,0.4
+bar,Prazeres,2,0.4
+chicken,Prazeres,3,0.4
+south_america,Prazeres,4,0.4
+veggie_healthy,Prazeres,2,0.4
+pasta,Encarnação,1,0.4
+veggie_healthy,São Sebastião da Pedreira,1,0.4
+european,São Sebastião da Pedreira,1,0.4
+pastry,São Vicente de Fora,3,0.4
+chicken,São Sebastião da Pedreira,2,0.4
+chicken,São Sebastião da Pedreira,1,0.4
+pastry,São Vicente de Fora,1,0.4
+pastry,São Vicente de Fora,2,0.4
+asian,São Vicente de Fora,3,0.4
+asian,São Vicente de Fora,4,0.4
+south_america,São Sebastião da Pedreira,2,0.4
+veggie_healthy,São Sebastião da Pedreira,2,0.4
+veggie_healthy,São Sebastião da Pedreira,3,0.4
+pasta,São Vicente de Fora,3,0.4
+burger,São Vicente de Fora,1,0.4
+bistro,São Sebastião da Pedreira,1,0.4
+grill,Prazeres,2,0.4
+africa_me,São Vicente de Fora,3,0.4
+bistro,Sé,2,0.4
+africa_me,São Vicente de Fora,1,0.4
+indian_nepalese,São Sebastião da Pedreira,1,0.4
+mexican,São Vicente de Fora,3,0.4
+mexican,São Vicente de Fora,1,0.4
+bistro,Prazeres,2,0.4
+fast_food,Sé,1,0.4
+indian_nepalese,São Vicente de Fora,2,0.4
+chicken,Prazeres,4,0.4
+pizza,Santos-o-Velho,4,0.4
+fado,Santos-o-Velho,1,0.4
+portuguese,Santos-o-Velho,4,0.4
+bistro,Santa Isabel,4,0.4
+fast_food,Santos-o-Velho,4,0.4
+fast_food,Santos-o-Velho,1,0.4
+burger,Sé,4,0.4
+pastry,Santos-o-Velho,4,0.4
+pastry,Santos-o-Velho,1,0.4
+asian,Santos-o-Velho,4,0.4
+asian,Santos-o-Velho,1,0.4
+italian,Santos-o-Velho,4,0.4
+grill,São Vicente de Fora,2,0.4
+italian,Santos-o-Velho,1,0.4
+japanese,Sé,1,0.4
+japanese,Sé,4,0.4
+burger,Santos-o-Velho,4,0.4
+africa_me,Sé,2,0.4
+european,Graça,4,0.4
+africa_me,Santos-o-Velho,1,0.4
+mexican,Santos-o-Velho,4,0.4
+mexican,Santos-o-Velho,1,0.4
+brunch,Graça,4,0.4
+fado,Santos-o-Velho,4,0.4
+italian,Sé,1,0.4
+brunch,São Vicente de Fora,4,0.4
+cafe,São Vicente de Fora,2,0.4
+bistro,São Vicente de Fora,3,0.4
+chicken,Prazeres,2,0.4
+european,Prazeres,3,0.4
+european,Prazeres,4,0.4
+veggie_healthy,São Vicente de Fora,3,0.4
+mediterranean,Prazeres,3,0.4
+veggie_healthy,São Vicente de Fora,4,0.4
+mediterranean,Prazeres,4,0.4
+south_america,São Vicente de Fora,3,0.4
+mediterranean,Prazeres,2,0.4
+cafe,Prazeres,3,0.4
+south_america,São Vicente de Fora,4,0.4
+south_america,São Vicente de Fora,1,0.4
+cafe,Prazeres,2,0.4
+seafood,São Vicente de Fora,1,0.4
+bar,São Vicente de Fora,3,0.4
+bar,São Vicente de Fora,1,0.4
+bar,São Vicente de Fora,2,0.4
+european,São Vicente de Fora,3,0.4
+mediterranean,São Vicente de Fora,3,0.4
+mediterranean,São Vicente de Fora,1,0.4
+fast_food,São Vicente de Fora,1,0.4
+fast_food,São Vicente de Fora,3,0.4
+fado,São Vicente de Fora,2,0.4
+veggie_healthy,São Nicolau,4,0.4
+pastry,Nossa Senhora de Fátima,4,0.4
+japanese,Mercês,4,0.4
+bistro,Santos-o-Velho,2,0.4
+asian,Encarnação,1,0.4
+pizza,Mercês,4,0.4
+fado,Nossa Senhora de Fátima,4,0.4
+bistro,São Nicolau,4,0.4
+cafe,Santa Engrácia,1,0.4
+veggie_healthy,São Nicolau,3,0.4
+brunch,Santa Engrácia,3,0.4
+veggie_healthy,São Nicolau,1,0.4
+pastry,Prazeres,4,0.4
+fado,Prazeres,3,0.4
+fado,Prazeres,4,0.4
+fado,Prazeres,2,0.4
+european,Almargem do Bispo,1,0.4
+veggie_healthy,São Nicolau,2,0.4
+fast_food,Prazeres,3,0.4
+chicken,Almargem do Bispo,2,0.4
+fast_food,Prazeres,4,0.4
+grill,Mercês,4,0.4
+brunch,Sé,4,0.4
+italian,Encarnação,4,0.4
+veggie_healthy,Santos-o-Velho,4,0.4
+africa_me,Mercês,2,0.4
+burger,Nossa Senhora de Fátima,4,0.4
+pasta,Encarnação,4,0.4
+bistro,Nossa Senhora de Fátima,4,0.4
+brunch,Coração de Jesus,1,0.4
+grill,Nossa Senhora de Fátima,4,0.4
+south_america,Santos-o-Velho,1,0.4
+indian_nepalese,Nossa Senhora de Fátima,1,0.4
+mexican,Encarnação,1,0.4
+south_america,Santos-o-Velho,4,0.4
+portuguese,Nossa Senhora de Fátima,4,0.4
+mexican,Encarnação,4,0.4
+japanese,São Nicolau,4,0.4
+veggie_healthy,Santa Engrácia,1,0.4
+asian,Mercês,4,0.4
+africa_me,Encarnação,1,0.4
+africa_me,Encarnação,4,0.4
+italian,Mercês,4,0.4
+brunch,Socorro,3,0.4
+mexican,Nossa Senhora de Fátima,4,0.4
+veggie_healthy,Santos-o-Velho,1,0.4
+indian_nepalese,Madalena,2,0.4
+africa_me,Mercês,3,0.4
+pastry,Prazeres,3,0.4
+pastry,Prazeres,2,0.4
+grill,Prazeres,4,0.4
+indian_nepalese,Santos-o-Velho,4,0.4
+africa_me,Almargem do Bispo,2,0.4
+chicken,Sé,4,0.4
+european,Mercês,4,0.4
+european,São Nicolau,4,0.4
+european,Mercês,2,0.4
+japanese,Prazeres,2,0.4
+mediterranean,Mercês,4,0.4
+pizza,Prazeres,3,0.4
+pizza,Prazeres,4,0.4
+indian_nepalese,Santos-o-Velho,1,0.4
+pastry,Almargem do Bispo,1,0.4
+asian,Prazeres,3,0.4
+pizza,Prazeres,2,0.4
+portuguese,Prazeres,3,0.4
+portuguese,Prazeres,4,0.4
+portuguese,Prazeres,1,0.4
+seafood,Sé,1,0.4
+indian_nepalese,Prazeres,3,0.4
+indian_nepalese,Prazeres,4,0.4
+brunch,Mercês,1,0.4
+indian_nepalese,Prazeres,2,0.4
+grill,Prazeres,3,0.4
+pasta,Prazeres,4,0.4
+pasta,Prazeres,3,0.4
+fado,Encarnação,4,0.4
+european,Sé,1,0.4
+asian,Prazeres,4,0.4
+pastry,Encarnação,4,0.4
+italian,Prazeres,4,0.4
+veggie_healthy,Almargem do Bispo,1,0.4
+bistro,Santos-o-Velho,3,0.4
+italian,Prazeres,1,0.4
+veggie_healthy,Mercês,4,0.4
+veggie_healthy,Mercês,2,0.4
+grill,Santos-o-Velho,1,0.4
+grill,Almargem do Bispo,1,0.4
+south_america,Mercês,4,0.4
+burger,Prazeres,4,0.4
+grill,Santos-o-Velho,4,0.4
+fast_food,Encarnação,4,0.4
+africa_me,Prazeres,4,0.4
+africa_me,Prazeres,2,0.4
+pizza,Almargem do Bispo,1,0.4
+seafood,Mercês,2,0.4
+mexican,Prazeres,4,0.4
+bar,Mercês,3,0.4
+bar,Mercês,4,0.4
+burger,Encarnação,4,0.4
+pizza,Madalena,4,0.4
+pasta,Alvalade,4,0.4
+veggie_healthy,Santiago,1,0.4
+fado,Lapa,2,0.4
+fast_food,Lapa,3,0.4
+fast_food,Lapa,4,0.4
+fast_food,Lapa,1,0.4
+fast_food,Mártires,4,0.4
+pastry,Lapa,3,0.4
+pastry,Lapa,4,0.4
+pastry,Lapa,2,0.4
+asian,Lapa,3,0.4
+asian,Lapa,2,0.4
+grill,Mártires,1,0.4
+italian,Lapa,4,0.4
+italian,Lapa,1,0.4
+brunch,São Cristóvão,2,0.4
+indian_nepalese,Santiago,1,0.4
+burger,Lapa,4,0.4
+burger,Lapa,1,0.4
+burger,Lapa,2,0.4
+africa_me,Lapa,3,0.4
+africa_me,Lapa,4,0.4
+fado,Lapa,4,0.4
+fado,Lapa,3,0.4
+south_america,Mártires,4,0.4
+pasta,Santa Catarina,3,0.4
+pastry,São Jorge de Arroios,3,0.4
+fast_food,São Jorge de Arroios,2,0.4
+pastry,Mártires,4,0.4
+fast_food,São Jorge de Arroios,4,0.4
+fast_food,São Jorge de Arroios,3,0.4
+fado,São Jorge de Arroios,2,0.4
+fado,São Jorge de Arroios,1,0.4
+fado,São Jorge de Arroios,4,0.4
+fado,São Jorge de Arroios,3,0.4
+japanese,Santa Catarina,3,0.4
+bistro,Anjos,2,0.4
+cafe,Santa Catarina,3,0.4
+cafe,Santa Catarina,4,0.4
+veggie_healthy,Mártires,1,0.4
+mediterranean,Santiago,1,0.4
+cafe,Santa Catarina,1,0.4
+cafe,Santa Catarina,2,0.4
+european,Santiago,1,0.4
+brunch,Santa Catarina,4,0.4
+africa_me,Lapa,2,0.4
+brunch,São Cristóvão,1,0.4
+mexican,Lapa,3,0.4
+grill,Lapa,4,0.4
+grill,Lapa,2,0.4
+bistro,Lapa,3,0.4
+bistro,Lapa,2,0.4
+veggie_healthy,Lapa,3,0.4
+asian,Santa Catarina,2,0.4
+brunch,Mártires,4,0.4
+veggie_healthy,Lapa,2,0.4
+south_america,Lapa,3,0.4
+south_america,Lapa,4,0.4
+european,Santo Condestável,4,0.4
+south_america,Lapa,2,0.4
+seafood,Lapa,3,0.4
+brunch,Santo Estevão,2,0.4
+seafood,Lapa,4,0.4
+pastry,Santa Catarina,1,0.4
+chicken,São Cristóvão,2,0.4
+seafood,Lapa,2,0.4
+bar,Lapa,3,0.4
+pastry,Santa Catarina,3,0.4
+cafe,Mártires,4,0.4
+mediterranean,São Cristóvão,2,0.4
+mexican,Lapa,4,0.4
+indian_nepalese,Lapa,2,0.4
+japanese,Santiago,1,0.4
+mexican,Lapa,2,0.4
+grill,Madalena,3,0.4
+africa_me,Santa Catarina,3,0.4
+pasta,Lapa,3,0.4
+chicken,Mártires,4,0.4
+pasta,Lapa,4,0.4
+pasta,Lapa,2,0.4
+japanese,Lapa,3,0.4
+japanese,Lapa,1,0.4
+japanese,Lapa,2,0.4
+european,Mártires,4,0.4
+pizza,Lapa,4,0.4
+burger,Santiago,1,0.4
+pizza,Lapa,2,0.4
+mediterranean,Mártires,4,0.4
+portuguese,Lapa,4,0.4
+indian_nepalese,Lapa,3,0.4
+indian_nepalese,Lapa,4,0.4
+pastry,São Jorge de Arroios,4,0.4
+asian,São Jorge de Arroios,3,0.4
+bar,Lapa,4,0.4
+chicken,São Jorge de Arroios,4,0.4
+mediterranean,São Jorge de Arroios,2,0.4
+mediterranean,São Jorge de Arroios,1,0.4
+mediterranean,São Jorge de Arroios,4,0.4
+mediterranean,São Jorge de Arroios,3,0.4
+european,São Jorge de Arroios,2,0.4
+european,São Jorge de Arroios,1,0.4
+european,São Jorge de Arroios,3,0.4
+chicken,São Jorge de Arroios,2,0.4
+chicken,São Jorge de Arroios,1,0.4
+chicken,São Jorge de Arroios,3,0.4
+asian,São Jorge de Arroios,4,0.4
+bar,São Jorge de Arroios,2,0.4
+bar,São Jorge de Arroios,1,0.4
+bar,São Jorge de Arroios,4,0.4
+bar,São Jorge de Arroios,3,0.4
+pasta,Anjos,1,0.4
+pasta,Anjos,4,0.4
+seafood,São Jorge de Arroios,4,0.4
+european,Santa Catarina,2,0.4
+south_america,São Jorge de Arroios,2,0.4
+pasta,Anjos,2,0.4
+cafe,São Jorge de Arroios,4,0.4
+european,Santa Catarina,1,0.4
+pizza,Santa Catarina,1,0.4
+grill,Santa Catarina,1,0.4
+indian_nepalese,Anjos,2,0.4
+indian_nepalese,Anjos,1,0.4
+africa_me,Mártires,4,0.4
+indian_nepalese,Santa Catarina,1,0.4
+veggie_healthy,Santa Catarina,2,0.4
+mexican,Mártires,4,0.4
+indian_nepalese,Santa Catarina,3,0.4
+italian,Mártires,4,0.4
+pasta,Mártires,4,0.4
+pizza,Anjos,4,0.4
+bar,Santa Catarina,2,0.4
+chicken,Santa Catarina,1,0.4
+european,Santa Catarina,3,0.4
+pizza,Mártires,4,0.4
+european,Santa Catarina,4,0.4
+pizza,Mártires,1,0.4
+brunch,São Jorge de Arroios,4,0.4
+japanese,Anjos,4,0.4
+south_america,São Jorge de Arroios,1,0.4
+south_america,São Jorge de Arroios,4,0.4
+south_america,São Jorge de Arroios,3,0.4
+japanese,São Jorge de Arroios,1,0.4
+bistro,Anjos,1,0.4
+pasta,São Jorge de Arroios,2,0.4
+pasta,São Jorge de Arroios,3,0.4
+mexican,São Jorge de Arroios,2,0.4
+mexican,São Jorge de Arroios,1,0.4
+mexican,São Jorge de Arroios,4,0.4
+mexican,São Jorge de Arroios,3,0.4
+africa_me,São Jorge de Arroios,2,0.4
+africa_me,São Jorge de Arroios,1,0.4
+africa_me,São Jorge de Arroios,3,0.4
+burger,São Jorge de Arroios,2,0.4
+burger,São Jorge de Arroios,1,0.4
+burger,São Jorge de Arroios,4,0.4
+burger,São Jorge de Arroios,3,0.4
+italian,São Jorge de Arroios,2,0.4
+italian,São Jorge de Arroios,1,0.4
+italian,São Jorge de Arroios,4,0.4
+italian,São Jorge de Arroios,3,0.4
+grill,Mártires,4,0.4
+japanese,São Jorge de Arroios,4,0.4
+japanese,São Jorge de Arroios,2,0.4
+veggie_healthy,São Jorge de Arroios,2,0.4
+bistro,Anjos,4,0.4
+veggie_healthy,São Jorge de Arroios,1,0.4
+veggie_healthy,São Jorge de Arroios,3,0.4
+bistro,São Jorge de Arroios,2,0.4
+bistro,São Jorge de Arroios,1,0.4
+bistro,São Jorge de Arroios,3,0.4
+grill,São Jorge de Arroios,2,0.4
+grill,São Jorge de Arroios,1,0.4
+grill,São Jorge de Arroios,4,0.4
+grill,São Jorge de Arroios,3,0.4
+indian_nepalese,São Jorge de Arroios,2,0.4
+indian_nepalese,São Jorge de Arroios,1,0.4
+indian_nepalese,São Jorge de Arroios,4,0.4
+indian_nepalese,São Jorge de Arroios,3,0.4
+portuguese,São Jorge de Arroios,2,0.4
+portuguese,São Jorge de Arroios,1,0.4
+portuguese,São Jorge de Arroios,4,0.4
+portuguese,São Jorge de Arroios,3,0.4
+indian_nepalese,Mártires,4,0.4
+mediterranean,Santa Catarina,3,0.4
+pastry,São Miguel,1,0.4
+indian_nepalese,Pena,4,0.4
+bar,Lapa,1,0.4
+japanese,São Paulo,4,0.4
+chicken,Madalena,3,0.4
+bistro,Pena,4,0.4
+bistro,Pena,3,0.4
+grill,Pena,4,0.4
+pizza,Sacramento,1,0.4
+chicken,Madalena,4,0.4
+brunch,Encarnação,4,0.4
+veggie_healthy,Castelo,1,0.4
+burger,São Cristóvão,1,0.4
+japanese,Pena,4,0.4
+chicken,Madalena,2,0.4
+portuguese,Pena,4,0.4
+european,Madalena,3,0.4
+mediterranean,Alvalade,4,0.4
+pizza,Pena,4,0.4
+pastry,São José,4,0.4
+cafe,São Paulo,4,0.4
+italian,São Cristóvão,1,0.4
+veggie_healthy,Pena,4,0.4
+mexican,São Cristóvão,1,0.4
+italian,São José,4,0.4
+chicken,Alvalade,4,0.4
+cafe,Pena,4,0.4
+mediterranean,Pena,4,0.4
+bar,Madalena,3,0.4
+pastry,São Paulo,1,0.4
+burger,São José,4,0.4
+bar,Alvalade,4,0.4
+pastry,Sacramento,1,0.4
+japanese,São Cristóvão,1,0.4
+bar,Madalena,4,0.4
+bar,Madalena,1,0.4
+chicken,Pena,4,0.4
+european,Castelo,1,0.4
+seafood,Pena,4,0.4
+italian,São Paulo,1,0.4
+africa_me,Sacramento,1,0.4
+bar,Madalena,2,0.4
+burger,São Paulo,4,0.4
+grill,Sacramento,1,0.4
+indian_nepalese,Castelo,1,0.4
+seafood,Alvalade,4,0.4
+european,São Paulo,4,0.4
+veggie_healthy,São Paulo,1,0.4
+mediterranean,Madalena,2,0.4
+asian,Pena,3,0.4
+fado,São José,4,0.4
+fast_food,São Cristóvão,2,0.4
+pastry,Pena,4,0.4
+cafe,Madalena,3,0.4
+south_america,São Paulo,1,0.4
+fast_food,São Cristóvão,1,0.4
+portuguese,São Paulo,1,0.4
+fast_food,Pena,4,0.4
+chicken,São Paulo,1,0.4
+fado,Pena,4,0.4
+pastry,Castelo,1,0.4
+cafe,Madalena,2,0.4
+brunch,Madalena,2,0.4
+brunch,Madalena,4,0.4
+bar,São Paulo,1,0.4
+veggie_healthy,São Paulo,4,0.4
+asian,Pena,4,0.4
+bistro,São Paulo,1,0.4
+mediterranean,São Paulo,1,0.4
+japanese,Pena,3,0.4
+pasta,Pena,4,0.4
+asian,São Cristóvão,1,0.4
+european,Madalena,1,0.4
+indian_nepalese,São Paulo,1,0.4
+mexican,Pena,4,0.4
+veggie_healthy,Sacramento,1,0.4
+european,Madalena,2,0.4
+mediterranean,Madalena,3,0.4
+africa_me,Pena,4,0.4
+fast_food,São José,4,0.4
+brunch,Alvalade,4,0.4
+asian,São Miguel,1,0.4
+brunch,Encarnação,1,0.4
+grill,São Paulo,1,0.4
+burger,Pena,4,0.4
+italian,Pena,4,0.4
+brunch,Pena,3,0.4
+brunch,Anjos,4,0.4
+africa_me,São José,4,0.4
+pasta,Santos-o-Velho,4,0.4
+indian_nepalese,Alvalade,1,0.4
+european,Santa Justa,4,0.4
+indian_nepalese,Alvalade,2,0.4
+mediterranean,Lapa,3,0.4
+mediterranean,Lapa,4,0.4
+fado,Santa Catarina,3,0.4
+veggie_healthy,Madalena,4,0.4
+japanese,São José,4,0.4
+european,Lapa,4,0.4
+brunch,Pena,4,0.4
+mediterranean,Lapa,2,0.4
+bistro,Alvalade,4,0.4
+cafe,Lapa,3,0.4
+japanese,Santo Condestável,2,0.4
+seafood,São Cristóvão,1,0.4
+cafe,Lapa,4,0.4
+indian_nepalese,Alvalade,4,0.4
+pizza,São José,4,0.4
+european,Anjos,3,0.4
+grill,Madalena,2,0.4
+grill,Madalena,4,0.4
+bar,Lapa,2,0.4
+chicken,Lapa,3,0.4
+european,Encarnação,1,0.4
+chicken,Lapa,4,0.4
+grill,Madalena,1,0.4
+brunch,São Paulo,1,0.4
+bistro,Madalena,3,0.4
+cafe,São Paulo,1,0.4
+africa_me,São Miguel,1,0.4
+bistro,Madalena,4,0.4
+bistro,Madalena,2,0.4
+fast_food,Santa Catarina,3,0.4
+chicken,Lapa,2,0.4
+european,Lapa,3,0.4
+portuguese,Alvalade,4,0.4
+european,Alto do Pina,4,0.4
+brunch,Madalena,3,0.4
+fado,São Paulo,1,0.4
+veggie_healthy,São Cristóvão,2,0.4
+south_america,Alvalade,4,0.4
+south_america,Madalena,3,0.4
+bistro,São Cristóvão,2,0.4
+pasta,São José,4,0.4
+mediterranean,Encarnação,1,0.4
+fado,São Paulo,4,0.4
+south_america,Madalena,2,0.4
+fast_food,São Paulo,1,0.4
+grill,São Cristóvão,1,0.4
+mexican,São José,4,0.4
+veggie_healthy,São Miguel,1,0.4
+brunch,Lapa,3,0.4
+cafe,Encarnação,4,0.4
+cafe,Prazeres,4,0.2
+mediterranean,São Vicente de Fora,2,0.2
+european,São José,4,0.2
+italian,Santa Engrácia,1,0.2
+seafood,Prazeres,4,0.2
+grill,Sé,1,0.2
+brunch,Prazeres,2,0.2
+africa_me,Sé,1,0.2
+european,São Paulo,2,0.2
+japanese,Santos-o-Velho,1,0.2
+seafood,Prazeres,1,0.2
+south_america,São Vicente de Fora,2,0.2
+pastry,Sé,1,0.2
+africa_me,Santos-o-Velho,4,0.2
+brunch,Prazeres,1,0.2
+south_america,Prazeres,1,0.2
+european,São Paulo,3,0.2
+japanese,Santos-o-Velho,4,0.2
+indian_nepalese,Santa Catarina,2,0.2
+pizza,São Jorge de Arroios,4,0.2
+brunch,Prazeres,4,0.2
+bistro,Santa Catarina,3,0.2
+grill,Santa Catarina,2,0.2
+brunch,Prazeres,3,0.2
+portuguese,São Vicente de Fora,2,0.2
+veggie_healthy,Madalena,3,0.2
+veggie_healthy,São Vicente de Fora,2,0.2
+japanese,Mártires,4,0.2
+japanese,Madalena,4,0.2
+pizza,Sé,1,0.2
+european,Prazeres,1,0.2
+bistro,São Vicente de Fora,2,0.2
+european,São Vicente de Fora,2,0.2
+cafe,São Vicente de Fora,1,0.2
+european,Madalena,4,0.2
+veggie_healthy,São Jorge de Arroios,4,0.2
+indian_nepalese,Sé,1,0.2
+veggie_healthy,Madalena,2,0.2
+grill,São Vicente de Fora,3,0.2
+european,São Vicente de Fora,1,0.2
+european,Prazeres,2,0.2
+brunch,São Vicente de Fora,2,0.2
+european,São Vicente de Fora,4,0.2
+asian,Mártires,4,0.2
+indian_nepalese,São Vicente de Fora,1,0.2
+veggie_healthy,São Vicente de Fora,1,0.2
+chicken,São Vicente de Fora,1,0.2
+asian,Sé,1,0.2
+chicken,São Vicente de Fora,3,0.2
+chicken,Encarnação,1,0.2
+bistro,São Jorge de Arroios,4,0.2
+bar,Prazeres,1,0.2
+burger,Sé,1,0.2
+chicken,Santa Catarina,3,0.2
+bistro,São Vicente de Fora,1,0.2
+pizza,Santos-o-Velho,1,0.2
+mediterranean,Prazeres,1,0.2
+veggie_healthy,Madalena,1,0.2
+italian,São Vicente de Fora,2,0.2
+mediterranean,Sé,1,0.2
+brunch,Lapa,4,0.2
+indian_nepalese,Lapa,1,0.2
+mediterranean,Lapa,1,0.2
+indian_nepalese,Mercês,4,0.2
+cafe,São Cristóvão,1,0.2
+fado,Prazeres,1,0.2
+portuguese,Lapa,1,0.2
+pizza,Lapa,1,0.2
+cafe,Lapa,1,0.2
+cafe,Lapa,2,0.2
+japanese,Lapa,4,0.2
+south_america,São Cristóvão,1,0.2
+pasta,Lapa,1,0.2
+asian,Prazeres,1,0.2
+pastry,Santiago,1,0.2
+european,Anjos,4,0.2
+brunch,Lapa,1,0.2
+brunch,Lapa,2,0.2
+cafe,Sé,1,0.2
+mexican,Lapa,1,0.2
+bistro,São Cristóvão,1,0.2
+africa_me,Lapa,1,0.2
+indian_nepalese,São Cristóvão,1,0.2
+portuguese,São Cristóvão,1,0.2
+pasta,São Vicente de Fora,2,0.2
+africa_me,Prazeres,3,0.2
+africa_me,Prazeres,1,0.2
+bistro,Santos-o-Velho,4,0.2
+bar,São Cristóvão,1,0.2
+pizza,São Cristóvão,1,0.2
+south_america,Lapa,1,0.2
+fast_food,Santa Catarina,2,0.2
+pastry,Mercês,4,0.2
+pasta,Nossa Senhora de Fátima,4,0.2
+seafood,Lapa,1,0.2
+chicken,São Cristóvão,1,0.2
+pastry,Santa Catarina,2,0.2
+burger,Mercês,4,0.2
+africa_me,Nossa Senhora de Fátima,4,0.2
+fast_food,Mercês,4,0.2
+chicken,Lapa,1,0.2
+africa_me,Mercês,4,0.2
+indian_nepalese,Nossa Senhora de Fátima,4,0.2
+european,São Cristóvão,1,0.2
+grill,Lapa,1,0.2
+mexican,Mercês,4,0.2
+asian,Nossa Senhora de Fátima,4,0.2
+pasta,Mercês,4,0.2
+fado,Mercês,4,0.2
+european,Santa Engrácia,1,0.2
+veggie_healthy,Lapa,1,0.2
+veggie_healthy,Lapa,4,0.2
+fado,Santa Catarina,2,0.2
+bistro,Lapa,1,0.2
+bistro,Lapa,4,0.2
+mediterranean,São Cristóvão,1,0.2
+european,Lapa,1,0.2
+africa_me,Santa Catarina,2,0.2
+bistro,Mercês,4,0.2
+fado,Mártires,4,0.2
+veggie_healthy,Sé,1,0.2
+pasta,Santa Catarina,2,0.2
+south_america,Sé,1,0.2
+fado,São Vicente de Fora,1,0.2
+fast_food,São Vicente de Fora,2,0.2
+fast_food,Madalena,3,0.2
+bistro,Encarnação,1,0.2
+asian,São Vicente de Fora,1,0.2
+asian,São Vicente de Fora,2,0.2
+italian,São Vicente de Fora,3,0.2
+italian,São Vicente de Fora,1,0.2
+japanese,Santa Catarina,2,0.2
+bistro,São Paulo,4,0.2
+mediterranean,Santa Catarina,2,0.2
+africa_me,São Jorge de Arroios,4,0.2
+bistro,Prazeres,3,0.2
+africa_me,São Vicente de Fora,2,0.2
+bistro,Sé,1,0.2
+bistro,Prazeres,1,0.2
+mexican,São Vicente de Fora,2,0.2
+veggie_healthy,Prazeres,3,0.2
+veggie_healthy,Prazeres,4,0.2
+pasta,São Jorge de Arroios,4,0.2
+pasta,São Jorge de Arroios,1,0.2
+fado,São Cristóvão,1,0.2
+bistro,Castelo,1,0.2
+bistro,Mártires,4,0.2
+asian,Lapa,1,0.2
+bar,Sé,1,0.2
+japanese,Prazeres,3,0.2
+chicken,Mercês,4,0.2
+pasta,Prazeres,1,0.2
+veggie_healthy,Mártires,4,0.2
+japanese,Prazeres,1,0.2
+asian,Lapa,4,0.2
+cafe,Santos-o-Velho,4,0.2
+fado,Lapa,1,0.2
+pastry,Lapa,1,0.2
+chicken,Sé,1,0.2
+pizza,Prazeres,1,0.2
+brunch,Santa Catarina,3,0.2
+mexican,Sé,1,0.2
+brunch,Santos-o-Velho,4,0.2
+bistro,Santiago,1,0.2
+brunch,Mercês,4,0.2
+indian_nepalese,Prazeres,1,0.2
+mexican,Prazeres,1,0.2
+japanese,São Vicente de Fora,2,0.0
+veggie_healthy,Prazeres,1,0.0
+bistro,Santa Catarina,2,0.0
+european,São Jorge de Arroios,4,0.0
+brunch,São Vicente de Fora,3,0.0
+pastry,São Cristóvão,1,0.0
+bistro,Prazeres,4,0.0
+veggie_healthy,São Cristóvão,1,0.0
+japanese,Prazeres,4,0.0
+grill,Prazeres,1,0.0
+seafood,Santa Catarina,2,0.0
+chicken,São Vicente de Fora,2,0.0
+brunch,Santa Catarina,2,0.0
+pastry,Prazeres,1,0.0
+chicken,Santa Catarina,2,0.0
+cafe,Prazeres,1,0.0
+chicken,Prazeres,1,0.0
+japanese,São Vicente de Fora,3,0.0
+=======
 ,type_of_food,neighborhood,price,outputs
 2860,italian,Santiago,2,1.0
 2879,fado,Santiago,3,1.0
@@ -3647,3 +7298,4 @@
 101,cafe,Prazeres,1,0.0
 113,chicken,Prazeres,1,0.0
 1499,japanese,São Vicente de Fora,3,0.0
+>>>>>>> 904c6132ca7192bc202d3c6ff5a01862ee879e2f
