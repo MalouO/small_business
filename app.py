@@ -7,7 +7,7 @@ from small_business.Victor_functions import *
 
 #Importing datasets
 data = pd.read_csv('small_business/data/restaurants.csv')
-reviews = pd.read_csv('raw_data/reviews.csv')
+reviews = pd.read_csv('data/reviews.csv')
 
 
 #Creating Side Bar
@@ -38,13 +38,17 @@ if Choice == 'I want to open a restaurant 🎈':
         address= 0
 
     #Predicting a score for the restaurant:
-    st.markdown("#### We think that this idea is a:")
-    #st.markdown(
-    #    output_model(data=data,
-    #                 type_of_food=type_of_food,
-    #                 price=price,
-    #                 address=address,
-    #                 neighborhood=neighborhood)[0])
+    if type_of_food != 'all' and neighborhood != 'all':
+        st.markdown(f"#### We think that this idea is a:")
+        st.markdown(
+            output_model(data=data,
+                        type_of_food=type_of_food,
+                        price=price,
+                        address=address,
+                        neighborhood=neighborhood)[0])
+    else:
+        st.markdown(f"##### Please Select only one type of restaurant and one neighborhood to have a prediction! ")
+
 
     #Mapping the similar restaurants + the address if the user inputed an address:
     st.markdown(
@@ -63,29 +67,127 @@ if Choice == 'I want to open a restaurant 🎈':
 
     # Provide recommendations on the neighborhood or the type of food:
 
-    st.write("The **best neighborhoods** to open a ",
-             type_of_food.capitalize(), 'restaurant are:')
-    st.write(best_neigh(data=data, type_of_food=type_of_food))
-    st.write(
-        "For", type_of_food.capitalize(),
-        'restaurants, we recommend a **price range** of',
-        np.round(best_price_range(data=data, type_of_food=type_of_food),
-                 decimals=1))
+    #st.write("The **best neighborhoods** to open a ",
+    #         type_of_food.capitalize(), 'restaurant are:')
+    #st.write(best_neigh(data=data, type_of_food=type_of_food))
 
-    st.write("The **most successful restaurants** in ", neighborhood,
-             'are currently:')
-    st.write(best_type(data=data, neighborhood=neighborhood))
+    st.markdown(f"#### Our recommendations:")
 
-    st.write(
-        "The best **price range** in", neighborhood, 'is',
-        np.round(best_price_range_neig(data=data, neighborhood=neighborhood),
-                 decimals=1))
+    columns = st.columns(2)
 
-    #st.write("The best price range in", neighborhood, 'is',
-    st.markdown("#### Look at the evolution of similar restaurants ratings and understand it ! ")
-    st.write(
-        f'*{type_of_food.capitalize()} restaurants in {neighborhood.capitalize()}*',
-    )
+    help_neig = columns[0].button('Help me choose my neighboorhood')
+    help_type = columns[1].button('Help me choose my type of restaurant')
+
+    if help_neig:
+        st.markdown(f'##### Help me choose my neighboorhood!')
+        st.write(
+            f"**Best neighborhoods** to open a *{type_of_food.capitalize()}* restaurant:"
+        )
+
+        col1, col2, col3 = st.columns(3)
+        col1.metric(
+            "",
+            best_neigh(data=data, type_of_food=type_of_food).index[0],
+            np.round(best_neigh(data=data, type_of_food=type_of_food).values[0][0],
+                    decimals=1))
+        col2.metric("",
+                    best_neigh(data=data, type_of_food=type_of_food).index[1],
+                    np.round(best_neigh(data=data, type_of_food=type_of_food).values[1][0], decimals=1))
+        col3.metric(
+            "",
+            best_neigh(data=data, type_of_food=type_of_food).index[2],
+            np.round(best_neigh(data=data, type_of_food=type_of_food).values[2][0],
+                    decimals=1))
+
+        st.write(
+            f"**Worse neighborhoods** to open a *{type_of_food.capitalize()}* restaurant:"
+        )
+        col1, col2, col3 = st.columns(3)
+        col1.metric(
+            "",
+            worse_neigh(data=data, type_of_food=type_of_food).index[0], - np.round(
+                worse_neigh(data=data, type_of_food=type_of_food).values[0][0],
+                decimals=1))
+        col2.metric(
+            "",
+            worse_neigh(data=data, type_of_food=type_of_food).index[1], -
+            np.round(worse_neigh(data=data,
+                                type_of_food=type_of_food).values[1][0],
+                    decimals=1))
+        col3.metric(
+            "",
+            worse_neigh(data=data, type_of_food=type_of_food).index[2],
+            - np.round(worse_neigh(data=data,
+                                type_of_food=type_of_food).values[2][0],
+                    decimals=1))
+
+
+        st.write(
+            f"For {type_of_food.capitalize()} restaurants, we recommend a **price range** of **{np.round(best_price_range(data=data, type_of_food=type_of_food),decimals=1)}**"
+        )
+
+    if help_type:
+        st.markdown(f'##### Help me choose my type of restaurant!')
+        st.write(
+            f"The **most successful restaurants** in *{neighborhood.capitalize()}* neighborhood are currently:"
+        )
+
+        col1, col2, col3 = st.columns(3)
+        col1.metric(
+            "",
+            best_type(data=data, neighborhood=neighborhood).index[0].capitalize(),
+            np.round(best_type(data=data,
+                               neighborhood=neighborhood).values[0][0],
+                     decimals=1))
+        col2.metric(
+            "",
+            best_type(data=data,
+                      neighborhood=neighborhood).index[1].capitalize(),
+            np.round(best_type(data=data,
+                               neighborhood=neighborhood).values[1][0],
+                     decimals=1))
+        col3.metric(
+            "",
+            best_type(data=data,
+                      neighborhood=neighborhood).index[2].capitalize(),
+            np.round(best_type(data=data,
+                               neighborhood=neighborhood).values[2][0],
+                     decimals=1))
+
+        st.write(
+             f"The **least successful restaurants** in *{neighborhood.capitalize()}* neighborhood are currently:")
+        col1, col2, col3 = st.columns(3)
+        col1.metric(
+            "",
+            worse_type(data=data,
+                       neighborhood=neighborhood).index[0].capitalize(),
+            -np.round(worse_type(data=data,
+                                 neighborhood=neighborhood).values[0][0],
+                      decimals=1))
+        col2.metric(
+            "",
+            worse_type(data=data, neighborhood=neighborhood).index[1].capitalize(), -
+            np.round(worse_type(data=data,
+                                neighborhood=neighborhood).values[1][0],
+                    decimals=1))
+        col3.metric(
+            "",
+            worse_type(data=data,
+                       neighborhood=neighborhood).index[2].capitalize(),
+            -np.round(worse_type(data=data,
+                                 neighborhood=neighborhood).values[2][0],
+                      decimals=1))
+
+
+        #st.write(best_type(data=data, neighborhood=neighborhood))
+
+        st.write(
+            "The best **price range** in", neighborhood, 'is',
+            np.round(best_price_range_neig(data=data, neighborhood=neighborhood),
+                    decimals=1))
+
+        #st.write("The best price range in", neighborhood, 'is',
+
 
     if neighborhood == 'all':
         neighborhood = [i for i in reviews.neighborhood.unique()]
@@ -99,6 +201,11 @@ if Choice == 'I want to open a restaurant 🎈':
     fig = restaurant_full_analysis(df=reviews,
                                    neighborhood=neighborhood,
                                    type_rest=type_of_food)
+
+    st.markdown(
+        "#### Look at the evolution of similar restaurants' ratings and get inspiration for yours! "
+    )
+    st.write(f'*{type_of_food} restaurants in {neighborhood}*')
 
     st.pyplot(fig=fig)
     st.set_option('deprecation.showPyplotGlobalUse', False)

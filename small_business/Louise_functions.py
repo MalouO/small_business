@@ -138,7 +138,7 @@ def plot_map(data,
 
 ## RECOMMENDATION IF WE KEEP THE TYPE:
 def best_neigh(data, type_of_food=0):
-    if type_of_food == 0:
+    if type_of_food == 0 or type_of_food=='all':
         data = data
     else:
         data = data[data['type'] == type_of_food]
@@ -149,7 +149,7 @@ def best_neigh(data, type_of_food=0):
 
 def worse_neigh(data, type_of_food=0):
     #data = pd.read_csv('../small_business/data/restaurants.csv')
-    if type_of_food == 0:
+    if type_of_food == 0 or type_of_food == 'all':
         data = data
     else:
         data = data[data['type'] == type_of_food]
@@ -163,7 +163,7 @@ def worse_neigh(data, type_of_food=0):
 ## RECOMMENDATION IF WE KEEP THE NEIGHBORHOOD:
 def best_type(data, neighborhood=0):
     #data = pd.read_csv('../small_business/data/restaurants.csv')
-    if neighborhood == 0:
+    if neighborhood == 0 or neighborhood =='all':
         data = data
     else:
         data = data[data['neighborhood'] == neighborhood]
@@ -174,10 +174,11 @@ def best_type(data, neighborhood=0):
 
 def worse_type(data, neighborhood=0):
     #data = pd.read_csv('../small_business/data/restaurants.csv')
-    if neighborhood == 0:
+    if neighborhood == 0 or neighborhood == 'all':
         data = data
     else:
-        data = data[data['neighborhood'] == neighborhood]
+        #data = data[data['neighborhood'] == neighborhood]
+        data = data[data['neighborhood'].isin(neighborhood)]
     a = data.groupby('type').mean()
     return (pd.DataFrame(a.sort_values('rating',
                                              ascending=True).rating.head(3)))
